@@ -6,6 +6,7 @@ import CountryInfoPanel from "./CountryInfoPanel";
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
 const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
+  const cCyan = "#0ff"
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
 
@@ -69,9 +70,9 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         type: "fill",
         source: "countries",
         paint: {
-          "fill-color": "#0ff",
+          "fill-color": cCyan,
           "fill-opacity": 0.3,
-          "fill-outline-color": "#0ff",
+          "fill-outline-color": cCyan,
         },
       });
 
@@ -80,7 +81,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         type: "fill",
         source: "countries",
         paint: {
-          "fill-color": "#0ff",
+          "fill-color": cCyan,
           "fill-opacity": 0.4, // stronger glow
         },
         filter: ["==", "ne_id", ""], // initially nothing is highlighted
@@ -92,7 +93,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         type: "line",
         source: "countries",
         paint: {
-          "line-color": "#0ff",
+          "line-color": cCyan,
           "line-width": 2,
         },
         filter: ["==", "ne_id", ""], // initially nothing is selected
