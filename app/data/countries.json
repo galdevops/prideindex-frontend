@@ -1,0 +1,5315 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Costa Rica",
+                "ne_id": 1159320525,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -84.077922,
+                "label_y": 10.0651,
+                "gdp_md": 61801,
+                "pop_est": 5047561,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nicaragua",
+                "ne_id": 1159321091,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -85.069347,
+                "label_y": 12.670697,
+                "gdp_md": 12520,
+                "pop_est": 6545502,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Haiti",
+                "ne_id": 1159320839,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -72.224051,
+                "label_y": 19.263784,
+                "gdp_md": 14332,
+                "pop_est": 11263077,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dominican Rep.",
+                "ne_id": 1159320563,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -70.653998,
+                "label_y": 19.104137,
+                "gdp_md": 88941,
+                "pop_est": 10738958,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "El Salvador",
+                "ne_id": 1159321253,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -88.890124,
+                "label_y": 13.685371,
+                "gdp_md": 27022,
+                "pop_est": 6453553,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Guatemala",
+                "ne_id": 1159320815,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -90.497134,
+                "label_y": 14.982133,
+                "gdp_md": 76710,
+                "pop_est": 16604026,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cuba",
+                "ne_id": 1159320527,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -77.975855,
+                "label_y": 21.334024,
+                "gdp_md": 100023,
+                "pop_est": 11333483,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Honduras",
+                "ne_id": 1159320827,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -86.887604,
+                "label_y": 14.794801,
+                "gdp_md": 25095,
+                "pop_est": 9746117,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "United States of America",
+                "ne_id": 1159321369,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -97.482602,
+                "label_y": 39.538479,
+                "gdp_md": 21433226,
+                "pop_est": 328239523,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Canada",
+                "ne_id": 1159320467,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -101.9107,
+                "label_y": 60.324287,
+                "gdp_md": 1736425,
+                "pop_est": 37589262,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mexico",
+                "ne_id": 1159321055,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -102.289448,
+                "label_y": 23.919988,
+                "gdp_md": 1268870,
+                "pop_est": 127575529,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Belize",
+                "ne_id": 1159320431,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -88.712962,
+                "label_y": 17.202068,
+                "gdp_md": 1879,
+                "pop_est": 390353,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Panama",
+                "ne_id": 1159321161,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -80.352106,
+                "label_y": 8.72198,
+                "gdp_md": 66800,
+                "pop_est": 4246439,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Greenland",
+                "ne_id": 1159320551,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -39.335251,
+                "label_y": 74.319387,
+                "gdp_md": 3051,
+                "pop_est": 56225,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bahamas",
+                "ne_id": 1159320415,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -77.146688,
+                "label_y": 26.401789,
+                "gdp_md": 13578,
+                "pop_est": 389482,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Trinidad and Tobago",
+                "ne_id": 1159321321,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -60.9184,
+                "label_y": 10.9989,
+                "gdp_md": 24269,
+                "pop_est": 1394973,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Puerto Rico",
+                "ne_id": 1159321363,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -66.481065,
+                "label_y": 18.234668,
+                "gdp_md": 104988,
+                "pop_est": 3193694,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Jamaica",
+                "ne_id": 1159320931,
+                "continent": "North America",
+                "region_un": "Americas",
+                "label_x": -77.318767,
+                "label_y": 18.137124,
+                "gdp_md": 16458,
+                "pop_est": 2948279,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Indonesia",
+                "ne_id": 1159320845,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 101.892949,
+                "label_y": -0.954404,
+                "gdp_md": 1119190,
+                "pop_est": 270625568,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Malaysia",
+                "ne_id": 1159321083,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 113.83708,
+                "label_y": 2.528667,
+                "gdp_md": 364681,
+                "pop_est": 31949777,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cyprus",
+                "ne_id": 1159320533,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 33.084182,
+                "label_y": 34.913329,
+                "gdp_md": 24948,
+                "pop_est": 1198575,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "India",
+                "ne_id": 1159320847,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 79.358105,
+                "label_y": 22.686852,
+                "gdp_md": 2868929,
+                "pop_est": 1366417754,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "China",
+                "ne_id": 1159320471,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 106.337289,
+                "label_y": 32.498178,
+                "gdp_md": 14342903,
+                "pop_est": 1397715000,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Israel",
+                "ne_id": 1159320895,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 34.847915,
+                "label_y": 30.911148,
+                "gdp_md": 394652,
+                "pop_est": 9053300,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Palestine",
+                "ne_id": 1159320899,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 35.291341,
+                "label_y": 32.047431,
+                "gdp_md": 16276,
+                "pop_est": 4685306,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lebanon",
+                "ne_id": 1159321013,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 35.992892,
+                "label_y": 34.133368,
+                "gdp_md": 51991,
+                "pop_est": 6855713,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Syria",
+                "ne_id": 1159321295,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 38.277783,
+                "label_y": 35.006636,
+                "gdp_md": 98830,
+                "pop_est": 17070135,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "South Korea",
+                "ne_id": 1159320985,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 128.129504,
+                "label_y": 36.384924,
+                "gdp_md": 1646739,
+                "pop_est": 51709098,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "North Korea",
+                "ne_id": 1159321181,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 126.444516,
+                "label_y": 39.885252,
+                "gdp_md": 40000,
+                "pop_est": 25666161,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bhutan",
+                "ne_id": 1159320453,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 90.040294,
+                "label_y": 27.536685,
+                "gdp_md": 2530,
+                "pop_est": 763092,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Oman",
+                "ne_id": 1159321151,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 57.336553,
+                "label_y": 22.120427,
+                "gdp_md": 76331,
+                "pop_est": 4974986,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Uzbekistan",
+                "ne_id": 1159321405,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 64.005429,
+                "label_y": 41.693603,
+                "gdp_md": 57921,
+                "pop_est": 33580650,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kazakhstan",
+                "ne_id": 1159320967,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 68.685548,
+                "label_y": 49.054149,
+                "gdp_md": 181665,
+                "pop_est": 18513930,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tajikistan",
+                "ne_id": 1159321307,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 72.587276,
+                "label_y": 38.199835,
+                "gdp_md": 8116,
+                "pop_est": 9321018,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mongolia",
+                "ne_id": 1159321071,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 104.150405,
+                "label_y": 45.997488,
+                "gdp_md": 13996,
+                "pop_est": 3225167,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vietnam",
+                "ne_id": 1159321417,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 105.387292,
+                "label_y": 21.715416,
+                "gdp_md": 261921,
+                "pop_est": 96462106,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cambodia",
+                "ne_id": 1159320979,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 104.50487,
+                "label_y": 12.647584,
+                "gdp_md": 27089,
+                "pop_est": 16486542,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "United Arab Emirates",
+                "ne_id": 1159320329,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 54.547256,
+                "label_y": 23.466285,
+                "gdp_md": 421142,
+                "pop_est": 9770529,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Georgia",
+                "ne_id": 1159320779,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 43.735724,
+                "label_y": 41.870087,
+                "gdp_md": 17477,
+                "pop_est": 3720382,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Azerbaijan",
+                "ne_id": 1159320381,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 47.210994,
+                "label_y": 40.402387,
+                "gdp_md": 48047,
+                "pop_est": 10023318,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Turkey",
+                "ne_id": 1159321331,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 34.508268,
+                "label_y": 39.345388,
+                "gdp_md": 761425,
+                "pop_est": 83429615,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Laos",
+                "ne_id": 1159321011,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 102.533912,
+                "label_y": 19.431821,
+                "gdp_md": 18173,
+                "pop_est": 7169455,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kyrgyzstan",
+                "ne_id": 1159320977,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 74.532637,
+                "label_y": 41.66854,
+                "gdp_md": 8454,
+                "pop_est": 6456900,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Armenia",
+                "ne_id": 1159320333,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 44.800564,
+                "label_y": 40.459077,
+                "gdp_md": 13672,
+                "pop_est": 2957731,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Iraq",
+                "ne_id": 1159320887,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 43.26181,
+                "label_y": 33.09403,
+                "gdp_md": 234094,
+                "pop_est": 39309783,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Iran",
+                "ne_id": 1159320881,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 54.931495,
+                "label_y": 32.166225,
+                "gdp_md": 453996,
+                "pop_est": 82913906,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Qatar",
+                "ne_id": 1159321197,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 51.143509,
+                "label_y": 25.237383,
+                "gdp_md": 175837,
+                "pop_est": 2832067,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Saudi Arabia",
+                "ne_id": 1159321225,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 44.6996,
+                "label_y": 23.806908,
+                "gdp_md": 792966,
+                "pop_est": 34268528,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pakistan",
+                "ne_id": 1159321153,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 68.545632,
+                "label_y": 29.328389,
+                "gdp_md": 278221,
+                "pop_est": 216565318,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Thailand",
+                "ne_id": 1159321305,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 101.073198,
+                "label_y": 15.45974,
+                "gdp_md": 543548,
+                "pop_est": 69625582,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kuwait",
+                "ne_id": 1159321009,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 47.313999,
+                "label_y": 29.413628,
+                "gdp_md": 134628,
+                "pop_est": 4207083,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Timor-Leste",
+                "ne_id": 1159321313,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 125.854679,
+                "label_y": -8.803705,
+                "gdp_md": 2017,
+                "pop_est": 1293119,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brunei",
+                "ne_id": 1159320451,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 114.551943,
+                "label_y": 4.448298,
+                "gdp_md": 13469,
+                "pop_est": 433285,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Myanmar",
+                "ne_id": 1159321067,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 95.804497,
+                "label_y": 21.573855,
+                "gdp_md": 76085,
+                "pop_est": 54045420,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bangladesh",
+                "ne_id": 1159320407,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 89.684963,
+                "label_y": 24.214956,
+                "gdp_md": 302571,
+                "pop_est": 163046161,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Afghanistan",
+                "ne_id": 1159320319,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 66.496586,
+                "label_y": 34.164262,
+                "gdp_md": 19291,
+                "pop_est": 38041754,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Turkmenistan",
+                "ne_id": 1159321309,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 58.676647,
+                "label_y": 39.855246,
+                "gdp_md": 40761,
+                "pop_est": 5942089,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Jordan",
+                "ne_id": 1159320935,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 36.375991,
+                "label_y": 30.805025,
+                "gdp_md": 44502,
+                "pop_est": 10101694,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nepal",
+                "ne_id": 1159321121,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 83.639914,
+                "label_y": 28.297925,
+                "gdp_md": 30641,
+                "pop_est": 28608710,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yemen",
+                "ne_id": 1159321425,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 45.874383,
+                "label_y": 15.328226,
+                "gdp_md": 22581,
+                "pop_est": 29161922,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "N. Cyprus",
+                "ne_id": 1159320531,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 33.692434,
+                "label_y": 35.216071,
+                "gdp_md": 3600,
+                "pop_est": 326000,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Philippines",
+                "ne_id": 1159321169,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 122.465,
+                "label_y": 11.198,
+                "gdp_md": 376795,
+                "pop_est": 108116615,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sri Lanka",
+                "ne_id": 1159321025,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 80.704823,
+                "label_y": 7.581097,
+                "gdp_md": 84008,
+                "pop_est": 21803000,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Taiwan",
+                "ne_id": 1159321335,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 120.868204,
+                "label_y": 23.652408,
+                "gdp_md": 1127000,
+                "pop_est": 23568378,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Japan",
+                "ne_id": 1159320937,
+                "continent": "Asia",
+                "region_un": "Asia",
+                "label_x": 138.44217,
+                "label_y": 36.142538,
+                "gdp_md": 5081769,
+                "pop_est": 126264931,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chile",
+                "ne_id": 1159320493,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -72.318871,
+                "label_y": -38.151771,
+                "gdp_md": 282318,
+                "pop_est": 18952038,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bolivia",
+                "ne_id": 1159320439,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -64.593433,
+                "label_y": -16.666015,
+                "gdp_md": 40895,
+                "pop_est": 11513100,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Peru",
+                "ne_id": 1159321163,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -72.90016,
+                "label_y": -12.976679,
+                "gdp_md": 226848,
+                "pop_est": 32510453,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Argentina",
+                "ne_id": 1159320331,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -64.173331,
+                "label_y": -33.501159,
+                "gdp_md": 445445,
+                "pop_est": 44938712,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Suriname",
+                "ne_id": 1159321281,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -55.91094,
+                "label_y": 4.143987,
+                "gdp_md": 3697,
+                "pop_est": 581363,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Guyana",
+                "ne_id": 1159320817,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -58.942643,
+                "label_y": 5.124317,
+                "gdp_md": 5173,
+                "pop_est": 782766,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brazil",
+                "ne_id": 1159320441,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -49.55945,
+                "label_y": -12.098687,
+                "gdp_md": 1839758,
+                "pop_est": 211049527,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Uruguay",
+                "ne_id": 1159321353,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -55.966942,
+                "label_y": -32.961127,
+                "gdp_md": 56045,
+                "pop_est": 3461734,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ecuador",
+                "ne_id": 1159320567,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -78.188375,
+                "label_y": -1.259076,
+                "gdp_md": 107435,
+                "pop_est": 17373662,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Colombia",
+                "ne_id": 1159320517,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -73.174347,
+                "label_y": 3.373111,
+                "gdp_md": 323615,
+                "pop_est": 50339443,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Paraguay",
+                "ne_id": 1159321195,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -60.146394,
+                "label_y": -21.674509,
+                "gdp_md": 38145,
+                "pop_est": 7044636,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Venezuela",
+                "ne_id": 1159321411,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -64.599381,
+                "label_y": 7.182476,
+                "gdp_md": 482359,
+                "pop_est": 28515829,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Falkland Is.",
+                "ne_id": 1159320711,
+                "continent": "South America",
+                "region_un": "Americas",
+                "label_x": -58.738602,
+                "label_y": -51.608913,
+                "gdp_md": 282,
+                "pop_est": 3398,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ethiopia",
+                "ne_id": 1159320617,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 39.0886,
+                "label_y": 8.032795,
+                "gdp_md": 95912,
+                "pop_est": 112078730,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "S. Sudan",
+                "ne_id": 1159321235,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 30.390151,
+                "label_y": 7.230477,
+                "gdp_md": 11998,
+                "pop_est": 11062113,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Somalia",
+                "ne_id": 1159321261,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 45.19238,
+                "label_y": 3.568925,
+                "gdp_md": 4719,
+                "pop_est": 10192317.3,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kenya",
+                "ne_id": 1159320971,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 37.907632,
+                "label_y": 0.549043,
+                "gdp_md": 95503,
+                "pop_est": 52573973,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Malawi",
+                "ne_id": 1159321081,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 33.608082,
+                "label_y": -13.386737,
+                "gdp_md": 7666,
+                "pop_est": 18628747,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tanzania",
+                "ne_id": 1159321337,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 34.959183,
+                "label_y": -6.051866,
+                "gdp_md": 63177,
+                "pop_est": 58005463,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Somaliland",
+                "ne_id": 1159321259,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 46.731595,
+                "label_y": 9.443889,
+                "gdp_md": 17836,
+                "pop_est": 5096159,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Morocco",
+                "ne_id": 1159321035,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -7.187296,
+                "label_y": 31.650723,
+                "gdp_md": 119700,
+                "pop_est": 36471769,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "W. Sahara",
+                "ne_id": 1159321223,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -12.630304,
+                "label_y": 23.967592,
+                "gdp_md": 907,
+                "pop_est": 603253,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Congo",
+                "ne_id": 1159320515,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 15.9005,
+                "label_y": 0.142331,
+                "gdp_md": 12267,
+                "pop_est": 5380508,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dem. Rep. Congo",
+                "ne_id": 1159320513,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 23.458829,
+                "label_y": -1.858167,
+                "gdp_md": 50400,
+                "pop_est": 86790567,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Namibia",
+                "ne_id": 1159321085,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 17.108166,
+                "label_y": -20.575298,
+                "gdp_md": 12366,
+                "pop_est": 2494530,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "South Africa",
+                "ne_id": 1159321431,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 23.665734,
+                "label_y": -29.708776,
+                "gdp_md": 351431,
+                "pop_est": 58558270,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Libya",
+                "ne_id": 1159321017,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 18.011015,
+                "label_y": 26.638944,
+                "gdp_md": 52091,
+                "pop_est": 6777452,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tunisia",
+                "ne_id": 1159321327,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 9.007881,
+                "label_y": 33.687263,
+                "gdp_md": 38796,
+                "pop_est": 11694719,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Zambia",
+                "ne_id": 1159321439,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 26.395298,
+                "label_y": -14.660804,
+                "gdp_md": 23309,
+                "pop_est": 17861030,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sierra Leone",
+                "ne_id": 1159321251,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -11.763677,
+                "label_y": 8.617449,
+                "gdp_md": 4121,
+                "pop_est": 7813215,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Guinea",
+                "ne_id": 1159320795,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -10.016402,
+                "label_y": 10.618516,
+                "gdp_md": 12296,
+                "pop_est": 12771246,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Liberia",
+                "ne_id": 1159321015,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -9.460379,
+                "label_y": 6.447177,
+                "gdp_md": 3070,
+                "pop_est": 4937374,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Central African Rep.",
+                "ne_id": 1159320463,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 20.906897,
+                "label_y": 6.989681,
+                "gdp_md": 2220,
+                "pop_est": 4745185,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Djibouti",
+                "ne_id": 1159320541,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 42.498825,
+                "label_y": 11.976343,
+                "gdp_md": 3324,
+                "pop_est": 973560,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Eritrea",
+                "ne_id": 1159320581,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 38.285566,
+                "label_y": 15.787401,
+                "gdp_md": 2065,
+                "pop_est": 6081196,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "C\u00f4te d'Ivoire",
+                "ne_id": 1159320507,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -5.568618,
+                "label_y": 7.49139,
+                "gdp_md": 58539,
+                "pop_est": 25716544,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mali",
+                "ne_id": 1159321063,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -2.038455,
+                "label_y": 18.692713,
+                "gdp_md": 17279,
+                "pop_est": 19658031,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Senegal",
+                "ne_id": 1159321243,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -14.778586,
+                "label_y": 15.138125,
+                "gdp_md": 23578,
+                "pop_est": 16296364,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nigeria",
+                "ne_id": 1159321089,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 7.50322,
+                "label_y": 9.439799,
+                "gdp_md": 448120,
+                "pop_est": 200963599,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Benin",
+                "ne_id": 1159320399,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 2.352018,
+                "label_y": 10.324775,
+                "gdp_md": 14390,
+                "pop_est": 11801151,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Angola",
+                "ne_id": 1159320323,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 17.984249,
+                "label_y": -12.182762,
+                "gdp_md": 88815,
+                "pop_est": 31825295,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Botswana",
+                "ne_id": 1159320461,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 24.179216,
+                "label_y": -22.102634,
+                "gdp_md": 18340,
+                "pop_est": 2303697,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Zimbabwe",
+                "ne_id": 1159321441,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 29.925444,
+                "label_y": -18.91164,
+                "gdp_md": 21440,
+                "pop_est": 14645468,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chad",
+                "ne_id": 1159321301,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 18.645041,
+                "label_y": 15.142959,
+                "gdp_md": 11314,
+                "pop_est": 15946876,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Algeria",
+                "ne_id": 1159320565,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 2.808241,
+                "label_y": 27.397406,
+                "gdp_md": 171091,
+                "pop_est": 43053054,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mozambique",
+                "ne_id": 1159321073,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 37.83789,
+                "label_y": -13.94323,
+                "gdp_md": 15291,
+                "pop_est": 30366036,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "eSwatini",
+                "ne_id": 1159321289,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 31.467264,
+                "label_y": -26.533676,
+                "gdp_md": 4471,
+                "pop_est": 1148130,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Burundi",
+                "ne_id": 1159320387,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 29.917086,
+                "label_y": -3.332836,
+                "gdp_md": 3012,
+                "pop_est": 11530580,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rwanda",
+                "ne_id": 1159321219,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 30.103894,
+                "label_y": -1.897196,
+                "gdp_md": 10354,
+                "pop_est": 12626950,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Uganda",
+                "ne_id": 1159321343,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 32.948555,
+                "label_y": 1.972589,
+                "gdp_md": 35165,
+                "pop_est": 44269594,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lesotho",
+                "ne_id": 1159321027,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 28.246639,
+                "label_y": -29.480158,
+                "gdp_md": 2376,
+                "pop_est": 2125268,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cameroon",
+                "ne_id": 1159320509,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 12.473488,
+                "label_y": 4.585041,
+                "gdp_md": 39007,
+                "pop_est": 25876380,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gabon",
+                "ne_id": 1159320693,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 11.835939,
+                "label_y": -0.437739,
+                "gdp_md": 16874,
+                "pop_est": 2172579,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Niger",
+                "ne_id": 1159321087,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 9.504356,
+                "label_y": 17.446195,
+                "gdp_md": 12911,
+                "pop_est": 23310715,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Burkina Faso",
+                "ne_id": 1159320405,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -1.36388,
+                "label_y": 12.673048,
+                "gdp_md": 15990,
+                "pop_est": 20321378,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Togo",
+                "ne_id": 1159321303,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 1.058113,
+                "label_y": 8.80722,
+                "gdp_md": 5490,
+                "pop_est": 8082366,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ghana",
+                "ne_id": 1159320793,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -1.036941,
+                "label_y": 7.717639,
+                "gdp_md": 66983,
+                "pop_est": 30417856,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Guinea-Bissau",
+                "ne_id": 1159320799,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -14.52413,
+                "label_y": 12.163712,
+                "gdp_md": 1339,
+                "pop_est": 1920922,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Egypt",
+                "ne_id": 1159320575,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 29.445837,
+                "label_y": 26.186173,
+                "gdp_md": 303092,
+                "pop_est": 100388073,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mauritania",
+                "ne_id": 1159321075,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -9.740299,
+                "label_y": 19.587062,
+                "gdp_md": 7600,
+                "pop_est": 4525696,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Eq. Guinea",
+                "ne_id": 1159320801,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 8.9902,
+                "label_y": 2.333,
+                "gdp_md": 11026,
+                "pop_est": 1355986,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gambia",
+                "ne_id": 1159320797,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": -14.998318,
+                "label_y": 13.641721,
+                "gdp_md": 1826,
+                "pop_est": 2347706,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Madagascar",
+                "ne_id": 1159321051,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 46.704241,
+                "label_y": -18.628288,
+                "gdp_md": 14114,
+                "pop_est": 26969307,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "France",
+                "ne_id": 1159320637,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 2.552275,
+                "label_y": 46.696113,
+                "gdp_md": 2715518,
+                "pop_est": 67059887,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ukraine",
+                "ne_id": 1159321345,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 32.140865,
+                "label_y": 49.724739,
+                "gdp_md": 153781,
+                "pop_est": 44385155,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Belarus",
+                "ne_id": 1159320427,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 28.417701,
+                "label_y": 53.821888,
+                "gdp_md": 63080,
+                "pop_est": 9466856,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lithuania",
+                "ne_id": 1159321029,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 24.089932,
+                "label_y": 55.103703,
+                "gdp_md": 54627,
+                "pop_est": 2786844,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Russia",
+                "ne_id": 1159321201,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 44.686469,
+                "label_y": 58.249357,
+                "gdp_md": 1699876,
+                "pop_est": 144373535,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Czechia",
+                "ne_id": 1159320535,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 15.377555,
+                "label_y": 49.882364,
+                "gdp_md": 250680,
+                "pop_est": 10669709,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Germany",
+                "ne_id": 1159320539,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 9.678348,
+                "label_y": 50.961733,
+                "gdp_md": 3861123,
+                "pop_est": 83132799,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Estonia",
+                "ne_id": 1159320615,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 25.867126,
+                "label_y": 58.724865,
+                "gdp_md": 31471,
+                "pop_est": 1326590,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Latvia",
+                "ne_id": 1159321033,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 25.458723,
+                "label_y": 57.066872,
+                "gdp_md": 34102,
+                "pop_est": 1912789,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Norway",
+                "ne_id": 1159321109,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 9.679975,
+                "label_y": 61.357092,
+                "gdp_md": 403336,
+                "pop_est": 5347896,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sweden",
+                "ne_id": 1159321287,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 19.01705,
+                "label_y": 65.85918,
+                "gdp_md": 530883,
+                "pop_est": 10285453,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Finland",
+                "ne_id": 1159320623,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 27.276449,
+                "label_y": 63.252361,
+                "gdp_md": 269296,
+                "pop_est": 5520314,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Luxembourg",
+                "ne_id": 1159321031,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 6.07762,
+                "label_y": 49.733732,
+                "gdp_md": 71104,
+                "pop_est": 619896,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Belgium",
+                "ne_id": 1159320389,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 4.800448,
+                "label_y": 50.785392,
+                "gdp_md": 533097,
+                "pop_est": 11484055,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "North Macedonia",
+                "ne_id": 1159321061,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 21.555839,
+                "label_y": 41.558223,
+                "gdp_md": 12547,
+                "pop_est": 2083459,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Albania",
+                "ne_id": 1159320325,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 20.11384,
+                "label_y": 40.654855,
+                "gdp_md": 15279,
+                "pop_est": 2854191,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kosovo",
+                "ne_id": 1159321007,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 20.860719,
+                "label_y": 42.593587,
+                "gdp_md": 7926,
+                "pop_est": 1794248,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Spain",
+                "ne_id": 1159320587,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": -3.464718,
+                "label_y": 40.090953,
+                "gdp_md": 1393490,
+                "pop_est": 47076781,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Denmark",
+                "ne_id": 1159320547,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 9.018163,
+                "label_y": 55.966965,
+                "gdp_md": 350104,
+                "pop_est": 5818553,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Romania",
+                "ne_id": 1159321199,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 24.972624,
+                "label_y": 45.733237,
+                "gdp_md": 250077,
+                "pop_est": 19356544,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hungary",
+                "ne_id": 1159320841,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 19.447867,
+                "label_y": 47.086841,
+                "gdp_md": 163469,
+                "pop_est": 9769949,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Slovakia",
+                "ne_id": 1159321283,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 19.049868,
+                "label_y": 48.734044,
+                "gdp_md": 105079,
+                "pop_est": 5454073,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Poland",
+                "ne_id": 1159321179,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 19.490468,
+                "label_y": 51.990316,
+                "gdp_md": 595858,
+                "pop_est": 37970874,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 2
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ireland",
+                "ne_id": 1159320877,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": -7.798588,
+                "label_y": 53.078726,
+                "gdp_md": 388698,
+                "pop_est": 4941444,
+                "pride_index": [
+                    {
+                        "culture": 2
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "United Kingdom",
+                "ne_id": 1159320713,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": -2.116346,
+                "label_y": 54.402739,
+                "gdp_md": 2829108,
+                "pop_est": 66834405,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 3
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Greece",
+                "ne_id": 1159320811,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 21.72568,
+                "label_y": 39.492763,
+                "gdp_md": 209852,
+                "pop_est": 10716322,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Austria",
+                "ne_id": 1159320379,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 14.130515,
+                "label_y": 47.518859,
+                "gdp_md": 445075,
+                "pop_est": 8877067,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Italy",
+                "ne_id": 1159320919,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 11.076907,
+                "label_y": 44.732482,
+                "gdp_md": 2003576,
+                "pop_est": 60297396,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 7
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Switzerland",
+                "ne_id": 1159320491,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 7.463965,
+                "label_y": 46.719114,
+                "gdp_md": 703082,
+                "pop_est": 8574832,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Netherlands",
+                "ne_id": 1159321101,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 5.61144,
+                "label_y": 52.422211,
+                "gdp_md": 907050,
+                "pop_est": 17332850,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Serbia",
+                "ne_id": 1159321267,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 20.787989,
+                "label_y": 44.189919,
+                "gdp_md": 51475,
+                "pop_est": 6944975,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Croatia",
+                "ne_id": 1159320833,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 16.37241,
+                "label_y": 45.805799,
+                "gdp_md": 60752,
+                "pop_est": 4067500,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Slovenia",
+                "ne_id": 1159321285,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 14.915312,
+                "label_y": 46.06076,
+                "gdp_md": 54174,
+                "pop_est": 2087946,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 4
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bulgaria",
+                "ne_id": 1159320409,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 25.15709,
+                "label_y": 42.508785,
+                "gdp_md": 68558,
+                "pop_est": 6975761,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Montenegro",
+                "ne_id": 1159321069,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 19.143727,
+                "label_y": 42.803101,
+                "gdp_md": 5542,
+                "pop_est": 622137,
+                "pride_index": [
+                    {
+                        "culture": 1
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bosnia and Herz.",
+                "ne_id": 1159320417,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 18.06841,
+                "label_y": 44.091051,
+                "gdp_md": 20164,
+                "pop_est": 3301000,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 4
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Portugal",
+                "ne_id": 1159321187,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": -8.271754,
+                "label_y": 39.606675,
+                "gdp_md": 238785,
+                "pop_est": 10269417,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Moldova",
+                "ne_id": 1159321045,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": 28.487904,
+                "label_y": 47.434999,
+                "gdp_md": 11968,
+                "pop_est": 2657637,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 6
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 5
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Iceland",
+                "ne_id": 1159320917,
+                "continent": "Europe",
+                "region_un": "Europe",
+                "label_x": -18.673711,
+                "label_y": 64.779286,
+                "gdp_md": 24188,
+                "pop_est": 361313,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Papua New Guinea",
+                "ne_id": 1159321173,
+                "continent": "Oceania",
+                "region_un": "Oceania",
+                "label_x": 143.910216,
+                "label_y": -5.695285,
+                "gdp_md": 24829,
+                "pop_est": 8776109,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 3
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Australia",
+                "ne_id": 1159320355,
+                "continent": "Oceania",
+                "region_un": "Oceania",
+                "label_x": 134.04972,
+                "label_y": -24.129522,
+                "gdp_md": 1396567,
+                "pop_est": 25364307,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 6
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fiji",
+                "ne_id": 1159320625,
+                "continent": "Oceania",
+                "region_un": "Oceania",
+                "label_x": 177.975427,
+                "label_y": -17.826099,
+                "gdp_md": 5496,
+                "pop_est": 889953,
+                "pride_index": [
+                    {
+                        "culture": 7
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "New Zealand",
+                "ne_id": 1159321135,
+                "continent": "Oceania",
+                "region_un": "Oceania",
+                "label_x": 172.787,
+                "label_y": -39.759,
+                "gdp_md": 206928,
+                "pop_est": 4917000,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 5
+                    },
+                    {
+                        "politics": 5
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "New Caledonia",
+                "ne_id": 1159320641,
+                "continent": "Oceania",
+                "region_un": "Oceania",
+                "label_x": 165.084004,
+                "label_y": -21.064697,
+                "gdp_md": 10770,
+                "pop_est": 287800,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 2
+                    },
+                    {
+                        "art": 1
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Solomon Is.",
+                "ne_id": 1159321249,
+                "continent": "Oceania",
+                "region_un": "Oceania",
+                "label_x": 159.170468,
+                "label_y": -8.029548,
+                "gdp_md": 1589,
+                "pop_est": 669823,
+                "pride_index": [
+                    {
+                        "culture": 4
+                    },
+                    {
+                        "tech": 7
+                    },
+                    {
+                        "art": 7
+                    },
+                    {
+                        "politics": 4
+                    },
+                    {
+                        "science": 4
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vanuatu",
+                "ne_id": 1159321421,
+                "continent": "Oceania",
+                "region_un": "Oceania",
+                "label_x": 166.908762,
+                "label_y": -15.37153,
+                "gdp_md": 934,
+                "pop_est": 299882,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 2
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 1
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Antarctica",
+                "ne_id": 1159320335,
+                "continent": "Antarctica",
+                "region_un": "Antarctica",
+                "label_x": 35.885455,
+                "label_y": -79.843222,
+                "gdp_md": 898,
+                "pop_est": 4490,
+                "pride_index": [
+                    {
+                        "culture": 6
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fr. S. Antarctic Lands",
+                "ne_id": 1159320631,
+                "continent": "Seven seas (open ocean)",
+                "region_un": "Africa",
+                "label_x": 69.122136,
+                "label_y": -49.303721,
+                "gdp_md": 16,
+                "pop_est": 140,
+                "pride_index": [
+                    {
+                        "culture": 5
+                    },
+                    {
+                        "tech": 1
+                    },
+                    {
+                        "art": 6
+                    },
+                    {
+                        "politics": 1
+                    },
+                    {
+                        "science": 2
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sudan",
+                "ne_id": 1159321229,
+                "continent": "Africa",
+                "region_un": "Africa",
+                "label_x": 29.260657,
+                "label_y": 16.330746,
+                "gdp_md": 30513,
+                "pop_est": 42813238,
+                "pride_index": [
+                    {
+                        "culture": 3
+                    },
+                    {
+                        "tech": 5
+                    },
+                    {
+                        "art": 3
+                    },
+                    {
+                        "politics": 7
+                    },
+                    {
+                        "science": 6
+                    }
+                ]
+            }
+        }
+    ]
+}

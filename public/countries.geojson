@@ -5,7 +5,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Costa Rica",
-                "iso_a3": "CRI",
+                "ne_id": 1159320525,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -84.077922,
@@ -14,16 +14,16 @@
                 "pop_est": 5047561,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 6
                     },
                     {
-                        "tech": 4
+                        "tech": 6
                     },
                     {
-                        "art": 4
+                        "art": 7
                     },
                     {
-                        "politics": 3
+                        "politics": 7
                     },
                     {
                         "science": 2
@@ -186,7 +186,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Nicaragua",
-                "iso_a3": "NIC",
+                "ne_id": 1159321091,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -85.069347,
@@ -195,19 +195,19 @@
                 "pop_est": 6545502,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 1
                     },
                     {
-                        "tech": 1
+                        "tech": 5
                     },
                     {
-                        "art": 5
+                        "art": 1
                     },
                     {
-                        "politics": 4
+                        "politics": 3
                     },
                     {
-                        "science": 6
+                        "science": 1
                     }
                 ]
             },
@@ -431,7 +431,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Haiti",
-                "iso_a3": "HTI",
+                "ne_id": 1159320839,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -72.224051,
@@ -443,16 +443,16 @@
                         "culture": 6
                     },
                     {
-                        "tech": 6
+                        "tech": 5
                     },
                     {
-                        "art": 4
+                        "art": 6
                     },
                     {
-                        "politics": 1
+                        "politics": 6
                     },
                     {
-                        "science": 2
+                        "science": 5
                     }
                 ]
             },
@@ -552,7 +552,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Dominican Rep.",
-                "iso_a3": "DOM",
+                "ne_id": 1159320563,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -70.653998,
@@ -561,19 +561,19 @@
                 "pop_est": 10738958,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 1
                     },
                     {
-                        "tech": 7
+                        "tech": 5
                     },
                     {
                         "art": 2
                     },
                     {
-                        "politics": 5
+                        "politics": 2
                     },
                     {
-                        "science": 3
+                        "science": 5
                     }
                 ]
             },
@@ -693,7 +693,7 @@
             "type": "Feature",
             "properties": {
                 "name": "El Salvador",
-                "iso_a3": "SLV",
+                "ne_id": 1159321253,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -88.890124,
@@ -702,19 +702,19 @@
                 "pop_est": 6453553,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 1
                     },
                     {
-                        "tech": 6
+                        "tech": 4
                     },
                     {
-                        "art": 3
+                        "art": 2
                     },
                     {
-                        "politics": 6
+                        "politics": 5
                     },
                     {
-                        "science": 5
+                        "science": 7
                     }
                 ]
             },
@@ -810,7 +810,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Guatemala",
-                "iso_a3": "GTM",
+                "ne_id": 1159320815,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -90.497134,
@@ -819,19 +819,19 @@
                 "pop_est": 16604026,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 1
                     },
                     {
-                        "tech": 7
+                        "tech": 2
                     },
                     {
                         "art": 4
                     },
                     {
-                        "politics": 5
+                        "politics": 2
                     },
                     {
-                        "science": 2
+                        "science": 4
                     }
                 ]
             },
@@ -987,7 +987,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Cuba",
-                "iso_a3": "CUB",
+                "ne_id": 1159320527,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -77.975855,
@@ -996,16 +996,16 @@
                 "pop_est": 11333483,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 1
                     },
                     {
-                        "tech": 5
+                        "tech": 4
                     },
                     {
-                        "art": 4
+                        "art": 6
                     },
                     {
-                        "politics": 6
+                        "politics": 1
                     },
                     {
                         "science": 4
@@ -1192,7 +1192,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Honduras",
-                "iso_a3": "HND",
+                "ne_id": 1159320827,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -86.887604,
@@ -1204,16 +1204,16 @@
                         "culture": 5
                     },
                     {
-                        "tech": 5
+                        "tech": 6
                     },
                     {
-                        "art": 4
+                        "art": 1
                     },
                     {
-                        "politics": 7
+                        "politics": 1
                     },
                     {
-                        "science": 3
+                        "science": 6
                     }
                 ]
             },
@@ -1457,7 +1457,7 @@
             "type": "Feature",
             "properties": {
                 "name": "United States of America",
-                "iso_a3": "USA",
+                "ne_id": 1159321369,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -97.482602,
@@ -1466,16 +1466,16 @@
                 "pop_est": 328239523,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 3
                     },
                     {
                         "tech": 2
                     },
                     {
-                        "art": 2
+                        "art": 3
                     },
                     {
-                        "politics": 7
+                        "politics": 2
                     },
                     {
                         "science": 1
@@ -3320,7 +3320,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Canada",
-                "iso_a3": "CAN",
+                "ne_id": 1159320467,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -101.9107,
@@ -3329,19 +3329,19 @@
                 "pop_est": 37589262,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 4
                     },
                     {
                         "tech": 6
                     },
                     {
-                        "art": 6
+                        "art": 4
                     },
                     {
-                        "politics": 7
+                        "politics": 5
                     },
                     {
-                        "science": 1
+                        "science": 4
                     }
                 ]
             },
@@ -6651,7 +6651,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Mexico",
-                "iso_a3": "MEX",
+                "ne_id": 1159321055,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -102.289448,
@@ -6660,19 +6660,19 @@
                 "pop_est": 127575529,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 2
                     },
                     {
-                        "tech": 6
+                        "tech": 2
                     },
                     {
-                        "art": 7
+                        "art": 1
                     },
                     {
-                        "politics": 1
+                        "politics": 5
                     },
                     {
-                        "science": 1
+                        "science": 7
                     }
                 ]
             },
@@ -7368,7 +7368,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Belize",
-                "iso_a3": "BLZ",
+                "ne_id": 1159320431,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -88.712962,
@@ -7377,19 +7377,19 @@
                 "pop_est": 390353,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 2
                     },
                     {
-                        "tech": 7
+                        "tech": 1
                     },
                     {
-                        "art": 4
+                        "art": 1
                     },
                     {
-                        "politics": 7
+                        "politics": 5
                     },
                     {
-                        "science": 1
+                        "science": 2
                     }
                 ]
             },
@@ -7485,7 +7485,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Panama",
-                "iso_a3": "PAN",
+                "ne_id": 1159321161,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -80.352106,
@@ -7497,16 +7497,16 @@
                         "culture": 7
                     },
                     {
-                        "tech": 1
+                        "tech": 6
                     },
                     {
-                        "art": 5
+                        "art": 1
                     },
                     {
-                        "politics": 3
+                        "politics": 2
                     },
                     {
-                        "science": 4
+                        "science": 5
                     }
                 ]
             },
@@ -7730,7 +7730,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Greenland",
-                "iso_a3": "GRL",
+                "ne_id": 1159320551,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -39.335251,
@@ -7739,19 +7739,19 @@
                 "pop_est": 56225,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 1
                     },
                     {
-                        "tech": 7
+                        "tech": 6
                     },
                     {
-                        "art": 5
+                        "art": 2
                     },
                     {
-                        "politics": 3
+                        "politics": 7
                     },
                     {
-                        "science": 3
+                        "science": 4
                     }
                 ]
             },
@@ -8295,7 +8295,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Bahamas",
-                "iso_a3": "BHS",
+                "ne_id": 1159320415,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -77.146688,
@@ -8304,16 +8304,16 @@
                 "pop_est": 389482,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 7
                     },
                     {
-                        "tech": 7
+                        "tech": 1
                     },
                     {
-                        "art": 3
+                        "art": 6
                     },
                     {
-                        "politics": 5
+                        "politics": 3
                     },
                     {
                         "science": 2
@@ -8426,7 +8426,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Trinidad and Tobago",
-                "iso_a3": "TTO",
+                "ne_id": 1159321321,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -60.9184,
@@ -8435,13 +8435,13 @@
                 "pop_est": 1394973,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 2
                     },
                     {
                         "tech": 1
                     },
                     {
-                        "art": 4
+                        "art": 1
                     },
                     {
                         "politics": 1
@@ -8495,7 +8495,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Puerto Rico",
-                "iso_a3": "PRI",
+                "ne_id": 1159321363,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -66.481065,
@@ -8504,19 +8504,19 @@
                 "pop_est": 3193694,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 3
                     },
                     {
-                        "tech": 7
+                        "tech": 1
                     },
                     {
                         "art": 1
                     },
                     {
-                        "politics": 4
+                        "politics": 2
                     },
                     {
-                        "science": 5
+                        "science": 2
                     }
                 ]
             },
@@ -8568,7 +8568,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Jamaica",
-                "iso_a3": "JAM",
+                "ne_id": 1159320931,
                 "continent": "North America",
                 "region_un": "Americas",
                 "label_x": -77.318767,
@@ -8577,19 +8577,19 @@
                 "pop_est": 2948279,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 5
                     },
                     {
                         "tech": 3
                     },
                     {
-                        "art": 7
+                        "art": 1
                     },
                     {
-                        "politics": 7
+                        "politics": 5
                     },
                     {
-                        "science": 5
+                        "science": 2
                     }
                 ]
             },
@@ -8649,7 +8649,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Indonesia",
-                "iso_a3": "IDN",
+                "ne_id": 1159320845,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 101.892949,
@@ -8658,19 +8658,19 @@
                 "pop_est": 270625568,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 6
                     },
                     {
-                        "tech": 5
+                        "tech": 4
                     },
                     {
-                        "art": 6
+                        "art": 4
                     },
                     {
-                        "politics": 4
+                        "politics": 1
                     },
                     {
-                        "science": 1
+                        "science": 2
                     }
                 ]
             },
@@ -9736,7 +9736,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Malaysia",
-                "iso_a3": "MYS",
+                "ne_id": 1159321083,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 113.83708,
@@ -9745,16 +9745,16 @@
                 "pop_est": 31949777,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 3
                     },
                     {
-                        "tech": 1
+                        "tech": 6
                     },
                     {
-                        "art": 1
+                        "art": 2
                     },
                     {
-                        "politics": 6
+                        "politics": 2
                     },
                     {
                         "science": 5
@@ -10027,7 +10027,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Cyprus",
-                "iso_a3": "CYP",
+                "ne_id": 1159320533,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 33.084182,
@@ -10036,19 +10036,19 @@
                 "pop_est": 1198575,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 4
                     },
                     {
-                        "tech": 1
+                        "tech": 6
                     },
                     {
-                        "art": 5
+                        "art": 7
                     },
                     {
-                        "politics": 5
+                        "politics": 6
                     },
                     {
-                        "science": 3
+                        "science": 4
                     }
                 ]
             },
@@ -10124,7 +10124,7 @@
             "type": "Feature",
             "properties": {
                 "name": "India",
-                "iso_a3": "IND",
+                "ne_id": 1159320847,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 79.358105,
@@ -10133,16 +10133,16 @@
                 "pop_est": 1366417754,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 2
                     },
                     {
-                        "tech": 5
+                        "tech": 4
                     },
                     {
-                        "art": 2
+                        "art": 7
                     },
                     {
-                        "politics": 5
+                        "politics": 4
                     },
                     {
                         "science": 7
@@ -10705,7 +10705,7 @@
             "type": "Feature",
             "properties": {
                 "name": "China",
-                "iso_a3": "CHN",
+                "ne_id": 1159320471,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 106.337289,
@@ -10714,19 +10714,19 @@
                 "pop_est": 1397715000,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 4
                     },
                     {
-                        "tech": 6
+                        "tech": 4
                     },
                     {
                         "art": 1
                     },
                     {
-                        "politics": 6
+                        "politics": 5
                     },
                     {
-                        "science": 2
+                        "science": 6
                     }
                 ]
             },
@@ -11708,7 +11708,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Israel",
-                "iso_a3": "ISR",
+                "ne_id": 1159320895,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 34.847915,
@@ -11717,19 +11717,19 @@
                 "pop_est": 9053300,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 2
                     },
                     {
-                        "tech": 2
+                        "tech": 3
                     },
                     {
-                        "art": 6
+                        "art": 1
                     },
                     {
                         "politics": 2
                     },
                     {
-                        "science": 7
+                        "science": 4
                     }
                 ]
             },
@@ -11849,7 +11849,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Palestine",
-                "iso_a3": "PSE",
+                "ne_id": 1159320899,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 35.291341,
@@ -11861,16 +11861,16 @@
                         "culture": 3
                     },
                     {
-                        "tech": 3
+                        "tech": 6
                     },
                     {
-                        "art": 4
+                        "art": 7
                     },
                     {
-                        "politics": 7
+                        "politics": 1
                     },
                     {
-                        "science": 1
+                        "science": 3
                     }
                 ]
             },
@@ -11922,7 +11922,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Lebanon",
-                "iso_a3": "LBN",
+                "ne_id": 1159321013,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 35.992892,
@@ -11931,19 +11931,19 @@
                 "pop_est": 6855713,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 5
                     },
                     {
-                        "tech": 5
+                        "tech": 6
                     },
                     {
-                        "art": 4
+                        "art": 5
                     },
                     {
-                        "politics": 5
+                        "politics": 6
                     },
                     {
-                        "science": 2
+                        "science": 7
                     }
                 ]
             },
@@ -12003,7 +12003,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Syria",
-                "iso_a3": "SYR",
+                "ne_id": 1159321295,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 38.277783,
@@ -12012,16 +12012,16 @@
                 "pop_est": 17070135,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 4
                     },
                     {
-                        "tech": 7
+                        "tech": 3
                     },
                     {
-                        "art": 6
+                        "art": 3
                     },
                     {
-                        "politics": 2
+                        "politics": 4
                     },
                     {
                         "science": 2
@@ -12148,7 +12148,7 @@
             "type": "Feature",
             "properties": {
                 "name": "South Korea",
-                "iso_a3": "KOR",
+                "ne_id": 1159320985,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 128.129504,
@@ -12157,19 +12157,19 @@
                 "pop_est": 51709098,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 3
                     },
                     {
-                        "tech": 2
+                        "tech": 5
                     },
                     {
-                        "art": 2
+                        "art": 5
                     },
                     {
-                        "politics": 2
+                        "politics": 6
                     },
                     {
-                        "science": 2
+                        "science": 7
                     }
                 ]
             },
@@ -12261,7 +12261,7 @@
             "type": "Feature",
             "properties": {
                 "name": "North Korea",
-                "iso_a3": "PRK",
+                "ne_id": 1159321181,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 126.444516,
@@ -12273,13 +12273,13 @@
                         "culture": 1
                     },
                     {
-                        "tech": 3
+                        "tech": 7
                     },
                     {
-                        "art": 7
+                        "art": 6
                     },
                     {
-                        "politics": 7
+                        "politics": 4
                     },
                     {
                         "science": 1
@@ -12496,7 +12496,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Bhutan",
-                "iso_a3": "BTN",
+                "ne_id": 1159320453,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 90.040294,
@@ -12505,19 +12505,19 @@
                 "pop_est": 763092,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 1
                     },
                     {
-                        "tech": 3
+                        "tech": 1
                     },
                     {
-                        "art": 4
+                        "art": 7
                     },
                     {
-                        "politics": 5
+                        "politics": 7
                     },
                     {
-                        "science": 5
+                        "science": 4
                     }
                 ]
             },
@@ -12585,7 +12585,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Oman",
-                "iso_a3": "OMN",
+                "ne_id": 1159321151,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 57.336553,
@@ -12594,19 +12594,19 @@
                 "pop_est": 4974986,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 5
                     },
                     {
-                        "tech": 6
+                        "tech": 3
                     },
                     {
-                        "art": 1
+                        "art": 3
                     },
                     {
-                        "politics": 2
+                        "politics": 7
                     },
                     {
-                        "science": 1
+                        "science": 6
                     }
                 ]
             },
@@ -12816,7 +12816,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Uzbekistan",
-                "iso_a3": "UZB",
+                "ne_id": 1159321405,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 64.005429,
@@ -12825,19 +12825,19 @@
                 "pop_est": 33580650,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 1
                     },
                     {
                         "tech": 2
                     },
                     {
-                        "art": 1
+                        "art": 2
                     },
                     {
-                        "politics": 1
+                        "politics": 5
                     },
                     {
-                        "science": 5
+                        "science": 3
                     }
                 ]
             },
@@ -13069,7 +13069,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Kazakhstan",
-                "iso_a3": "KAZ",
+                "ne_id": 1159320967,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 68.685548,
@@ -13078,19 +13078,19 @@
                 "pop_est": 18513930,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 4
                     },
                     {
-                        "tech": 1
+                        "tech": 4
                     },
                     {
-                        "art": 2
+                        "art": 4
                     },
                     {
-                        "politics": 3
+                        "politics": 5
                     },
                     {
-                        "science": 2
+                        "science": 7
                     }
                 ]
             },
@@ -13554,7 +13554,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Tajikistan",
-                "iso_a3": "TJK",
+                "ne_id": 1159321307,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 72.587276,
@@ -13563,19 +13563,19 @@
                 "pop_est": 9321018,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 5
                     },
                     {
-                        "tech": 6
+                        "tech": 1
                     },
                     {
-                        "art": 4
+                        "art": 3
                     },
                     {
-                        "politics": 3
+                        "politics": 4
                     },
                     {
-                        "science": 7
+                        "science": 5
                     }
                 ]
             },
@@ -13755,7 +13755,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Mongolia",
-                "iso_a3": "MNG",
+                "ne_id": 1159321071,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 104.150405,
@@ -13764,19 +13764,19 @@
                 "pop_est": 3225167,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 2
                     },
                     {
-                        "tech": 1
+                        "tech": 4
                     },
                     {
-                        "art": 6
+                        "art": 1
                     },
                     {
-                        "politics": 3
+                        "politics": 2
                     },
                     {
-                        "science": 3
+                        "science": 1
                     }
                 ]
             },
@@ -14092,7 +14092,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Vietnam",
-                "iso_a3": "VNM",
+                "ne_id": 1159321417,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 105.387292,
@@ -14101,19 +14101,19 @@
                 "pop_est": 96462106,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 4
                     },
                     {
-                        "tech": 1
+                        "tech": 3
                     },
                     {
-                        "art": 6
+                        "art": 2
                     },
                     {
                         "politics": 7
                     },
                     {
-                        "science": 6
+                        "science": 1
                     }
                 ]
             },
@@ -14305,7 +14305,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Cambodia",
-                "iso_a3": "KHM",
+                "ne_id": 1159320979,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 104.50487,
@@ -14317,16 +14317,16 @@
                         "culture": 4
                     },
                     {
-                        "tech": 1
+                        "tech": 2
                     },
                     {
                         "art": 6
                     },
                     {
-                        "politics": 2
+                        "politics": 5
                     },
                     {
-                        "science": 7
+                        "science": 1
                     }
                 ]
             },
@@ -14410,7 +14410,7 @@
             "type": "Feature",
             "properties": {
                 "name": "United Arab Emirates",
-                "iso_a3": "ARE",
+                "ne_id": 1159320329,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 54.547256,
@@ -14419,19 +14419,19 @@
                 "pop_est": 9770529,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 3
                     },
                     {
-                        "tech": 6
+                        "tech": 7
                     },
                     {
-                        "art": 7
+                        "art": 2
                     },
                     {
-                        "politics": 6
+                        "politics": 4
                     },
                     {
-                        "science": 1
+                        "science": 5
                     }
                 ]
             },
@@ -14535,7 +14535,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Georgia",
-                "iso_a3": "GEO",
+                "ne_id": 1159320779,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 43.735724,
@@ -14544,19 +14544,19 @@
                 "pop_est": 3720382,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 2
                     },
                     {
-                        "tech": 2
+                        "tech": 1
                     },
                     {
-                        "art": 3
+                        "art": 2
                     },
                     {
-                        "politics": 2
+                        "politics": 3
                     },
                     {
-                        "science": 2
+                        "science": 4
                     }
                 ]
             },
@@ -14668,7 +14668,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Azerbaijan",
-                "iso_a3": "AZE",
+                "ne_id": 1159320381,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 47.210994,
@@ -14677,19 +14677,19 @@
                 "pop_est": 10023318,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 5
                     },
                     {
-                        "tech": 6
+                        "tech": 2
                     },
                     {
-                        "art": 5
+                        "art": 1
                     },
                     {
-                        "politics": 1
+                        "politics": 7
                     },
                     {
-                        "science": 3
+                        "science": 2
                     }
                 ]
             },
@@ -14887,7 +14887,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Turkey",
-                "iso_a3": "TUR",
+                "ne_id": 1159321331,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 34.508268,
@@ -14896,19 +14896,19 @@
                 "pop_est": 83429615,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 3
                     },
                     {
-                        "tech": 5
+                        "tech": 3
                     },
                     {
-                        "art": 2
+                        "art": 7
                     },
                     {
-                        "politics": 3
+                        "politics": 2
                     },
                     {
-                        "science": 3
+                        "science": 7
                     }
                 ]
             },
@@ -15202,7 +15202,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Laos",
-                "iso_a3": "LAO",
+                "ne_id": 1159321011,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 102.533912,
@@ -15211,19 +15211,19 @@
                 "pop_est": 7169455,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 1
                     },
                     {
-                        "tech": 4
+                        "tech": 5
                     },
                     {
                         "art": 1
                     },
                     {
-                        "politics": 1
+                        "politics": 7
                     },
                     {
-                        "science": 4
+                        "science": 2
                     }
                 ]
             },
@@ -15387,7 +15387,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Kyrgyzstan",
-                "iso_a3": "KGZ",
+                "ne_id": 1159320977,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 74.532637,
@@ -15396,19 +15396,19 @@
                 "pop_est": 6456900,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 6
                     },
                     {
-                        "tech": 2
+                        "tech": 6
                     },
                     {
-                        "art": 4
+                        "art": 3
                     },
                     {
-                        "politics": 4
+                        "politics": 5
                     },
                     {
-                        "science": 3
+                        "science": 7
                     }
                 ]
             },
@@ -15564,7 +15564,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Armenia",
-                "iso_a3": "ARM",
+                "ne_id": 1159320333,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 44.800564,
@@ -15573,19 +15573,19 @@
                 "pop_est": 2957731,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 6
                     },
                     {
-                        "tech": 3
+                        "tech": 5
                     },
                     {
-                        "art": 6
+                        "art": 4
                     },
                     {
                         "politics": 7
                     },
                     {
-                        "science": 2
+                        "science": 4
                     }
                 ]
             },
@@ -15681,7 +15681,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Iraq",
-                "iso_a3": "IRQ",
+                "ne_id": 1159320887,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 43.26181,
@@ -15690,19 +15690,19 @@
                 "pop_est": 39309783,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 1
                     },
                     {
-                        "tech": 2
+                        "tech": 6
                     },
                     {
                         "art": 2
                     },
                     {
-                        "politics": 2
+                        "politics": 3
                     },
                     {
-                        "science": 4
+                        "science": 3
                     }
                 ]
             },
@@ -15838,7 +15838,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Iran",
-                "iso_a3": "IRN",
+                "ne_id": 1159320881,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 54.931495,
@@ -15847,19 +15847,19 @@
                 "pop_est": 82913906,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 2
                     },
                     {
-                        "tech": 2
+                        "tech": 6
                     },
                     {
-                        "art": 3
+                        "art": 5
                     },
                     {
-                        "politics": 7
+                        "politics": 3
                     },
                     {
-                        "science": 2
+                        "science": 6
                     }
                 ]
             },
@@ -16179,7 +16179,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Qatar",
-                "iso_a3": "QAT",
+                "ne_id": 1159321197,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 51.143509,
@@ -16188,19 +16188,19 @@
                 "pop_est": 2832067,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 1
                     },
                     {
-                        "tech": 1
+                        "tech": 4
                     },
                     {
-                        "art": 6
+                        "art": 7
                     },
                     {
-                        "politics": 6
+                        "politics": 1
                     },
                     {
-                        "science": 5
+                        "science": 4
                     }
                 ]
             },
@@ -16252,7 +16252,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Saudi Arabia",
-                "iso_a3": "SAU",
+                "ne_id": 1159321225,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 44.6996,
@@ -16261,19 +16261,19 @@
                 "pop_est": 34268528,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 3
                     },
                     {
-                        "tech": 1
+                        "tech": 6
                     },
                     {
-                        "art": 3
+                        "art": 6
                     },
                     {
                         "politics": 7
                     },
                     {
-                        "science": 1
+                        "science": 4
                     }
                 ]
             },
@@ -16593,7 +16593,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Pakistan",
-                "iso_a3": "PAK",
+                "ne_id": 1159321153,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 68.545632,
@@ -16602,19 +16602,19 @@
                 "pop_est": 216565318,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 2
                     },
                     {
                         "tech": 6
                     },
                     {
-                        "art": 4
+                        "art": 5
                     },
                     {
                         "politics": 5
                     },
                     {
-                        "science": 6
+                        "science": 7
                     }
                 ]
             },
@@ -16894,7 +16894,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Thailand",
-                "iso_a3": "THA",
+                "ne_id": 1159321305,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 101.073198,
@@ -16903,19 +16903,19 @@
                 "pop_est": 69625582,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 7
                     },
                     {
-                        "tech": 5
+                        "tech": 3
                     },
                     {
-                        "art": 2
+                        "art": 1
                     },
                     {
-                        "politics": 7
+                        "politics": 4
                     },
                     {
-                        "science": 3
+                        "science": 4
                     }
                 ]
             },
@@ -17187,7 +17187,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Kuwait",
-                "iso_a3": "KWT",
+                "ne_id": 1159321009,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 47.313999,
@@ -17196,19 +17196,19 @@
                 "pop_est": 4207083,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 6
                     },
                     {
                         "tech": 5
                     },
                     {
-                        "art": 3
+                        "art": 5
                     },
                     {
-                        "politics": 6
+                        "politics": 3
                     },
                     {
-                        "science": 7
+                        "science": 1
                     }
                 ]
             },
@@ -17260,7 +17260,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Timor-Leste",
-                "iso_a3": "TLS",
+                "ne_id": 1159321313,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 125.854679,
@@ -17269,16 +17269,16 @@
                 "pop_est": 1293119,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 6
                     },
                     {
-                        "tech": 2
+                        "tech": 1
                     },
                     {
-                        "art": 7
+                        "art": 6
                     },
                     {
-                        "politics": 7
+                        "politics": 2
                     },
                     {
                         "science": 2
@@ -17341,7 +17341,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Brunei",
-                "iso_a3": "BRN",
+                "ne_id": 1159320451,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 114.551943,
@@ -17350,19 +17350,19 @@
                 "pop_est": 433285,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 1
                     },
                     {
-                        "tech": 7
+                        "tech": 3
                     },
                     {
-                        "art": 5
+                        "art": 1
                     },
                     {
                         "politics": 4
                     },
                     {
-                        "science": 3
+                        "science": 4
                     }
                 ]
             },
@@ -17410,7 +17410,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Myanmar",
-                "iso_a3": "MMR",
+                "ne_id": 1159321067,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 95.804497,
@@ -17422,16 +17422,16 @@
                         "culture": 7
                     },
                     {
-                        "tech": 7
+                        "tech": 1
                     },
                     {
-                        "art": 1
+                        "art": 2
                     },
                     {
-                        "politics": 4
+                        "politics": 6
                     },
                     {
-                        "science": 7
+                        "science": 4
                     }
                 ]
             },
@@ -17727,7 +17727,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Bangladesh",
-                "iso_a3": "BGD",
+                "ne_id": 1159320407,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 89.684963,
@@ -17736,19 +17736,19 @@
                 "pop_est": 163046161,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 5
                     },
                     {
-                        "tech": 6
+                        "tech": 3
                     },
                     {
-                        "art": 2
+                        "art": 1
                     },
                     {
-                        "politics": 6
+                        "politics": 5
                     },
                     {
-                        "science": 5
+                        "science": 1
                     }
                 ]
             },
@@ -17908,7 +17908,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Afghanistan",
-                "iso_a3": "AFG",
+                "ne_id": 1159320319,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 66.496586,
@@ -17917,19 +17917,19 @@
                 "pop_est": 38041754,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 7
                     },
                     {
-                        "tech": 6
+                        "tech": 3
                     },
                     {
-                        "art": 1
+                        "art": 7
                     },
                     {
-                        "politics": 4
+                        "politics": 1
                     },
                     {
-                        "science": 7
+                        "science": 3
                     }
                 ]
             },
@@ -18221,7 +18221,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Turkmenistan",
-                "iso_a3": "TKM",
+                "ne_id": 1159321309,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 58.676647,
@@ -18230,19 +18230,19 @@
                 "pop_est": 5942089,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 7
                     },
                     {
-                        "tech": 6
+                        "tech": 3
                     },
                     {
-                        "art": 3
+                        "art": 1
                     },
                     {
-                        "politics": 3
+                        "politics": 7
                     },
                     {
-                        "science": 3
+                        "science": 1
                     }
                 ]
             },
@@ -18474,7 +18474,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Jordan",
-                "iso_a3": "JOR",
+                "ne_id": 1159320935,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 36.375991,
@@ -18483,19 +18483,19 @@
                 "pop_est": 10101694,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 1
                     },
                     {
-                        "tech": 3
+                        "tech": 6
                     },
                     {
-                        "art": 3
+                        "art": 2
                     },
                     {
-                        "politics": 7
+                        "politics": 1
                     },
                     {
-                        "science": 7
+                        "science": 5
                     }
                 ]
             },
@@ -18587,7 +18587,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Nepal",
-                "iso_a3": "NPL",
+                "ne_id": 1159321121,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 83.639914,
@@ -18596,19 +18596,19 @@
                 "pop_est": 28608710,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 1
                     },
                     {
-                        "tech": 3
+                        "tech": 1
                     },
                     {
                         "art": 6
                     },
                     {
-                        "politics": 3
+                        "politics": 5
                     },
                     {
-                        "science": 5
+                        "science": 2
                     }
                 ]
             },
@@ -18716,7 +18716,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Yemen",
-                "iso_a3": "YEM",
+                "ne_id": 1159321425,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 45.874383,
@@ -18725,16 +18725,16 @@
                 "pop_est": 29161922,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 1
                     },
                     {
-                        "tech": 5
+                        "tech": 1
                     },
                     {
-                        "art": 4
+                        "art": 2
                     },
                     {
-                        "politics": 3
+                        "politics": 6
                     },
                     {
                         "science": 5
@@ -18929,7 +18929,7 @@
             "type": "Feature",
             "properties": {
                 "name": "N. Cyprus",
-                "iso_a3": "-99",
+                "ne_id": 1159320531,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 33.692434,
@@ -18938,19 +18938,19 @@
                 "pop_est": 326000,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 1
                     },
                     {
-                        "tech": 7
+                        "tech": 4
                     },
                     {
-                        "art": 3
+                        "art": 4
                     },
                     {
-                        "politics": 6
+                        "politics": 4
                     },
                     {
-                        "science": 7
+                        "science": 1
                     }
                 ]
             },
@@ -19030,7 +19030,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Philippines",
-                "iso_a3": "PHL",
+                "ne_id": 1159321169,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 122.465,
@@ -19039,19 +19039,19 @@
                 "pop_est": 108116615,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 2
                     },
                     {
-                        "tech": 6
+                        "tech": 7
                     },
                     {
-                        "art": 3
+                        "art": 7
                     },
                     {
-                        "politics": 5
+                        "politics": 1
                     },
                     {
-                        "science": 7
+                        "science": 3
                     }
                 ]
             },
@@ -19533,7 +19533,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Sri Lanka",
-                "iso_a3": "LKA",
+                "ne_id": 1159321025,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 80.704823,
@@ -19542,19 +19542,19 @@
                 "pop_est": 21803000,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 7
                     },
                     {
-                        "tech": 4
+                        "tech": 7
                     },
                     {
-                        "art": 1
+                        "art": 6
                     },
                     {
-                        "politics": 5
+                        "politics": 4
                     },
                     {
-                        "science": 6
+                        "science": 7
                     }
                 ]
             },
@@ -19610,7 +19610,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Taiwan",
-                "iso_a3": "TWN",
+                "ne_id": 1159321335,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 120.868204,
@@ -19619,19 +19619,19 @@
                 "pop_est": 23568378,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 5
                     },
                     {
                         "tech": 6
                     },
                     {
-                        "art": 7
+                        "art": 1
                     },
                     {
-                        "politics": 1
+                        "politics": 4
                     },
                     {
-                        "science": 2
+                        "science": 4
                     }
                 ]
             },
@@ -19683,7 +19683,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Japan",
-                "iso_a3": "JPN",
+                "ne_id": 1159320937,
                 "continent": "Asia",
                 "region_un": "Asia",
                 "label_x": 138.44217,
@@ -19692,19 +19692,19 @@
                 "pop_est": 126264931,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 7
                     },
                     {
-                        "tech": 7
+                        "tech": 5
                     },
                     {
                         "art": 3
                     },
                     {
-                        "politics": 6
+                        "politics": 2
                     },
                     {
-                        "science": 4
+                        "science": 2
                     }
                 ]
             },
@@ -19990,7 +19990,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Chile",
-                "iso_a3": "CHL",
+                "ne_id": 1159320493,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -72.318871,
@@ -19999,19 +19999,19 @@
                 "pop_est": 18952038,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 2
                     },
                     {
-                        "tech": 4
+                        "tech": 3
                     },
                     {
-                        "art": 3
+                        "art": 7
                     },
                     {
-                        "politics": 2
+                        "politics": 5
                     },
                     {
-                        "science": 1
+                        "science": 4
                     }
                 ]
             },
@@ -20489,7 +20489,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Bolivia",
-                "iso_a3": "BOL",
+                "ne_id": 1159320439,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -64.593433,
@@ -20498,19 +20498,19 @@
                 "pop_est": 11513100,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 1
                     },
                     {
-                        "tech": 4
+                        "tech": 7
                     },
                     {
-                        "art": 5
+                        "art": 2
                     },
                     {
-                        "politics": 6
+                        "politics": 2
                     },
                     {
-                        "science": 3
+                        "science": 1
                     }
                 ]
             },
@@ -20766,7 +20766,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Peru",
-                "iso_a3": "PER",
+                "ne_id": 1159321163,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -72.90016,
@@ -20775,19 +20775,19 @@
                 "pop_est": 32510453,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 1
                     },
                     {
-                        "tech": 1
+                        "tech": 5
                     },
                     {
-                        "art": 3
+                        "art": 1
                     },
                     {
-                        "politics": 5
+                        "politics": 2
                     },
                     {
-                        "science": 6
+                        "science": 7
                     }
                 ]
             },
@@ -21107,7 +21107,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Argentina",
-                "iso_a3": "ARG",
+                "ne_id": 1159320331,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -64.173331,
@@ -21116,16 +21116,16 @@
                 "pop_est": 44938712,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 7
                     },
                     {
-                        "tech": 6
+                        "tech": 4
                     },
                     {
-                        "art": 1
+                        "art": 2
                     },
                     {
-                        "politics": 7
+                        "politics": 2
                     },
                     {
                         "science": 7
@@ -21634,7 +21634,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Suriname",
-                "iso_a3": "SUR",
+                "ne_id": 1159321281,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -55.91094,
@@ -21643,19 +21643,19 @@
                 "pop_est": 581363,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 3
                     },
                     {
-                        "tech": 7
+                        "tech": 6
                     },
                     {
-                        "art": 1
+                        "art": 5
                     },
                     {
-                        "politics": 1
+                        "politics": 3
                     },
                     {
-                        "science": 2
+                        "science": 1
                     }
                 ]
             },
@@ -21775,7 +21775,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Guyana",
-                "iso_a3": "GUY",
+                "ne_id": 1159320817,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -58.942643,
@@ -21784,19 +21784,19 @@
                 "pop_est": 782766,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 6
                     },
                     {
                         "tech": 4
                     },
                     {
-                        "art": 2
+                        "art": 6
                     },
                     {
-                        "politics": 3
+                        "politics": 4
                     },
                     {
-                        "science": 6
+                        "science": 7
                     }
                 ]
             },
@@ -21972,7 +21972,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Brazil",
-                "iso_a3": "BRA",
+                "ne_id": 1159320441,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -49.55945,
@@ -21984,16 +21984,16 @@
                         "culture": 2
                     },
                     {
-                        "tech": 6
+                        "tech": 2
                     },
                     {
-                        "art": 3
+                        "art": 5
                     },
                     {
-                        "politics": 6
+                        "politics": 4
                     },
                     {
-                        "science": 7
+                        "science": 5
                     }
                 ]
             },
@@ -22821,7 +22821,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Uruguay",
-                "iso_a3": "URY",
+                "ne_id": 1159321353,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -55.966942,
@@ -22830,16 +22830,16 @@
                 "pop_est": 3461734,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 4
                     },
                     {
-                        "tech": 3
+                        "tech": 6
                     },
                     {
-                        "art": 2
+                        "art": 3
                     },
                     {
-                        "politics": 3
+                        "politics": 6
                     },
                     {
                         "science": 4
@@ -22942,7 +22942,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Ecuador",
-                "iso_a3": "ECU",
+                "ne_id": 1159320567,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -78.188375,
@@ -22951,13 +22951,13 @@
                 "pop_est": 17373662,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 2
                     },
                     {
-                        "tech": 6
+                        "tech": 3
                     },
                     {
-                        "art": 2
+                        "art": 5
                     },
                     {
                         "politics": 3
@@ -23111,7 +23111,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Colombia",
-                "iso_a3": "COL",
+                "ne_id": 1159320517,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -73.174347,
@@ -23120,19 +23120,19 @@
                 "pop_est": 50339443,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 3
                     },
                     {
-                        "tech": 2
+                        "tech": 7
                     },
                     {
-                        "art": 2
+                        "art": 7
                     },
                     {
-                        "politics": 2
+                        "politics": 6
                     },
                     {
-                        "science": 4
+                        "science": 5
                     }
                 ]
             },
@@ -23548,7 +23548,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Paraguay",
-                "iso_a3": "PRY",
+                "ne_id": 1159321195,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -60.146394,
@@ -23557,19 +23557,19 @@
                 "pop_est": 7044636,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 5
                     },
                     {
-                        "tech": 4
+                        "tech": 5
                     },
                     {
-                        "art": 1
+                        "art": 3
                     },
                     {
                         "politics": 6
                     },
                     {
-                        "science": 6
+                        "science": 5
                     }
                 ]
             },
@@ -23717,7 +23717,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Venezuela",
-                "iso_a3": "VEN",
+                "ne_id": 1159321411,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -64.599381,
@@ -23726,7 +23726,7 @@
                 "pop_est": 28515829,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 3
                     },
                     {
                         "tech": 4
@@ -23735,10 +23735,10 @@
                         "art": 7
                     },
                     {
-                        "politics": 4
+                        "politics": 5
                     },
                     {
-                        "science": 2
+                        "science": 4
                     }
                 ]
             },
@@ -24122,7 +24122,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Falkland Is.",
-                "iso_a3": "FLK",
+                "ne_id": 1159320711,
                 "continent": "South America",
                 "region_un": "Americas",
                 "label_x": -58.738602,
@@ -24131,16 +24131,16 @@
                 "pop_est": 3398,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 4
                     },
                     {
-                        "tech": 3
+                        "tech": 4
                     },
                     {
-                        "art": 5
+                        "art": 4
                     },
                     {
-                        "politics": 5
+                        "politics": 1
                     },
                     {
                         "science": 4
@@ -24199,7 +24199,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Ethiopia",
-                "iso_a3": "ETH",
+                "ne_id": 1159320617,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 39.0886,
@@ -24208,19 +24208,19 @@
                 "pop_est": 112078730,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 5
                     },
                     {
                         "tech": 6
                     },
                     {
-                        "art": 1
+                        "art": 6
                     },
                     {
-                        "politics": 1
+                        "politics": 6
                     },
                     {
-                        "science": 4
+                        "science": 1
                     }
                 ]
             },
@@ -24472,7 +24472,7 @@
             "type": "Feature",
             "properties": {
                 "name": "S. Sudan",
-                "iso_a3": "SSD",
+                "ne_id": 1159321235,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 30.390151,
@@ -24481,19 +24481,19 @@
                 "pop_est": 11062113,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 1
                     },
                     {
-                        "tech": 1
+                        "tech": 5
                     },
                     {
-                        "art": 6
+                        "art": 2
                     },
                     {
-                        "politics": 6
+                        "politics": 1
                     },
                     {
-                        "science": 2
+                        "science": 7
                     }
                 ]
             },
@@ -24761,7 +24761,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Somalia",
-                "iso_a3": "SOM",
+                "ne_id": 1159321261,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 45.19238,
@@ -24770,16 +24770,16 @@
                 "pop_est": 10192317.3,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 5
                     },
                     {
-                        "tech": 2
+                        "tech": 4
                     },
                     {
-                        "art": 2
+                        "art": 7
                     },
                     {
-                        "politics": 6
+                        "politics": 3
                     },
                     {
                         "science": 1
@@ -24946,7 +24946,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Kenya",
-                "iso_a3": "KEN",
+                "ne_id": 1159320971,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 37.907632,
@@ -24955,19 +24955,19 @@
                 "pop_est": 52573973,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 3
                     },
                     {
                         "tech": 6
                     },
                     {
-                        "art": 7
+                        "art": 1
                     },
                     {
-                        "politics": 2
+                        "politics": 4
                     },
                     {
-                        "science": 7
+                        "science": 6
                     }
                 ]
             },
@@ -25131,7 +25131,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Malawi",
-                "iso_a3": "MWI",
+                "ne_id": 1159321081,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 33.608082,
@@ -25143,16 +25143,16 @@
                         "culture": 6
                     },
                     {
-                        "tech": 6
+                        "tech": 4
                     },
                     {
-                        "art": 4
+                        "art": 1
                     },
                     {
-                        "politics": 6
+                        "politics": 1
                     },
                     {
-                        "science": 2
+                        "science": 3
                     }
                 ]
             },
@@ -25280,7 +25280,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Tanzania",
-                "iso_a3": "TZA",
+                "ne_id": 1159321337,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 34.959183,
@@ -25289,16 +25289,16 @@
                 "pop_est": 58005463,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 2
                     },
                     {
-                        "tech": 2
+                        "tech": 4
                     },
                     {
-                        "art": 2
+                        "art": 1
                     },
                     {
-                        "politics": 5
+                        "politics": 1
                     },
                     {
                         "science": 2
@@ -25525,7 +25525,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Somaliland",
-                "iso_a3": "-99",
+                "ne_id": 1159321259,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 46.731595,
@@ -25534,19 +25534,19 @@
                 "pop_est": 5096159,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 3
                     },
                     {
-                        "tech": 6
+                        "tech": 7
                     },
                     {
                         "art": 2
                     },
                     {
-                        "politics": 1
+                        "politics": 3
                     },
                     {
-                        "science": 3
+                        "science": 2
                     }
                 ]
             },
@@ -25666,7 +25666,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Morocco",
-                "iso_a3": "MAR",
+                "ne_id": 1159321035,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -7.187296,
@@ -25678,16 +25678,16 @@
                         "culture": 3
                     },
                     {
-                        "tech": 5
+                        "tech": 2
                     },
                     {
-                        "art": 6
+                        "art": 1
                     },
                     {
-                        "politics": 4
+                        "politics": 2
                     },
                     {
-                        "science": 4
+                        "science": 3
                     }
                 ]
             },
@@ -25955,7 +25955,7 @@
             "type": "Feature",
             "properties": {
                 "name": "W. Sahara",
-                "iso_a3": "ESH",
+                "ne_id": 1159321223,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -12.630304,
@@ -25964,19 +25964,19 @@
                 "pop_est": 603253,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 1
                     },
                     {
-                        "tech": 4
+                        "tech": 7
                     },
                     {
-                        "art": 7
+                        "art": 5
                     },
                     {
-                        "politics": 5
+                        "politics": 1
                     },
                     {
-                        "science": 2
+                        "science": 6
                     }
                 ]
             },
@@ -26104,7 +26104,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Congo",
-                "iso_a3": "COG",
+                "ne_id": 1159320515,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 15.9005,
@@ -26113,19 +26113,19 @@
                 "pop_est": 5380508,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 5
                     },
                     {
-                        "tech": 5
+                        "tech": 3
                     },
                     {
-                        "art": 1
+                        "art": 3
                     },
                     {
-                        "politics": 3
+                        "politics": 2
                     },
                     {
-                        "science": 3
+                        "science": 2
                     }
                 ]
             },
@@ -26337,7 +26337,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Dem. Rep. Congo",
-                "iso_a3": "COD",
+                "ne_id": 1159320513,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 23.458829,
@@ -26346,19 +26346,19 @@
                 "pop_est": 86790567,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 1
                     },
                     {
-                        "tech": 3
+                        "tech": 2
                     },
                     {
-                        "art": 4
+                        "art": 2
                     },
                     {
-                        "politics": 1
+                        "politics": 6
                     },
                     {
-                        "science": 1
+                        "science": 4
                     }
                 ]
             },
@@ -26870,7 +26870,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Namibia",
-                "iso_a3": "NAM",
+                "ne_id": 1159321085,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 17.108166,
@@ -26879,19 +26879,19 @@
                 "pop_est": 2494530,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 5
                     },
                     {
-                        "tech": 1
+                        "tech": 6
                     },
                     {
                         "art": 1
                     },
                     {
-                        "politics": 2
+                        "politics": 5
                     },
                     {
-                        "science": 5
+                        "science": 7
                     }
                 ]
             },
@@ -27083,7 +27083,7 @@
             "type": "Feature",
             "properties": {
                 "name": "South Africa",
-                "iso_a3": "ZAF",
+                "ne_id": 1159321431,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 23.665734,
@@ -27092,19 +27092,19 @@
                 "pop_est": 58558270,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 3
                     },
                     {
-                        "tech": 7
+                        "tech": 4
                     },
                     {
-                        "art": 7
+                        "art": 4
                     },
                     {
-                        "politics": 1
+                        "politics": 3
                     },
                     {
-                        "science": 2
+                        "science": 6
                     }
                 ]
             },
@@ -27498,7 +27498,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Libya",
-                "iso_a3": "LBY",
+                "ne_id": 1159321017,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 18.011015,
@@ -27507,16 +27507,16 @@
                 "pop_est": 6777452,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 5
                     },
                     {
-                        "tech": 6
+                        "tech": 1
                     },
                     {
-                        "art": 7
+                        "art": 1
                     },
                     {
-                        "politics": 2
+                        "politics": 4
                     },
                     {
                         "science": 1
@@ -27759,7 +27759,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Tunisia",
-                "iso_a3": "TUN",
+                "ne_id": 1159321327,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 9.007881,
@@ -27768,19 +27768,19 @@
                 "pop_est": 11694719,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 2
                     },
                     {
-                        "tech": 4
+                        "tech": 3
                     },
                     {
-                        "art": 6
+                        "art": 2
                     },
                     {
-                        "politics": 7
+                        "politics": 6
                     },
                     {
-                        "science": 7
+                        "science": 6
                     }
                 ]
             },
@@ -27920,7 +27920,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Zambia",
-                "iso_a3": "ZMB",
+                "ne_id": 1159321439,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 26.395298,
@@ -27929,19 +27929,19 @@
                 "pop_est": 17861030,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 3
                     },
                     {
-                        "tech": 4
+                        "tech": 2
                     },
                     {
-                        "art": 1
+                        "art": 7
                     },
                     {
-                        "politics": 6
+                        "politics": 1
                     },
                     {
-                        "science": 7
+                        "science": 2
                     }
                 ]
             },
@@ -28201,7 +28201,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Sierra Leone",
-                "iso_a3": "SLE",
+                "ne_id": 1159321251,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -11.763677,
@@ -28210,19 +28210,19 @@
                 "pop_est": 7813215,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 1
                     },
                     {
-                        "tech": 3
+                        "tech": 4
                     },
                     {
-                        "art": 1
+                        "art": 3
                     },
                     {
-                        "politics": 6
+                        "politics": 3
                     },
                     {
-                        "science": 3
+                        "science": 2
                     }
                 ]
             },
@@ -28326,7 +28326,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Guinea",
-                "iso_a3": "GIN",
+                "ne_id": 1159320795,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -10.016402,
@@ -28335,19 +28335,19 @@
                 "pop_est": 12771246,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 7
                     },
                     {
-                        "tech": 5
+                        "tech": 7
                     },
                     {
-                        "art": 4
+                        "art": 7
                     },
                     {
-                        "politics": 2
+                        "politics": 3
                     },
                     {
-                        "science": 2
+                        "science": 3
                     }
                 ]
             },
@@ -28643,7 +28643,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Liberia",
-                "iso_a3": "LBR",
+                "ne_id": 1159321015,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -9.460379,
@@ -28655,10 +28655,10 @@
                         "culture": 7
                     },
                     {
-                        "tech": 1
+                        "tech": 5
                     },
                     {
-                        "art": 3
+                        "art": 6
                     },
                     {
                         "politics": 2
@@ -28788,7 +28788,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Central African Rep.",
-                "iso_a3": "CAF",
+                "ne_id": 1159320463,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 20.906897,
@@ -28797,19 +28797,19 @@
                 "pop_est": 4745185,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 1
                     },
                     {
-                        "tech": 5
+                        "tech": 6
                     },
                     {
-                        "art": 5
+                        "art": 7
                     },
                     {
                         "politics": 6
                     },
                     {
-                        "science": 5
+                        "science": 6
                     }
                 ]
             },
@@ -29073,7 +29073,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Djibouti",
-                "iso_a3": "DJI",
+                "ne_id": 1159320541,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 42.498825,
@@ -29082,19 +29082,19 @@
                 "pop_est": 973560,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 6
                     },
                     {
-                        "tech": 2
+                        "tech": 7
                     },
                     {
-                        "art": 1
+                        "art": 6
                     },
                     {
                         "politics": 5
                     },
                     {
-                        "science": 2
+                        "science": 3
                     }
                 ]
             },
@@ -29170,7 +29170,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Eritrea",
-                "iso_a3": "ERI",
+                "ne_id": 1159320581,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 38.285566,
@@ -29182,16 +29182,16 @@
                         "culture": 3
                     },
                     {
-                        "tech": 3
+                        "tech": 7
                     },
                     {
                         "art": 1
                     },
                     {
-                        "politics": 7
+                        "politics": 6
                     },
                     {
-                        "science": 7
+                        "science": 2
                     }
                 ]
             },
@@ -29319,7 +29319,7 @@
             "type": "Feature",
             "properties": {
                 "name": "C\u00f4te d'Ivoire",
-                "iso_a3": "CIV",
+                "ne_id": 1159320507,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -5.568618,
@@ -29328,19 +29328,19 @@
                 "pop_est": 25716544,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 3
                     },
                     {
-                        "tech": 3
+                        "tech": 4
                     },
                     {
-                        "art": 1
+                        "art": 6
                     },
                     {
                         "politics": 4
                     },
                     {
-                        "science": 6
+                        "science": 7
                     }
                 ]
             },
@@ -29540,7 +29540,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Mali",
-                "iso_a3": "MLI",
+                "ne_id": 1159321063,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -2.038455,
@@ -29549,19 +29549,19 @@
                 "pop_est": 19658031,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 7
                     },
                     {
-                        "tech": 6
+                        "tech": 3
                     },
                     {
-                        "art": 4
+                        "art": 5
                     },
                     {
-                        "politics": 7
+                        "politics": 3
                     },
                     {
-                        "science": 1
+                        "science": 5
                     }
                 ]
             },
@@ -29881,7 +29881,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Senegal",
-                "iso_a3": "SEN",
+                "ne_id": 1159321243,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -14.778586,
@@ -29890,19 +29890,19 @@
                 "pop_est": 16296364,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 5
                     },
                     {
-                        "tech": 4
+                        "tech": 5
                     },
                     {
-                        "art": 6
+                        "art": 3
                     },
                     {
-                        "politics": 7
+                        "politics": 4
                     },
                     {
-                        "science": 4
+                        "science": 3
                     }
                 ]
             },
@@ -30094,7 +30094,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Nigeria",
-                "iso_a3": "NGA",
+                "ne_id": 1159321089,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 7.50322,
@@ -30106,16 +30106,16 @@
                         "culture": 4
                     },
                     {
-                        "tech": 5
+                        "tech": 2
                     },
                     {
-                        "art": 5
+                        "art": 3
                     },
                     {
-                        "politics": 6
+                        "politics": 2
                     },
                     {
-                        "science": 1
+                        "science": 6
                     }
                 ]
             },
@@ -30363,7 +30363,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Benin",
-                "iso_a3": "BEN",
+                "ne_id": 1159320399,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 2.352018,
@@ -30372,16 +30372,16 @@
                 "pop_est": 11801151,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 3
                     },
                     {
-                        "tech": 6
+                        "tech": 3
                     },
                     {
-                        "art": 5
+                        "art": 6
                     },
                     {
-                        "politics": 1
+                        "politics": 2
                     },
                     {
                         "science": 4
@@ -30500,7 +30500,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Angola",
-                "iso_a3": "AGO",
+                "ne_id": 1159320323,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 17.984249,
@@ -30512,16 +30512,16 @@
                         "culture": 5
                     },
                     {
-                        "tech": 2
+                        "tech": 4
                     },
                     {
-                        "art": 7
+                        "art": 4
                     },
                     {
-                        "politics": 5
+                        "politics": 6
                     },
                     {
-                        "science": 1
+                        "science": 2
                     }
                 ]
             },
@@ -30843,7 +30843,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Botswana",
-                "iso_a3": "BWA",
+                "ne_id": 1159320461,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 24.179216,
@@ -30855,16 +30855,16 @@
                         "culture": 6
                     },
                     {
-                        "tech": 5
+                        "tech": 6
                     },
                     {
-                        "art": 7
+                        "art": 2
                     },
                     {
-                        "politics": 5
+                        "politics": 4
                     },
                     {
-                        "science": 6
+                        "science": 2
                     }
                 ]
             },
@@ -31040,7 +31040,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Zimbabwe",
-                "iso_a3": "ZWE",
+                "ne_id": 1159321441,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 29.925444,
@@ -31049,19 +31049,19 @@
                 "pop_est": 14645468,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 5
                     },
                     {
                         "tech": 6
                     },
                     {
-                        "art": 1
+                        "art": 4
                     },
                     {
                         "politics": 2
                     },
                     {
-                        "science": 4
+                        "science": 2
                     }
                 ]
             },
@@ -31225,7 +31225,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Chad",
-                "iso_a3": "TCD",
+                "ne_id": 1159321301,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 18.645041,
@@ -31234,19 +31234,19 @@
                 "pop_est": 15946876,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 1
                     },
                     {
-                        "tech": 4
+                        "tech": 7
                     },
                     {
-                        "art": 4
+                        "art": 7
                     },
                     {
                         "politics": 1
                     },
                     {
-                        "science": 4
+                        "science": 7
                     }
                 ]
             },
@@ -31494,7 +31494,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Algeria",
-                "iso_a3": "DZA",
+                "ne_id": 1159320565,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 2.808241,
@@ -31503,19 +31503,19 @@
                 "pop_est": 43053054,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 6
                     },
                     {
-                        "tech": 3
+                        "tech": 5
                     },
                     {
-                        "art": 1
+                        "art": 6
                     },
                     {
-                        "politics": 6
+                        "politics": 7
                     },
                     {
-                        "science": 6
+                        "science": 1
                     }
                 ]
             },
@@ -31779,7 +31779,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Mozambique",
-                "iso_a3": "MOZ",
+                "ne_id": 1159321073,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 37.83789,
@@ -31788,16 +31788,16 @@
                 "pop_est": 30366036,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 7
                     },
                     {
-                        "tech": 3
+                        "tech": 4
                     },
                     {
                         "art": 4
                     },
                     {
-                        "politics": 3
+                        "politics": 5
                     },
                     {
                         "science": 3
@@ -32132,7 +32132,7 @@
             "type": "Feature",
             "properties": {
                 "name": "eSwatini",
-                "iso_a3": "SWZ",
+                "ne_id": 1159321289,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 31.467264,
@@ -32141,19 +32141,19 @@
                 "pop_est": 1148130,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 4
                     },
                     {
-                        "tech": 7
+                        "tech": 3
                     },
                     {
-                        "art": 1
+                        "art": 4
                     },
                     {
-                        "politics": 6
+                        "politics": 2
                     },
                     {
-                        "science": 4
+                        "science": 2
                     }
                 ]
             },
@@ -32213,7 +32213,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Burundi",
-                "iso_a3": "BDI",
+                "ne_id": 1159320387,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 29.917086,
@@ -32222,16 +32222,16 @@
                 "pop_est": 11530580,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 4
                     },
                     {
-                        "tech": 2
+                        "tech": 6
                     },
                     {
-                        "art": 7
+                        "art": 5
                     },
                     {
-                        "politics": 7
+                        "politics": 6
                     },
                     {
                         "science": 2
@@ -32302,7 +32302,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Rwanda",
-                "iso_a3": "RWA",
+                "ne_id": 1159321219,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 30.103894,
@@ -32314,7 +32314,7 @@
                         "culture": 7
                     },
                     {
-                        "tech": 2
+                        "tech": 1
                     },
                     {
                         "art": 3
@@ -32323,7 +32323,7 @@
                         "politics": 5
                     },
                     {
-                        "science": 3
+                        "science": 5
                     }
                 ]
             },
@@ -32395,7 +32395,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Uganda",
-                "iso_a3": "UGA",
+                "ne_id": 1159321343,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 32.948555,
@@ -32404,19 +32404,19 @@
                 "pop_est": 44269594,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 7
                     },
                     {
-                        "tech": 7
+                        "tech": 2
                     },
                     {
-                        "art": 4
+                        "art": 2
                     },
                     {
                         "politics": 4
                     },
                     {
-                        "science": 4
+                        "science": 7
                     }
                 ]
             },
@@ -32544,7 +32544,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Lesotho",
-                "iso_a3": "LSO",
+                "ne_id": 1159321027,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 28.246639,
@@ -32556,16 +32556,16 @@
                         "culture": 5
                     },
                     {
-                        "tech": 5
+                        "tech": 6
                     },
                     {
-                        "art": 1
+                        "art": 6
                     },
                     {
-                        "politics": 5
+                        "politics": 1
                     },
                     {
-                        "science": 1
+                        "science": 5
                     }
                 ]
             },
@@ -32629,7 +32629,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Cameroon",
-                "iso_a3": "CMR",
+                "ne_id": 1159320509,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 12.473488,
@@ -32644,13 +32644,13 @@
                         "tech": 6
                     },
                     {
-                        "art": 2
+                        "art": 6
                     },
                     {
-                        "politics": 5
+                        "politics": 7
                     },
                     {
-                        "science": 4
+                        "science": 2
                     }
                 ]
             },
@@ -32910,7 +32910,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Gabon",
-                "iso_a3": "GAB",
+                "ne_id": 1159320693,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 11.835939,
@@ -32919,19 +32919,19 @@
                 "pop_est": 2172579,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 5
                     },
                     {
-                        "tech": 7
+                        "tech": 2
                     },
                     {
-                        "art": 2
+                        "art": 3
                     },
                     {
-                        "politics": 5
+                        "politics": 3
                     },
                     {
-                        "science": 1
+                        "science": 7
                     }
                 ]
             },
@@ -33071,7 +33071,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Niger",
-                "iso_a3": "NER",
+                "ne_id": 1159321087,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 9.504356,
@@ -33080,19 +33080,19 @@
                 "pop_est": 23310715,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 2
                     },
                     {
-                        "tech": 3
+                        "tech": 4
                     },
                     {
-                        "art": 3
+                        "art": 2
                     },
                     {
-                        "politics": 1
+                        "politics": 2
                     },
                     {
-                        "science": 4
+                        "science": 5
                     }
                 ]
             },
@@ -33340,7 +33340,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Burkina Faso",
-                "iso_a3": "BFA",
+                "ne_id": 1159320405,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -1.36388,
@@ -33349,19 +33349,19 @@
                 "pop_est": 20321378,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 3
                     },
                     {
-                        "tech": 7
+                        "tech": 5
                     },
                     {
-                        "art": 3
+                        "art": 4
                     },
                     {
-                        "politics": 7
+                        "politics": 2
                     },
                     {
-                        "science": 1
+                        "science": 3
                     }
                 ]
             },
@@ -33533,7 +33533,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Togo",
-                "iso_a3": "TGO",
+                "ne_id": 1159321303,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 1.058113,
@@ -33542,7 +33542,7 @@
                 "pop_est": 8082366,
                 "pride_index": [
                     {
-                        "culture": 5
+                        "culture": 1
                     },
                     {
                         "tech": 2
@@ -33551,10 +33551,10 @@
                         "art": 1
                     },
                     {
-                        "politics": 1
+                        "politics": 2
                     },
                     {
-                        "science": 2
+                        "science": 5
                     }
                 ]
             },
@@ -33646,7 +33646,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Ghana",
-                "iso_a3": "GHA",
+                "ne_id": 1159320793,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -1.036941,
@@ -33655,19 +33655,19 @@
                 "pop_est": 30417856,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 2
                     },
                     {
-                        "tech": 7
+                        "tech": 2
                     },
                     {
-                        "art": 6
+                        "art": 5
                     },
                     {
                         "politics": 7
                     },
                     {
-                        "science": 3
+                        "science": 5
                     }
                 ]
             },
@@ -33783,7 +33783,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Guinea-Bissau",
-                "iso_a3": "GNB",
+                "ne_id": 1159320799,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -14.52413,
@@ -33795,16 +33795,16 @@
                         "culture": 1
                     },
                     {
-                        "tech": 6
+                        "tech": 4
                     },
                     {
                         "art": 5
                     },
                     {
-                        "politics": 4
+                        "politics": 2
                     },
                     {
-                        "science": 7
+                        "science": 3
                     }
                 ]
             },
@@ -33896,7 +33896,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Egypt",
-                "iso_a3": "EGY",
+                "ne_id": 1159320575,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 29.445837,
@@ -33905,19 +33905,19 @@
                 "pop_est": 100388073,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 7
                     },
                     {
-                        "tech": 5
+                        "tech": 7
                     },
                     {
-                        "art": 3
+                        "art": 4
                     },
                     {
                         "politics": 7
                     },
                     {
-                        "science": 1
+                        "science": 6
                     }
                 ]
             },
@@ -34109,7 +34109,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Mauritania",
-                "iso_a3": "MRT",
+                "ne_id": 1159321075,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -9.740299,
@@ -34118,19 +34118,19 @@
                 "pop_est": 4525696,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 5
                     },
                     {
-                        "tech": 7
+                        "tech": 6
                     },
                     {
-                        "art": 2
+                        "art": 4
                     },
                     {
-                        "politics": 5
+                        "politics": 1
                     },
                     {
-                        "science": 3
+                        "science": 5
                     }
                 ]
             },
@@ -34302,7 +34302,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Eq. Guinea",
-                "iso_a3": "GNQ",
+                "ne_id": 1159320801,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 8.9902,
@@ -34311,19 +34311,19 @@
                 "pop_est": 1355986,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 2
                     },
                     {
-                        "tech": 5
+                        "tech": 4
                     },
                     {
-                        "art": 2
+                        "art": 5
                     },
                     {
-                        "politics": 7
+                        "politics": 3
                     },
                     {
-                        "science": 4
+                        "science": 1
                     }
                 ]
             },
@@ -34367,7 +34367,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Gambia",
-                "iso_a3": "GMB",
+                "ne_id": 1159320797,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": -14.998318,
@@ -34376,19 +34376,19 @@
                 "pop_est": 2347706,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 4
                     },
                     {
                         "tech": 5
                     },
                     {
-                        "art": 4
+                        "art": 3
                     },
                     {
-                        "politics": 1
+                        "politics": 7
                     },
                     {
-                        "science": 3
+                        "science": 7
                     }
                 ]
             },
@@ -34468,7 +34468,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Madagascar",
-                "iso_a3": "MDG",
+                "ne_id": 1159321051,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 46.704241,
@@ -34477,19 +34477,19 @@
                 "pop_est": 26969307,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 1
                     },
                     {
-                        "tech": 4
+                        "tech": 3
                     },
                     {
-                        "art": 5
+                        "art": 2
                     },
                     {
-                        "politics": 6
+                        "politics": 7
                     },
                     {
-                        "science": 7
+                        "science": 5
                     }
                 ]
             },
@@ -34701,7 +34701,7 @@
             "type": "Feature",
             "properties": {
                 "name": "France",
-                "iso_a3": "-99",
+                "ne_id": 1159320637,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 2.552275,
@@ -34710,16 +34710,16 @@
                 "pop_est": 67059887,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 5
                     },
                     {
-                        "tech": 7
+                        "tech": 2
                     },
                     {
-                        "art": 7
+                        "art": 5
                     },
                     {
-                        "politics": 7
+                        "politics": 4
                     },
                     {
                         "science": 2
@@ -35044,7 +35044,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Ukraine",
-                "iso_a3": "UKR",
+                "ne_id": 1159321345,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 32.140865,
@@ -35056,16 +35056,16 @@
                         "culture": 6
                     },
                     {
-                        "tech": 5
+                        "tech": 2
                     },
                     {
-                        "art": 1
+                        "art": 2
                     },
                     {
                         "politics": 4
                     },
                     {
-                        "science": 1
+                        "science": 5
                     }
                 ]
             },
@@ -35453,7 +35453,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Belarus",
-                "iso_a3": "BLR",
+                "ne_id": 1159320427,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 28.417701,
@@ -35462,19 +35462,19 @@
                 "pop_est": 9466856,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 1
                     },
                     {
                         "tech": 1
                     },
                     {
-                        "art": 7
+                        "art": 3
                     },
                     {
-                        "politics": 7
+                        "politics": 4
                     },
                     {
-                        "science": 7
+                        "science": 5
                     }
                 ]
             },
@@ -35670,7 +35670,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Lithuania",
-                "iso_a3": "LTU",
+                "ne_id": 1159321029,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 24.089932,
@@ -35679,19 +35679,19 @@
                 "pop_est": 2786844,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 5
                     },
                     {
-                        "tech": 7
+                        "tech": 1
                     },
                     {
                         "art": 6
                     },
                     {
-                        "politics": 5
+                        "politics": 2
                     },
                     {
-                        "science": 7
+                        "science": 1
                     }
                 ]
             },
@@ -35783,7 +35783,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Russia",
-                "iso_a3": "RUS",
+                "ne_id": 1159321201,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 44.686469,
@@ -35792,10 +35792,10 @@
                 "pop_est": 144373535,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 4
                     },
                     {
-                        "tech": 1
+                        "tech": 2
                     },
                     {
                         "art": 3
@@ -35804,7 +35804,7 @@
                         "politics": 4
                     },
                     {
-                        "science": 5
+                        "science": 6
                     }
                 ]
             },
@@ -38374,7 +38374,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Czechia",
-                "iso_a3": "CZE",
+                "ne_id": 1159320535,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 15.377555,
@@ -38383,19 +38383,19 @@
                 "pop_est": 10669709,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 3
                     },
                     {
                         "tech": 7
                     },
                     {
-                        "art": 2
+                        "art": 4
                     },
                     {
-                        "politics": 3
+                        "politics": 5
                     },
                     {
-                        "science": 7
+                        "science": 6
                     }
                 ]
             },
@@ -38551,7 +38551,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Germany",
-                "iso_a3": "DEU",
+                "ne_id": 1159320539,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 9.678348,
@@ -38566,13 +38566,13 @@
                         "tech": 5
                     },
                     {
-                        "art": 3
+                        "art": 4
                     },
                     {
-                        "politics": 4
+                        "politics": 2
                     },
                     {
-                        "science": 1
+                        "science": 7
                     }
                 ]
             },
@@ -38820,7 +38820,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Estonia",
-                "iso_a3": "EST",
+                "ne_id": 1159320615,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 25.867126,
@@ -38829,19 +38829,19 @@
                 "pop_est": 1326590,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 4
                     },
                     {
-                        "tech": 2
+                        "tech": 3
                     },
                     {
-                        "art": 7
+                        "art": 4
                     },
                     {
-                        "politics": 2
+                        "politics": 3
                     },
                     {
-                        "science": 3
+                        "science": 2
                     }
                 ]
             },
@@ -38933,7 +38933,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Latvia",
-                "iso_a3": "LVA",
+                "ne_id": 1159321033,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 25.458723,
@@ -38942,19 +38942,19 @@
                 "pop_est": 1912789,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 2
                     },
                     {
-                        "tech": 6
+                        "tech": 4
                     },
                     {
-                        "art": 4
+                        "art": 1
                     },
                     {
-                        "politics": 1
+                        "politics": 5
                     },
                     {
-                        "science": 3
+                        "science": 1
                     }
                 ]
             },
@@ -39058,7 +39058,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Norway",
-                "iso_a3": "-99",
+                "ne_id": 1159321109,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 9.679975,
@@ -39067,19 +39067,19 @@
                 "pop_est": 5347896,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 6
                     },
                     {
-                        "tech": 2
+                        "tech": 4
                     },
                     {
-                        "art": 4
+                        "art": 1
                     },
                     {
-                        "politics": 2
+                        "politics": 7
                     },
                     {
-                        "science": 1
+                        "science": 5
                     }
                 ]
             },
@@ -39461,7 +39461,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Sweden",
-                "iso_a3": "SWE",
+                "ne_id": 1159321287,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 19.01705,
@@ -39470,16 +39470,16 @@
                 "pop_est": 10285453,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 5
                     },
                     {
-                        "tech": 6
+                        "tech": 7
                     },
                     {
-                        "art": 6
+                        "art": 4
                     },
                     {
-                        "politics": 1
+                        "politics": 2
                     },
                     {
                         "science": 1
@@ -39658,7 +39658,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Finland",
-                "iso_a3": "FIN",
+                "ne_id": 1159320623,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 27.276449,
@@ -39667,19 +39667,19 @@
                 "pop_est": 5520314,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 7
                     },
                     {
                         "tech": 3
                     },
                     {
-                        "art": 5
+                        "art": 4
                     },
                     {
-                        "politics": 2
+                        "politics": 3
                     },
                     {
-                        "science": 1
+                        "science": 4
                     }
                 ]
             },
@@ -39855,7 +39855,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Luxembourg",
-                "iso_a3": "LUX",
+                "ne_id": 1159321031,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 6.07762,
@@ -39864,16 +39864,16 @@
                 "pop_est": 619896,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 4
                     },
                     {
-                        "tech": 7
+                        "tech": 2
                     },
                     {
-                        "art": 5
+                        "art": 6
                     },
                     {
-                        "politics": 5
+                        "politics": 2
                     },
                     {
                         "science": 5
@@ -39920,7 +39920,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Belgium",
-                "iso_a3": "BEL",
+                "ne_id": 1159320389,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 4.800448,
@@ -39929,19 +39929,19 @@
                 "pop_est": 11484055,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 6
                     },
                     {
-                        "tech": 7
+                        "tech": 2
                     },
                     {
                         "art": 4
                     },
                     {
-                        "politics": 1
+                        "politics": 4
                     },
                     {
-                        "science": 5
+                        "science": 2
                     }
                 ]
             },
@@ -40025,7 +40025,7 @@
             "type": "Feature",
             "properties": {
                 "name": "North Macedonia",
-                "iso_a3": "MKD",
+                "ne_id": 1159321061,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 21.555839,
@@ -40037,16 +40037,16 @@
                         "culture": 3
                     },
                     {
-                        "tech": 7
+                        "tech": 2
                     },
                     {
-                        "art": 3
+                        "art": 7
                     },
                     {
                         "politics": 3
                     },
                     {
-                        "science": 6
+                        "science": 2
                     }
                 ]
             },
@@ -40134,7 +40134,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Albania",
-                "iso_a3": "ALB",
+                "ne_id": 1159320325,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 20.11384,
@@ -40143,19 +40143,19 @@
                 "pop_est": 2854191,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 5
                     },
                     {
-                        "tech": 7
+                        "tech": 5
                     },
                     {
-                        "art": 1
+                        "art": 5
                     },
                     {
-                        "politics": 7
+                        "politics": 5
                     },
                     {
-                        "science": 3
+                        "science": 6
                     }
                 ]
             },
@@ -40267,7 +40267,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Kosovo",
-                "iso_a3": "-99",
+                "ne_id": 1159321007,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 20.860719,
@@ -40276,19 +40276,19 @@
                 "pop_est": 1794248,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 6
                     },
                     {
-                        "tech": 5
+                        "tech": 7
                     },
                     {
                         "art": 6
                     },
                     {
-                        "politics": 5
+                        "politics": 6
                     },
                     {
-                        "science": 7
+                        "science": 5
                     }
                 ]
             },
@@ -40388,7 +40388,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Spain",
-                "iso_a3": "ESP",
+                "ne_id": 1159320587,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": -3.464718,
@@ -40397,19 +40397,19 @@
                 "pop_est": 47076781,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 7
                     },
                     {
-                        "tech": 3
+                        "tech": 7
                     },
                     {
-                        "art": 2
+                        "art": 1
                     },
                     {
-                        "politics": 2
+                        "politics": 7
                     },
                     {
-                        "science": 5
+                        "science": 7
                     }
                 ]
             },
@@ -40629,7 +40629,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Denmark",
-                "iso_a3": "DNK",
+                "ne_id": 1159320547,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 9.018163,
@@ -40638,19 +40638,19 @@
                 "pop_est": 5818553,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 3
                     },
                     {
-                        "tech": 5
+                        "tech": 6
                     },
                     {
-                        "art": 6
+                        "art": 2
                     },
                     {
-                        "politics": 5
+                        "politics": 3
                     },
                     {
-                        "science": 3
+                        "science": 2
                     }
                 ]
             },
@@ -40768,7 +40768,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Romania",
-                "iso_a3": "ROU",
+                "ne_id": 1159321199,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 24.972624,
@@ -40777,19 +40777,19 @@
                 "pop_est": 19356544,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 1
                     },
                     {
-                        "tech": 7
+                        "tech": 6
                     },
                     {
                         "art": 2
                     },
                     {
-                        "politics": 1
+                        "politics": 6
                     },
                     {
-                        "science": 1
+                        "science": 2
                     }
                 ]
             },
@@ -40981,7 +40981,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Hungary",
-                "iso_a3": "HUN",
+                "ne_id": 1159320841,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 19.447867,
@@ -40990,16 +40990,16 @@
                 "pop_est": 9769949,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 4
                     },
                     {
-                        "tech": 4
+                        "tech": 5
                     },
                     {
-                        "art": 4
+                        "art": 6
                     },
                     {
-                        "politics": 1
+                        "politics": 6
                     },
                     {
                         "science": 6
@@ -41146,7 +41146,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Slovakia",
-                "iso_a3": "SVK",
+                "ne_id": 1159321283,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 19.049868,
@@ -41155,19 +41155,19 @@
                 "pop_est": 5454073,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 1
                     },
                     {
-                        "tech": 4
+                        "tech": 6
                     },
                     {
-                        "art": 5
+                        "art": 2
                     },
                     {
-                        "politics": 1
+                        "politics": 6
                     },
                     {
-                        "science": 1
+                        "science": 7
                     }
                 ]
             },
@@ -41315,7 +41315,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Poland",
-                "iso_a3": "POL",
+                "ne_id": 1159321179,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 19.490468,
@@ -41324,19 +41324,19 @@
                 "pop_est": 37970874,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 3
                     },
                     {
-                        "tech": 7
+                        "tech": 1
                     },
                     {
-                        "art": 7
+                        "art": 3
                     },
                     {
-                        "politics": 7
+                        "politics": 2
                     },
                     {
-                        "science": 6
+                        "science": 7
                     }
                 ]
             },
@@ -41532,7 +41532,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Ireland",
-                "iso_a3": "IRL",
+                "ne_id": 1159320877,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": -7.798588,
@@ -41541,19 +41541,19 @@
                 "pop_est": 4941444,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 7
                     },
                     {
-                        "tech": 5
+                        "tech": 7
                     },
                     {
-                        "art": 4
+                        "art": 6
                     },
                     {
-                        "politics": 4
+                        "politics": 2
                     },
                     {
-                        "science": 6
+                        "science": 1
                     }
                 ]
             },
@@ -41621,7 +41621,7 @@
             "type": "Feature",
             "properties": {
                 "name": "United Kingdom",
-                "iso_a3": "GBR",
+                "ne_id": 1159320713,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": -2.116346,
@@ -41630,19 +41630,19 @@
                 "pop_est": 66834405,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 4
                     },
                     {
-                        "tech": 5
+                        "tech": 7
                     },
                     {
-                        "art": 4
+                        "art": 7
                     },
                     {
                         "politics": 4
                     },
                     {
-                        "science": 7
+                        "science": 3
                     }
                 ]
             },
@@ -41888,7 +41888,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Greece",
-                "iso_a3": "GRC",
+                "ne_id": 1159320811,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 21.72568,
@@ -41897,16 +41897,16 @@
                 "pop_est": 10716322,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 6
                     },
                     {
-                        "tech": 4
+                        "tech": 2
                     },
                     {
-                        "art": 1
+                        "art": 7
                     },
                     {
-                        "politics": 1
+                        "politics": 6
                     },
                     {
                         "science": 2
@@ -42147,7 +42147,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Austria",
-                "iso_a3": "AUT",
+                "ne_id": 1159320379,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 14.130515,
@@ -42159,13 +42159,13 @@
                         "culture": 2
                     },
                     {
-                        "tech": 4
+                        "tech": 6
                     },
                     {
                         "art": 4
                     },
                     {
-                        "politics": 1
+                        "politics": 3
                     },
                     {
                         "science": 7
@@ -42332,7 +42332,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Italy",
-                "iso_a3": "ITA",
+                "ne_id": 1159320919,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 11.076907,
@@ -42344,16 +42344,16 @@
                         "culture": 6
                     },
                     {
-                        "tech": 6
+                        "tech": 5
                     },
                     {
-                        "art": 3
+                        "art": 1
                     },
                     {
                         "politics": 1
                     },
                     {
-                        "science": 3
+                        "science": 5
                     }
                 ]
             },
@@ -42727,7 +42727,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Switzerland",
-                "iso_a3": "CHE",
+                "ne_id": 1159320491,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 7.463965,
@@ -42736,19 +42736,19 @@
                 "pop_est": 8574832,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 3
                     },
                     {
-                        "tech": 1
+                        "tech": 5
                     },
                     {
-                        "art": 2
+                        "art": 5
                     },
                     {
-                        "politics": 5
+                        "politics": 2
                     },
                     {
-                        "science": 7
+                        "science": 5
                     }
                 ]
             },
@@ -42860,7 +42860,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Netherlands",
-                "iso_a3": "NLD",
+                "ne_id": 1159321101,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 5.61144,
@@ -42869,19 +42869,19 @@
                 "pop_est": 17332850,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 7
                     },
                     {
-                        "tech": 5
+                        "tech": 6
                     },
                     {
-                        "art": 5
+                        "art": 1
                     },
                     {
-                        "politics": 5
+                        "politics": 7
                     },
                     {
-                        "science": 2
+                        "science": 1
                     }
                 ]
             },
@@ -42957,7 +42957,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Serbia",
-                "iso_a3": "SRB",
+                "ne_id": 1159321267,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 20.787989,
@@ -42966,19 +42966,19 @@
                 "pop_est": 6944975,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 4
                     },
                     {
-                        "tech": 7
+                        "tech": 4
                     },
                     {
-                        "art": 6
+                        "art": 2
                     },
                     {
-                        "politics": 3
+                        "politics": 4
                     },
                     {
-                        "science": 5
+                        "science": 7
                     }
                 ]
             },
@@ -43186,7 +43186,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Croatia",
-                "iso_a3": "HRV",
+                "ne_id": 1159320833,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 16.37241,
@@ -43195,19 +43195,19 @@
                 "pop_est": 4067500,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 7
                     },
                     {
                         "tech": 7
                     },
                     {
-                        "art": 6
+                        "art": 7
                     },
                     {
-                        "politics": 5
+                        "politics": 2
                     },
                     {
-                        "science": 2
+                        "science": 6
                     }
                 ]
             },
@@ -43395,7 +43395,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Slovenia",
-                "iso_a3": "SVN",
+                "ne_id": 1159321285,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 14.915312,
@@ -43404,19 +43404,19 @@
                 "pop_est": 2087946,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 4
                     },
                     {
-                        "tech": 6
+                        "tech": 5
                     },
                     {
-                        "art": 6
+                        "art": 3
                     },
                     {
-                        "politics": 2
+                        "politics": 4
                     },
                     {
-                        "science": 3
+                        "science": 7
                     }
                 ]
             },
@@ -43504,7 +43504,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Bulgaria",
-                "iso_a3": "BGR",
+                "ne_id": 1159320409,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 25.15709,
@@ -43516,16 +43516,16 @@
                         "culture": 6
                     },
                     {
-                        "tech": 4
+                        "tech": 5
                     },
                     {
-                        "art": 7
+                        "art": 2
                     },
                     {
-                        "politics": 4
+                        "politics": 7
                     },
                     {
-                        "science": 3
+                        "science": 6
                     }
                 ]
             },
@@ -43653,7 +43653,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Montenegro",
-                "iso_a3": "MNE",
+                "ne_id": 1159321069,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 19.143727,
@@ -43662,19 +43662,19 @@
                 "pop_est": 622137,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 3
                     },
                     {
-                        "tech": 4
+                        "tech": 3
                     },
                     {
-                        "art": 5
+                        "art": 7
                     },
                     {
-                        "politics": 4
+                        "politics": 6
                     },
                     {
-                        "science": 6
+                        "science": 1
                     }
                 ]
             },
@@ -43762,7 +43762,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Bosnia and Herz.",
-                "iso_a3": "BIH",
+                "ne_id": 1159320417,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 18.06841,
@@ -43771,19 +43771,19 @@
                 "pop_est": 3301000,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 5
                     },
                     {
-                        "tech": 4
+                        "tech": 7
                     },
                     {
-                        "art": 4
+                        "art": 1
                     },
                     {
-                        "politics": 5
+                        "politics": 1
                     },
                     {
-                        "science": 1
+                        "science": 4
                     }
                 ]
             },
@@ -43891,7 +43891,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Portugal",
-                "iso_a3": "PRT",
+                "ne_id": 1159321187,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": -8.271754,
@@ -43903,13 +43903,13 @@
                         "culture": 1
                     },
                     {
-                        "tech": 2
+                        "tech": 6
                     },
                     {
-                        "art": 7
+                        "art": 4
                     },
                     {
-                        "politics": 6
+                        "politics": 1
                     },
                     {
                         "science": 4
@@ -44060,7 +44060,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Moldova",
-                "iso_a3": "MDA",
+                "ne_id": 1159321045,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": 28.487904,
@@ -44069,19 +44069,19 @@
                 "pop_est": 2657637,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 7
                     },
                     {
-                        "tech": 2
+                        "tech": 4
                     },
                     {
-                        "art": 2
+                        "art": 6
                     },
                     {
-                        "politics": 2
+                        "politics": 1
                     },
                     {
-                        "science": 7
+                        "science": 1
                     }
                 ]
             },
@@ -44205,7 +44205,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Iceland",
-                "iso_a3": "ISL",
+                "ne_id": 1159320917,
                 "continent": "Europe",
                 "region_un": "Europe",
                 "label_x": -18.673711,
@@ -44214,16 +44214,16 @@
                 "pop_est": 361313,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 5
                     },
                     {
                         "tech": 7
                     },
                     {
-                        "art": 2
+                        "art": 5
                     },
                     {
-                        "politics": 6
+                        "politics": 3
                     },
                     {
                         "science": 1
@@ -44322,7 +44322,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Papua New Guinea",
-                "iso_a3": "PNG",
+                "ne_id": 1159321173,
                 "continent": "Oceania",
                 "region_un": "Oceania",
                 "label_x": 143.910216,
@@ -44331,19 +44331,19 @@
                 "pop_est": 8776109,
                 "pride_index": [
                     {
-                        "culture": 4
+                        "culture": 7
                     },
                     {
                         "tech": 3
                     },
                     {
-                        "art": 2
+                        "art": 7
                     },
                     {
-                        "politics": 7
+                        "politics": 1
                     },
                     {
-                        "science": 7
+                        "science": 4
                     }
                 ]
             },
@@ -44697,7 +44697,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Australia",
-                "iso_a3": "AUS",
+                "ne_id": 1159320355,
                 "continent": "Oceania",
                 "region_un": "Oceania",
                 "label_x": 134.04972,
@@ -44706,19 +44706,19 @@
                 "pop_est": 25364307,
                 "pride_index": [
                     {
-                        "culture": 7
+                        "culture": 2
                     },
                     {
-                        "tech": 5
+                        "tech": 3
                     },
                     {
-                        "art": 4
+                        "art": 2
                     },
                     {
-                        "politics": 7
+                        "politics": 1
                     },
                     {
-                        "science": 5
+                        "science": 6
                     }
                 ]
             },
@@ -45704,7 +45704,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Fiji",
-                "iso_a3": "FJI",
+                "ne_id": 1159320625,
                 "continent": "Oceania",
                 "region_un": "Oceania",
                 "label_x": 177.975427,
@@ -45713,19 +45713,19 @@
                 "pop_est": 889953,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 7
                     },
                     {
-                        "tech": 4
+                        "tech": 2
                     },
                     {
-                        "art": 4
+                        "art": 3
                     },
                     {
-                        "politics": 2
+                        "politics": 6
                     },
                     {
-                        "science": 5
+                        "science": 6
                     }
                 ]
             },
@@ -45839,7 +45839,7 @@
             "type": "Feature",
             "properties": {
                 "name": "New Zealand",
-                "iso_a3": "NZL",
+                "ne_id": 1159321135,
                 "continent": "Oceania",
                 "region_un": "Oceania",
                 "label_x": 172.787,
@@ -45848,19 +45848,19 @@
                 "pop_est": 4917000,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 4
                     },
                     {
-                        "tech": 2
+                        "tech": 3
                     },
                     {
-                        "art": 3
+                        "art": 2
                     },
                     {
-                        "politics": 7
+                        "politics": 2
                     },
                     {
-                        "science": 7
+                        "science": 2
                     }
                 ]
             },
@@ -46146,7 +46146,7 @@
             "type": "Feature",
             "properties": {
                 "name": "New Caledonia",
-                "iso_a3": "NCL",
+                "ne_id": 1159320641,
                 "continent": "Oceania",
                 "region_un": "Oceania",
                 "label_x": 165.084004,
@@ -46155,19 +46155,19 @@
                 "pop_est": 287800,
                 "pride_index": [
                     {
-                        "culture": 2
+                        "culture": 5
                     },
                     {
-                        "tech": 4
+                        "tech": 7
                     },
                     {
-                        "art": 1
+                        "art": 2
                     },
                     {
                         "politics": 1
                     },
                     {
-                        "science": 2
+                        "science": 1
                     }
                 ]
             },
@@ -46235,7 +46235,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Solomon Is.",
-                "iso_a3": "SLB",
+                "ne_id": 1159321249,
                 "continent": "Oceania",
                 "region_un": "Oceania",
                 "label_x": 159.170468,
@@ -46244,19 +46244,19 @@
                 "pop_est": 669823,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 5
                     },
                     {
-                        "tech": 1
+                        "tech": 6
                     },
                     {
                         "art": 5
                     },
                     {
-                        "politics": 7
+                        "politics": 1
                     },
                     {
-                        "science": 5
+                        "science": 4
                     }
                 ]
             },
@@ -46438,7 +46438,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Vanuatu",
-                "iso_a3": "VUT",
+                "ne_id": 1159321421,
                 "continent": "Oceania",
                 "region_un": "Oceania",
                 "label_x": 166.908762,
@@ -46447,19 +46447,19 @@
                 "pop_est": 299882,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 1
                     },
                     {
-                        "tech": 1
+                        "tech": 4
                     },
                     {
-                        "art": 1
+                        "art": 7
                     },
                     {
                         "politics": 2
                     },
                     {
-                        "science": 5
+                        "science": 4
                     }
                 ]
             },
@@ -46529,7 +46529,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Antarctica",
-                "iso_a3": "ATA",
+                "ne_id": 1159320335,
                 "continent": "Antarctica",
                 "region_un": "Antarctica",
                 "label_x": 35.885455,
@@ -46538,16 +46538,16 @@
                 "pop_est": 4490,
                 "pride_index": [
                     {
-                        "culture": 6
+                        "culture": 2
                     },
                     {
-                        "tech": 2
+                        "tech": 7
                     },
                     {
-                        "art": 4
+                        "art": 7
                     },
                     {
-                        "politics": 2
+                        "politics": 1
                     },
                     {
                         "science": 6
@@ -49240,7 +49240,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Fr. S. Antarctic Lands",
-                "iso_a3": "ATF",
+                "ne_id": 1159320631,
                 "continent": "Seven seas (open ocean)",
                 "region_un": "Africa",
                 "label_x": 69.122136,
@@ -49249,19 +49249,19 @@
                 "pop_est": 140,
                 "pride_index": [
                     {
-                        "culture": 1
+                        "culture": 6
                     },
                     {
-                        "tech": 1
+                        "tech": 6
                     },
                     {
-                        "art": 7
+                        "art": 5
                     },
                     {
-                        "politics": 7
+                        "politics": 1
                     },
                     {
-                        "science": 6
+                        "science": 5
                     }
                 ]
             },
@@ -49313,7 +49313,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Sudan",
-                "iso_a3": "SDN",
+                "ne_id": 1159321229,
                 "continent": "Africa",
                 "region_un": "Africa",
                 "label_x": 29.260657,
@@ -49322,19 +49322,19 @@
                 "pop_est": 42813238,
                 "pride_index": [
                     {
-                        "culture": 3
+                        "culture": 5
                     },
                     {
-                        "tech": 1
+                        "tech": 7
                     },
                     {
-                        "art": 3
+                        "art": 4
                     },
                     {
-                        "politics": 3
+                        "politics": 7
                     },
                     {
-                        "science": 6
+                        "science": 4
                     }
                 ]
             },
