@@ -42,6 +42,8 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
       maxZoom: 5,
       dragRotate: false,
       pitchWithRotate: false,
+      projection: "mercator", // Flat projection,
+      renderWorldCopies: false
     });
 
     mapRef.current = map;
