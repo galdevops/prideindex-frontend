@@ -157,7 +157,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
 
   return (
     <div className="relative w-full h-screen">
-      <div ref={mapContainer} className="w-full h-full" />
+      <div ref={mapContainer} className="relative w-full h-screen md:h-full" />
       {/* Radial gradient overlay */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-radial from-transparent via-transparent to-black/60" />
 

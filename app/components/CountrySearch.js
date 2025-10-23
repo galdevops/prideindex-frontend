@@ -53,7 +53,7 @@ const CountrySearch = ({ countries, onSelectCountry }) => {
             {suggestions.map((country) => (
               <li
                 key={country.properties.ne_id}
-                className="p-2 hover:bg-cyan-100 cursor-pointer"
+                className="p-2 hover:bg-cyan-100 cursor-pointer text-gray-800"
                 onClick={() => handleSelect(country)}
               >
                 {country.properties.name}
