@@ -16,7 +16,19 @@ export default function Home() {
           const countryProps = country.properties;
           const lat = parseFloat(countryProps.label_y);
           const lng = parseFloat(countryProps.label_x);
-          worldMapRef.current.flyTo([lng, lat]);
+          const panel = document.getElementById("country-info-panel");
+        let offsetY = 0;
+        if (panel) {
+          // Get panel height and move half of it upward
+          offsetY = panel.offsetHeight / 2;
+        }
+          worldMapRef.current.flyTo({
+          center: [lng, lat],
+          zoom: 4,
+          essential: true,
+          speed: 0.8,
+          offset: [0, -offsetY]
+        });
 
           setSelectedCountry({
             name: countryProps.name,
