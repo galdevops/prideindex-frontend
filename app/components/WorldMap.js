@@ -188,25 +188,25 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         map.setFilter("country-selected", ["==", "ne_id", iso]);
 
         // Fly to clicked country
-        
-        
         const lat = parseFloat(countryProps.label_y);
         const lng = parseFloat(countryProps.label_x);
-        const panel = document.getElementById("country-info-panel");
-        let offsetY = 0;
-        if (panel) {
-          // Get panel height and move half of it upward
-          offsetY = panel.offsetHeight / 2;
-        }
-        map.flyTo({
-          center: [lng, lat],
-          zoom: 4,
-          essential: true,
-          speed: 0.8,
-          offset: [0, -offsetY]
-        });
+        setTimeout(() => {
+          const panel = document.getElementById("country-info-panel");
+          const offsetY = panel ? panel.offsetHeight / 2 : 0;
+
+          map.flyTo({
+            center: [lng, lat],
+            zoom: 4,
+            essential: true,
+            speed: 0.8,
+            offset: [0, -offsetY],
+          });
+        }, 150);
+
+        
       });
 
+      
       // Fetch detailed country data asynchronously in the background
       (async () => {
         try {

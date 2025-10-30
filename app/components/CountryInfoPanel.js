@@ -6,10 +6,9 @@ const CountryInfoPanel = ({ country, onClose, onAspectSelect }) => {
 
   return (
     <div
-  id="country-info-panel"
-  className="fixed bottom-0 left-0 right-0 md:absolute md:top-0 md:right-0 md:w-80 bg-gray-900 bg-opacity-95 text-white p-6 shadow-2xl rounded-t-2xl md:rounded-none z-40 max-h-[80vh] overflow-y-auto"
->
-
+      id="country-info-panel"
+      className="fixed bottom-0 left-0 right-0 md:absolute md:top-0 md:right-0 md:w-80 bg-gray-900 bg-opacity-95 text-white p-6 shadow-2xl rounded-t-2xl md:rounded-none z-40 max-h-[80vh] overflow-y-auto"
+    >
       {/* Close button */}
       <button
         onClick={onClose}
@@ -40,7 +39,6 @@ const CountryInfoPanel = ({ country, onClose, onAspectSelect }) => {
                 <li
                   key={idx}
                   className="flex justify-between items-center border-b border-gray-700 pb-2 cursor-pointer hover:text-cyan-400 transition-colors"
-                  
                   onClick={() => onAspectSelect(aspect)}
                 >
                   <span className="capitalize">{aspect}</span>
