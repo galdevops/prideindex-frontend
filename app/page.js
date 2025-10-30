@@ -1,6 +1,5 @@
 "use client";
 import { useRef, useState } from "react";
-import CountrySearch from "./components/CountrySearch";
 import WorldMap from "./components/WorldMap";
 import countriesData from "./data/countries.json";
 import Topbar from "./components/Topbar";

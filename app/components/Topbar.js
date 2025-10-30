@@ -51,7 +51,7 @@ const Topbar = ({ onSelectCountry }) => {
 
       {/* Mobile Search Overlay */}
       {mobileSearchOpen && (
-        <div className="fixed top-16 left-0 w-full px-4 z-40 md:hidden bg-white shadow-md">
+        <div className="fixed top-16 left-0 w-full px-4 z-50 md:hidden bg-white shadow-md max-h-[calc(100vh-4rem)] overflow-y-auto">
           <CountrySearch
             countries={countriesData.features}
             onSelectCountry={(country) => {
