@@ -55,50 +55,26 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
       return individuals
     };
 
-  
-    useImperativeHandle(ref, () => ({
-  flyTo: (coords) => {
-    if (!mapRef.current) return;
+  useImperativeHandle(ref, () => ({
+    flyTo: (coords) => {
+      if (mapRef.current) {
+        mapRef.current.flyTo({ center: coords, zoom: 3 });
+      }
+    },
+    selectCountry: (countryProps) => {
+      if (!mapRef.current) return;
 
-    const map = mapRef.current;
+      const map = mapRef.current;
 
-    // Get CountryInfoPanel height in pixels
-    const panel = document.getElementById("country-info-panel");
-    const panelHeight = panel ? panel.offsetHeight : 0;
+      // Highlight country
+      map.setFilter("country-selected", ["==", "ne_id", countryProps.ne_id]);
 
-    // Project coordinates to screen point
-    const point = map.project(coords);
-
-    // Shift point upwards by half of panel height (so country is visible above panel)
-    point.y -= panelHeight / 2;
-
-    // Convert back to geographic coordinates
-    const newCoords = map.unproject(point);
-
-    map.flyTo({ center: newCoords, zoom: 4, essential: true, speed: 0.8 });
-  },
-
-  selectCountry: (countryProps) => {
-    if (!mapRef.current) return;
-
-    const map = mapRef.current;
-
-    map.setFilter("country-selected", ["==", "ne_id", countryProps.ne_id]);
-
-    const lat = parseFloat(countryProps.label_y);
-    const lng = parseFloat(countryProps.label_x);
-
-    // Use the same panel-aware flyTo logic
-    const point = map.project([lng, lat]);
-    const panel = document.getElementById("country-info-panel");
-    const panelHeight = panel ? panel.offsetHeight : 0;
-    point.y -= panelHeight / 2;
-    const newCoords = map.unproject(point);
-
-    map.flyTo({ center: newCoords, zoom: 4, essential: true, speed: 0.8 });
-  },
-}));
-
+      // Fly to country
+      const lat = parseFloat(countryProps.label_y);
+      const lng = parseFloat(countryProps.label_x);
+      map.flyTo({ center: [lng, lat], zoom: 4, essential: true, speed: 0.8 });
+    },
+  }));
 
   useEffect(() => {
     const map = new mapboxgl.Map({
@@ -206,32 +182,26 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
           region_un: countryProps.region_un,
           pride_index: prideIndex,
         });
-        
-        const map = mapRef.current;
 
         // In click handler, after onSelectCountry
         const iso = countryProps.ne_id;
         map.setFilter("country-selected", ["==", "ne_id", iso]);
 
         // Fly to clicked country
-        const lat = parseFloat(countryProps.label_y);
-        const lng = parseFloat(countryProps.label_x);
-
+        // Fly to clicked country
         const panel = document.getElementById("country-info-panel");
-        const panelHeight = panel ? panel.offsetHeight : 0;
-
-        // Project to screen point and shift up
-        const point = map.project([lng, lat]);
-        point.y -= panelHeight / 2;
-        const newCoords = map.unproject(point);
-
+        let offsetY = 0;
+        if (panel) {
+          // Get panel height and move half of it upward
+          offsetY = panel.offsetHeight / 2;
+        }
         map.flyTo({
-          center: newCoords,
+          center: [lng, lat + latOffset],
           zoom: 4,
           essential: true,
           speed: 0.8,
+          offset: [0, -offsetY]
         });
-
       });
 
       // Fetch detailed country data asynchronously in the background
