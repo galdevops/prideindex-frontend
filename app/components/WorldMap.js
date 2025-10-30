@@ -9,6 +9,8 @@ import React, {
 import mapboxgl from "mapbox-gl";
 import CountryInfoPanel from "./CountryInfoPanel";
 import AspectModal from "./AspectModal";
+import IndividualModal from "./IndividualModal";
+
 import countryData from "../data/example.json";
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
@@ -22,9 +24,10 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
   const [selectedAspect, setSelectedAspect] = useState(null);
   const [showAspectModal, setShowAspectModal] = useState(false);
   const [countryDetails, setCountryDetails] = useState(null);
+  const [selectedIndividual, setSelectedIndividual] = useState(null);
+  const [showIndividualModal, setShowIndividualModal] = useState(false);
 
   const handleSelectAspect = (aspectName) => {
-    console.log("Aspect selected:", aspectName);
     setSelectedAspect(aspectName);
     setShowAspectModal(true);
   };
@@ -33,6 +36,24 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
     setShowAspectModal(false);
     setSelectedAspect(null);
   };
+
+  // When an individual is selected from AspectModal
+  const handleSelectIndividual = (person) => {
+    setSelectedIndividual(person);
+    setShowIndividualModal(true);
+  };
+
+  // When closing individual modal
+  const handleCloseIndividualModal = () => {
+    setShowIndividualModal(false);
+    setSelectedIndividual(null);
+  };
+
+  const getIndividualsForAspect = (country, aspectName) => {
+      const aspects = country.aspects
+      const individuals = aspects[aspectName] || []
+      return individuals
+    };
 
   useImperativeHandle(ref, () => ({
     flyTo: (coords) => {
@@ -200,19 +221,6 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
     return () => map.remove();
   }, []);
 
-  
-
-    const getIndividualsForAspect = (country, aspectName) => {
-      const aspects = country.aspects
-      const individuals = aspects[aspectName] || []
-      return individuals
-    };
-
-    const handleSelectIndividual = (person) => {
-        console.log("Individual clicked:", person.name);
-        // TODO: open individual modal
-      };
-
   return (
     <div className="relative w-full h-screen z-40 overflow-hidden">
       <div ref={mapContainer} className="relative w-full h-screen md:h-full" />
@@ -234,6 +242,14 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
           onSelectIndividual={handleSelectIndividual}
         />
       )}
+
+      {showIndividualModal && selectedIndividual && (
+        <IndividualModal
+          individual={selectedIndividual}
+          onClose={handleCloseIndividualModal}
+        />
+      )}
+
       <div id="modal-root" className="z-50" />
     </div>
   );

@@ -5,7 +5,7 @@ const AspectModal = ({ aspectName, individuals, onClose, onSelectIndividual }) =
   if (!aspectName || !individuals) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end md:items-center justify-center bg-black bg-opacity-60 backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 flex items-end md:items-center justify-center bg-black/30 backdrop-blur-[2px]">
       {/* Modal container */}
       <div className="w-full md:w-[500px] bg-gray-900 text-white rounded-t-2xl md:rounded-xl shadow-2xl p-6 max-h-[80vh] overflow-y-auto">
         {/* Header */}
@@ -13,9 +13,9 @@ const AspectModal = ({ aspectName, individuals, onClose, onSelectIndividual }) =
           <h2 className="text-xl font-bold capitalize">{aspectName}</h2>
           <button
             onClick={onClose}
-            className="text-gray-400 hover:text-white text-xl"
+            className="text-gray-400 hover:text-white text-x"
           >
-            ✕
+            Back →
           </button>
         </div>
 
