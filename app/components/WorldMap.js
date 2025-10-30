@@ -79,32 +79,20 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
       const lat = parseFloat(countryProps.label_y);
       const lng = parseFloat(countryProps.label_x);
       const isMobile = window.matchMedia("(max-width: 767px)").matches;
-      let offsetY = 0;
-
+      let offsetY = [0, 0];
       if (isMobile) {
-          setTimeout(() => {
-            const panel = document.getElementById("country-info-panel");
-            offsetY = panel ? panel.offsetHeight / 2 : 0;
-
-            map.flyTo({
-              center: [lng, lat],
-              zoom: 4,
-              essential: true,
-              speed: 0.8,
-              offset: [0, -offsetY],
-            });
-          }, 150);
+        const panel = document.getElementById("country-info-panel");
+        if (panel) {
+          offsetY = [0, -panel.offsetHeight / 2];
         }
-        else {
-          map.flyTo({
-          center: [lng, lat],
-          zoom: 4,
-          essential: true,
-          speed: 0.8,
-          offset: [0, -offsetY]
-        });
 
-        }
+      map.flyTo({
+        center: [lng, lat],
+        zoom: 4,
+        essential: true,
+        speed: 0.8,
+        offset: offset,
+      });}
     },
   }));
 
