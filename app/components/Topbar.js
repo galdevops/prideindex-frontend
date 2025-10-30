@@ -11,7 +11,7 @@ const Topbar = ({ onSelectCountry }) => {
   return (
     <>
       {/* Navbar */}
-      <div className="fixed top-0 left-0 w-full bg-white shadow-md z-50 flex items-center justify-between px-4 h-16">
+      <div className="fixed top-0 left-0 w-full bg-white shadow-md z-50 flex items-center justify-between px-4 h-16 topbarbox">
         {/* Left: Hamburger */}
         <div className="flex items-center">
           <button
@@ -51,14 +51,22 @@ const Topbar = ({ onSelectCountry }) => {
 
       {/* Mobile Search Overlay */}
       {mobileSearchOpen && (
-        <div className="fixed top-16 left-0 w-full px-4 z-50 md:hidden bg-white shadow-md max-h-[calc(100vh-4rem)] overflow-y-auto">
-          <CountrySearch
-            countries={countriesData.features}
-            onSelectCountry={(country) => {
-              onSelectCountry(country);
-              setMobileSearchOpen(false);
-            }}
-          />
+        <div className="fixed top-0 left-0 w-full h-16 bg-white z-[60] flex items-center px-4 shadow-md">
+          <div className="flex-1">
+            <CountrySearch
+              countries={countriesData.features}
+              onSelectCountry={(country) => {
+                onSelectCountry(country);
+                setMobileSearchOpen(false);
+              }}
+            />
+          </div>
+          <button
+            onClick={() => setMobileSearchOpen(false)}
+            className="ml-2 p-2 text-gray-700 hover:text-cyan-500 focus:outline-none"
+          >
+            <FiX size={24} />
+          </button>
         </div>
       )}
 

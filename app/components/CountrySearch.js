@@ -39,7 +39,6 @@ const CountrySearch = ({ countries, onSelectCountry }) => {
   };
 
   return (
-    // classname for outer use "absolute top-4 left-1/2 transform -translate-x-1/2 z-50 w-64"
     <div className="relative w-full"> 
       <form onSubmit={handleSubmit} className="relative">
         <input

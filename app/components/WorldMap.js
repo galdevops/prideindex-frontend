@@ -188,7 +188,10 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         map.setFilter("country-selected", ["==", "ne_id", iso]);
 
         // Fly to clicked country
-        // Fly to clicked country
+        
+        
+        const lat = parseFloat(countryProps.label_y);
+        const lng = parseFloat(countryProps.label_x);
         const panel = document.getElementById("country-info-panel");
         let offsetY = 0;
         if (panel) {
@@ -196,7 +199,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
           offsetY = panel.offsetHeight / 2;
         }
         map.flyTo({
-          center: [lng, lat + latOffset],
+          center: [lng, lat],
           zoom: 4,
           essential: true,
           speed: 0.8,
