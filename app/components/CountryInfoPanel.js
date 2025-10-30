@@ -5,7 +5,11 @@ const CountryInfoPanel = ({ country, onClose, onAspectSelect }) => {
   if (!country) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 md:absolute md:top-0 md:right-0 md:w-80 bg-gray-900 bg-opacity-95 text-white p-6 shadow-2xl rounded-t-2xl md:rounded-none z-40 max-h-[80vh] overflow-y-auto">
+    <div
+  id="country-info-panel"
+  className="fixed bottom-0 left-0 right-0 md:absolute md:top-0 md:right-0 md:w-80 bg-gray-900 bg-opacity-95 text-white p-6 shadow-2xl rounded-t-2xl md:rounded-none z-40 max-h-[80vh] overflow-y-auto"
+>
+
       {/* Close button */}
       <button
         onClick={onClose}
