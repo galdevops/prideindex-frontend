@@ -190,8 +190,9 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         // Fly to clicked country
         const lat = parseFloat(countryProps.label_y);
         const lng = parseFloat(countryProps.label_x);
+        const latOffset = window.innerWidth < 768 ? 10 : 0;
         map.flyTo({
-          center: [lng, lat],
+          center: [lng, lat + latOffset],
           zoom: 4,
           essential: true,
           speed: 0.8,
