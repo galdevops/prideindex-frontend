@@ -56,11 +56,17 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
     };
 
   useImperativeHandle(ref, () => ({
-    flyTo: (coords) => {
-      if (mapRef.current) {
-        mapRef.current.flyTo({ center: coords, zoom: 3 });
-      }
-    },
+    flyTo: (options) => {
+    if (!mapRef.current) return;
+
+    // If an array is passed, treat as [lng, lat]
+    if (Array.isArray(options)) {
+      mapRef.current.flyTo({ center: options, zoom: 3 });
+    } else {
+      // Full Mapbox flyTo options object
+      mapRef.current.flyTo(options);
+    }
+  },
     selectCountry: (countryProps) => {
       if (!mapRef.current) return;
 
@@ -72,7 +78,33 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
       // Fly to country
       const lat = parseFloat(countryProps.label_y);
       const lng = parseFloat(countryProps.label_x);
-      map.flyTo({ center: [lng, lat], zoom: 4, essential: true, speed: 0.8 });
+      const isMobile = window.matchMedia("(max-width: 767px)").matches;
+      let offsetY = 0;
+
+      if (isMobile) {
+          setTimeout(() => {
+            const panel = document.getElementById("country-info-panel");
+            offsetY = panel ? panel.offsetHeight / 2 : 0;
+
+            map.flyTo({
+              center: [lng, lat],
+              zoom: 4,
+              essential: true,
+              speed: 0.8,
+              offset: [0, -offsetY],
+            });
+          }, 150);
+        }
+        else {
+          map.flyTo({
+          center: [lng, lat],
+          zoom: 4,
+          essential: true,
+          speed: 0.8,
+          offset: [0, -offsetY]
+        });
+
+        }
     },
   }));
 
