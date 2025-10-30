@@ -47,10 +47,10 @@ const CountrySearch = ({ countries, onSelectCountry }) => {
           value={search}
           onChange={handleChange}
           placeholder="Search country..."
-          className="w-full p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+          className="w-full p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 text-gray-800 placeholder-gray-500"
         />
         {suggestions.length > 0 && (
-          <ul className="absolute w-full bg-white border border-gray-300 mt-1 rounded-md max-h-40 overflow-y-auto z-50">
+          <ul className="absolute w-full bg-white border border-gray-300 mt-1 rounded-md max-h-40 overflow-y-auto z-50 shadow-lg">
             {suggestions.map((country) => (
               <li
                 key={country.properties.ne_id}
