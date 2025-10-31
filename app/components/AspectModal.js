@@ -31,12 +31,7 @@ const AspectModal = ({ aspectName, individuals, onClose, onSelectIndividual }) =
                 <div className="flex items-center space-x-3">
                   {/* Circle with initials */}
                   <div className="w-10 h-10 rounded-full bg-cyan-600 flex items-center justify-center text-white font-semibold">
-                    {person.name
-                      ?.split(" ")
-                      .map((n) => n[0])
-                      .join("")
-                      .slice(0, 2)
-                      .toUpperCase()}
+                    {person.name_initials}
                   </div>
 
                   {/* Name and role */}
