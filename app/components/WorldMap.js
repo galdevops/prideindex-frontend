@@ -11,7 +11,7 @@ import CountryInfoPanel from "./CountryInfoPanel";
 import AspectModal from "./AspectModal";
 import IndividualModal from "./IndividualModal";
 
-import countryData from "../data/example.json";
+import localcountryData from "../data/example.json";
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
@@ -91,7 +91,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         zoom: 4,
         essential: true,
         speed: 0.8,
-        offset: offset,
+        offset: offsetY,
       });}
     },
   }));
@@ -186,6 +186,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
 
       // Click handler — set selected country
       map.on("click", "country-fills", (e) => {
+        console.log("Country clicked:", e.features[0].properties.name);
         const countryProps = e.features[0].properties;
 
         // GeoJSON stores nested data as strings — parse it
@@ -239,19 +240,18 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         }
 
         
-      });
-
-      
       // Fetch detailed country data asynchronously in the background
       (async () => {
+
+        console.log("Country countryProps.name:", countryProps.name);
         try {
-          // const response = await fetch(
-          //   `https://external-api.com/country/?country=${encodeURIComponent(
-          //     countryProps.name
-          //   )}`
-          // );
-          // if (!response.ok) throw new Error("Failed to fetch country data");
-          // const countryData = await response.json();
+          const response = await fetch(
+            `https://pridedc.vercel.app/api/p/${encodeURIComponent(
+              countryProps.name
+            )}`
+          );
+          if (!response.ok) throw new Error("Failed to fetch country data");
+          const countryData = await response.json();
 
           // Store countryData in state for AspectModal and related components
           let countryDataset = countryData
@@ -260,6 +260,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
           console.error("Error fetching country data:", error);
         }
       })();
+      });
     });
 
     return () => map.remove();
