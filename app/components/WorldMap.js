@@ -243,7 +243,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
       // Fetch detailed country data asynchronously in the background
       (async () => {
 
-        console.log("Country countryProps.name:", countryProps.name);
+        console.log("countryProps.name:", countryProps.name);
         try {
           const response = await fetch(
             `https://pridedc.vercel.app/api/p/${encodeURIComponent(
