@@ -24,7 +24,7 @@ const AspectModal = ({ aspectName, individuals, onClose, onSelectIndividual }) =
           <ul className="divide-y divide-gray-700">
             {individuals.map((person) => (
               <li
-                key={person.id}
+                key={person.uid}
                 className="flex items-center justify-between py-3 cursor-pointer hover:bg-gray-800 rounded-md px-2 transition-colors"
                 onClick={() => onSelectIndividual && onSelectIndividual(person)}
               >
