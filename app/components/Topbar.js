@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import CountrySearch from "./CountrySearch";
 import { FiMenu, FiSearch, FiX } from "react-icons/fi";
-import countriesData from "../data/countries.json";
+import countriesData from "../../public/cc_geo.json";
 
 const Topbar = ({ onSelectCountry }) => {
   const [menuOpen, setMenuOpen] = useState(false);

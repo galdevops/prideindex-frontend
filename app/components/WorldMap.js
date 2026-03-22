@@ -115,7 +115,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
     map.on("load", () => {
       map.addSource("countries", {
         type: "geojson",
-        data: "/countries.geojson",
+        data: "/cc_geo.json",
       });
 
       // Hide all built-in label layers except country names

@@ -30,22 +30,18 @@ const CountryInfoPanel = ({ country, onClose, onAspectSelect }) => {
       <div>
         <h3 className="text-lg font-semibold mb-3">Pride Index</h3>
 
-        {country.pride_index && country.pride_index.length > 0 ? (
+        {Object.keys(country.pride_index).length > 0 ? (
           <ul className="space-y-2 text-sm">
-            {country.pride_index.map((item, idx) => {
-              const aspect = Object.keys(item)[0];
-              const score = Object.values(item)[0];
-              return (
-                <li
-                  key={idx}
-                  className="flex justify-between items-center border-b border-gray-700 pb-2 cursor-pointer hover:text-cyan-400 transition-colors"
-                  onClick={() => onAspectSelect(aspect)}
-                >
-                  <span className="capitalize">{aspect}</span>
-                  <span className="font-semibold">{score}</span>
-                </li>
-              );
-            })}
+            {Object.entries(country.pride_index).map(([aspect, score], idx) => (
+            <li
+              key={idx}
+              className="flex justify-between items-center border-b border-gray-700 pb-2 cursor-pointer hover:text-cyan-400 transition-colors"
+              onClick={() => onAspectSelect(aspect)}
+            >
+              <span className="capitalize">{aspect}</span>
+              <span className="font-semibold">{score}</span>
+            </li>
+          ))}
           </ul>
         ) : (
           <p className="text-gray-400 text-sm">No pride index data.</p>
