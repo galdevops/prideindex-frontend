@@ -18213,8 +18213,8 @@
         ]
       },
       "properties": {
-        "iso_a2": "-99",
-        "iso_a3": "-99",
+        "iso_a2": "CY",
+        "iso_a3": "CYP",
         "name": "N. Cyprus",
         "ne_id": 1159320531,
         "continent": "Asia",
@@ -24727,8 +24727,8 @@
         ]
       },
       "properties": {
-        "iso_a2": "-99",
-        "iso_a3": "-99",
+        "iso_a2": "SO",
+        "iso_a3": "SOM",
         "name": "Somaliland",
         "ne_id": 1159321259,
         "continent": "Africa",
@@ -33851,8 +33851,8 @@
         ]
       },
       "properties": {
-        "iso_a2": "-99",
-        "iso_a3": "-99",
+        "iso_a2": "FR",
+        "iso_a3": "FRA",
         "name": "France",
         "ne_id": 1159320637,
         "continent": "Europe",
@@ -38160,8 +38160,8 @@
         ]
       },
       "properties": {
-        "iso_a2": "-99",
-        "iso_a3": "-99",
+        "iso_a2": "NO",
+        "iso_a3": "NOR",
         "name": "Norway",
         "ne_id": 1159321109,
         "continent": "Europe",
@@ -39000,8 +39000,8 @@
         ]
       },
       "properties": {
-        "iso_a2": "-99",
-        "iso_a3": "-99",
+        "iso_a2": "XK",
+        "iso_a3": "XKX",
         "name": "Kosovo",
         "ne_id": 1159321007,
         "continent": "Europe",
