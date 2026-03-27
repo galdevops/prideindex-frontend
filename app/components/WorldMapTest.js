@@ -19,7 +19,7 @@ const WorldMap = forwardRef((props, ref) => {
   const cCyan = "#0ff";
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
-  const activeRequestRef = useRef(null);
+  const latestRequestIdRef = useRef(0);
 
   const {
     selectedCountry,
@@ -109,6 +109,8 @@ const WorldMap = forwardRef((props, ref) => {
   }));
 
   useEffect(() => {
+    if (!mapContainer.current) return;
+
     const map = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/dark-v11",
@@ -177,8 +179,8 @@ const WorldMap = forwardRef((props, ref) => {
 
       map.on("mousemove", "country-fills", (e) => {
         if (e.features && e.features.length > 0) {
-          const neId = e.features[0].properties?.ne_id;
-          map.setFilter("country-hover", ["==", "ne_id", neId ?? ""]);
+          const neId = e.features[0].properties?.ne_id || "";
+          map.setFilter("country-hover", ["==", "ne_id", neId]);
         } else {
           map.setFilter("country-hover", ["==", "ne_id", ""]);
         }
@@ -217,15 +219,14 @@ const WorldMap = forwardRef((props, ref) => {
 
         selectCountry(nextSelectedCountry);
 
-        const neId = countryProps.ne_id;
-        map.setFilter("country-selected", ["==", "ne_id", neId ?? ""]);
+        const neId = countryProps.ne_id || "";
+        map.setFilter("country-selected", ["==", "ne_id", neId]);
 
         const lat = parseFloat(countryProps.label_y);
         const lng = parseFloat(countryProps.label_x);
 
         if (!Number.isNaN(lat) && !Number.isNaN(lng)) {
           const isMobile = window.matchMedia("(max-width: 767px)").matches;
-          let offset = [0, 0];
 
           if (isMobile) {
             setTimeout(() => {
@@ -246,27 +247,20 @@ const WorldMap = forwardRef((props, ref) => {
               zoom: 4,
               essential: true,
               speed: 0.8,
-              offset,
+              offset: [0, 0],
             });
           }
         }
 
-        if (activeRequestRef.current) {
-          activeRequestRef.current.abort();
-        }
-
-        const controller = new AbortController();
-        activeRequestRef.current = controller;
+        const requestId = ++latestRequestIdRef.current;
+        const lookupValue =
+          nextSelectedCountry.country_code || nextSelectedCountry.name;
 
         try {
           setProfilesLoading(true);
 
-          const lookupValue =
-            nextSelectedCountry.country_code || nextSelectedCountry.name;
-
           const response = await fetch(
-            `https://pridedc.vercel.app/api/p/${encodeURIComponent(lookupValue)}`,
-            { signal: controller.signal }
+            `https://pridedc.vercel.app/api/p/${encodeURIComponent(lookupValue)}`
           );
 
           if (!response.ok) {
@@ -275,11 +269,12 @@ const WorldMap = forwardRef((props, ref) => {
 
           const countryData = await response.json();
 
-          if (!controller.signal.aborted) {
-            setProfilesSuccess(countryData);
-          }
+          if (requestId !== latestRequestIdRef.current) return;
+
+          setProfilesSuccess(countryData);
         } catch (error) {
-          if (error.name === "AbortError") return;
+          if (requestId !== latestRequestIdRef.current) return;
+
           console.error("Error fetching country data:", error);
           setProfilesFailure(error.message || "Failed to fetch country data");
         }
@@ -287,9 +282,6 @@ const WorldMap = forwardRef((props, ref) => {
     });
 
     return () => {
-      if (activeRequestRef.current) {
-        activeRequestRef.current.abort();
-      }
       map.remove();
     };
   }, [selectCountry, setProfilesLoading, setProfilesSuccess, setProfilesFailure]);
