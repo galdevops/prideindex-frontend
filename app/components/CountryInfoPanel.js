@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-const CountryInfoPanel = ({ country, onClose, onAspectSelect }) => {
+const CountryInfoPanel = ({ country, onClose, onAspectSelect,profilesCount, isProfilesLoading }) => {
   if (!country) return null;
 
   return (
