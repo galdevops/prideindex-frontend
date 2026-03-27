@@ -26,6 +26,24 @@ const CountryInfoPanel = ({ country, onClose, onAspectSelect }) => {
         UN Region: {country.region_un || "Unknown"}
       </p>
 
+      {/* Profiles status row */}
+      <div className="flex items-center justify-between mb-6 border-b border-gray-700 pb-3">
+        <span className="text-sm text-gray-300">Profiles</span>
+
+        {isProfilesLoading ? (
+          <div className="h-5 w-5 rounded-full border-2 border-gray-600 border-t-cyan-400 animate-spin" />
+        ) : (
+          <div className="flex items-center gap-2">
+            <span className="text-sm font-semibold">
+              {profilesCount ?? 0}
+            </span>
+            <div className="flex h-5 w-5 items-center justify-center rounded-full border-2 border-cyan-400">
+              <div className="h-2.5 w-2.5 rounded-full bg-cyan-400" />
+            </div>
+          </div>
+        )}
+      </div>
+
       {/* Pride Index */}
       <div>
         <h3 className="text-lg font-semibold mb-3">Pride Index</h3>
