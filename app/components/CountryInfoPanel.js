@@ -38,9 +38,9 @@ const CountryInfoPanel = ({ onAspectSelect }) => {
         {isProfilesLoading ? (
           <div className="h-5 w-5 rounded-full border-2 border-gray-600 border-t-cyan-400 animate-spin" />
         ) : isProfilesLoaded ? (
-          <div className="flex h-5 w-5 items-center justify-center rounded-full border-2 border-cyan-400">
-            <div className="h-2.5 w-2.5 rounded-full bg-cyan-400" />
-          </div>
+          <div className="flex h-5 w-5 items-center justify-center rounded-full border-2 border-cyan-400 text-cyan-400 text-xs font-bold">
+  v
+</div>
         ) : (
           <div className="h-5 w-5 rounded-full border-2 border-gray-600" />
         )}

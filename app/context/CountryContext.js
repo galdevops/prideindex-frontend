@@ -33,24 +33,15 @@ export const CountryProvider = ({ children }) => {
     setIsProfilesLoading(true);
     setIsProfilesLoaded(false);
     setProfilesError(null);
-
-    console.log("Fetching country profiles for:", countryCode);
-
     try {
       const response = await fetch(
         `https://pridedc.vercel.app/api/p/${encodeURIComponent(countryCode)}`
       );
-
-      console.log("Fetching country profiles for:", countryCode);
-      console.log("API response status:", response.status);
-
       if (!response.ok) {
         throw new Error("Failed to fetch country data");
       }
 
       const countryData = await response.json();
-
-      console.log("Fetched country data:", countryData);
 
       setCountryProfilesData(countryData);
       setIsProfilesLoading(false);

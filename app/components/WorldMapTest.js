@@ -186,7 +186,6 @@ const WorldMap = forwardRef((props, ref) => {
       });
 
       map.on("click", "country-fills", async (e) => {
-        console.log("Country clicked:", e.features[0].properties.name);
 
         const countryProps = e.features[0].properties;
 
@@ -235,8 +234,6 @@ const WorldMap = forwardRef((props, ref) => {
             offset: [0, -offsetY],
           });
         }
-
-        console.log("countryProps.iso_a2:", countryProps.iso_a2);
 
         await fetchCountryProfiles(countryProps.iso_a2);
       });
