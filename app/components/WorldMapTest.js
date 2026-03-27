@@ -1,4 +1,5 @@
 "use client";
+
 import React, {
   useEffect,
   useRef,
@@ -11,20 +12,29 @@ import CountryInfoPanel from "./CountryInfoPanel";
 import AspectModal from "./AspectModal";
 import IndividualModal from "./IndividualModal";
 import { useCountry } from "../context/CountryContext";
-import localcountryData from "../data/example.json";
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
-const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
-  const { countryProfilesData } = useCountry();
+const WorldMap = forwardRef((props, ref) => {
   const cCyan = "#0ff";
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
+  const activeRequestRef = useRef(null);
 
-  // === Country Aspect Exploration state ===
+  const {
+    selectedCountry,
+    countryProfilesData,
+    isProfilesLoading,
+    isProfilesLoaded,
+    selectCountry,
+    clearCountry,
+    setProfilesLoading,
+    setProfilesSuccess,
+    setProfilesFailure,
+  } = useCountry();
+
   const [selectedAspect, setSelectedAspect] = useState(null);
   const [showAspectModal, setShowAspectModal] = useState(false);
-  const [countryDetails, setCountryDetails] = useState(null);
   const [selectedIndividual, setSelectedIndividual] = useState(null);
   const [showIndividualModal, setShowIndividualModal] = useState(false);
 
@@ -38,62 +48,63 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
     setSelectedAspect(null);
   };
 
-  // When an individual is selected from AspectModal
   const handleSelectIndividual = (person) => {
     setSelectedIndividual(person);
     setShowIndividualModal(true);
   };
 
-  // When closing individual modal
   const handleCloseIndividualModal = () => {
     setShowIndividualModal(false);
     setSelectedIndividual(null);
   };
 
-  const getIndividualsForAspect = (country, aspectName) => {
-      const aspects = country.aspects
-      const individuals = aspects[aspectName] || []
-      return individuals
-    };
+  const getIndividualsForAspect = (countryData, aspectName) => {
+    const aspects = countryData?.aspects || {};
+    return aspects[aspectName] || [];
+  };
 
   useImperativeHandle(ref, () => ({
     flyTo: (options) => {
-    if (!mapRef.current) return;
-
-    // If an array is passed, treat as [lng, lat]
-    if (Array.isArray(options)) {
-      mapRef.current.flyTo({ center: options, zoom: 3 });
-    } else {
-      // Full Mapbox flyTo options object
-      mapRef.current.flyTo(options);
-    }
-  },
-    selectCountry: (countryProps) => {
       if (!mapRef.current) return;
+
+      if (Array.isArray(options)) {
+        mapRef.current.flyTo({ center: options, zoom: 3 });
+      } else {
+        mapRef.current.flyTo(options);
+      }
+    },
+
+    selectCountry: (countryProps) => {
+      if (!mapRef.current || !countryProps) return;
 
       const map = mapRef.current;
 
-      // Highlight country
-      map.setFilter("country-selected", ["==", "ne_id", countryProps.ne_id]);
+      if (countryProps.ne_id) {
+        map.setFilter("country-selected", ["==", "ne_id", countryProps.ne_id]);
+      }
 
-      // Fly to country
       const lat = parseFloat(countryProps.label_y);
       const lng = parseFloat(countryProps.label_x);
+
+      if (Number.isNaN(lat) || Number.isNaN(lng)) return;
+
       const isMobile = window.matchMedia("(max-width: 767px)").matches;
-      let offsetY = [0, 0];
+      let offset = [0, 0];
+
       if (isMobile) {
         const panel = document.getElementById("country-info-panel");
         if (panel) {
-          offsetY = [0, -panel.offsetHeight / 2];
+          offset = [0, -panel.offsetHeight / 2];
         }
+      }
 
       map.flyTo({
         center: [lng, lat],
         zoom: 4,
         essential: true,
         speed: 0.8,
-        offset: offsetY,
-      });}
+        offset,
+      });
     },
   }));
 
@@ -107,8 +118,8 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
       maxZoom: 5,
       dragRotate: false,
       pitchWithRotate: false,
-      projection: "mercator", // Flat projection,
-      renderWorldCopies: false, // Flat projection,
+      projection: "mercator",
+      renderWorldCopies: false,
     });
 
     mapRef.current = map;
@@ -119,8 +130,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         data: "/cc_geo.json",
       });
 
-      // Hide all built-in label layers except country names
-      const layers = map.getStyle().layers;
+      const layers = map.getStyle().layers || [];
       layers.forEach((layer) => {
         if (
           layer.type === "symbol" &&
@@ -149,12 +159,11 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         source: "countries",
         paint: {
           "fill-color": cCyan,
-          "fill-opacity": 0.4, // stronger glow
+          "fill-opacity": 0.4,
         },
-        filter: ["==", "ne_id", ""], // initially nothing is highlighted
+        filter: ["==", "ne_id", ""],
       });
 
-      // Add a layer for selected country
       map.addLayer({
         id: "country-selected",
         type: "line",
@@ -163,134 +172,153 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
           "line-color": cCyan,
           "line-width": 2,
         },
-        filter: ["==", "ne_id", ""], // initially nothing is selected
+        filter: ["==", "ne_id", ""],
       });
 
-      // Update hover
       map.on("mousemove", "country-fills", (e) => {
-        if (e.features.length > 0) {
-          const iso = e.features[0].properties.ne_id;
-          map.setFilter("country-hover", ["==", "ne_id", iso]);
+        if (e.features && e.features.length > 0) {
+          const neId = e.features[0].properties?.ne_id;
+          map.setFilter("country-hover", ["==", "ne_id", neId ?? ""]);
         } else {
           map.setFilter("country-hover", ["==", "ne_id", ""]);
         }
       });
 
-      // Hover pointer
       map.on("mouseenter", "country-fills", () => {
         map.getCanvas().style.cursor = "pointer";
       });
+
       map.on("mouseleave", "country-fills", () => {
         map.getCanvas().style.cursor = "";
-        map.setFilter("country-hover", ["==", "name", ""]);
+        map.setFilter("country-hover", ["==", "ne_id", ""]);
       });
 
-      // Click handler — set selected country
-      map.on("click", "country-fills", (e) => {
-        console.log("Country clicked:", e.features[0].properties.name);
-        const countryProps = e.features[0].properties;
+      map.on("click", "country-fills", async (e) => {
+        if (!e.features || e.features.length === 0) return;
 
-        // GeoJSON stores nested data as strings — parse it
-        let prideIndex = [];
+        const countryProps = e.features[0].properties || {};
+
+        let prideIndex = {};
         try {
-          prideIndex = JSON.parse(countryProps.pride_index);
+          prideIndex = countryProps.pride_index
+            ? JSON.parse(countryProps.pride_index)
+            : {};
         } catch {
-          prideIndex = [];
+          prideIndex = {};
         }
 
-        onSelectCountry({
+        const nextSelectedCountry = {
           name: countryProps.name,
           continent: countryProps.continent,
           region_un: countryProps.region_un,
+          country_code: countryProps.iso_a2 || countryProps.country_code || "",
           pride_index: prideIndex,
-        });
+        };
 
-        // In click handler, after onSelectCountry
-        const iso = countryProps.ne_id;
-        map.setFilter("country-selected", ["==", "ne_id", iso]);
+        selectCountry(nextSelectedCountry);
 
-        // Fly to clicked country
+        const neId = countryProps.ne_id;
+        map.setFilter("country-selected", ["==", "ne_id", neId ?? ""]);
+
         const lat = parseFloat(countryProps.label_y);
         const lng = parseFloat(countryProps.label_x);
-        const isMobile = window.matchMedia("(max-width: 767px)").matches;
-        let offsetY = 0;
 
-        if (isMobile) {
-          setTimeout(() => {
-            const panel = document.getElementById("country-info-panel");
-            offsetY = panel ? panel.offsetHeight / 2 : 0;
+        if (!Number.isNaN(lat) && !Number.isNaN(lng)) {
+          const isMobile = window.matchMedia("(max-width: 767px)").matches;
+          let offset = [0, 0];
 
+          if (isMobile) {
+            setTimeout(() => {
+              const panel = document.getElementById("country-info-panel");
+              const offsetY = panel ? panel.offsetHeight / 2 : 0;
+
+              map.flyTo({
+                center: [lng, lat],
+                zoom: 4,
+                essential: true,
+                speed: 0.8,
+                offset: [0, -offsetY],
+              });
+            }, 150);
+          } else {
             map.flyTo({
               center: [lng, lat],
               zoom: 4,
               essential: true,
               speed: 0.8,
-              offset: [0, -offsetY],
+              offset,
             });
-          }, 150);
-        }
-        else {
-          map.flyTo({
-          center: [lng, lat],
-          zoom: 4,
-          essential: true,
-          speed: 0.8,
-          offset: [0, -offsetY]
-        });
-
+          }
         }
 
-        
-      // Fetch detailed country data asynchronously in the background
-      (async () => {
+        if (activeRequestRef.current) {
+          activeRequestRef.current.abort();
+        }
 
-        console.log("countryProps.name:", countryProps.iso_a2);
+        const controller = new AbortController();
+        activeRequestRef.current = controller;
+
         try {
+          setProfilesLoading(true);
+
+          const lookupValue =
+            nextSelectedCountry.country_code || nextSelectedCountry.name;
+
           const response = await fetch(
-            `https://pridedc.vercel.app/api/p/${encodeURIComponent(
-              countryProps.iso_a2
-            )}`
+            `https://pridedc.vercel.app/api/p/${encodeURIComponent(lookupValue)}`,
+            { signal: controller.signal }
           );
-          if (!response.ok) throw new Error("Failed to fetch country data");
+
+          if (!response.ok) {
+            throw new Error("Failed to fetch country data");
+          }
+
           const countryData = await response.json();
 
-          // Store countryData in state for AspectModal and related components
-          let countryDataset = countryData
-          setCountryDetails(countryDataset); // <-- make sure setCountryDetails is useState in WorldMap.js
+          if (!controller.signal.aborted) {
+            setProfilesSuccess(countryData);
+          }
         } catch (error) {
+          if (error.name === "AbortError") return;
           console.error("Error fetching country data:", error);
+          setProfilesFailure(error.message || "Failed to fetch country data");
         }
-      })();
-      
       });
     });
 
-    return () => map.remove();
-  }, []);
+    return () => {
+      if (activeRequestRef.current) {
+        activeRequestRef.current.abort();
+      }
+      map.remove();
+    };
+  }, [selectCountry, setProfilesLoading, setProfilesSuccess, setProfilesFailure]);
 
   return (
     <div className="relative w-full h-screen z-40 overflow-hidden">
       <div ref={mapContainer} className="relative w-full h-screen md:h-full" />
-      {/* Radial gradient overlay */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-radial from-transparent via-transparent to-black/60" />
 
       {selectedCountry && (
         <CountryInfoPanel
           country={selectedCountry}
-          onClose={() => onSelectCountry(null)}
+          onClose={clearCountry}
           onAspectSelect={handleSelectAspect}
           isProfilesLoading={isProfilesLoading}
           isProfilesLoaded={isProfilesLoaded}
         />
       )}
-      {showAspectModal && selectedAspect && countryDetails && (
+
+      {showAspectModal && selectedAspect && countryProfilesData && (
         <AspectModal
           aspectName={selectedAspect}
-          individuals={getIndividualsForAspect(countryDetails, selectedAspect)}
+          individuals={getIndividualsForAspect(
+            countryProfilesData,
+            selectedAspect
+          )}
           onClose={handleCloseAspectModal}
           onSelectIndividual={handleSelectIndividual}
         />
-        
       )}
 
       {showIndividualModal && selectedIndividual && (
@@ -305,25 +333,6 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
   );
 });
 
-function AspectModalWrapper({
-  selectedAspect,
-  showAspectModal,
-  handleCloseAspectModal,
-  handleSelectIndividual,
-  getIndividualsForAspect,
-}) {
-  const { countryProfilesData } = useCountry();
-
-  if (!showAspectModal || !selectedAspect || !countryProfilesData) return null;
-
-  return (
-    <AspectModal
-      aspectName={selectedAspect}
-      individuals={getIndividualsForAspect(countryProfilesData, selectedAspect)}
-      onClose={handleCloseAspectModal}
-      onSelectIndividual={handleSelectIndividual}
-    />
-  );
-}
+WorldMap.displayName = "WorldMap";
 
 export default WorldMap;

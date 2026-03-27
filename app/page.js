@@ -1,6 +1,6 @@
 "use client";
 import { useRef, useState } from "react";
-import WorldMap from "./components/WorldMap";
+import WorldMap from "./components/WorldMapTest";
 import countriesData from "../public/cc_geo.json";
 import Topbar from "./components/Topbar";
 
