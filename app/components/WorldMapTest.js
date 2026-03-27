@@ -1,5 +1,4 @@
 "use client";
-
 import React, {
   useEffect,
   useRef,
@@ -16,11 +15,6 @@ import { useCountry } from "../context/CountryContext";
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
 const WorldMap = forwardRef((props, ref) => {
-  const cCyan = "#0ff";
-  const mapContainer = useRef(null);
-  const mapRef = useRef(null);
-  const latestRequestIdRef = useRef(0);
-
   const {
     selectedCountry,
     countryProfilesData,
@@ -28,10 +22,12 @@ const WorldMap = forwardRef((props, ref) => {
     isProfilesLoaded,
     selectCountry,
     clearCountry,
-    setProfilesLoading,
-    setProfilesSuccess,
-    setProfilesFailure,
+    fetchCountryProfiles,
   } = useCountry();
+
+  const cCyan = "#0ff";
+  const mapContainer = useRef(null);
+  const mapRef = useRef(null);
 
   const [selectedAspect, setSelectedAspect] = useState(null);
   const [showAspectModal, setShowAspectModal] = useState(false);
@@ -58,9 +54,10 @@ const WorldMap = forwardRef((props, ref) => {
     setSelectedIndividual(null);
   };
 
-  const getIndividualsForAspect = (countryData, aspectName) => {
-    const aspects = countryData?.aspects || {};
-    return aspects[aspectName] || [];
+  const getIndividualsForAspect = (country, aspectName) => {
+    const aspects = country?.aspects || {};
+    const individuals = aspects[aspectName] || [];
+    return individuals;
   };
 
   useImperativeHandle(ref, () => ({
@@ -75,26 +72,21 @@ const WorldMap = forwardRef((props, ref) => {
     },
 
     selectCountry: (countryProps) => {
-      if (!mapRef.current || !countryProps) return;
+      if (!mapRef.current) return;
 
       const map = mapRef.current;
 
-      if (countryProps.ne_id) {
-        map.setFilter("country-selected", ["==", "ne_id", countryProps.ne_id]);
-      }
+      map.setFilter("country-selected", ["==", "ne_id", countryProps.ne_id]);
 
       const lat = parseFloat(countryProps.label_y);
       const lng = parseFloat(countryProps.label_x);
-
-      if (Number.isNaN(lat) || Number.isNaN(lng)) return;
-
       const isMobile = window.matchMedia("(max-width: 767px)").matches;
-      let offset = [0, 0];
+      let offsetY = [0, 0];
 
       if (isMobile) {
         const panel = document.getElementById("country-info-panel");
         if (panel) {
-          offset = [0, -panel.offsetHeight / 2];
+          offsetY = [0, -panel.offsetHeight / 2];
         }
       }
 
@@ -103,14 +95,12 @@ const WorldMap = forwardRef((props, ref) => {
         zoom: 4,
         essential: true,
         speed: 0.8,
-        offset,
+        offset: offsetY,
       });
     },
   }));
 
   useEffect(() => {
-    if (!mapContainer.current) return;
-
     const map = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/dark-v11",
@@ -132,7 +122,7 @@ const WorldMap = forwardRef((props, ref) => {
         data: "/cc_geo.json",
       });
 
-      const layers = map.getStyle().layers || [];
+      const layers = map.getStyle().layers;
       layers.forEach((layer) => {
         if (
           layer.type === "symbol" &&
@@ -178,9 +168,9 @@ const WorldMap = forwardRef((props, ref) => {
       });
 
       map.on("mousemove", "country-fills", (e) => {
-        if (e.features && e.features.length > 0) {
-          const neId = e.features[0].properties?.ne_id || "";
-          map.setFilter("country-hover", ["==", "ne_id", neId]);
+        if (e.features.length > 0) {
+          const iso = e.features[0].properties.ne_id;
+          map.setFilter("country-hover", ["==", "ne_id", iso]);
         } else {
           map.setFilter("country-hover", ["==", "ne_id", ""]);
         }
@@ -196,95 +186,64 @@ const WorldMap = forwardRef((props, ref) => {
       });
 
       map.on("click", "country-fills", async (e) => {
-        if (!e.features || e.features.length === 0) return;
+        console.log("Country clicked:", e.features[0].properties.name);
 
-        const countryProps = e.features[0].properties || {};
+        const countryProps = e.features[0].properties;
 
         let prideIndex = {};
         try {
-          prideIndex = countryProps.pride_index
-            ? JSON.parse(countryProps.pride_index)
-            : {};
+          prideIndex = JSON.parse(countryProps.pride_index || "{}");
         } catch {
           prideIndex = {};
         }
 
-        const nextSelectedCountry = {
+        selectCountry({
           name: countryProps.name,
           continent: countryProps.continent,
           region_un: countryProps.region_un,
-          country_code: countryProps.iso_a2 || countryProps.country_code || "",
+          country_code: countryProps.iso_a2,
           pride_index: prideIndex,
-        };
+        });
 
-        selectCountry(nextSelectedCountry);
-
-        const neId = countryProps.ne_id || "";
-        map.setFilter("country-selected", ["==", "ne_id", neId]);
+        const iso = countryProps.ne_id;
+        map.setFilter("country-selected", ["==", "ne_id", iso]);
 
         const lat = parseFloat(countryProps.label_y);
         const lng = parseFloat(countryProps.label_x);
+        const isMobile = window.matchMedia("(max-width: 767px)").matches;
+        let offsetY = 0;
 
-        if (!Number.isNaN(lat) && !Number.isNaN(lng)) {
-          const isMobile = window.matchMedia("(max-width: 767px)").matches;
+        if (isMobile) {
+          setTimeout(() => {
+            const panel = document.getElementById("country-info-panel");
+            offsetY = panel ? panel.offsetHeight / 2 : 0;
 
-          if (isMobile) {
-            setTimeout(() => {
-              const panel = document.getElementById("country-info-panel");
-              const offsetY = panel ? panel.offsetHeight / 2 : 0;
-
-              map.flyTo({
-                center: [lng, lat],
-                zoom: 4,
-                essential: true,
-                speed: 0.8,
-                offset: [0, -offsetY],
-              });
-            }, 150);
-          } else {
             map.flyTo({
               center: [lng, lat],
               zoom: 4,
               essential: true,
               speed: 0.8,
-              offset: [0, 0],
+              offset: [0, -offsetY],
             });
-          }
+          }, 150);
+        } else {
+          map.flyTo({
+            center: [lng, lat],
+            zoom: 4,
+            essential: true,
+            speed: 0.8,
+            offset: [0, -offsetY],
+          });
         }
 
-        const requestId = ++latestRequestIdRef.current;
-        const lookupValue =
-          nextSelectedCountry.country_code || nextSelectedCountry.name;
+        console.log("countryProps.iso_a2:", countryProps.iso_a2);
 
-        try {
-          setProfilesLoading(true);
-
-          const response = await fetch(
-            `https://pridedc.vercel.app/api/p/${encodeURIComponent(lookupValue)}`
-          );
-
-          if (!response.ok) {
-            throw new Error("Failed to fetch country data");
-          }
-
-          const countryData = await response.json();
-
-          if (requestId !== latestRequestIdRef.current) return;
-
-          setProfilesSuccess(countryData);
-        } catch (error) {
-          if (requestId !== latestRequestIdRef.current) return;
-
-          console.error("Error fetching country data:", error);
-          setProfilesFailure(error.message || "Failed to fetch country data");
-        }
+        await fetchCountryProfiles(countryProps.iso_a2);
       });
     });
 
-    return () => {
-      map.remove();
-    };
-  }, [selectCountry, setProfilesLoading, setProfilesSuccess, setProfilesFailure]);
+    return () => map.remove();
+  }, [selectCountry, fetchCountryProfiles]);
 
   return (
     <div className="relative w-full h-screen z-40 overflow-hidden">
