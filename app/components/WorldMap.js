@@ -9,7 +9,7 @@ import React, {
 import mapboxgl from "mapbox-gl";
 import CountryInfoPanel from "./CountryInfoPanel";
 import AspectModal from "./AspectModal";
-import IndividualModal from "./IndividualModal";
+import IndividualModalSwipe from "./IndividualModalSwipe";
 import { useCountry } from "../context/CountryContext";
 import localcountryData from "../data/example.json";
 
@@ -24,7 +24,9 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
   // === Country Aspect Exploration state ===
   const [selectedAspect, setSelectedAspect] = useState(null);
   const [showAspectModal, setShowAspectModal] = useState(false);
+
   const [countryDetails, setCountryDetails] = useState(null);
+
   const [selectedIndividual, setSelectedIndividual] = useState(null);
   const [showIndividualModal, setShowIndividualModal] = useState(false);
 
@@ -50,11 +52,29 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
     setSelectedIndividual(null);
   };
 
-  const getIndividualsForAspect = (country, aspectName) => {
+  const getIndividualsForAspectOld = (country, aspectName) => {
       const aspects = country.aspects
       const individuals = aspects[aspectName] || []
       return individuals
     };
+
+  const visibilityRank = {
+    International: 4,
+    Regional: 3,
+    National: 2,
+    Local: 1,
+  };
+
+  const getIndividualsForAspect = (country, aspectName) => {
+    const aspects = country?.aspects || {};
+    const individuals = aspects[aspectName] || [];
+
+    return [...individuals].sort((a, b) => {
+      const aRank = visibilityRank[a?.visibility] || 0;
+      const bRank = visibilityRank[b?.visibility] || 0;
+      return bRank - aRank;
+    });
+  };
 
   useImperativeHandle(ref, () => ({
     flyTo: (options) => {
@@ -268,6 +288,28 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
     return () => map.remove();
   }, []);
 
+
+  const currentIndividuals =
+    selectedAspect && countryProfilesData
+      ? getIndividualsForAspect(countryProfilesData, selectedAspect)
+      : [];
+
+  const currentIndividualIndex = currentIndividuals.findIndex(
+    (person) => person?.uid === selectedIndividual?.uid,
+  );
+
+  const handlePrevIndividual = () => {
+    if (currentIndividualIndex > 0) {
+      setSelectedIndividual(currentIndividuals[currentIndividualIndex - 1]);
+    }
+  };
+
+  const handleNextIndividual = () => {
+    if (currentIndividualIndex < currentIndividuals.length - 1) {
+      setSelectedIndividual(currentIndividuals[currentIndividualIndex + 1]);
+    }
+  };
+
   return (
     <div className="relative w-full h-screen z-40 overflow-hidden">
       <div ref={mapContainer} className="relative w-full h-screen md:h-full" />
@@ -293,12 +335,22 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         
       )}
 
-      {showIndividualModal && selectedIndividual && (
+      {/* {showIndividualModal && selectedIndividual && (
         <IndividualModal
           individual={selectedIndividual}
           onClose={handleCloseIndividualModal}
         />
-      )}
+      )} */}
+      {showIndividualModal && selectedIndividual && (
+      <IndividualModalSwipe
+        individual={selectedIndividual}
+        onClose={handleCloseIndividualModal}
+        onPrev={handlePrevIndividual}
+        onNext={handleNextIndividual}
+        hasPrev={currentIndividualIndex > 0}
+        hasNext={currentIndividualIndex < currentIndividuals.length - 1}
+      />
+    )}
 
       <div id="modal-root" className="z-50" />
     </div>
