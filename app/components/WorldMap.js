@@ -9,7 +9,7 @@ import React, {
 import mapboxgl from "mapbox-gl";
 import CountryInfoPanel from "./CountryInfoPanel";
 import AspectModal from "./AspectModal";
-import IndividualModalSwipe from "./IndividualModalSwipe";
+import IndividualModal from "./IndividualModal";
 import { useCountry } from "../context/CountryContext";
 import localcountryData from "../data/example.json";
 
@@ -335,22 +335,13 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         
       )}
 
-      {/* {showIndividualModal && selectedIndividual && (
+      {showIndividualModal && selectedIndividual && (
         <IndividualModal
           individual={selectedIndividual}
           onClose={handleCloseIndividualModal}
         />
-      )} */}
-      {showIndividualModal && selectedIndividual && (
-      <IndividualModalSwipe
-        individual={selectedIndividual}
-        onClose={handleCloseIndividualModal}
-        onPrev={handlePrevIndividual}
-        onNext={handleNextIndividual}
-        hasPrev={currentIndividualIndex > 0}
-        hasNext={currentIndividualIndex < currentIndividuals.length - 1}
-      />
-    )}
+      )}
+      
 
       <div id="modal-root" className="z-50" />
     </div>
