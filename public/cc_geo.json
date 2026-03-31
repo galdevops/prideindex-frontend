@@ -623,7 +623,7 @@
       "properties": {
         "iso_a2": "DO",
         "iso_a3": "DOM",
-        "name": "Dominican Republic",
+        "name": "Dominican Rep.",
         "ne_id": 1159320563,
         "continent": "North America",
         "region_un": "Americas",
@@ -737,7 +737,8 @@
         "gdp_md": 27022,
         "pop_est": 6453553,
         "pride_index": {
-          "Culture": 2
+          "Culture": 2,
+          "Activism": 1
         }
       },
       "type": "Feature"
@@ -902,7 +903,8 @@
         "gdp_md": 76710,
         "pop_est": 16604026,
         "pride_index": {
-          "Media": 1
+          "Media": 1,
+          "Politics": 3
         }
       },
       "type": "Feature"
@@ -1095,10 +1097,10 @@
         "gdp_md": 100023,
         "pop_est": 11333483,
         "pride_index": {
-          "Activism": 1,
+          "Activism": 2,
           "Science": 1,
           "Politics": 1,
-          "Culture": 6
+          "Culture": 8
         }
       },
       "type": "Feature"
@@ -3200,16 +3202,24 @@
         "gdp_md": 21433226,
         "pop_est": 328239523,
         "pride_index": {
-          "Activism": 122,
-          "Culture": 966,
-          "Politics": 43,
-          "Science": 73,
-          "Media": 93,
-          "Technology": 7,
+          "Activism": 359,
+          "Culture": 1307,
+          "Politics": 235,
+          "Science": 106,
+          "Media": 104,
+          "Technology": 12,
           "Religion": 5,
-          "Business": 30,
+          "Business": 51,
           "Military": 1,
-          "Sports": 6
+          "Sports": 114,
+          "Literature": 21,
+          "Law": 12,
+          "Crime": 1,
+          "Education": 6,
+          "Film": 1,
+          "Art": 1,
+          "Human Rights": 1,
+          "Academia": 1
         }
       },
       "type": "Feature"
@@ -6528,13 +6538,15 @@
         "gdp_md": 1736425,
         "pop_est": 37589262,
         "pride_index": {
-          "Culture": 90,
-          "Activism": 5,
-          "Science": 7,
-          "Media": 14,
-          "Politics": 7,
+          "Culture": 129,
+          "Activism": 36,
+          "Science": 8,
+          "Media": 17,
+          "Politics": 34,
           "Religion": 2,
-          "Business": 3
+          "Business": 5,
+          "Sports": 27,
+          "Literature": 2
         }
       },
       "type": "Feature"
@@ -7239,11 +7251,11 @@
         "gdp_md": 1268870,
         "pop_est": 127575529,
         "pride_index": {
-          "Activism": 1,
-          "Culture": 15,
+          "Activism": 4,
+          "Culture": 24,
           "Science": 2,
           "Media": 2,
-          "Politics": 1
+          "Politics": 2
         }
       },
       "type": "Feature"
@@ -7347,7 +7359,9 @@
         "label_y": 17.202068,
         "gdp_md": 1879,
         "pop_est": 390353,
-        "pride_index": {}
+        "pride_index": {
+          "Activism": 1
+        }
       },
       "type": "Feature"
     },
@@ -7578,7 +7592,9 @@
         "label_y": 8.72198,
         "gdp_md": 66800,
         "pop_est": 4246439,
-        "pride_index": {}
+        "pride_index": {
+          "Sports": 1
+        }
       },
       "type": "Feature"
     },
@@ -8302,7 +8318,10 @@
         "gdp_md": 24269,
         "pop_est": 1394973,
         "pride_index": {
-          "Culture": 1
+          "Culture": 1,
+          "Politics": 1,
+          "Sports": 2,
+          "Activism": 1
         }
       },
       "type": "Feature"
@@ -8364,7 +8383,11 @@
         "pop_est": 3193694,
         "pride_index": {
           "Science": 2,
-          "Culture": 12
+          "Culture": 13,
+          "Sports": 1,
+          "Activism": 4,
+          "Politics": 2,
+          "Media": 1
         }
       },
       "type": "Feature"
@@ -8434,7 +8457,9 @@
         "pop_est": 2948279,
         "pride_index": {
           "Media": 1,
-          "Culture": 4
+          "Culture": 4,
+          "Sports": 2,
+          "Activism": 1
         }
       },
       "type": "Feature"
@@ -9508,7 +9533,9 @@
         "label_y": -0.954404,
         "gdp_md": 1119190,
         "pop_est": 270625568,
-        "pride_index": {}
+        "pride_index": {
+          "Human Rights": 1
+        }
       },
       "type": "Feature"
     },
@@ -9786,7 +9813,7 @@
         "gdp_md": 364681,
         "pop_est": 31949777,
         "pride_index": {
-          "Culture": 1
+          "Culture": 2
         }
       },
       "type": "Feature"
@@ -11426,141 +11453,18 @@
         "label_y": 32.498178,
         "gdp_md": 14342903,
         "pop_est": 1397715000,
-        "pride_index": {}
+        "pride_index": {
+          "Culture": 5,
+          "Military": 1,
+          "Media": 1,
+          "Science": 1,
+          "Activism": 2,
+          "Politics": 3,
+          "Literature": 1
+        }
       },
       "type": "Feature"
     },
-    {
-      "geometry": {
-    "type": "MultiPolygon",
-    "coordinates": [
-      [[
-        [-175.15, -21.18],
-        [-175.36, -21.10],
-        [-175.05, -21.14],
-        [-175.15, -21.18]
-      ]]
-    ]
-  },
-      "type": "Feature",
-  "properties": {
-    "iso_a2": "TO",
-    "iso_a3": "TON",
-    "name": "Tonga",
-    "ne_id": null,
-    "continent": "Oceania",
-    "region_un": "Oceania",
-    "label_x": -175.198242,
-    "label_y": -21.178986,
-    "gdp_md": 591,
-    "pop_est": 104175
-  }
-},
-{
-  "type": "Feature",
-  "properties": {
-    "iso_a2": "BB",
-    "iso_a3": "BRB",
-    "name": "Barbados",
-    "ne_id": null,
-    "continent": "North America",
-    "region_un": "Americas",
-    "label_x": -59.535564,
-    "label_y": 13.190133,
-    "gdp_md": 7170,
-    "pop_est": 282467
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [[
-      [-59.4918, 13.0773],
-      [-59.4990, 13.0866],
-      [-59.4925, 13.0911],
-      [-59.4860, 13.1000],
-      [-59.5000, 13.1200],
-      [-59.5300, 13.1800],
-      [-59.5700, 13.2200],
-      [-59.6100, 13.2100],
-      [-59.6200, 13.1600],
-      [-59.6000, 13.1100],
-      [-59.5600, 13.0800],
-      [-59.5200, 13.0700],
-      [-59.4918, 13.0773]
-    ]]
-  }
-},
-{
-  "type": "Feature",
-  "properties": {
-    "iso_a2": "GD",
-    "iso_a3": "GRD",
-    "name": "Grenada",
-    "ne_id": null,
-    "continent": "North America",
-    "region_un": "Americas",
-    "label_x": -61.670761,
-    "label_y": 12.104818,
-    "gdp_md": 1370,
-    "pop_est": 117207
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [[
-      [-61.4885, 12.4107],
-      [-61.4849, 12.4065],
-      [-61.4863, 12.4015],
-      [-61.5000, 12.3600],
-      [-61.5400, 12.3000],
-      [-61.5800, 12.2200],
-      [-61.6200, 12.1500],
-      [-61.6700, 12.0900],
-      [-61.7300, 12.0200],
-      [-61.7800, 11.9800],
-      [-61.8000, 12.0200],
-      [-61.7600, 12.1200],
-      [-61.7000, 12.2200],
-      [-61.6200, 12.3200],
-      [-61.5500, 12.3900],
-      [-61.4885, 12.4107]
-    ]]
-  }
-},
-{
-  "type": "Feature",
-  "properties": {
-    "iso_a2": "BM",
-    "iso_a3": "BMU",
-    "name": "Bermuda",
-    "ne_id": null,
-    "continent": "North America",
-    "region_un": "Americas",
-    "label_x": -64.75,
-    "label_y": 32.33,
-    "gdp_md": 8980,
-    "pop_est": 64636
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [[
-      [-64.889, 32.247],
-      [-64.860, 32.255],
-      [-64.820, 32.270],
-      [-64.790, 32.285],
-      [-64.760, 32.300],
-      [-64.730, 32.315],
-      [-64.700, 32.325],
-      [-64.670, 32.330],
-      [-64.650, 32.320],
-      [-64.665, 32.300],
-      [-64.700, 32.285],
-      [-64.735, 32.275],
-      [-64.770, 32.265],
-      [-64.810, 32.255],
-      [-64.850, 32.247],
-      [-64.889, 32.247]
-    ]]
-  }
-},
     {
       "geometry": {
         "type": "Polygon",
@@ -11685,11 +11589,13 @@
         "gdp_md": 394652,
         "pop_est": 9053300,
         "pride_index": {
-          "Politics": 2,
-          "Culture": 12,
+          "Politics": 5,
+          "Culture": 20,
           "Media": 4,
-          "Activism": 2,
-          "Sports": 1
+          "Activism": 5,
+          "Sports": 1,
+          "Law": 1,
+          "Technology": 1
         }
       },
       "type": "Feature"
@@ -11750,7 +11656,7 @@
         "gdp_md": 16276,
         "pop_est": 4685306,
         "pride_index": {
-          "Activism": 1
+          "Activism": 2
         }
       },
       "type": "Feature"
@@ -11819,7 +11725,7 @@
         "gdp_md": 51991,
         "pop_est": 6855713,
         "pride_index": {
-          "Culture": 4
+          "Culture": 7
         }
       },
       "type": "Feature"
@@ -13986,7 +13892,8 @@
         "pop_est": 96462106,
         "pride_index": {
           "Media": 1,
-          "Culture": 1
+          "Culture": 2,
+          "Politics": 1
         }
       },
       "type": "Feature"
@@ -14516,7 +14423,9 @@
         "label_y": 40.402387,
         "gdp_md": 48047,
         "pop_est": 10023318,
-        "pride_index": {}
+        "pride_index": {
+          "Culture": 1
+        }
       },
       "type": "Feature"
     },
@@ -14820,7 +14729,7 @@
         "pride_index": {
           "Science": 1,
           "Technology": 1,
-          "Culture": 3
+          "Culture": 4
         }
       },
       "type": "Feature"
@@ -15259,7 +15168,8 @@
         "gdp_md": 13672,
         "pop_est": 2957731,
         "pride_index": {
-          "Culture": 1
+          "Culture": 1,
+          "Activism": 1
         }
       },
       "type": "Feature"
@@ -15731,8 +15641,8 @@
         "gdp_md": 453996,
         "pop_est": 82913906,
         "pride_index": {
-          "Activism": 3,
-          "Culture": 4
+          "Activism": 4,
+          "Culture": 6
         }
       },
       "type": "Feature"
@@ -16119,7 +16029,9 @@
         "label_y": 23.806908,
         "gdp_md": 792966,
         "pop_est": 34268528,
-        "pride_index": {}
+        "pride_index": {
+          "Politics": 1
+        }
       },
       "type": "Feature"
     },
@@ -16407,7 +16319,8 @@
         "gdp_md": 278221,
         "pop_est": 216565318,
         "pride_index": {
-          "Culture": 3
+          "Culture": 3,
+          "Science": 1
         }
       },
       "type": "Feature"
@@ -16690,7 +16603,8 @@
         "pride_index": {
           "Media": 1,
           "Culture": 2,
-          "Business": 1
+          "Business": 1,
+          "Sports": 1
         }
       },
       "type": "Feature"
@@ -17344,7 +17258,9 @@
         "label_y": 24.214956,
         "gdp_md": 302571,
         "pop_est": 163046161,
-        "pride_index": {}
+        "pride_index": {
+          "Activism": 1
+        }
       },
       "type": "Feature"
     },
@@ -18098,7 +18014,10 @@
         "label_y": 28.297925,
         "gdp_md": 30641,
         "pop_est": 28608710,
-        "pride_index": {}
+        "pride_index": {
+          "Culture": 1,
+          "Activism": 1
+        }
       },
       "type": "Feature"
     },
@@ -18875,7 +18794,10 @@
         "pop_est": 108116615,
         "pride_index": {
           "Media": 4,
-          "Culture": 11
+          "Culture": 14,
+          "Literature": 1,
+          "Sports": 2,
+          "Activism": 2
         }
       },
       "type": "Feature"
@@ -18942,7 +18864,7 @@
         "pride_index": {
           "Science": 2,
           "Activism": 1,
-          "Culture": 2,
+          "Culture": 4,
           "Politics": 1
         }
       },
@@ -19297,10 +19219,11 @@
         "gdp_md": 5081769,
         "pop_est": 126264931,
         "pride_index": {
-          "Technology": 2,
-          "Activism": 2,
-          "Culture": 11,
-          "Politics": 1
+          "Technology": 1,
+          "Activism": 4,
+          "Culture": 20,
+          "Politics": 4,
+          "Sports": 1
         }
       },
       "type": "Feature"
@@ -19485,7 +19408,10 @@
         "gdp_md": 372062,
         "pop_est": 5703569,
         "pride_index": {
-          "Culture": 6
+          "Culture": 7,
+          "Activism": 2,
+          "Sports": 1,
+          "Politics": 1
         }
       },
       "type": "Feature"
@@ -19976,8 +19902,9 @@
           "Media": 4,
           "Politics": 2,
           "Activism": 1,
-          "Culture": 5,
-          "Military": 1
+          "Culture": 6,
+          "Military": 1,
+          "Sports": 2
         }
       },
       "type": "Feature"
@@ -20573,8 +20500,9 @@
         "pop_est": 32510453,
         "pride_index": {
           "Media": 1,
-          "Culture": 3,
-          "Politics": 1
+          "Culture": 5,
+          "Politics": 3,
+          "Sports": 1
         }
       },
       "type": "Feature"
@@ -21088,7 +21016,10 @@
         "label_y": -33.501159,
         "gdp_md": 445445,
         "pop_est": 44938712,
-        "pride_index": {}
+        "pride_index": {
+          "Activism": 2,
+          "Sports": 1
+        }
       },
       "type": "Feature"
     },
@@ -22235,11 +22166,12 @@
         "pop_est": 211049527,
         "pride_index": {
           "Media": 4,
-          "Culture": 40,
+          "Culture": 50,
           "Science": 3,
-          "Politics": 3,
-          "Activism": 1,
-          "Sports": 1
+          "Politics": 7,
+          "Activism": 15,
+          "Sports": 14,
+          "Business": 1
         }
       },
       "type": "Feature"
@@ -22350,7 +22282,8 @@
         "pride_index": {
           "Media": 1,
           "Business": 1,
-          "Culture": 2
+          "Culture": 3,
+          "Activism": 1
         }
       },
       "type": "Feature"
@@ -22930,8 +22863,9 @@
         "gdp_md": 323615,
         "pop_est": 50339443,
         "pride_index": {
-          "Culture": 2,
-          "Politics": 1
+          "Culture": 5,
+          "Politics": 4,
+          "Activism": 2
         }
       },
       "type": "Feature"
@@ -23482,8 +23416,9 @@
         "pop_est": 28515829,
         "pride_index": {
           "Technology": 1,
-          "Culture": 2,
-          "Activism": 1
+          "Culture": 5,
+          "Activism": 1,
+          "Sports": 1
         }
       },
       "type": "Feature"
@@ -25203,7 +25138,7 @@
         "gdp_md": 119700,
         "pop_est": 36471769,
         "pride_index": {
-          "Culture": 1
+          "Culture": 2
         }
       },
       "type": "Feature"
@@ -26069,7 +26004,7 @@
       "properties": {
         "iso_a2": "CD",
         "iso_a3": "COD",
-        "name": "Democratic Republic of the Congo",
+        "name": "Dem. Rep. Congo",
         "ne_id": 1159320513,
         "continent": "Africa",
         "region_un": "Africa",
@@ -26680,11 +26615,13 @@
         "gdp_md": 351431,
         "pop_est": 58558270,
         "pride_index": {
-          "Activism": 2,
+          "Activism": 6,
           "Media": 1,
-          "Business": 1,
-          "Culture": 6,
-          "Religion": 1
+          "Business": 2,
+          "Culture": 9,
+          "Religion": 1,
+          "Politics": 4,
+          "Sports": 2
         }
       },
       "type": "Feature"
@@ -28156,7 +28093,7 @@
       "properties": {
         "iso_a2": "CF",
         "iso_a3": "CAF",
-        "name": "Central African Republic",
+        "name": "Central African Rep.",
         "ne_id": 1159320463,
         "continent": "Africa",
         "region_un": "Africa",
@@ -29718,8 +29655,8 @@
         "gdp_md": 448120,
         "pop_est": 200963599,
         "pride_index": {
-          "Activism": 1,
-          "Culture": 2
+          "Activism": 3,
+          "Culture": 3
         }
       },
       "type": "Feature"
@@ -30528,7 +30465,8 @@
         "pop_est": 14645468,
         "pride_index": {
           "Politics": 1,
-          "Culture": 2
+          "Culture": 3,
+          "Activism": 1
         }
       },
       "type": "Feature"
@@ -31756,7 +31694,7 @@
         "pop_est": 44269594,
         "pride_index": {
           "Culture": 1,
-          "Activism": 1
+          "Activism": 3
         }
       },
       "type": "Feature"
@@ -32900,7 +32838,9 @@
         "label_y": 7.717639,
         "gdp_md": 66983,
         "pop_est": 30417856,
-        "pride_index": {}
+        "pride_index": {
+          "Culture": 1
+        }
       },
       "type": "Feature"
     },
@@ -34068,7 +34008,15 @@
         "gdp_md": 2715518,
         "pop_est": 67059887,
         "pride_index": {
-          "Sports": 1
+          "Media": 10,
+          "Science": 4,
+          "Activism": 5,
+          "Culture": 101,
+          "Business": 3,
+          "Sports": 10,
+          "Politics": 20,
+          "Military": 1,
+          "Literature": 1
         }
       },
       "type": "Feature"
@@ -34466,7 +34414,7 @@
         "pop_est": 44385155,
         "pride_index": {
           "Activism": 3,
-          "Culture": 2,
+          "Culture": 3,
           "Media": 1
         }
       },
@@ -34773,7 +34721,8 @@
         "gdp_md": 54627,
         "pop_est": 2786844,
         "pride_index": {
-          "Culture": 1
+          "Culture": 1,
+          "Activism": 1
         }
       },
       "type": "Feature"
@@ -37352,10 +37301,14 @@
         "gdp_md": 1699876,
         "pop_est": 144373535,
         "pride_index": {
-          "Activism": 1,
-          "Culture": 15,
+          "Activism": 2,
+          "Culture": 31,
           "Media": 2,
-          "Science": 1
+          "Science": 2,
+          "Politics": 2,
+          "Literature": 2,
+          "Sports": 1,
+          "Business": 1
         }
       },
       "type": "Feature"
@@ -37520,7 +37473,10 @@
         "gdp_md": 250680,
         "pop_est": 10669709,
         "pride_index": {
-          "Culture": 7
+          "Culture": 11,
+          "Activism": 1,
+          "Sports": 1,
+          "Politics": 2
         }
       },
       "type": "Feature"
@@ -37777,13 +37733,17 @@
         "gdp_md": 3861123,
         "pop_est": 83132799,
         "pride_index": {
-          "Politics": 5,
-          "Media": 12,
-          "Activism": 4,
-          "Culture": 50,
-          "Science": 7,
-          "Sports": 1,
-          "Military": 1
+          "Politics": 30,
+          "Media": 13,
+          "Activism": 19,
+          "Culture": 84,
+          "Science": 9,
+          "Sports": 9,
+          "Military": 1,
+          "Law": 1,
+          "Business": 1,
+          "Literature": 2,
+          "Human Rights": 1
         }
       },
       "type": "Feature"
@@ -37884,7 +37844,8 @@
         "gdp_md": 31471,
         "pop_est": 1326590,
         "pride_index": {
-          "Culture": 1
+          "Culture": 1,
+          "Media": 1
         }
       },
       "type": "Feature"
@@ -37997,7 +37958,8 @@
         "gdp_md": 34102,
         "pop_est": 1912789,
         "pride_index": {
-          "Politics": 2
+          "Politics": 3,
+          "Culture": 1
         }
       },
       "type": "Feature"
@@ -38387,7 +38349,16 @@
         "label_y": 61.357092,
         "gdp_md": 403336,
         "pop_est": 5347896,
-        "pride_index": {}
+        "pride_index": {
+          "Media": 3,
+          "Science": 3,
+          "Culture": 14,
+          "Politics": 6,
+          "Business": 2,
+          "Religion": 1,
+          "Activism": 3,
+          "Sports": 2
+        }
       },
       "type": "Feature"
     },
@@ -38571,11 +38542,13 @@
         "gdp_md": 530883,
         "pop_est": 10285453,
         "pride_index": {
-          "Science": 1,
-          "Media": 5,
-          "Politics": 3,
-          "Culture": 16,
-          "Sports": 1
+          "Science": 2,
+          "Media": 6,
+          "Politics": 9,
+          "Culture": 25,
+          "Sports": 4,
+          "Activism": 4,
+          "Business": 1
         }
       },
       "type": "Feature"
@@ -38760,8 +38733,11 @@
         "gdp_md": 269296,
         "pop_est": 5520314,
         "pride_index": {
-          "Culture": 10,
-          "Politics": 2
+          "Culture": 17,
+          "Politics": 5,
+          "Activism": 4,
+          "Sports": 2,
+          "Science": 1
         }
       },
       "type": "Feature"
@@ -38813,7 +38789,9 @@
         "label_y": 49.733732,
         "gdp_md": 71104,
         "pop_est": 619896,
-        "pride_index": {}
+        "pride_index": {
+          "Politics": 1
+        }
       },
       "type": "Feature"
     },
@@ -38906,9 +38884,12 @@
         "pop_est": 11484055,
         "pride_index": {
           "Science": 1,
-          "Media": 1,
-          "Culture": 11,
-          "Politics": 1
+          "Media": 2,
+          "Culture": 16,
+          "Politics": 2,
+          "Sports": 6,
+          "Activism": 4,
+          "Literature": 1
         }
       },
       "type": "Feature"
@@ -39463,10 +39444,12 @@
         "gdp_md": 1393490,
         "pop_est": 47076781,
         "pride_index": {
-          "Culture": 30,
-          "Politics": 4,
+          "Culture": 43,
+          "Politics": 10,
           "Activism": 1,
-          "Media": 2
+          "Media": 2,
+          "Sports": 2,
+          "Science": 1
         }
       },
       "type": "Feature"
@@ -39593,9 +39576,12 @@
         "gdp_md": 350104,
         "pop_est": 5818553,
         "pride_index": {
-          "Politics": 2,
-          "Culture": 7,
-          "Science": 1
+          "Politics": 4,
+          "Culture": 11,
+          "Science": 3,
+          "Business": 2,
+          "Activism": 6,
+          "Media": 1
         }
       },
       "type": "Feature"
@@ -39950,9 +39936,10 @@
         "gdp_md": 163469,
         "pop_est": 9769949,
         "pride_index": {
-          "Activism": 2,
-          "Science": 2,
-          "Culture": 8
+          "Activism": 3,
+          "Science": 3,
+          "Culture": 10,
+          "Politics": 1
         }
       },
       "type": "Feature"
@@ -40313,9 +40300,12 @@
         "pop_est": 37970874,
         "pride_index": {
           "Media": 4,
-          "Activism": 3,
+          "Activism": 8,
           "Science": 1,
-          "Culture": 16
+          "Culture": 24,
+          "Politics": 2,
+          "Sports": 2,
+          "Literature": 1
         }
       },
       "type": "Feature"
@@ -40392,10 +40382,13 @@
         "gdp_md": 388698,
         "pop_est": 4941444,
         "pride_index": {
-          "Activism": 1,
+          "Activism": 5,
           "Science": 1,
           "Media": 7,
-          "Culture": 16
+          "Culture": 28,
+          "Politics": 4,
+          "Sports": 5,
+          "Business": 1
         }
       },
       "type": "Feature"
@@ -40650,16 +40643,18 @@
         "gdp_md": 2829108,
         "pop_est": 66834405,
         "pride_index": {
-          "Media": 64,
-          "Politics": 15,
-          "Science": 18,
-          "Activism": 15,
-          "Technology": 3,
-          "Culture": 264,
-          "Business": 12,
+          "Media": 68,
+          "Politics": 70,
+          "Science": 31,
+          "Activism": 54,
+          "Technology": 4,
+          "Culture": 377,
+          "Business": 17,
           "Religion": 3,
-          "null": 1,
-          "Sports": 1
+          "Sports": 19,
+          "Literature": 8,
+          "Law": 1,
+          "Human Rights": 1
         }
       },
       "type": "Feature"
@@ -40906,10 +40901,12 @@
         "gdp_md": 209852,
         "pop_est": 10716322,
         "pride_index": {
-          "Politics": 3,
+          "Politics": 4,
           "Activism": 1,
           "Media": 1,
-          "Culture": 8
+          "Culture": 10,
+          "Sports": 2,
+          "Science": 1
         }
       },
       "type": "Feature"
@@ -41083,7 +41080,10 @@
         "pop_est": 8877067,
         "pride_index": {
           "Science": 2,
-          "Culture": 8
+          "Culture": 13,
+          "Politics": 3,
+          "Business": 1,
+          "Activism": 2
         }
       },
       "type": "Feature"
@@ -41466,7 +41466,12 @@
         "gdp_md": 2003576,
         "pop_est": 60297396,
         "pride_index": {
-          "Sports": 1
+          "Activism": 5,
+          "Media": 3,
+          "Culture": 52,
+          "Sports": 4,
+          "Science": 1,
+          "Politics": 9
         }
       },
       "type": "Feature"
@@ -41588,8 +41593,10 @@
         "pop_est": 8574832,
         "pride_index": {
           "Media": 1,
-          "Politics": 1,
-          "Culture": 5
+          "Politics": 2,
+          "Culture": 10,
+          "Activism": 4,
+          "Sports": 1
         }
       },
       "type": "Feature"
@@ -41675,10 +41682,11 @@
         "pop_est": 17332850,
         "pride_index": {
           "Media": 6,
-          "Activism": 3,
-          "Politics": 6,
-          "Culture": 21,
-          "Sports": 4
+          "Activism": 8,
+          "Politics": 8,
+          "Culture": 34,
+          "Sports": 15,
+          "Science": 3
         }
       },
       "type": "Feature"
@@ -41895,8 +41903,9 @@
         "gdp_md": 51475,
         "pop_est": 6944975,
         "pride_index": {
-          "Activism": 2,
-          "Culture": 2
+          "Activism": 3,
+          "Culture": 2,
+          "Politics": 1
         }
       },
       "type": "Feature"
@@ -42326,7 +42335,8 @@
         "pop_est": 6975761,
         "pride_index": {
           "Culture": 5,
-          "Activism": 1
+          "Activism": 1,
+          "Politics": 1
         }
       },
       "type": "Feature"
@@ -42694,9 +42704,9 @@
         "pop_est": 10269417,
         "pride_index": {
           "Media": 5,
-          "Politics": 2,
+          "Politics": 3,
           "Activism": 1,
-          "Culture": 6,
+          "Culture": 7,
           "Business": 1
         }
       },
@@ -42880,11 +42890,7 @@
         "label_y": 41.903323,
         "gdp_md": -99,
         "pop_est": 825,
-        "pride_index": {
-          "Activism": 1,
-          "Media": 3,
-          "Culture": 35
-        }
+        "pride_index": {}
       },
       "type": "Feature"
     },
@@ -44343,11 +44349,14 @@
         "pop_est": 25364307,
         "pride_index": {
           "Media": 7,
-          "Activism": 2,
-          "Culture": 34,
-          "Politics": 3,
-          "Business": 1,
-          "Sports": 1
+          "Activism": 15,
+          "Culture": 51,
+          "Politics": 15,
+          "Business": 2,
+          "Sports": 21,
+          "Literature": 1,
+          "Science": 2,
+          "Music": 1
         }
       },
       "type": "Feature"
@@ -44469,7 +44478,9 @@
         "label_y": -17.826099,
         "gdp_md": 5496,
         "pop_est": 889953,
-        "pride_index": {}
+        "pride_index": {
+          "Activism": 1
+        }
       },
       "type": "Feature"
     },
@@ -44763,12 +44774,13 @@
         "gdp_md": 206928,
         "pop_est": 4917000,
         "pride_index": {
-          "Politics": 1,
+          "Politics": 6,
           "Media": 4,
           "Science": 2,
-          "Culture": 7,
-          "Sports": 1,
-          "Business": 1
+          "Culture": 16,
+          "Sports": 8,
+          "Business": 3,
+          "Activism": 5
         }
       },
       "type": "Feature"
@@ -48327,7 +48339,7 @@
       "properties": {
         "iso_a2": "IO",
         "iso_a3": "IOT",
-        "name": "British Indian Ocean Territory",
+        "name": "Br. Indian Ocean Ter.",
         "ne_id": 1159320723,
         "continent": "Seven seas (open ocean)",
         "region_un": "Africa",
@@ -48337,9 +48349,11 @@
         "pop_est": 3000,
         "pride_index": {
           "Media": 1,
-          "Culture": 14,
-          "Activism": 5,
-          "Science": 3
+          "Culture": 17,
+          "Activism": 7,
+          "Science": 3,
+          "Politics": 1,
+          "Sports": 1
         }
       },
       "type": "Feature"
