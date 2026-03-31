@@ -623,7 +623,7 @@
       "properties": {
         "iso_a2": "DO",
         "iso_a3": "DOM",
-        "name": "Dominican Rep.",
+        "name": "Dominican Republic",
         "ne_id": 1159320563,
         "continent": "North America",
         "region_un": "Americas",
@@ -11430,6 +11430,137 @@
       },
       "type": "Feature"
     },
+    {
+      "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [[
+        [-175.15, -21.18],
+        [-175.36, -21.10],
+        [-175.05, -21.14],
+        [-175.15, -21.18]
+      ]]
+    ]
+  },
+      "type": "Feature",
+  "properties": {
+    "iso_a2": "TO",
+    "iso_a3": "TON",
+    "name": "Tonga",
+    "ne_id": null,
+    "continent": "Oceania",
+    "region_un": "Oceania",
+    "label_x": -175.198242,
+    "label_y": -21.178986,
+    "gdp_md": 591,
+    "pop_est": 104175
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "iso_a2": "BB",
+    "iso_a3": "BRB",
+    "name": "Barbados",
+    "ne_id": null,
+    "continent": "North America",
+    "region_un": "Americas",
+    "label_x": -59.535564,
+    "label_y": 13.190133,
+    "gdp_md": 7170,
+    "pop_est": 282467
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-59.4918, 13.0773],
+      [-59.4990, 13.0866],
+      [-59.4925, 13.0911],
+      [-59.4860, 13.1000],
+      [-59.5000, 13.1200],
+      [-59.5300, 13.1800],
+      [-59.5700, 13.2200],
+      [-59.6100, 13.2100],
+      [-59.6200, 13.1600],
+      [-59.6000, 13.1100],
+      [-59.5600, 13.0800],
+      [-59.5200, 13.0700],
+      [-59.4918, 13.0773]
+    ]]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "iso_a2": "GD",
+    "iso_a3": "GRD",
+    "name": "Grenada",
+    "ne_id": null,
+    "continent": "North America",
+    "region_un": "Americas",
+    "label_x": -61.670761,
+    "label_y": 12.104818,
+    "gdp_md": 1370,
+    "pop_est": 117207
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-61.4885, 12.4107],
+      [-61.4849, 12.4065],
+      [-61.4863, 12.4015],
+      [-61.5000, 12.3600],
+      [-61.5400, 12.3000],
+      [-61.5800, 12.2200],
+      [-61.6200, 12.1500],
+      [-61.6700, 12.0900],
+      [-61.7300, 12.0200],
+      [-61.7800, 11.9800],
+      [-61.8000, 12.0200],
+      [-61.7600, 12.1200],
+      [-61.7000, 12.2200],
+      [-61.6200, 12.3200],
+      [-61.5500, 12.3900],
+      [-61.4885, 12.4107]
+    ]]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "iso_a2": "BM",
+    "iso_a3": "BMU",
+    "name": "Bermuda",
+    "ne_id": null,
+    "continent": "North America",
+    "region_un": "Americas",
+    "label_x": -64.75,
+    "label_y": 32.33,
+    "gdp_md": 8980,
+    "pop_est": 64636
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-64.889, 32.247],
+      [-64.860, 32.255],
+      [-64.820, 32.270],
+      [-64.790, 32.285],
+      [-64.760, 32.300],
+      [-64.730, 32.315],
+      [-64.700, 32.325],
+      [-64.670, 32.330],
+      [-64.650, 32.320],
+      [-64.665, 32.300],
+      [-64.700, 32.285],
+      [-64.735, 32.275],
+      [-64.770, 32.265],
+      [-64.810, 32.255],
+      [-64.850, 32.247],
+      [-64.889, 32.247]
+    ]]
+  }
+},
     {
       "geometry": {
         "type": "Polygon",
@@ -25938,7 +26069,7 @@
       "properties": {
         "iso_a2": "CD",
         "iso_a3": "COD",
-        "name": "Dem. Rep. Congo",
+        "name": "Democratic Republic of the Congo",
         "ne_id": 1159320513,
         "continent": "Africa",
         "region_un": "Africa",
@@ -28025,7 +28156,7 @@
       "properties": {
         "iso_a2": "CF",
         "iso_a3": "CAF",
-        "name": "Central African Rep.",
+        "name": "Central African Republic",
         "ne_id": 1159320463,
         "continent": "Africa",
         "region_un": "Africa",
@@ -48196,7 +48327,7 @@
       "properties": {
         "iso_a2": "IO",
         "iso_a3": "IOT",
-        "name": "Br. Indian Ocean Ter.",
+        "name": "British Indian Ocean Territory",
         "ne_id": 1159320723,
         "continent": "Seven seas (open ocean)",
         "region_un": "Africa",
