@@ -1,8 +1,17 @@
 "use client";
 import React from "react";
+import VisibilityBadge from "./VibilityBadge";
 
 const AspectModal = ({ aspectName, individuals, onClose, onSelectIndividual }) => {
   if (!aspectName || !individuals) return null;
+
+  const visibilityBadgeStyles = {
+    Local: "text-red-400 bg-red-400/10 border border-red-400/30",
+    National: "text-yellow-300 bg-yellow-300/10 border border-yellow-300/30",
+    Regional: "text-cyan-400 bg-cyan-400/10 border border-cyan-400/30",
+    Global: "text-green-400 bg-green-400/10 border border-green-400/30",
+  };
+
 
   return (
     <div className="fixed inset-0 z-50 flex items-end md:items-center justify-center bg-black/30 backdrop-blur-[2px]">
@@ -55,10 +64,9 @@ const AspectModal = ({ aspectName, individuals, onClose, onSelectIndividual }) =
                   </div>
                 </div>
 
-                {/* Impact score */}
-                <span className="text-cyan-400 font-semibold text-sm">
-                  {person.impact_score?.toFixed(2) || "0.00"}
-                </span>
+                <div className="ml-3 shrink-0">
+                  <VisibilityBadge visibility={person.visibility} />
+                </div>
               </li>
             ))}
           </ul>

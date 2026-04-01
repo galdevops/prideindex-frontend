@@ -76,7 +76,7 @@ const WorldMap = forwardRef((props, ref) => {
 
       const map = mapRef.current;
 
-      map.setFilter("country-selected", ["==", "ne_id", countryProps.ne_id]);
+      map.setFilter("country-selected", ["==", "iso_a2", countryProps.iso_a2]);
 
       const lat = parseFloat(countryProps.label_y);
       const lng = parseFloat(countryProps.label_x);
@@ -153,7 +153,7 @@ const WorldMap = forwardRef((props, ref) => {
           "fill-color": cCyan,
           "fill-opacity": 0.4,
         },
-        filter: ["==", "ne_id", ""],
+        filter: ["==", "iso_a2", ""],
       });
 
       map.addLayer({
@@ -164,15 +164,15 @@ const WorldMap = forwardRef((props, ref) => {
           "line-color": cCyan,
           "line-width": 2,
         },
-        filter: ["==", "ne_id", ""],
+        filter: ["==", "iso_a2", ""],
       });
 
       map.on("mousemove", "country-fills", (e) => {
         if (e.features.length > 0) {
-          const iso = e.features[0].properties.ne_id;
-          map.setFilter("country-hover", ["==", "ne_id", iso]);
+          const iso = e.features[0].properties.iso_a2;
+          map.setFilter("country-hover", ["==", "iso_a2", iso]);
         } else {
-          map.setFilter("country-hover", ["==", "ne_id", ""]);
+          map.setFilter("country-hover", ["==", "iso_a2", ""]);
         }
       });
 
@@ -182,7 +182,7 @@ const WorldMap = forwardRef((props, ref) => {
 
       map.on("mouseleave", "country-fills", () => {
         map.getCanvas().style.cursor = "";
-        map.setFilter("country-hover", ["==", "ne_id", ""]);
+        map.setFilter("country-hover", ["==", "iso_a2", ""]);
       });
 
       map.on("click", "country-fills", async (e) => {
@@ -204,8 +204,8 @@ const WorldMap = forwardRef((props, ref) => {
           pride_index: prideIndex,
         });
 
-        const iso = countryProps.ne_id;
-        map.setFilter("country-selected", ["==", "ne_id", iso]);
+        const iso = countryProps.iso_a2;
+        map.setFilter("country-selected", ["==", "iso_a2", iso]);
 
         const lat = parseFloat(countryProps.label_y);
         const lng = parseFloat(countryProps.label_x);
@@ -240,7 +240,7 @@ const WorldMap = forwardRef((props, ref) => {
     });
 
     return () => map.remove();
-  }, [selectCountry, fetchCountryProfiles]);
+  }, []);
 
   return (
     <div className="relative w-full h-screen z-40 overflow-hidden">

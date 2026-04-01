@@ -94,7 +94,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
       const map = mapRef.current;
 
       // Highlight country
-      map.setFilter("country-selected", ["==", "ne_id", countryProps.ne_id]);
+      map.setFilter("country-selected", ["==", "iso_a2", countryProps.iso_a2]);
 
       // Fly to country
       const lat = parseFloat(countryProps.label_y);
@@ -171,7 +171,7 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
           "fill-color": cCyan,
           "fill-opacity": 0.4, // stronger glow
         },
-        filter: ["==", "ne_id", ""], // initially nothing is highlighted
+        filter: ["==", "iso_a2", ""], // initially nothing is highlighted
       });
 
       // Add a layer for selected country
@@ -183,16 +183,16 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
           "line-color": cCyan,
           "line-width": 2,
         },
-        filter: ["==", "ne_id", ""], // initially nothing is selected
+        filter: ["==", "iso_a2", ""], // initially nothing is selected
       });
 
       // Update hover
       map.on("mousemove", "country-fills", (e) => {
         if (e.features.length > 0) {
-          const iso = e.features[0].properties.ne_id;
-          map.setFilter("country-hover", ["==", "ne_id", iso]);
+          const iso = e.features[0].properties.iso_a2;
+          map.setFilter("country-hover", ["==", "iso_a2", iso]);
         } else {
-          map.setFilter("country-hover", ["==", "ne_id", ""]);
+          map.setFilter("country-hover", ["==", "iso_a2", ""]);
         }
       });
 
@@ -226,8 +226,8 @@ const WorldMap = forwardRef(({ selectedCountry, onSelectCountry }, ref) => {
         });
 
         // In click handler, after onSelectCountry
-        const iso = countryProps.ne_id;
-        map.setFilter("country-selected", ["==", "ne_id", iso]);
+        const iso = countryProps.iso_a2;
+        map.setFilter("country-selected", ["==", "iso_a2", iso]);
 
         // Fly to clicked country
         const lat = parseFloat(countryProps.label_y);

@@ -52,7 +52,7 @@ const CountrySearch = ({ countries, onSelectCountry }) => {
           <ul className="absolute w-full bg-white border border-gray-300 mt-1 rounded-md max-h-40 overflow-y-auto z-50 shadow-lg">
             {suggestions.map((country) => (
               <li
-                key={country.properties.ne_id}
+                key={country.properties.iso_a2}
                 className="p-2 hover:bg-cyan-100 cursor-pointer text-gray-800"
                 onClick={() => handleSelect(country)}
               >
