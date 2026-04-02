@@ -10,10 +10,10 @@ const PrideAtlasLogo = ({ className = "" }) => {
       className={`inline-flex items-center ${className}`}
     >
       <Image
-        src="/logo/prideatlasio.png"
+        src="/logo/oie_transparent.png"
         alt="PrideAtlas"
-        width={400}
-        height={100}
+        width={320}
+        height={80}
         priority
         className="h-16 w-auto"
         />
