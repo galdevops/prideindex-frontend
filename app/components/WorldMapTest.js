@@ -54,10 +54,22 @@ const WorldMap = forwardRef((props, ref) => {
     setSelectedIndividual(null);
   };
 
+  const visibilityRank = {
+    Global: 4,
+    Regional: 3,
+    National: 2,
+    Local: 1,
+  };
+
   const getIndividualsForAspect = (country, aspectName) => {
     const aspects = country?.aspects || {};
     const individuals = aspects[aspectName] || [];
-    return individuals;
+    
+    return [...individuals].sort((a, b) => {
+      const aRank = visibilityRank[a?.visibility] || 0;
+      const bRank = visibilityRank[b?.visibility] || 0;
+      return bRank - aRank;
+    });
   };
 
   useImperativeHandle(ref, () => ({
