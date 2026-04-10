@@ -13,7 +13,7 @@ const Topbar = ({ onSelectCountry }) => {
   return (
     <>
       <div className="fixed top-0 left-0 w-full bg-white shadow-md z-50 h-16 topbarbox">
-        <div className="grid grid-cols-3 items-center h-full px-4">
+        <div className="grid grid-cols-[48px_1fr_48px] md:grid-cols-3 items-center h-full px-4">
           {/* Left */}
           <div className="flex items-center justify-start">
             <button

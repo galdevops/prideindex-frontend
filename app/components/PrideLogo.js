@@ -15,7 +15,7 @@ const PrideAtlasLogo = ({ className = "" }) => {
         width={320}
         height={80}
         priority
-        className="h-16 w-auto"
+        className="h-8 md:h-10 w-auto"
         />
     </Link>
   );
