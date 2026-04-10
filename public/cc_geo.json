@@ -34943,7 +34943,17 @@
         "label_y": 46.696113,
         "gdp_md": 2715518,
         "pop_est": 67059887,
-        "pride_index": {}
+        "pride_index": {
+          "Media": 10,
+          "Science": 4,
+          "Activism": 5,
+          "Culture": 101,
+          "Business": 3,
+          "Sports": 10,
+          "Politics": 21,
+          "Military": 1,
+          "Literature": 1
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
