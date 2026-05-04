@@ -6,14 +6,17 @@
         "name": "Costa Rica",
         "ne_id": 1159320525,
         "continent": "North America",
-        "iso_a2": "CR",
+        "iso_code": "CR",
         "iso_a3": "CRI",
         "region_un": "Americas",
         "label_x": -84.077922,
         "label_y": 10.0651,
         "gdp_md": 61801,
         "pop_est": 5047561,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -173,14 +176,17 @@
         "name": "Nicaragua",
         "ne_id": 1159321091,
         "continent": "North America",
-        "iso_a2": "NI",
+        "iso_code": "NI",
         "iso_a3": "NIC",
         "region_un": "Americas",
         "label_x": -85.069347,
         "label_y": 12.670697,
         "gdp_md": 12520,
         "pop_est": 6545502,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -404,7 +410,7 @@
         "name": "Haiti",
         "ne_id": 1159320839,
         "continent": "North America",
-        "iso_a2": "HT",
+        "iso_code": "HT",
         "iso_a3": "HTI",
         "region_un": "Americas",
         "label_x": -72.224051,
@@ -412,6 +418,8 @@
         "gdp_md": 14332,
         "pop_est": 11263077,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1
         }
       },
@@ -513,7 +521,7 @@
         "name": "Dominican Rep.",
         "ne_id": 1159320563,
         "continent": "North America",
-        "iso_a2": "DO",
+        "iso_code": "DO",
         "iso_a3": "DOM",
         "region_un": "Americas",
         "label_x": -70.653998,
@@ -521,7 +529,8 @@
         "gdp_md": 88941,
         "pop_est": 10738958,
         "pride_index": {
-          "Culture": 2
+          "Science": 1,
+          "Politics": 3
         }
       },
       "geometry": {
@@ -642,7 +651,7 @@
         "name": "El Salvador",
         "ne_id": 1159321253,
         "continent": "North America",
-        "iso_a2": "SV",
+        "iso_code": "SV",
         "iso_a3": "SLV",
         "region_un": "Americas",
         "label_x": -88.890124,
@@ -650,6 +659,8 @@
         "gdp_md": 27022,
         "pop_est": 6453553,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 2,
           "Activism": 1
         }
@@ -748,7 +759,7 @@
         "name": "Guatemala",
         "ne_id": 1159320815,
         "continent": "North America",
-        "iso_a2": "GT",
+        "iso_code": "GT",
         "iso_a3": "GTM",
         "region_un": "Americas",
         "label_x": -90.497134,
@@ -756,8 +767,9 @@
         "gdp_md": 76710,
         "pop_est": 16604026,
         "pride_index": {
-          "Media": 1,
-          "Politics": 3
+          "Science": 1,
+          "Politics": 6,
+          "Media": 1
         }
       },
       "geometry": {
@@ -914,7 +926,7 @@
         "name": "Cuba",
         "ne_id": 1159320527,
         "continent": "North America",
-        "iso_a2": "CU",
+        "iso_code": "CU",
         "iso_a3": "CUB",
         "region_un": "Americas",
         "label_x": -77.975855,
@@ -922,10 +934,10 @@
         "gdp_md": 100023,
         "pop_est": 11333483,
         "pride_index": {
+          "Science": 2,
+          "Politics": 4,
           "Activism": 2,
-          "Science": 1,
-          "Politics": 1,
-          "Culture": 9
+          "Culture": 14
         }
       },
       "geometry": {
@@ -1110,7 +1122,7 @@
         "name": "Honduras",
         "ne_id": 1159320827,
         "continent": "North America",
-        "iso_a2": "HN",
+        "iso_code": "HN",
         "iso_a3": "HND",
         "region_un": "Americas",
         "label_x": -86.887604,
@@ -1118,6 +1130,8 @@
         "gdp_md": 25095,
         "pop_est": 9746117,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 1
         }
       },
@@ -1363,24 +1377,29 @@
         "name": "United States of America",
         "ne_id": 1159321369,
         "continent": "North America",
-        "iso_a2": "US",
+        "iso_code": "US",
         "iso_a3": "USA",
         "region_un": "Americas",
         "label_x": -97.482602,
         "label_y": 39.538479,
         "gdp_md": 21433226,
         "pop_est": 328239523,
+        "synonym": [
+          "United States",
+          "USA",
+          "US"
+        ],
         "pride_index": {
-          "Activism": 387,
-          "Culture": 1372,
-          "Politics": 239,
-          "Science": 110,
-          "Media": 110,
+          "Science": 115,
+          "Politics": 251,
+          "Activism": 414,
+          "Culture": 1509,
+          "Media": 111,
           "Technology": 12,
           "Religion": 5,
-          "Business": 52,
+          "Business": 53,
           "Military": 1,
-          "Sports": 136,
+          "Sports": 142,
           "Literature": 29,
           "Law": 12,
           "Crime": 1,
@@ -3231,7 +3250,7 @@
         "name": "Canada",
         "ne_id": 1159320467,
         "continent": "North America",
-        "iso_a2": "CA",
+        "iso_code": "CA",
         "iso_a3": "CAN",
         "region_un": "Americas",
         "label_x": -101.9107,
@@ -3239,11 +3258,11 @@
         "gdp_md": 1736425,
         "pop_est": 37589262,
         "pride_index": {
-          "Culture": 137,
-          "Activism": 38,
-          "Science": 9,
+          "Science": 10,
+          "Politics": 38,
+          "Culture": 142,
+          "Activism": 39,
           "Media": 17,
-          "Politics": 35,
           "Religion": 2,
           "Business": 5,
           "Sports": 29,
@@ -6558,7 +6577,7 @@
         "name": "Mexico",
         "ne_id": 1159321055,
         "continent": "North America",
-        "iso_a2": "MX",
+        "iso_code": "MX",
         "iso_a3": "MEX",
         "region_un": "Americas",
         "label_x": -102.289448,
@@ -6566,11 +6585,11 @@
         "gdp_md": 1268870,
         "pop_est": 127575529,
         "pride_index": {
+          "Science": 3,
+          "Politics": 5,
           "Activism": 5,
-          "Culture": 27,
-          "Science": 2,
+          "Culture": 30,
           "Media": 2,
-          "Politics": 2,
           "Sports": 1
         }
       },
@@ -7268,7 +7287,7 @@
         "name": "Belize",
         "ne_id": 1159320431,
         "continent": "North America",
-        "iso_a2": "BZ",
+        "iso_code": "BZ",
         "iso_a3": "BLZ",
         "region_un": "Americas",
         "label_x": -88.712962,
@@ -7276,6 +7295,8 @@
         "gdp_md": 1879,
         "pop_est": 390353,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 1
         }
       },
@@ -7373,7 +7394,7 @@
         "name": "Panama",
         "ne_id": 1159321161,
         "continent": "North America",
-        "iso_a2": "PA",
+        "iso_code": "PA",
         "iso_a3": "PAN",
         "region_un": "Americas",
         "label_x": -80.352106,
@@ -7381,6 +7402,8 @@
         "gdp_md": 66800,
         "pop_est": 4246439,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Sports": 1
         }
       },
@@ -7606,14 +7629,17 @@
         "name": "Greenland",
         "ne_id": 1159320551,
         "continent": "North America",
-        "iso_a2": "GL",
+        "iso_code": "GL",
         "iso_a3": "GRL",
         "region_un": "Americas",
         "label_x": -39.335251,
         "label_y": 74.319387,
         "gdp_md": 3051,
         "pop_est": 56225,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8157,14 +8183,17 @@
         "name": "Bahamas",
         "ne_id": 1159320415,
         "continent": "North America",
-        "iso_a2": "BS",
+        "iso_code": "BS",
         "iso_a3": "BHS",
         "region_un": "Americas",
         "label_x": -77.146688,
         "label_y": 26.401789,
         "gdp_md": 13578,
         "pop_est": 389482,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8274,7 +8303,7 @@
         "name": "Trinidad and Tobago",
         "ne_id": 1159321321,
         "continent": "North America",
-        "iso_a2": "TT",
+        "iso_code": "TT",
         "iso_a3": "TTO",
         "region_un": "Americas",
         "label_x": -60.9184,
@@ -8282,8 +8311,9 @@
         "gdp_md": 24269,
         "pop_est": 1394973,
         "pride_index": {
+          "Science": 1,
+          "Politics": 4,
           "Culture": 2,
-          "Politics": 1,
           "Sports": 2,
           "Activism": 1
         }
@@ -8334,7 +8364,7 @@
         "name": "Grenada",
         "ne_id": 1159320813,
         "continent": "North America",
-        "iso_a2": "GD",
+        "iso_code": "GD",
         "iso_a3": "GRD",
         "region_un": "Americas",
         "label_x": -61.680461,
@@ -8342,6 +8372,8 @@
         "gdp_md": 1210,
         "pop_est": 112003,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1,
           "Activism": 1
         }
@@ -8622,7 +8654,7 @@
         "name": "Barbados",
         "ne_id": 1159320449,
         "continent": "North America",
-        "iso_a2": "BB",
+        "iso_code": "BB",
         "iso_a3": "BRB",
         "region_un": "Americas",
         "label_x": -59.568966,
@@ -8630,6 +8662,8 @@
         "gdp_md": 5209,
         "pop_est": 287025,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1,
           "Activism": 1
         }
@@ -8788,7 +8822,7 @@
         "name": "Puerto Rico",
         "ne_id": 1159321363,
         "continent": "North America",
-        "iso_a2": "PR",
+        "iso_code": "PR",
         "iso_a3": "PRI",
         "region_un": "Americas",
         "label_x": -66.481065,
@@ -8796,11 +8830,11 @@
         "gdp_md": 104988,
         "pop_est": 3193694,
         "pride_index": {
-          "Science": 2,
-          "Culture": 13,
+          "Science": 3,
+          "Politics": 5,
+          "Culture": 14,
           "Sports": 1,
           "Activism": 4,
-          "Politics": 2,
           "Media": 1
         }
       },
@@ -8854,7 +8888,7 @@
         "name": "Jamaica",
         "ne_id": 1159320931,
         "continent": "North America",
-        "iso_a2": "JM",
+        "iso_code": "JM",
         "iso_a3": "JAM",
         "region_un": "Americas",
         "label_x": -77.318767,
@@ -8862,10 +8896,12 @@
         "gdp_md": 16458,
         "pop_est": 2948279,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Media": 1,
           "Culture": 4,
           "Sports": 2,
-          "Activism": 1
+          "Activism": 2
         }
       },
       "geometry": {
@@ -8926,7 +8962,7 @@
         "name": "Bermuda",
         "ne_id": 1159320705,
         "continent": "North America",
-        "iso_a2": "BM",
+        "iso_code": "BM",
         "iso_a3": "BMU",
         "region_un": "Americas",
         "label_x": -64.763573,
@@ -8934,6 +8970,8 @@
         "gdp_md": 7484,
         "pop_est": 63918,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1,
           "Activism": 1
         }
@@ -9298,7 +9336,7 @@
         "name": "Indonesia",
         "ne_id": 1159320845,
         "continent": "Asia",
-        "iso_a2": "ID",
+        "iso_code": "ID",
         "iso_a3": "IDN",
         "region_un": "Asia",
         "label_x": 101.892949,
@@ -9306,6 +9344,8 @@
         "gdp_md": 1119190,
         "pop_est": 270625568,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Human Rights": 1
         }
       },
@@ -10373,7 +10413,7 @@
         "name": "Malaysia",
         "ne_id": 1159321083,
         "continent": "Asia",
-        "iso_a2": "MY",
+        "iso_code": "MY",
         "iso_a3": "MYS",
         "region_un": "Asia",
         "label_x": 113.83708,
@@ -10381,6 +10421,8 @@
         "gdp_md": 364681,
         "pop_est": 31949777,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 2
         }
       },
@@ -10652,14 +10694,17 @@
         "name": "Cyprus",
         "ne_id": 1159320533,
         "continent": "Asia",
-        "iso_a2": "CY",
+        "iso_code": "CY",
         "iso_a3": "CYP",
         "region_un": "Asia",
         "label_x": 33.084182,
         "label_y": 34.913329,
         "gdp_md": 24948,
         "pop_est": 1198575,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -10735,14 +10780,18 @@
         "name": "India",
         "ne_id": 1159320847,
         "continent": "Asia",
-        "iso_a2": "IN",
+        "iso_code": "IN",
         "iso_a3": "IND",
         "region_un": "Asia",
         "label_x": 79.358105,
         "label_y": 22.686852,
         "gdp_md": 2868929,
         "pop_est": 1366417754,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3,
+          "Culture": 2
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11302,20 +11351,27 @@
         "name": "China",
         "ne_id": 1159320471,
         "continent": "Asia",
-        "iso_a2": "CN",
+        "iso_code": "CN",
         "iso_a3": "CHN",
         "region_un": "Asia",
         "label_x": 106.337289,
         "label_y": 32.498178,
         "gdp_md": 14342903,
         "pop_est": 1397715000,
+        "sub_regions": [
+          {
+            "Macau SAR China": "MO",
+            "Hong Kong": "HK",
+            "Macau": "MO"
+          }
+        ],
         "pride_index": {
-          "Culture": 5,
+          "Politics": 9,
+          "Culture": 7,
+          "Science": 2,
           "Military": 1,
           "Media": 1,
-          "Science": 1,
           "Activism": 2,
-          "Politics": 3,
           "Literature": 1
         }
       },
@@ -12299,7 +12355,7 @@
         "name": "Israel",
         "ne_id": 1159320895,
         "continent": "Asia",
-        "iso_a2": "IL",
+        "iso_code": "IL",
         "iso_a3": "ISR",
         "region_un": "Asia",
         "label_x": 34.847915,
@@ -12307,8 +12363,9 @@
         "gdp_md": 394652,
         "pop_est": 9053300,
         "pride_index": {
-          "Politics": 5,
-          "Culture": 21,
+          "Science": 1,
+          "Politics": 8,
+          "Culture": 23,
           "Media": 4,
           "Activism": 5,
           "Sports": 1,
@@ -12434,14 +12491,19 @@
         "name": "Palestine",
         "ne_id": 1159320899,
         "continent": "Asia",
-        "iso_a2": "PS",
+        "iso_code": "PS",
         "iso_a3": "PSE",
         "region_un": "Asia",
         "label_x": 35.291341,
         "label_y": 32.047431,
         "gdp_md": 16276,
         "pop_est": 4685306,
+        "synonym": [
+          "Palestinian Territories"
+        ],
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 2
         }
       },
@@ -12495,7 +12557,7 @@
         "name": "Lebanon",
         "ne_id": 1159321013,
         "continent": "Asia",
-        "iso_a2": "LB",
+        "iso_code": "LB",
         "iso_a3": "LBN",
         "region_un": "Asia",
         "label_x": 35.992892,
@@ -12503,6 +12565,8 @@
         "gdp_md": 51991,
         "pop_est": 6855713,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 7
         }
       },
@@ -12564,15 +12628,19 @@
         "name": "Syria",
         "ne_id": 1159321295,
         "continent": "Asia",
-        "iso_a2": "SY",
+        "iso_code": "SY",
         "iso_a3": "SYR",
         "region_un": "Asia",
         "label_x": 38.277783,
         "label_y": 35.006636,
         "gdp_md": 98830,
         "pop_est": 17070135,
+        "synonym": [
+          "Syrian Arab Republic"
+        ],
         "pride_index": {
-          "Politics": 1
+          "Science": 1,
+          "Politics": 4
         }
       },
       "geometry": {
@@ -12697,7 +12765,7 @@
         "name": "South Korea",
         "ne_id": 1159320985,
         "continent": "Asia",
-        "iso_a2": "KR",
+        "iso_code": "KR",
         "iso_a3": "KOR",
         "region_un": "Asia",
         "label_x": 128.129504,
@@ -12705,9 +12773,9 @@
         "gdp_md": 1646739,
         "pop_est": 51709098,
         "pride_index": {
-          "Culture": 6,
-          "Science": 1,
-          "Politics": 1
+          "Science": 2,
+          "Politics": 4,
+          "Culture": 6
         }
       },
       "geometry": {
@@ -12800,14 +12868,17 @@
         "name": "North Korea",
         "ne_id": 1159321181,
         "continent": "Asia",
-        "iso_a2": "KP",
+        "iso_code": "KP",
         "iso_a3": "PRK",
         "region_un": "Asia",
         "label_x": 126.444516,
         "label_y": 39.885252,
         "gdp_md": 40000,
         "pop_est": 25666161,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13021,14 +13092,17 @@
         "name": "Bhutan",
         "ne_id": 1159320453,
         "continent": "Asia",
-        "iso_a2": "BT",
+        "iso_code": "BT",
         "iso_a3": "BTN",
         "region_un": "Asia",
         "label_x": 90.040294,
         "label_y": 27.536685,
         "gdp_md": 2530,
         "pop_est": 763092,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -13096,14 +13170,17 @@
         "name": "Oman",
         "ne_id": 1159321151,
         "continent": "Asia",
-        "iso_a2": "OM",
+        "iso_code": "OM",
         "iso_a3": "OMN",
         "region_un": "Asia",
         "label_x": 57.336553,
         "label_y": 22.120427,
         "gdp_md": 76331,
         "pop_est": 4974986,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13313,14 +13390,17 @@
         "name": "Uzbekistan",
         "ne_id": 1159321405,
         "continent": "Asia",
-        "iso_a2": "UZ",
+        "iso_code": "UZ",
         "iso_a3": "UZB",
         "region_un": "Asia",
         "label_x": 64.005429,
         "label_y": 41.693603,
         "gdp_md": 57921,
         "pop_est": 33580650,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -13552,7 +13632,7 @@
         "name": "Kazakhstan",
         "ne_id": 1159320967,
         "continent": "Asia",
-        "iso_a2": "KZ",
+        "iso_code": "KZ",
         "iso_a3": "KAZ",
         "region_un": "Asia",
         "label_x": 68.685548,
@@ -13560,6 +13640,8 @@
         "gdp_md": 181665,
         "pop_est": 18513930,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 1
         }
       },
@@ -14025,14 +14107,17 @@
         "name": "Tajikistan",
         "ne_id": 1159321307,
         "continent": "Asia",
-        "iso_a2": "TJ",
+        "iso_code": "TJ",
         "iso_a3": "TJK",
         "region_un": "Asia",
         "label_x": 72.587276,
         "label_y": 38.199835,
         "gdp_md": 8116,
         "pop_est": 9321018,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -14212,14 +14297,17 @@
         "name": "Mongolia",
         "ne_id": 1159321071,
         "continent": "Asia",
-        "iso_a2": "MN",
+        "iso_code": "MN",
         "iso_a3": "MNG",
         "region_un": "Asia",
         "label_x": 104.150405,
         "label_y": 45.997488,
         "gdp_md": 13996,
         "pop_est": 3225167,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -14535,7 +14623,7 @@
         "name": "Vietnam",
         "ne_id": 1159321417,
         "continent": "Asia",
-        "iso_a2": "VN",
+        "iso_code": "VN",
         "iso_a3": "VNM",
         "region_un": "Asia",
         "label_x": 105.387292,
@@ -14543,9 +14631,10 @@
         "gdp_md": 261921,
         "pop_est": 96462106,
         "pride_index": {
+          "Science": 1,
+          "Politics": 4,
           "Media": 1,
-          "Culture": 2,
-          "Politics": 1
+          "Culture": 2
         }
       },
       "geometry": {
@@ -14738,14 +14827,17 @@
         "name": "Cambodia",
         "ne_id": 1159320979,
         "continent": "Asia",
-        "iso_a2": "KH",
+        "iso_code": "KH",
         "iso_a3": "KHM",
         "region_un": "Asia",
         "label_x": 104.50487,
         "label_y": 12.647584,
         "gdp_md": 27089,
         "pop_est": 16486542,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -14829,14 +14921,17 @@
         "name": "United Arab Emirates",
         "ne_id": 1159320329,
         "continent": "Asia",
-        "iso_a2": "AE",
+        "iso_code": "AE",
         "iso_a3": "ARE",
         "region_un": "Asia",
         "label_x": 54.547256,
         "label_y": 23.466285,
         "gdp_md": 421142,
         "pop_est": 9770529,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -14940,7 +15035,7 @@
         "name": "Georgia",
         "ne_id": 1159320779,
         "continent": "Asia",
-        "iso_a2": "GE",
+        "iso_code": "GE",
         "iso_a3": "GEO",
         "region_un": "Asia",
         "label_x": 43.735724,
@@ -14948,6 +15043,8 @@
         "gdp_md": 17477,
         "pop_est": 3720382,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Business": 1,
           "Culture": 4
         }
@@ -15062,7 +15159,7 @@
         "name": "Azerbaijan",
         "ne_id": 1159320381,
         "continent": "Asia",
-        "iso_a2": "AZ",
+        "iso_code": "AZ",
         "iso_a3": "AZE",
         "region_un": "Asia",
         "label_x": 47.210994,
@@ -15070,6 +15167,8 @@
         "gdp_md": 48047,
         "pop_est": 10023318,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1
         }
       },
@@ -15269,7 +15368,7 @@
         "name": "Turkey",
         "ne_id": 1159321331,
         "continent": "Asia",
-        "iso_a2": "TR",
+        "iso_code": "TR",
         "iso_a3": "TUR",
         "region_un": "Asia",
         "label_x": 34.508268,
@@ -15277,9 +15376,10 @@
         "gdp_md": 761425,
         "pop_est": 83429615,
         "pride_index": {
-          "Science": 1,
+          "Science": 2,
+          "Politics": 3,
           "Technology": 1,
-          "Culture": 5
+          "Culture": 6
         }
       },
       "geometry": {
@@ -15574,14 +15674,17 @@
         "name": "Laos",
         "ne_id": 1159321011,
         "continent": "Asia",
-        "iso_a2": "LA",
+        "iso_code": "LA",
         "iso_a3": "LAO",
         "region_un": "Asia",
         "label_x": 102.533912,
         "label_y": 19.431821,
         "gdp_md": 18173,
         "pop_est": 7169455,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -15745,14 +15848,17 @@
         "name": "Kyrgyzstan",
         "ne_id": 1159320977,
         "continent": "Asia",
-        "iso_a2": "KG",
+        "iso_code": "KG",
         "iso_a3": "KGZ",
         "region_un": "Asia",
         "label_x": 74.532637,
         "label_y": 41.66854,
         "gdp_md": 8454,
         "pop_est": 6456900,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -15908,7 +16014,7 @@
         "name": "Armenia",
         "ne_id": 1159320333,
         "continent": "Asia",
-        "iso_a2": "AM",
+        "iso_code": "AM",
         "iso_a3": "ARM",
         "region_un": "Asia",
         "label_x": 44.800564,
@@ -15916,6 +16022,8 @@
         "gdp_md": 13672,
         "pop_est": 2957731,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1,
           "Activism": 1
         }
@@ -16014,7 +16122,7 @@
         "name": "Iraq",
         "ne_id": 1159320887,
         "continent": "Asia",
-        "iso_a2": "IQ",
+        "iso_code": "IQ",
         "iso_a3": "IRQ",
         "region_un": "Asia",
         "label_x": 43.26181,
@@ -16022,6 +16130,8 @@
         "gdp_md": 234094,
         "pop_est": 39309783,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1
         }
       },
@@ -16159,7 +16269,7 @@
         "name": "Iran",
         "ne_id": 1159320881,
         "continent": "Asia",
-        "iso_a2": "IR",
+        "iso_code": "IR",
         "iso_a3": "IRN",
         "region_un": "Asia",
         "label_x": 54.931495,
@@ -16167,6 +16277,8 @@
         "gdp_md": 453996,
         "pop_est": 82913906,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 4,
           "Culture": 6
         }
@@ -16489,14 +16601,17 @@
         "name": "Qatar",
         "ne_id": 1159321197,
         "continent": "Asia",
-        "iso_a2": "QA",
+        "iso_code": "QA",
         "iso_a3": "QAT",
         "region_un": "Asia",
         "label_x": 51.143509,
         "label_y": 25.237383,
         "gdp_md": 175837,
         "pop_est": 2832067,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -16548,7 +16663,7 @@
         "name": "Saudi Arabia",
         "ne_id": 1159321225,
         "continent": "Asia",
-        "iso_a2": "SA",
+        "iso_code": "SA",
         "iso_a3": "SAU",
         "region_un": "Asia",
         "label_x": 44.6996,
@@ -16556,7 +16671,8 @@
         "gdp_md": 792966,
         "pop_est": 34268528,
         "pride_index": {
-          "Politics": 1
+          "Science": 1,
+          "Politics": 4
         }
       },
       "geometry": {
@@ -16877,7 +16993,7 @@
         "name": "Pakistan",
         "ne_id": 1159321153,
         "continent": "Asia",
-        "iso_a2": "PK",
+        "iso_code": "PK",
         "iso_a3": "PAK",
         "region_un": "Asia",
         "label_x": 68.545632,
@@ -16885,8 +17001,9 @@
         "gdp_md": 278221,
         "pop_est": 216565318,
         "pride_index": {
-          "Culture": 3,
-          "Science": 1
+          "Science": 2,
+          "Politics": 3,
+          "Culture": 3
         }
       },
       "geometry": {
@@ -17167,7 +17284,7 @@
         "name": "Thailand",
         "ne_id": 1159321305,
         "continent": "Asia",
-        "iso_a2": "TH",
+        "iso_code": "TH",
         "iso_a3": "THA",
         "region_un": "Asia",
         "label_x": 101.073198,
@@ -17175,6 +17292,8 @@
         "gdp_md": 543548,
         "pop_est": 69625582,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Media": 1,
           "Culture": 2,
           "Business": 1,
@@ -17451,14 +17570,17 @@
         "name": "Kuwait",
         "ne_id": 1159321009,
         "continent": "Asia",
-        "iso_a2": "KW",
+        "iso_code": "KW",
         "iso_a3": "KWT",
         "region_un": "Asia",
         "label_x": 47.313999,
         "label_y": 29.413628,
         "gdp_md": 134628,
         "pop_est": 4207083,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -17510,14 +17632,17 @@
         "name": "Timor-Leste",
         "ne_id": 1159321313,
         "continent": "Asia",
-        "iso_a2": "TL",
+        "iso_code": "TL",
         "iso_a3": "TLS",
         "region_un": "Asia",
         "label_x": 125.854679,
         "label_y": -8.803705,
         "gdp_md": 2017,
         "pop_est": 1293119,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -17577,7 +17702,7 @@
         "name": "Brunei",
         "ne_id": 1159320451,
         "continent": "Asia",
-        "iso_a2": "BN",
+        "iso_code": "BN",
         "iso_a3": "BRN",
         "region_un": "Asia",
         "label_x": 114.551943,
@@ -17585,6 +17710,8 @@
         "gdp_md": 13469,
         "pop_est": 433285,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1
         }
       },
@@ -17634,7 +17761,7 @@
         "name": "Myanmar",
         "ne_id": 1159321067,
         "continent": "Asia",
-        "iso_a2": "MM",
+        "iso_code": "MM",
         "iso_a3": "MMR",
         "region_un": "Asia",
         "label_x": 95.804497,
@@ -17642,6 +17769,8 @@
         "gdp_md": 76085,
         "pop_est": 54045420,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1
         }
       },
@@ -17939,7 +18068,7 @@
         "name": "Bangladesh",
         "ne_id": 1159320407,
         "continent": "Asia",
-        "iso_a2": "BD",
+        "iso_code": "BD",
         "iso_a3": "BGD",
         "region_un": "Asia",
         "label_x": 89.684963,
@@ -17947,6 +18076,8 @@
         "gdp_md": 302571,
         "pop_est": 163046161,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 1
         }
       },
@@ -18108,7 +18239,7 @@
         "name": "Afghanistan",
         "ne_id": 1159320319,
         "continent": "Asia",
-        "iso_a2": "AF",
+        "iso_code": "AF",
         "iso_a3": "AFG",
         "region_un": "Asia",
         "label_x": 66.496586,
@@ -18116,8 +18247,9 @@
         "gdp_md": 19291,
         "pop_est": 38041754,
         "pride_index": {
-          "Activism": 1,
-          "Politics": 1
+          "Science": 1,
+          "Politics": 4,
+          "Activism": 1
         }
       },
       "geometry": {
@@ -18410,14 +18542,17 @@
         "name": "Turkmenistan",
         "ne_id": 1159321309,
         "continent": "Asia",
-        "iso_a2": "TM",
+        "iso_code": "TM",
         "iso_a3": "TKM",
         "region_un": "Asia",
         "label_x": 58.676647,
         "label_y": 39.855246,
         "gdp_md": 40761,
         "pop_est": 5942089,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -18649,14 +18784,17 @@
         "name": "Jordan",
         "ne_id": 1159320935,
         "continent": "Asia",
-        "iso_a2": "JO",
+        "iso_code": "JO",
         "iso_a3": "JOR",
         "region_un": "Asia",
         "label_x": 36.375991,
         "label_y": 30.805025,
         "gdp_md": 44502,
         "pop_est": 10101694,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -18748,7 +18886,7 @@
         "name": "Nepal",
         "ne_id": 1159321121,
         "continent": "Asia",
-        "iso_a2": "NP",
+        "iso_code": "NP",
         "iso_a3": "NPL",
         "region_un": "Asia",
         "label_x": 83.639914,
@@ -18756,6 +18894,8 @@
         "gdp_md": 30641,
         "pop_est": 28608710,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1,
           "Activism": 1
         }
@@ -18866,14 +19006,17 @@
         "name": "Yemen",
         "ne_id": 1159321425,
         "continent": "Asia",
-        "iso_a2": "YE",
+        "iso_code": "YE",
         "iso_a3": "YEM",
         "region_un": "Asia",
         "label_x": 45.874383,
         "label_y": 15.328226,
         "gdp_md": 22581,
         "pop_est": 29161922,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -19065,14 +19208,17 @@
         "name": "N. Cyprus",
         "ne_id": 1159320531,
         "continent": "Asia",
-        "iso_a2": "CY",
+        "iso_code": "CY",
         "iso_a3": "CYP",
         "region_un": "Asia",
         "label_x": 33.692434,
         "label_y": 35.216071,
         "gdp_md": 3600,
         "pop_est": 326000,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -19152,7 +19298,7 @@
         "name": "Philippines",
         "ne_id": 1159321169,
         "continent": "Asia",
-        "iso_a2": "PH",
+        "iso_code": "PH",
         "iso_a3": "PHL",
         "region_un": "Asia",
         "label_x": 122.465,
@@ -19160,6 +19306,8 @@
         "gdp_md": 376795,
         "pop_est": 108116615,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Media": 4,
           "Culture": 15,
           "Literature": 1,
@@ -19647,7 +19795,7 @@
         "name": "Sri Lanka",
         "ne_id": 1159321025,
         "continent": "Asia",
-        "iso_a2": "LK",
+        "iso_code": "LK",
         "iso_a3": "LKA",
         "region_un": "Asia",
         "label_x": 80.704823,
@@ -19655,10 +19803,10 @@
         "gdp_md": 84008,
         "pop_est": 21803000,
         "pride_index": {
-          "Science": 2,
+          "Science": 3,
+          "Politics": 4,
           "Activism": 1,
-          "Culture": 4,
-          "Politics": 1
+          "Culture": 4
         }
       },
       "geometry": {
@@ -19715,14 +19863,19 @@
         "name": "Taiwan",
         "ne_id": 1159321335,
         "continent": "Asia",
-        "iso_a2": "CN-TW",
+        "iso_code": "CN-TW",
         "iso_a3": "TWN",
         "region_un": "Asia",
         "label_x": 120.868204,
         "label_y": 23.652408,
         "gdp_md": 1127000,
         "pop_est": 23568378,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3,
+          "Culture": 8,
+          "Activism": 1
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -19774,7 +19927,7 @@
         "name": "Japan",
         "ne_id": 1159320937,
         "continent": "Asia",
-        "iso_a2": "JP",
+        "iso_code": "JP",
         "iso_a3": "JPN",
         "region_un": "Asia",
         "label_x": 138.44217,
@@ -19782,10 +19935,11 @@
         "gdp_md": 5081769,
         "pop_est": 126264931,
         "pride_index": {
+          "Science": 1,
+          "Politics": 7,
           "Technology": 1,
           "Activism": 4,
           "Culture": 21,
-          "Politics": 4,
           "Sports": 1
         }
       },
@@ -20073,7 +20227,7 @@
         "name": "Singapore",
         "ne_id": 1159321247,
         "continent": "Asia",
-        "iso_a2": "SG",
+        "iso_code": "SG",
         "iso_a3": "SGP",
         "region_un": "Asia",
         "label_x": 103.816925,
@@ -20081,10 +20235,11 @@
         "gdp_md": 372062,
         "pop_est": 5703569,
         "pride_index": {
-          "Culture": 7,
+          "Science": 1,
+          "Politics": 4,
+          "Culture": 8,
           "Activism": 2,
-          "Sports": 1,
-          "Politics": 1
+          "Sports": 1
         }
       },
       "geometry": {
@@ -20261,7 +20416,7 @@
         "name": "Macao",
         "ne_id": 1159320475,
         "continent": "Asia",
-        "iso_a2": "MO",
+        "iso_code": "MO",
         "iso_a3": "MAC",
         "region_un": "Asia",
         "label_x": 113.556038,
@@ -20269,8 +20424,8 @@
         "gdp_md": 53859,
         "pop_est": 640445,
         "pride_index": {
-          "Politics": 3,
-          "Culture": 1
+          "Science": 1,
+          "Politics": 3
         }
       },
       "geometry": {
@@ -20661,7 +20816,7 @@
         "name": "Chile",
         "ne_id": 1159320493,
         "continent": "South America",
-        "iso_a2": "CL",
+        "iso_code": "CL",
         "iso_a3": "CHL",
         "region_un": "Americas",
         "label_x": -72.318871,
@@ -20669,11 +20824,11 @@
         "gdp_md": 282318,
         "pop_est": 18952038,
         "pride_index": {
-          "Science": 2,
+          "Science": 3,
+          "Politics": 6,
           "Media": 4,
-          "Politics": 3,
           "Activism": 2,
-          "Culture": 8,
+          "Culture": 9,
           "Military": 1,
           "Sports": 2
         }
@@ -21154,7 +21309,7 @@
         "name": "Bolivia",
         "ne_id": 1159320439,
         "continent": "South America",
-        "iso_a2": "BO",
+        "iso_code": "BO",
         "iso_a3": "BOL",
         "region_un": "Americas",
         "label_x": -64.593433,
@@ -21162,6 +21317,8 @@
         "gdp_md": 40895,
         "pop_est": 11513100,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 1,
           "Culture": 2
         }
@@ -21420,7 +21577,7 @@
         "name": "Peru",
         "ne_id": 1159321163,
         "continent": "South America",
-        "iso_a2": "PE",
+        "iso_code": "PE",
         "iso_a3": "PER",
         "region_un": "Americas",
         "label_x": -72.90016,
@@ -21428,9 +21585,10 @@
         "gdp_md": 226848,
         "pop_est": 32510453,
         "pride_index": {
+          "Science": 1,
+          "Politics": 6,
           "Media": 1,
-          "Culture": 5,
-          "Politics": 3,
+          "Culture": 6,
           "Sports": 1
         }
       },
@@ -21752,7 +21910,7 @@
         "name": "Argentina",
         "ne_id": 1159320331,
         "continent": "South America",
-        "iso_a2": "AR",
+        "iso_code": "AR",
         "iso_a3": "ARG",
         "region_un": "Americas",
         "label_x": -64.173331,
@@ -21760,10 +21918,11 @@
         "gdp_md": 445445,
         "pop_est": 44938712,
         "pride_index": {
+          "Science": 1,
+          "Politics": 5,
           "Activism": 7,
           "Sports": 2,
-          "Culture": 18,
-          "Politics": 2
+          "Culture": 18
         }
       },
       "geometry": {
@@ -22270,7 +22429,7 @@
         "name": "Suriname",
         "ne_id": 1159321281,
         "continent": "South America",
-        "iso_a2": "SR",
+        "iso_code": "SR",
         "iso_a3": "SUR",
         "region_un": "Americas",
         "label_x": -55.91094,
@@ -22278,6 +22437,8 @@
         "gdp_md": 3697,
         "pop_est": 581363,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1
         }
       },
@@ -22399,14 +22560,17 @@
         "name": "Guyana",
         "ne_id": 1159320817,
         "continent": "South America",
-        "iso_a2": "GY",
+        "iso_code": "GY",
         "iso_a3": "GUY",
         "region_un": "Americas",
         "label_x": -58.942643,
         "label_y": 5.124317,
         "gdp_md": 5173,
         "pop_est": 782766,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -22582,7 +22746,7 @@
         "name": "Brazil",
         "ne_id": 1159320441,
         "continent": "South America",
-        "iso_a2": "BR",
+        "iso_code": "BR",
         "iso_a3": "BRA",
         "region_un": "Americas",
         "label_x": -49.55945,
@@ -22590,14 +22754,15 @@
         "gdp_md": 1839758,
         "pop_est": 211049527,
         "pride_index": {
+          "Science": 4,
+          "Politics": 12,
           "Media": 4,
-          "Culture": 54,
-          "Science": 3,
-          "Politics": 9,
+          "Culture": 55,
           "Activism": 17,
           "Sports": 14,
           "Business": 1,
-          "Literature": 1
+          "Literature": 1,
+          "Technology": 1
         }
       },
       "geometry": {
@@ -23426,7 +23591,7 @@
         "name": "Uruguay",
         "ne_id": 1159321353,
         "continent": "South America",
-        "iso_a2": "UY",
+        "iso_code": "UY",
         "iso_a3": "URY",
         "region_un": "Americas",
         "label_x": -55.966942,
@@ -23434,6 +23599,8 @@
         "gdp_md": 56045,
         "pop_est": 3461734,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Media": 1,
           "Business": 1,
           "Culture": 3,
@@ -23538,7 +23705,7 @@
         "name": "Ecuador",
         "ne_id": 1159320567,
         "continent": "South America",
-        "iso_a2": "EC",
+        "iso_code": "EC",
         "iso_a3": "ECU",
         "region_un": "Americas",
         "label_x": -78.188375,
@@ -23546,8 +23713,9 @@
         "gdp_md": 107435,
         "pop_est": 17373662,
         "pride_index": {
+          "Science": 1,
+          "Politics": 4,
           "Activism": 1,
-          "Politics": 1,
           "Culture": 1
         }
       },
@@ -23697,7 +23865,7 @@
         "name": "Colombia",
         "ne_id": 1159320517,
         "continent": "South America",
-        "iso_a2": "CO",
+        "iso_code": "CO",
         "iso_a3": "COL",
         "region_un": "Americas",
         "label_x": -73.174347,
@@ -23705,8 +23873,9 @@
         "gdp_md": 323615,
         "pop_est": 50339443,
         "pride_index": {
+          "Science": 1,
+          "Politics": 7,
           "Culture": 7,
-          "Politics": 4,
           "Activism": 2
         }
       },
@@ -24124,7 +24293,7 @@
         "name": "Paraguay",
         "ne_id": 1159321195,
         "continent": "South America",
-        "iso_a2": "PY",
+        "iso_code": "PY",
         "iso_a3": "PRY",
         "region_un": "Americas",
         "label_x": -60.146394,
@@ -24132,7 +24301,8 @@
         "gdp_md": 38145,
         "pop_est": 7044636,
         "pride_index": {
-          "Politics": 1
+          "Science": 1,
+          "Politics": 4
         }
       },
       "geometry": {
@@ -24281,7 +24451,7 @@
         "name": "Venezuela",
         "ne_id": 1159321411,
         "continent": "South America",
-        "iso_a2": "VE",
+        "iso_code": "VE",
         "iso_a3": "VEN",
         "region_un": "Americas",
         "label_x": -64.599381,
@@ -24289,6 +24459,8 @@
         "gdp_md": 482359,
         "pop_est": 28515829,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Technology": 1,
           "Culture": 6,
           "Activism": 1,
@@ -24677,14 +24849,17 @@
         "name": "Falkland Is.",
         "ne_id": 1159320711,
         "continent": "South America",
-        "iso_a2": "FK",
+        "iso_code": "FK",
         "iso_a3": "FLK",
         "region_un": "Americas",
         "label_x": -58.738602,
         "label_y": -51.608913,
         "gdp_md": 282,
         "pop_est": 3398,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -24740,7 +24915,7 @@
         "name": "Ethiopia",
         "ne_id": 1159320617,
         "continent": "Africa",
-        "iso_a2": "ET",
+        "iso_code": "ET",
         "iso_a3": "ETH",
         "region_un": "Africa",
         "label_x": 39.0886,
@@ -24748,6 +24923,8 @@
         "gdp_md": 95912,
         "pop_est": 112078730,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1
         }
       },
@@ -25001,14 +25178,17 @@
         "name": "S. Sudan",
         "ne_id": 1159321235,
         "continent": "Africa",
-        "iso_a2": "SS",
+        "iso_code": "SS",
         "iso_a3": "SSD",
         "region_un": "Africa",
         "label_x": 30.390151,
         "label_y": 7.230477,
         "gdp_md": 11998,
         "pop_est": 11062113,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -25276,7 +25456,7 @@
         "name": "Somalia",
         "ne_id": 1159321261,
         "continent": "Africa",
-        "iso_a2": "SO",
+        "iso_code": "SO",
         "iso_a3": "SOM",
         "region_un": "Africa",
         "label_x": 45.19238,
@@ -25284,7 +25464,8 @@
         "gdp_md": 4719,
         "pop_est": 10192317.3,
         "pride_index": {
-          "Science": 1,
+          "Science": 2,
+          "Politics": 3,
           "Culture": 1
         }
       },
@@ -25450,7 +25631,7 @@
         "name": "Kenya",
         "ne_id": 1159320971,
         "continent": "Africa",
-        "iso_a2": "KE",
+        "iso_code": "KE",
         "iso_a3": "KEN",
         "region_un": "Africa",
         "label_x": 37.907632,
@@ -25458,6 +25639,8 @@
         "gdp_md": 95503,
         "pop_est": 52573973,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 2,
           "Media": 1
         }
@@ -25624,14 +25807,17 @@
         "name": "Malawi",
         "ne_id": 1159321081,
         "continent": "Africa",
-        "iso_a2": "MW",
+        "iso_code": "MW",
         "iso_a3": "MWI",
         "region_un": "Africa",
         "label_x": 33.608082,
         "label_y": -13.386737,
         "gdp_md": 7666,
         "pop_est": 18628747,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -25759,7 +25945,7 @@
         "name": "Tanzania",
         "ne_id": 1159321337,
         "continent": "Africa",
-        "iso_a2": "TZ",
+        "iso_code": "TZ",
         "iso_a3": "TZA",
         "region_un": "Africa",
         "label_x": 34.959183,
@@ -25767,6 +25953,8 @@
         "gdp_md": 63177,
         "pop_est": 58005463,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Literature": 1
         }
       },
@@ -25992,14 +26180,17 @@
         "name": "Somaliland",
         "ne_id": 1159321259,
         "continent": "Africa",
-        "iso_a2": "SO",
+        "iso_code": "SO",
         "iso_a3": "SOM",
         "region_un": "Africa",
         "label_x": 46.731595,
         "label_y": 9.443889,
         "gdp_md": 17836,
         "pop_est": 5096159,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -26119,7 +26310,7 @@
         "name": "Morocco",
         "ne_id": 1159321035,
         "continent": "Africa",
-        "iso_a2": "MA",
+        "iso_code": "MA",
         "iso_a3": "MAR",
         "region_un": "Africa",
         "label_x": -7.187296,
@@ -26127,6 +26318,8 @@
         "gdp_md": 119700,
         "pop_est": 36471769,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 2
         }
       },
@@ -26396,14 +26589,17 @@
         "name": "W. Sahara",
         "ne_id": 1159321223,
         "continent": "Africa",
-        "iso_a2": "EH",
+        "iso_code": "EH",
         "iso_a3": "ESH",
         "region_un": "Africa",
         "label_x": -12.630304,
         "label_y": 23.967592,
         "gdp_md": 907,
         "pop_est": 603253,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -26531,14 +26727,17 @@
         "name": "Congo",
         "ne_id": 1159320515,
         "continent": "Africa",
-        "iso_a2": "CG",
+        "iso_code": "CG",
         "iso_a3": "COG",
         "region_un": "Africa",
         "label_x": 15.9005,
         "label_y": 0.142331,
         "gdp_md": 12267,
         "pop_est": 5380508,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -26750,14 +26949,17 @@
         "name": "Dem. Rep. Congo",
         "ne_id": 1159320513,
         "continent": "Africa",
-        "iso_a2": "CD",
+        "iso_code": "CD",
         "iso_a3": "COD",
         "region_un": "Africa",
         "label_x": 23.458829,
         "label_y": -1.858167,
         "gdp_md": 50400,
         "pop_est": 86790567,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -27269,7 +27471,7 @@
         "name": "Namibia",
         "ne_id": 1159321085,
         "continent": "Africa",
-        "iso_a2": "NA",
+        "iso_code": "NA",
         "iso_a3": "NAM",
         "region_un": "Africa",
         "label_x": 17.108166,
@@ -27277,6 +27479,8 @@
         "gdp_md": 12366,
         "pop_est": 2494530,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 1
         }
       },
@@ -27470,7 +27674,7 @@
         "name": "South Africa",
         "ne_id": 1159321431,
         "continent": "Africa",
-        "iso_a2": "ZA",
+        "iso_code": "ZA",
         "iso_a3": "ZAF",
         "region_un": "Africa",
         "label_x": 23.665734,
@@ -27478,12 +27682,13 @@
         "gdp_md": 351431,
         "pop_est": 58558270,
         "pride_index": {
+          "Science": 1,
+          "Politics": 7,
           "Activism": 7,
           "Media": 1,
           "Business": 2,
           "Culture": 9,
           "Religion": 1,
-          "Politics": 4,
           "Sports": 3
         }
       },
@@ -27879,14 +28084,17 @@
         "name": "Libya",
         "ne_id": 1159321017,
         "continent": "Africa",
-        "iso_a2": "LY",
+        "iso_code": "LY",
         "iso_a3": "LBY",
         "region_un": "Africa",
         "label_x": 18.011015,
         "label_y": 26.638944,
         "gdp_md": 52091,
         "pop_est": 6777452,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -28126,7 +28334,7 @@
         "name": "Tunisia",
         "ne_id": 1159321327,
         "continent": "Africa",
-        "iso_a2": "TN",
+        "iso_code": "TN",
         "iso_a3": "TUN",
         "region_un": "Africa",
         "label_x": 9.007881,
@@ -28134,7 +28342,8 @@
         "gdp_md": 38796,
         "pop_est": 11694719,
         "pride_index": {
-          "Politics": 1
+          "Science": 1,
+          "Politics": 4
         }
       },
       "geometry": {
@@ -28275,14 +28484,17 @@
         "name": "Zambia",
         "ne_id": 1159321439,
         "continent": "Africa",
-        "iso_a2": "ZM",
+        "iso_code": "ZM",
         "iso_a3": "ZMB",
         "region_un": "Africa",
         "label_x": 26.395298,
         "label_y": -14.660804,
         "gdp_md": 23309,
         "pop_est": 17861030,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -28542,14 +28754,17 @@
         "name": "Sierra Leone",
         "ne_id": 1159321251,
         "continent": "Africa",
-        "iso_a2": "SL",
+        "iso_code": "SL",
         "iso_a3": "SLE",
         "region_un": "Africa",
         "label_x": -11.763677,
         "label_y": 8.617449,
         "gdp_md": 4121,
         "pop_est": 7813215,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -28653,14 +28868,17 @@
         "name": "Guinea",
         "ne_id": 1159320795,
         "continent": "Africa",
-        "iso_a2": "GN",
+        "iso_code": "GN",
         "iso_a3": "GIN",
         "region_un": "Africa",
         "label_x": -10.016402,
         "label_y": 10.618516,
         "gdp_md": 12296,
         "pop_est": 12771246,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -28956,14 +29174,17 @@
         "name": "Liberia",
         "ne_id": 1159321015,
         "continent": "Africa",
-        "iso_a2": "LR",
+        "iso_code": "LR",
         "iso_a3": "LBR",
         "region_un": "Africa",
         "label_x": -9.460379,
         "label_y": 6.447177,
         "gdp_md": 3070,
         "pop_est": 4937374,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -29087,14 +29308,17 @@
         "name": "Central African Rep.",
         "ne_id": 1159320463,
         "continent": "Africa",
-        "iso_a2": "CF",
+        "iso_code": "CF",
         "iso_a3": "CAF",
         "region_un": "Africa",
         "label_x": 20.906897,
         "label_y": 6.989681,
         "gdp_md": 2220,
         "pop_est": 4745185,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -29358,14 +29582,17 @@
         "name": "Sudan",
         "ne_id": 1159321229,
         "continent": "Africa",
-        "iso_a2": "SD",
+        "iso_code": "SD",
         "iso_a3": "SDN",
         "region_un": "Africa",
         "label_x": 29.260657,
         "label_y": 16.330746,
         "gdp_md": 30513,
         "pop_est": 42813238,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -29705,14 +29932,17 @@
         "name": "Djibouti",
         "ne_id": 1159320541,
         "continent": "Africa",
-        "iso_a2": "DJ",
+        "iso_code": "DJ",
         "iso_a3": "DJI",
         "region_un": "Africa",
         "label_x": 42.498825,
         "label_y": 11.976343,
         "gdp_md": 3324,
         "pop_est": 973560,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -29788,14 +30018,17 @@
         "name": "Eritrea",
         "ne_id": 1159320581,
         "continent": "Africa",
-        "iso_a2": "ER",
+        "iso_code": "ER",
         "iso_a3": "ERI",
         "region_un": "Africa",
         "label_x": 38.285566,
         "label_y": 15.787401,
         "gdp_md": 2065,
         "pop_est": 6081196,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -29923,14 +30156,17 @@
         "name": "Côte d'Ivoire",
         "ne_id": 1159320507,
         "continent": "Africa",
-        "iso_a2": "CI",
+        "iso_code": "CI",
         "iso_a3": "CIV",
         "region_un": "Africa",
         "label_x": -5.568618,
         "label_y": 7.49139,
         "gdp_md": 58539,
         "pop_est": 25716544,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -30130,14 +30366,17 @@
         "name": "Mali",
         "ne_id": 1159321063,
         "continent": "Africa",
-        "iso_a2": "ML",
+        "iso_code": "ML",
         "iso_a3": "MLI",
         "region_un": "Africa",
         "label_x": -2.038455,
         "label_y": 18.692713,
         "gdp_md": 17279,
         "pop_est": 19658031,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -30457,14 +30696,17 @@
         "name": "Senegal",
         "ne_id": 1159321243,
         "continent": "Africa",
-        "iso_a2": "SN",
+        "iso_code": "SN",
         "iso_a3": "SEN",
         "region_un": "Africa",
         "label_x": -14.778586,
         "label_y": 15.138125,
         "gdp_md": 23578,
         "pop_est": 16296364,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -30656,7 +30898,7 @@
         "name": "Nigeria",
         "ne_id": 1159321089,
         "continent": "Africa",
-        "iso_a2": "NG",
+        "iso_code": "NG",
         "iso_a3": "NGA",
         "region_un": "Africa",
         "label_x": 7.50322,
@@ -30664,6 +30906,8 @@
         "gdp_md": 448120,
         "pop_est": 200963599,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 3,
           "Culture": 3
         }
@@ -30914,14 +31158,17 @@
         "name": "Benin",
         "ne_id": 1159320399,
         "continent": "Africa",
-        "iso_a2": "BJ",
+        "iso_code": "BJ",
         "iso_a3": "BEN",
         "region_un": "Africa",
         "label_x": 2.352018,
         "label_y": 10.324775,
         "gdp_md": 14390,
         "pop_est": 11801151,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -31037,14 +31284,17 @@
         "name": "Angola",
         "ne_id": 1159320323,
         "continent": "Africa",
-        "iso_a2": "AO",
+        "iso_code": "AO",
         "iso_a3": "AGO",
         "region_un": "Africa",
         "label_x": 17.984249,
         "label_y": -12.182762,
         "gdp_md": 88815,
         "pop_est": 31825295,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31366,14 +31616,17 @@
         "name": "Botswana",
         "ne_id": 1159320461,
         "continent": "Africa",
-        "iso_a2": "BW",
+        "iso_code": "BW",
         "iso_a3": "BWA",
         "region_un": "Africa",
         "label_x": 24.179216,
         "label_y": -22.102634,
         "gdp_md": 18340,
         "pop_est": 2303697,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -31549,7 +31802,7 @@
         "name": "Zimbabwe",
         "ne_id": 1159321441,
         "continent": "Africa",
-        "iso_a2": "ZW",
+        "iso_code": "ZW",
         "iso_a3": "ZWE",
         "region_un": "Africa",
         "label_x": 29.925444,
@@ -31557,7 +31810,8 @@
         "gdp_md": 21440,
         "pop_est": 14645468,
         "pride_index": {
-          "Politics": 1,
+          "Science": 1,
+          "Politics": 4,
           "Culture": 3,
           "Activism": 1
         }
@@ -31724,14 +31978,17 @@
         "name": "Chad",
         "ne_id": 1159321301,
         "continent": "Africa",
-        "iso_a2": "TD",
+        "iso_code": "TD",
         "iso_a3": "TCD",
         "region_un": "Africa",
         "label_x": 18.645041,
         "label_y": 15.142959,
         "gdp_md": 11314,
         "pop_est": 15946876,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -31979,7 +32236,7 @@
         "name": "Algeria",
         "ne_id": 1159320565,
         "continent": "Africa",
-        "iso_a2": "DZ",
+        "iso_code": "DZ",
         "iso_a3": "DZA",
         "region_un": "Africa",
         "label_x": 2.808241,
@@ -31987,7 +32244,9 @@
         "gdp_md": 171091,
         "pop_est": 43053054,
         "pride_index": {
-          "Culture": 2
+          "Science": 1,
+          "Politics": 3,
+          "Culture": 3
         }
       },
       "geometry": {
@@ -32252,14 +32511,17 @@
         "name": "Mozambique",
         "ne_id": 1159321073,
         "continent": "Africa",
-        "iso_a2": "MZ",
+        "iso_code": "MZ",
         "iso_a3": "MOZ",
         "region_un": "Africa",
         "label_x": 37.83789,
         "label_y": -13.94323,
         "gdp_md": 15291,
         "pop_est": 30366036,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -32591,14 +32853,17 @@
         "name": "eSwatini",
         "ne_id": 1159321289,
         "continent": "Africa",
-        "iso_a2": "SZ",
+        "iso_code": "SZ",
         "iso_a3": "SWZ",
         "region_un": "Africa",
         "label_x": 31.467264,
         "label_y": -26.533676,
         "gdp_md": 4471,
         "pop_est": 1148130,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -32658,14 +32923,17 @@
         "name": "Burundi",
         "ne_id": 1159320387,
         "continent": "Africa",
-        "iso_a2": "BI",
+        "iso_code": "BI",
         "iso_a3": "BDI",
         "region_un": "Africa",
         "label_x": 29.917086,
         "label_y": -3.332836,
         "gdp_md": 3012,
         "pop_est": 11530580,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -32733,7 +33001,7 @@
         "name": "Rwanda",
         "ne_id": 1159321219,
         "continent": "Africa",
-        "iso_a2": "RW",
+        "iso_code": "RW",
         "iso_a3": "RWA",
         "region_un": "Africa",
         "label_x": 30.103894,
@@ -32741,6 +33009,8 @@
         "gdp_md": 10354,
         "pop_est": 12626950,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1
         }
       },
@@ -32814,7 +33084,7 @@
         "name": "Uganda",
         "ne_id": 1159321343,
         "continent": "Africa",
-        "iso_a2": "UG",
+        "iso_code": "UG",
         "iso_a3": "UGA",
         "region_un": "Africa",
         "label_x": 32.948555,
@@ -32822,9 +33092,10 @@
         "gdp_md": 35165,
         "pop_est": 44269594,
         "pride_index": {
+          "Science": 1,
+          "Politics": 4,
           "Culture": 1,
-          "Activism": 3,
-          "Politics": 1
+          "Activism": 3
         }
       },
       "geometry": {
@@ -32953,14 +33224,17 @@
         "name": "Lesotho",
         "ne_id": 1159321027,
         "continent": "Africa",
-        "iso_a2": "LS",
+        "iso_code": "LS",
         "iso_a3": "LSO",
         "region_un": "Africa",
         "label_x": 28.246639,
         "label_y": -29.480158,
         "gdp_md": 2376,
         "pop_est": 2125268,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -33024,7 +33298,7 @@
         "name": "Cameroon",
         "ne_id": 1159320509,
         "continent": "Africa",
-        "iso_a2": "CM",
+        "iso_code": "CM",
         "iso_a3": "CMR",
         "region_un": "Africa",
         "label_x": 12.473488,
@@ -33032,6 +33306,8 @@
         "gdp_md": 39007,
         "pop_est": 25876380,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 1
         }
       },
@@ -33293,14 +33569,17 @@
         "name": "Gabon",
         "ne_id": 1159320693,
         "continent": "Africa",
-        "iso_a2": "GA",
+        "iso_code": "GA",
         "iso_a3": "GAB",
         "region_un": "Africa",
         "label_x": 11.835939,
         "label_y": -0.437739,
         "gdp_md": 16874,
         "pop_est": 2172579,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -33440,14 +33719,17 @@
         "name": "Niger",
         "ne_id": 1159321087,
         "continent": "Africa",
-        "iso_a2": "NE",
+        "iso_code": "NE",
         "iso_a3": "NER",
         "region_un": "Africa",
         "label_x": 9.504356,
         "label_y": 17.446195,
         "gdp_md": 12911,
         "pop_est": 23310715,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -33695,14 +33977,17 @@
         "name": "Burkina Faso",
         "ne_id": 1159320405,
         "continent": "Africa",
-        "iso_a2": "BF",
+        "iso_code": "BF",
         "iso_a3": "BFA",
         "region_un": "Africa",
         "label_x": -1.36388,
         "label_y": 12.673048,
         "gdp_md": 15990,
         "pop_est": 20321378,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -33874,14 +34159,17 @@
         "name": "Togo",
         "ne_id": 1159321303,
         "continent": "Africa",
-        "iso_a2": "TG",
+        "iso_code": "TG",
         "iso_a3": "TGO",
         "region_un": "Africa",
         "label_x": 1.058113,
         "label_y": 8.80722,
         "gdp_md": 5490,
         "pop_est": 8082366,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -33973,7 +34261,7 @@
         "name": "Ghana",
         "ne_id": 1159320793,
         "continent": "Africa",
-        "iso_a2": "GH",
+        "iso_code": "GH",
         "iso_a3": "GHA",
         "region_un": "Africa",
         "label_x": -1.036941,
@@ -33981,6 +34269,8 @@
         "gdp_md": 66983,
         "pop_est": 30417856,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1
         }
       },
@@ -34098,14 +34388,17 @@
         "name": "Guinea-Bissau",
         "ne_id": 1159320799,
         "continent": "Africa",
-        "iso_a2": "GW",
+        "iso_code": "GW",
         "iso_a3": "GNB",
         "region_un": "Africa",
         "label_x": -14.52413,
         "label_y": 12.163712,
         "gdp_md": 1339,
         "pop_est": 1920922,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -34197,7 +34490,7 @@
         "name": "Egypt",
         "ne_id": 1159320575,
         "continent": "Africa",
-        "iso_a2": "EG",
+        "iso_code": "EG",
         "iso_a3": "EGY",
         "region_un": "Africa",
         "label_x": 29.445837,
@@ -34205,6 +34498,8 @@
         "gdp_md": 303092,
         "pop_est": 100388073,
         "pride_index": {
+          "Science": 1,
+          "Politics": 4,
           "Culture": 1,
           "Activism": 1,
           "Technology": 1
@@ -34400,14 +34695,17 @@
         "name": "Mauritania",
         "ne_id": 1159321075,
         "continent": "Africa",
-        "iso_a2": "MR",
+        "iso_code": "MR",
         "iso_a3": "MRT",
         "region_un": "Africa",
         "label_x": -9.740299,
         "label_y": 19.587062,
         "gdp_md": 7600,
         "pop_est": 4525696,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -34579,14 +34877,17 @@
         "name": "Eq. Guinea",
         "ne_id": 1159320801,
         "continent": "Africa",
-        "iso_a2": "GQ",
+        "iso_code": "GQ",
         "iso_a3": "GNQ",
         "region_un": "Africa",
         "label_x": 8.9902,
         "label_y": 2.333,
         "gdp_md": 11026,
         "pop_est": 1355986,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -34630,14 +34931,17 @@
         "name": "Gambia",
         "ne_id": 1159320797,
         "continent": "Africa",
-        "iso_a2": "GM",
+        "iso_code": "GM",
         "iso_a3": "GMB",
         "region_un": "Africa",
         "label_x": -14.998318,
         "label_y": 13.641721,
         "gdp_md": 1826,
         "pop_est": 2347706,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -34717,14 +35021,17 @@
         "name": "Madagascar",
         "ne_id": 1159321051,
         "continent": "Africa",
-        "iso_a2": "MG",
+        "iso_code": "MG",
         "iso_a3": "MDG",
         "region_un": "Africa",
         "label_x": 46.704241,
         "label_y": -18.628288,
         "gdp_md": 14114,
         "pop_est": 26969307,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -34936,7 +35243,7 @@
         "name": "France",
         "ne_id": 1159320637,
         "continent": "Europe",
-        "iso_a2": "FR",
+        "iso_code": "FR",
         "iso_a3": "FRA",
         "region_un": "Europe",
         "label_x": 2.552275,
@@ -34944,16 +35251,21 @@
         "gdp_md": 2715518,
         "pop_est": 67059887,
         "pride_index": {
+          "Culture": 133,
+          "Activism": 7,
+          "Sports": 12,
+          "Science": 5,
+          "Politics": 26,
           "Media": 10,
-          "Science": 4,
-          "Activism": 5,
-          "Culture": 101,
           "Business": 3,
-          "Sports": 10,
-          "Politics": 21,
           "Military": 1,
           "Literature": 1
-        }
+        },
+        "sub_regions": [
+          {
+            "Mayotte": "YT"
+          }
+        ]
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -35275,7 +35587,7 @@
         "name": "Ukraine",
         "ne_id": 1159321345,
         "continent": "Europe",
-        "iso_a2": "UA",
+        "iso_code": "UA",
         "iso_a3": "UKR",
         "region_un": "Europe",
         "label_x": 32.140865,
@@ -35283,8 +35595,10 @@
         "gdp_md": 153781,
         "pop_est": 44385155,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 3,
-          "Culture": 3,
+          "Culture": 5,
           "Media": 1
         }
       },
@@ -35674,7 +35988,7 @@
         "name": "Belarus",
         "ne_id": 1159320427,
         "continent": "Europe",
-        "iso_a2": "BY",
+        "iso_code": "BY",
         "iso_a3": "BLR",
         "region_un": "Europe",
         "label_x": 28.417701,
@@ -35682,6 +35996,8 @@
         "gdp_md": 63080,
         "pop_est": 9466856,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Media": 3
         }
       },
@@ -35879,7 +36195,7 @@
         "name": "Lithuania",
         "ne_id": 1159321029,
         "continent": "Europe",
-        "iso_a2": "LT",
+        "iso_code": "LT",
         "iso_a3": "LTU",
         "region_un": "Europe",
         "label_x": 24.089932,
@@ -35887,6 +36203,8 @@
         "gdp_md": 54627,
         "pop_est": 2786844,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1,
           "Activism": 1
         }
@@ -35981,19 +36299,22 @@
         "name": "Russia",
         "ne_id": 1159321201,
         "continent": "Europe",
-        "iso_a2": "RU",
+        "iso_code": "RU",
         "iso_a3": "RUS",
         "region_un": "Europe",
         "label_x": 44.686469,
         "label_y": 58.249357,
         "gdp_md": 1699876,
         "pop_est": 144373535,
+        "synonym": [
+          "Russian Federation"
+        ],
         "pride_index": {
+          "Science": 4,
+          "Politics": 5,
           "Activism": 4,
-          "Culture": 34,
+          "Culture": 43,
           "Media": 2,
-          "Science": 2,
-          "Politics": 2,
           "Literature": 2,
           "Sports": 2,
           "Business": 1
@@ -38567,18 +38888,22 @@
         "name": "Czechia",
         "ne_id": 1159320535,
         "continent": "Europe",
-        "iso_a2": "CZ",
+        "iso_code": "CZ",
         "iso_a3": "CZE",
         "region_un": "Europe",
         "label_x": 15.377555,
         "label_y": 49.882364,
         "gdp_md": 250680,
         "pop_est": 10669709,
+        "synonym": [
+          "Czech Republic"
+        ],
         "pride_index": {
+          "Science": 1,
+          "Politics": 5,
           "Culture": 15,
           "Activism": 1,
-          "Sports": 2,
-          "Politics": 2
+          "Sports": 3
         }
       },
       "geometry": {
@@ -38735,7 +39060,7 @@
         "name": "Germany",
         "ne_id": 1159320539,
         "continent": "Europe",
-        "iso_a2": "DE",
+        "iso_code": "DE",
         "iso_a3": "DEU",
         "region_un": "Europe",
         "label_x": 9.678348,
@@ -38743,11 +39068,11 @@
         "gdp_md": 3861123,
         "pop_est": 83132799,
         "pride_index": {
-          "Politics": 30,
+          "Science": 14,
+          "Politics": 34,
           "Media": 13,
-          "Activism": 21,
-          "Culture": 102,
-          "Science": 11,
+          "Activism": 23,
+          "Culture": 116,
           "Sports": 17,
           "Military": 1,
           "Law": 1,
@@ -39002,7 +39327,7 @@
         "name": "Estonia",
         "ne_id": 1159320615,
         "continent": "Europe",
-        "iso_a2": "EE",
+        "iso_code": "EE",
         "iso_a3": "EST",
         "region_un": "Europe",
         "label_x": 25.867126,
@@ -39010,6 +39335,8 @@
         "gdp_md": 31471,
         "pop_est": 1326590,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 2,
           "Media": 1
         }
@@ -39104,7 +39431,7 @@
         "name": "Latvia",
         "ne_id": 1159321033,
         "continent": "Europe",
-        "iso_a2": "LV",
+        "iso_code": "LV",
         "iso_a3": "LVA",
         "region_un": "Europe",
         "label_x": 25.458723,
@@ -39112,7 +39439,8 @@
         "gdp_md": 34102,
         "pop_est": 1912789,
         "pride_index": {
-          "Politics": 3,
+          "Science": 1,
+          "Politics": 6,
           "Culture": 1
         }
       },
@@ -39218,14 +39546,23 @@
         "name": "Norway",
         "ne_id": 1159321109,
         "continent": "Europe",
-        "iso_a2": "NO",
+        "iso_code": "NO",
         "iso_a3": "NOR",
         "region_un": "Europe",
         "label_x": 9.679975,
         "label_y": 61.357092,
         "gdp_md": 403336,
         "pop_est": 5347896,
-        "pride_index": {}
+        "pride_index": {
+          "Culture": 16,
+          "Sports": 5,
+          "Activism": 4,
+          "Science": 4,
+          "Politics": 9,
+          "Media": 3,
+          "Business": 2,
+          "Religion": 1
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -39607,7 +39944,7 @@
         "name": "Sweden",
         "ne_id": 1159321287,
         "continent": "Europe",
-        "iso_a2": "SE",
+        "iso_code": "SE",
         "iso_a3": "SWE",
         "region_un": "Europe",
         "label_x": 19.01705,
@@ -39615,10 +39952,10 @@
         "gdp_md": 530883,
         "pop_est": 10285453,
         "pride_index": {
-          "Science": 2,
+          "Science": 3,
+          "Politics": 15,
           "Media": 6,
-          "Politics": 9,
-          "Culture": 25,
+          "Culture": 28,
           "Sports": 10,
           "Activism": 7,
           "Business": 1
@@ -39798,7 +40135,7 @@
         "name": "Finland",
         "ne_id": 1159320623,
         "continent": "Europe",
-        "iso_a2": "FI",
+        "iso_code": "FI",
         "iso_a3": "FIN",
         "region_un": "Europe",
         "label_x": 27.276449,
@@ -39806,11 +40143,11 @@
         "gdp_md": 269296,
         "pop_est": 5520314,
         "pride_index": {
-          "Culture": 21,
-          "Politics": 5,
+          "Science": 2,
+          "Politics": 8,
+          "Culture": 24,
           "Activism": 4,
-          "Sports": 3,
-          "Science": 1
+          "Sports": 3
         }
       },
       "geometry": {
@@ -39987,7 +40324,7 @@
         "name": "Luxembourg",
         "ne_id": 1159321031,
         "continent": "Europe",
-        "iso_a2": "LU",
+        "iso_code": "LU",
         "iso_a3": "LUX",
         "region_un": "Europe",
         "label_x": 6.07762,
@@ -39995,7 +40332,8 @@
         "gdp_md": 71104,
         "pop_est": 619896,
         "pride_index": {
-          "Politics": 2
+          "Science": 1,
+          "Politics": 5
         }
       },
       "geometry": {
@@ -40040,7 +40378,7 @@
         "name": "Belgium",
         "ne_id": 1159320389,
         "continent": "Europe",
-        "iso_a2": "BE",
+        "iso_code": "BE",
         "iso_a3": "BEL",
         "region_un": "Europe",
         "label_x": 4.800448,
@@ -40048,10 +40386,10 @@
         "gdp_md": 533097,
         "pop_est": 11484055,
         "pride_index": {
-          "Science": 1,
+          "Science": 2,
+          "Politics": 5,
           "Media": 2,
-          "Culture": 19,
-          "Politics": 2,
+          "Culture": 20,
           "Sports": 6,
           "Activism": 4,
           "Literature": 1,
@@ -40140,14 +40478,19 @@
         "name": "North Macedonia",
         "ne_id": 1159321061,
         "continent": "Europe",
-        "iso_a2": "MK",
+        "iso_code": "MK",
         "iso_a3": "MKD",
         "region_un": "Europe",
         "label_x": 21.555839,
         "label_y": 41.558223,
         "gdp_md": 12547,
         "pop_est": 2083459,
+        "synonym": [
+          "Macedonia"
+        ],
         "pride_index": {
+          "Science": 1,
+          "Politics": 4,
           "Business": 1,
           "Culture": 1
         }
@@ -40238,7 +40581,7 @@
         "name": "Albania",
         "ne_id": 1159320325,
         "continent": "Europe",
-        "iso_a2": "AL",
+        "iso_code": "AL",
         "iso_a3": "ALB",
         "region_un": "Europe",
         "label_x": 20.11384,
@@ -40246,7 +40589,8 @@
         "gdp_md": 15279,
         "pop_est": 2854191,
         "pride_index": {
-          "Science": 1
+          "Science": 2,
+          "Politics": 3
         }
       },
       "geometry": {
@@ -40359,14 +40703,18 @@
         "name": "Kosovo",
         "ne_id": 1159321007,
         "continent": "Europe",
-        "iso_a2": "XK",
+        "iso_code": "XK",
         "iso_a3": "XKX",
         "region_un": "Europe",
         "label_x": 20.860719,
         "label_y": 42.593587,
         "gdp_md": 7926,
         "pop_est": 1794248,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3,
+          "Activism": 1
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -40466,7 +40814,7 @@
         "name": "Spain",
         "ne_id": 1159320587,
         "continent": "Europe",
-        "iso_a2": "ES",
+        "iso_code": "ES",
         "iso_a3": "ESP",
         "region_un": "Europe",
         "label_x": -3.464718,
@@ -40474,12 +40822,12 @@
         "gdp_md": 1393490,
         "pop_est": 47076781,
         "pride_index": {
-          "Culture": 47,
-          "Politics": 11,
+          "Science": 2,
+          "Politics": 14,
+          "Culture": 56,
           "Activism": 1,
           "Media": 2,
-          "Sports": 2,
-          "Science": 1
+          "Sports": 2
         }
       },
       "geometry": {
@@ -40700,7 +41048,7 @@
         "name": "Denmark",
         "ne_id": 1159320547,
         "continent": "Europe",
-        "iso_a2": "DK",
+        "iso_code": "DK",
         "iso_a3": "DNK",
         "region_un": "Europe",
         "label_x": 9.018163,
@@ -40708,9 +41056,9 @@
         "gdp_md": 350104,
         "pop_est": 5818553,
         "pride_index": {
-          "Politics": 5,
-          "Culture": 11,
-          "Science": 3,
+          "Science": 4,
+          "Politics": 8,
+          "Culture": 14,
           "Business": 2,
           "Activism": 6,
           "Media": 1,
@@ -40833,7 +41181,7 @@
         "name": "Romania",
         "ne_id": 1159321199,
         "continent": "Europe",
-        "iso_a2": "RO",
+        "iso_code": "RO",
         "iso_a3": "ROU",
         "region_un": "Europe",
         "label_x": 24.972624,
@@ -40841,6 +41189,8 @@
         "gdp_md": 250077,
         "pop_est": 19356544,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Media": 1,
           "Culture": 3
         }
@@ -41035,7 +41385,7 @@
         "name": "Hungary",
         "ne_id": 1159320841,
         "continent": "Europe",
-        "iso_a2": "HU",
+        "iso_code": "HU",
         "iso_a3": "HUN",
         "region_un": "Europe",
         "label_x": 19.447867,
@@ -41043,10 +41393,10 @@
         "gdp_md": 163469,
         "pop_est": 9769949,
         "pride_index": {
+          "Science": 4,
+          "Politics": 5,
           "Activism": 3,
-          "Science": 3,
-          "Culture": 10,
-          "Politics": 2
+          "Culture": 11
         }
       },
       "geometry": {
@@ -41191,14 +41541,17 @@
         "name": "Slovakia",
         "ne_id": 1159321283,
         "continent": "Europe",
-        "iso_a2": "SK",
+        "iso_code": "SK",
         "iso_a3": "SVK",
         "region_un": "Europe",
         "label_x": 19.049868,
         "label_y": 48.734044,
         "gdp_md": 105079,
         "pop_est": 5454073,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -41346,7 +41699,7 @@
         "name": "Poland",
         "ne_id": 1159321179,
         "continent": "Europe",
-        "iso_a2": "PL",
+        "iso_code": "PL",
         "iso_a3": "POL",
         "region_un": "Europe",
         "label_x": 19.490468,
@@ -41354,12 +41707,12 @@
         "gdp_md": 595858,
         "pop_est": 37970874,
         "pride_index": {
+          "Science": 2,
+          "Politics": 5,
           "Media": 4,
           "Activism": 8,
-          "Science": 1,
-          "Culture": 27,
-          "Politics": 2,
-          "Sports": 2,
+          "Culture": 29,
+          "Sports": 3,
           "Literature": 1
         }
       },
@@ -41557,7 +41910,7 @@
         "name": "Ireland",
         "ne_id": 1159320877,
         "continent": "Europe",
-        "iso_a2": "IE",
+        "iso_code": "IE",
         "iso_a3": "IRL",
         "region_un": "Europe",
         "label_x": -7.798588,
@@ -41565,11 +41918,11 @@
         "gdp_md": 388698,
         "pop_est": 4941444,
         "pride_index": {
+          "Science": 2,
+          "Politics": 7,
           "Activism": 5,
-          "Science": 1,
           "Media": 7,
-          "Culture": 29,
-          "Politics": 4,
+          "Culture": 31,
           "Sports": 5,
           "Business": 1,
           "Literature": 1
@@ -41638,26 +41991,170 @@
     },
     {
       "properties": {
+        "name": "British Indian Ocean Territory",
+        "ne_id": null,
+        "continent": "Asia",
+        "iso_code": "IO",
+        "iso_a3": "IOT",
+        "region_un": "Asia",
+        "label_x": 71.5,
+        "label_y": -6.0,
+        "gdp_md": null,
+        "pop_est": null,
+        "pride_index": {
+          "Science": 4,
+          "Politics": 4,
+          "Media": 1,
+          "Culture": 18,
+          "Activism": 7,
+          "Sports": 1
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": []
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "name": "Dominican Republic",
+        "ne_id": null,
+        "continent": "North America",
+        "iso_code": "DO",
+        "iso_a3": "DOM",
+        "region_un": "Americas",
+        "label_x": -70.5,
+        "label_y": 19.0,
+        "gdp_md": 113537,
+        "pop_est": 11300000,
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3,
+          "Culture": 2
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": []
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "name": "Faroe Islands",
+        "ne_id": null,
+        "continent": "Europe",
+        "iso_code": "FO",
+        "iso_a3": "FRO",
+        "region_un": "Europe",
+        "label_x": -6.9,
+        "label_y": 62.0,
+        "gdp_md": null,
+        "pop_est": null,
+        "pride_index": {}
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": []
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "name": "Greenland",
+        "ne_id": null,
+        "continent": "North America",
+        "iso_code": "GL",
+        "iso_a3": "GRL",
+        "region_un": "Americas",
+        "label_x": -42.6,
+        "label_y": 72.0,
+        "gdp_md": null,
+        "pop_est": null,
+        "pride_index": {}
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": []
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "name": "Isle of Man",
+        "ne_id": null,
+        "continent": "Europe",
+        "iso_code": "IM",
+        "iso_a3": "IMN",
+        "region_un": "Europe",
+        "label_x": -4.5,
+        "label_y": 54.2,
+        "gdp_md": null,
+        "pop_est": null,
+        "pride_index": {}
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": []
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "name": "Svalbard and Jan Mayen",
+        "ne_id": null,
+        "continent": "Europe",
+        "iso_code": "SJ",
+        "iso_a3": "SJM",
+        "region_un": "Europe",
+        "label_x": 18.0,
+        "label_y": 78.0,
+        "gdp_md": null,
+        "pop_est": null,
+        "pride_index": {}
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": []
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
         "name": "United Kingdom",
         "ne_id": 1159320713,
         "continent": "Europe",
-        "iso_a2": "GB",
+        "iso_code": "GB",
         "iso_a3": "GBR",
         "region_un": "Europe",
         "label_x": -2.116346,
         "label_y": 54.402739,
         "gdp_md": 2829108,
         "pop_est": 66834405,
+        "synonym": [
+          "UK",
+          "Britain",
+          "England",
+          "Scotland",
+          "Wales"
+        ],
+        "sub_regions": [
+          {
+            "Jersey": "JE",
+            "Guernsey": "GG"
+          }
+        ],
         "pride_index": {
+          "Science": 37,
+          "Politics": 85,
           "Media": 71,
-          "Politics": 76,
-          "Science": 32,
-          "Activism": 63,
+          "Activism": 69,
           "Technology": 4,
-          "Culture": 418,
+          "Culture": 502,
           "Business": 18,
           "Religion": 3,
-          "Sports": 32,
+          "Sports": 33,
           "Literature": 8,
           "Law": 1,
           "Human Rights": 1
@@ -41907,7 +42404,7 @@
         "name": "Greece",
         "ne_id": 1159320811,
         "continent": "Europe",
-        "iso_a2": "GR",
+        "iso_code": "GR",
         "iso_a3": "GRC",
         "region_un": "Europe",
         "label_x": 21.72568,
@@ -41915,12 +42412,12 @@
         "gdp_md": 209852,
         "pop_est": 10716322,
         "pride_index": {
-          "Politics": 4,
+          "Science": 2,
+          "Politics": 7,
           "Activism": 1,
           "Media": 1,
-          "Culture": 11,
-          "Sports": 2,
-          "Science": 1
+          "Culture": 13,
+          "Sports": 2
         }
       },
       "geometry": {
@@ -42159,7 +42656,7 @@
         "name": "Austria",
         "ne_id": 1159320379,
         "continent": "Europe",
-        "iso_a2": "AT",
+        "iso_code": "AT",
         "iso_a3": "AUT",
         "region_un": "Europe",
         "label_x": 14.130515,
@@ -42167,9 +42664,9 @@
         "gdp_md": 445075,
         "pop_est": 8877067,
         "pride_index": {
-          "Science": 2,
-          "Culture": 16,
-          "Politics": 4,
+          "Science": 5,
+          "Politics": 7,
+          "Culture": 17,
           "Business": 1,
           "Activism": 2,
           "Literature": 1,
@@ -42338,20 +42835,25 @@
         "name": "Italy",
         "ne_id": 1159320919,
         "continent": "Europe",
-        "iso_a2": "IT",
+        "iso_code": "IT",
         "iso_a3": "ITA",
         "region_un": "Europe",
         "label_x": 11.076907,
         "label_y": 44.732482,
         "gdp_md": 2003576,
         "pop_est": 60297396,
+        "sub_regions": [
+          {
+            "Vatican City": "VA"
+          }
+        ],
         "pride_index": {
-          "Activism": 6,
-          "Media": 3,
-          "Culture": 54,
-          "Sports": 4,
-          "Science": 1,
-          "Politics": 13
+          "Activism": 8,
+          "Culture": 79,
+          "Sports": 5,
+          "Science": 2,
+          "Politics": 20,
+          "Media": 3
         }
       },
       "geometry": {
@@ -42726,7 +43228,7 @@
         "name": "Switzerland",
         "ne_id": 1159320491,
         "continent": "Europe",
-        "iso_a2": "CH",
+        "iso_code": "CH",
         "iso_a3": "CHE",
         "region_un": "Europe",
         "label_x": 7.463965,
@@ -42734,8 +43236,9 @@
         "gdp_md": 703082,
         "pop_est": 8574832,
         "pride_index": {
+          "Science": 1,
+          "Politics": 5,
           "Media": 1,
-          "Politics": 2,
           "Culture": 12,
           "Activism": 4,
           "Sports": 3
@@ -42851,7 +43354,7 @@
         "name": "Netherlands",
         "ne_id": 1159321101,
         "continent": "Europe",
-        "iso_a2": "NL",
+        "iso_code": "NL",
         "iso_a3": "NLD",
         "region_un": "Europe",
         "label_x": 5.61144,
@@ -42859,12 +43362,12 @@
         "gdp_md": 907050,
         "pop_est": 17332850,
         "pride_index": {
+          "Science": 4,
+          "Politics": 12,
           "Media": 6,
           "Activism": 8,
-          "Politics": 9,
-          "Culture": 41,
-          "Sports": 19,
-          "Science": 3
+          "Culture": 43,
+          "Sports": 19
         }
       },
       "geometry": {
@@ -42941,7 +43444,7 @@
         "name": "Serbia",
         "ne_id": 1159321267,
         "continent": "Europe",
-        "iso_a2": "RS",
+        "iso_code": "RS",
         "iso_a3": "SRB",
         "region_un": "Europe",
         "label_x": 20.787989,
@@ -42949,9 +43452,10 @@
         "gdp_md": 51475,
         "pop_est": 6944975,
         "pride_index": {
+          "Science": 1,
+          "Politics": 4,
           "Activism": 3,
-          "Culture": 2,
-          "Politics": 1
+          "Culture": 2
         }
       },
       "geometry": {
@@ -43160,7 +43664,7 @@
         "name": "Croatia",
         "ne_id": 1159320833,
         "continent": "Europe",
-        "iso_a2": "HR",
+        "iso_code": "HR",
         "iso_a3": "HRV",
         "region_un": "Europe",
         "label_x": 16.37241,
@@ -43168,6 +43672,8 @@
         "gdp_md": 60752,
         "pop_est": 4067500,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 2,
           "Business": 1
         }
@@ -43358,14 +43864,17 @@
         "name": "Slovenia",
         "ne_id": 1159321285,
         "continent": "Europe",
-        "iso_a2": "SI",
+        "iso_code": "SI",
         "iso_a3": "SVN",
         "region_un": "Europe",
         "label_x": 14.915312,
         "label_y": 46.06076,
         "gdp_md": 54174,
         "pop_est": 2087946,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -43453,7 +43962,7 @@
         "name": "Bulgaria",
         "ne_id": 1159320409,
         "continent": "Europe",
-        "iso_a2": "BG",
+        "iso_code": "BG",
         "iso_a3": "BGR",
         "region_un": "Europe",
         "label_x": 25.15709,
@@ -43461,9 +43970,10 @@
         "gdp_md": 68558,
         "pop_est": 6975761,
         "pride_index": {
+          "Science": 1,
+          "Politics": 4,
           "Culture": 5,
-          "Activism": 2,
-          "Politics": 1
+          "Activism": 2
         }
       },
       "geometry": {
@@ -43592,14 +44102,17 @@
         "name": "Montenegro",
         "ne_id": 1159321069,
         "continent": "Europe",
-        "iso_a2": "ME",
+        "iso_code": "ME",
         "iso_a3": "MNE",
         "region_un": "Europe",
         "label_x": 19.143727,
         "label_y": 42.803101,
         "gdp_md": 5542,
         "pop_est": 622137,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -43687,14 +44200,17 @@
         "name": "Bosnia and Herz.",
         "ne_id": 1159320417,
         "continent": "Europe",
-        "iso_a2": "BA",
+        "iso_code": "BA",
         "iso_a3": "BIH",
         "region_un": "Europe",
         "label_x": 18.06841,
         "label_y": 44.091051,
         "gdp_md": 20164,
         "pop_est": 3301000,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -43802,7 +44318,7 @@
         "name": "Portugal",
         "ne_id": 1159321187,
         "continent": "Europe",
-        "iso_a2": "PT",
+        "iso_code": "PT",
         "iso_a3": "PRT",
         "region_un": "Europe",
         "label_x": -8.271754,
@@ -43810,10 +44326,11 @@
         "gdp_md": 238785,
         "pop_est": 10269417,
         "pride_index": {
+          "Science": 1,
+          "Politics": 7,
           "Media": 5,
-          "Politics": 3,
           "Activism": 1,
-          "Culture": 8,
+          "Culture": 9,
           "Business": 1
         }
       },
@@ -43963,14 +44480,20 @@
         "name": "Moldova",
         "ne_id": 1159321045,
         "continent": "Europe",
-        "iso_a2": "MD",
+        "iso_code": "MD",
         "iso_a3": "MDA",
         "region_un": "Europe",
         "label_x": 28.487904,
         "label_y": 47.434999,
         "gdp_md": 11968,
         "pop_est": 2657637,
-        "pride_index": {}
+        "synonym": [
+          "Republic of Moldova"
+        ],
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -44094,7 +44617,7 @@
         "name": "Vatican",
         "ne_id": 1159321407,
         "continent": "Europe",
-        "iso_a2": "VA",
+        "iso_code": "VA",
         "iso_a3": "VAT",
         "region_un": "Europe",
         "label_x": 12.453418,
@@ -44102,9 +44625,8 @@
         "gdp_md": -99,
         "pop_est": 825,
         "pride_index": {
-          "Activism": 2,
-          "Culture": 4,
-          "Sports": 1
+          "Science": 1,
+          "Politics": 3
         }
       },
       "geometry": {
@@ -44149,7 +44671,7 @@
         "name": "Iceland",
         "ne_id": 1159320917,
         "continent": "Europe",
-        "iso_a2": "IS",
+        "iso_code": "IS",
         "iso_a3": "ISL",
         "region_un": "Europe",
         "label_x": -18.673711,
@@ -44157,8 +44679,9 @@
         "gdp_md": 24188,
         "pop_est": 361313,
         "pride_index": {
-          "Culture": 3,
-          "Politics": 2
+          "Science": 1,
+          "Politics": 5,
+          "Culture": 3
         }
       },
       "geometry": {
@@ -44255,7 +44778,7 @@
         "name": "Malta",
         "ne_id": 1159321065,
         "continent": "Europe",
-        "iso_a2": "MT",
+        "iso_code": "MT",
         "iso_a3": "MLT",
         "region_un": "Europe",
         "label_x": 14.433005,
@@ -44263,6 +44786,8 @@
         "gdp_md": 14989,
         "pop_est": 502653,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Culture": 1
         }
       },
@@ -44506,14 +45031,17 @@
         "name": "Papua New Guinea",
         "ne_id": 1159321173,
         "continent": "Oceania",
-        "iso_a2": "PG",
+        "iso_code": "PG",
         "iso_a3": "PNG",
         "region_un": "Oceania",
         "label_x": 143.910216,
         "label_y": -5.695285,
         "gdp_md": 24829,
         "pop_est": 8776109,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44867,7 +45395,7 @@
         "name": "Australia",
         "ne_id": 1159320355,
         "continent": "Oceania",
-        "iso_a2": "AU",
+        "iso_code": "AU",
         "iso_a3": "AUS",
         "region_un": "Oceania",
         "label_x": 134.04972,
@@ -44875,14 +45403,14 @@
         "gdp_md": 1396567,
         "pop_est": 25364307,
         "pride_index": {
+          "Science": 3,
+          "Politics": 18,
           "Media": 9,
           "Activism": 16,
-          "Culture": 54,
-          "Politics": 15,
+          "Culture": 62,
           "Business": 2,
-          "Sports": 22,
+          "Sports": 24,
           "Literature": 1,
-          "Science": 2,
           "Music": 1
         }
       },
@@ -45870,7 +46398,7 @@
         "name": "Fiji",
         "ne_id": 1159320625,
         "continent": "Oceania",
-        "iso_a2": "FJ",
+        "iso_code": "FJ",
         "iso_a3": "FJI",
         "region_un": "Oceania",
         "label_x": 177.975427,
@@ -45878,6 +46406,8 @@
         "gdp_md": 5496,
         "pop_est": 889953,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Activism": 1
         }
       },
@@ -45993,7 +46523,7 @@
         "name": "New Zealand",
         "ne_id": 1159321135,
         "continent": "Oceania",
-        "iso_a2": "NZ",
+        "iso_code": "NZ",
         "iso_a3": "NZL",
         "region_un": "Oceania",
         "label_x": 172.787,
@@ -46001,9 +46531,9 @@
         "gdp_md": 206928,
         "pop_est": 4917000,
         "pride_index": {
-          "Politics": 6,
+          "Science": 4,
+          "Politics": 9,
           "Media": 4,
-          "Science": 3,
           "Culture": 16,
           "Sports": 9,
           "Business": 3,
@@ -46294,14 +46824,17 @@
         "name": "New Caledonia",
         "ne_id": 1159320641,
         "continent": "Oceania",
-        "iso_a2": "NC",
+        "iso_code": "NC",
         "iso_a3": "NCL",
         "region_un": "Oceania",
         "label_x": 165.084004,
         "label_y": -21.064697,
         "gdp_md": 10770,
         "pop_est": 287800,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -46369,7 +46902,7 @@
         "name": "Tonga",
         "ne_id": 1159321319,
         "continent": "Oceania",
-        "iso_a2": "TO",
+        "iso_code": "TO",
         "iso_a3": "TON",
         "region_un": "Oceania",
         "label_x": -175.163014,
@@ -46377,6 +46910,8 @@
         "gdp_md": 512,
         "pop_est": 104494,
         "pride_index": {
+          "Science": 1,
+          "Politics": 3,
           "Sports": 1
         }
       },
@@ -47280,14 +47815,17 @@
         "name": "Solomon Is.",
         "ne_id": 1159321249,
         "continent": "Oceania",
-        "iso_a2": "SB",
+        "iso_code": "SB",
         "iso_a3": "SLB",
         "region_un": "Oceania",
         "label_x": 159.170468,
         "label_y": -8.029548,
         "gdp_md": 1589,
         "pop_est": 669823,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47469,14 +48007,17 @@
         "name": "Vanuatu",
         "ne_id": 1159321421,
         "continent": "Oceania",
-        "iso_a2": "VU",
+        "iso_code": "VU",
         "iso_a3": "VUT",
         "region_un": "Oceania",
         "label_x": 166.908762,
         "label_y": -15.37153,
         "gdp_md": 934,
         "pop_est": 299882,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47546,14 +48087,17 @@
         "name": "Antarctica",
         "ne_id": 1159320335,
         "continent": "Antarctica",
-        "iso_a2": "AQ",
+        "iso_code": "AQ",
         "iso_a3": "ATA",
         "region_un": "Antarctica",
         "label_x": 35.885455,
         "label_y": -79.843222,
         "gdp_md": 898,
         "pop_est": 4490,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50243,14 +50787,17 @@
         "name": "Fr. S. Antarctic Lands",
         "ne_id": 1159320631,
         "continent": "Seven seas (open ocean)",
-        "iso_a2": "TF",
+        "iso_code": "TF",
         "iso_a3": "ATF",
         "region_un": "Africa",
         "label_x": 69.122136,
         "label_y": -49.303721,
         "gdp_md": 16,
         "pop_est": 140,
-        "pride_index": {}
+        "pride_index": {
+          "Science": 1,
+          "Politics": 3
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -50302,7 +50849,7 @@
         "name": "Br. Indian Ocean Ter.",
         "ne_id": 1159320723,
         "continent": "Seven seas (open ocean)",
-        "iso_a2": "IO",
+        "iso_code": "IO",
         "iso_a3": "IOT",
         "region_un": "Africa",
         "label_x": 71.348349,
@@ -50310,12 +50857,8 @@
         "gdp_md": 120,
         "pop_est": 3000,
         "pride_index": {
-          "Media": 1,
-          "Culture": 18,
-          "Activism": 7,
-          "Science": 3,
-          "Politics": 1,
-          "Sports": 1
+          "Science": 1,
+          "Politics": 3
         }
       },
       "geometry": {
