@@ -41991,33 +41991,6 @@
     },
     {
       "properties": {
-        "name": "British Indian Ocean Territory",
-        "ne_id": null,
-        "continent": "Asia",
-        "iso_a2": "IO",
-        "iso_a3": "IOT",
-        "region_un": "Asia",
-        "label_x": 71.5,
-        "label_y": -6.0,
-        "gdp_md": null,
-        "pop_est": null,
-        "pride_index": {
-          "Science": 4,
-          "Politics": 4,
-          "Media": 1,
-          "Culture": 18,
-          "Activism": 7,
-          "Sports": 1
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": []
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
         "name": "Faroe Islands",
         "ne_id": null,
         "continent": "Europe",
@@ -50802,7 +50775,7 @@
     },
     {
       "properties": {
-        "name": "Br. Indian Ocean Ter.",
+        "name": "British Indian Ocean Territory",
         "ne_id": 1159320723,
         "continent": "Seven seas (open ocean)",
         "iso_a2": "IO",
