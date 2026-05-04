@@ -518,7 +518,7 @@
     },
     {
       "properties": {
-        "name": "Dominican Rep.",
+        "name": "Dominican Republic",
         "ne_id": 1159320563,
         "continent": "North America",
         "iso_a2": "DO",
@@ -42018,30 +42018,6 @@
     },
     {
       "properties": {
-        "name": "Dominican Republic",
-        "ne_id": null,
-        "continent": "North America",
-        "iso_a2": "DO",
-        "iso_a3": "DOM",
-        "region_un": "Americas",
-        "label_x": -70.5,
-        "label_y": 19.0,
-        "gdp_md": 113537,
-        "pop_est": 11300000,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 2
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": []
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
         "name": "Faroe Islands",
         "ne_id": null,
         "continent": "Europe",
@@ -42050,26 +42026,6 @@
         "region_un": "Europe",
         "label_x": -6.9,
         "label_y": 62.0,
-        "gdp_md": null,
-        "pop_est": null,
-        "pride_index": {}
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": []
-      },
-      "type": "Feature"
-    },
-    {
-      "properties": {
-        "name": "Greenland",
-        "ne_id": null,
-        "continent": "North America",
-        "iso_a2": "GL",
-        "iso_a3": "GRL",
-        "region_un": "Americas",
-        "label_x": -42.6,
-        "label_y": 72.0,
         "gdp_md": null,
         "pop_est": null,
         "pride_index": {}
