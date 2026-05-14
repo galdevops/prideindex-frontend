@@ -13,10 +13,7 @@
         "label_y": 10.0651,
         "gdp_md": 61801,
         "pop_est": 5047561,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -184,8 +181,7 @@
         "gdp_md": 12520,
         "pop_est": 6545502,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Culture": 1
         }
       },
       "geometry": {
@@ -418,8 +414,7 @@
         "gdp_md": 14332,
         "pop_est": 11263077,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Activism": 1,
           "Culture": 1
         }
       },
@@ -529,8 +524,8 @@
         "gdp_md": 88941,
         "pop_est": 10738958,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Politics": 2,
+          "Culture": 2
         }
       },
       "geometry": {
@@ -659,10 +654,8 @@
         "gdp_md": 27022,
         "pop_est": 6453553,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 2,
-          "Activism": 1
+          "Activism": 2,
+          "Culture": 2
         }
       },
       "geometry": {
@@ -767,8 +760,8 @@
         "gdp_md": 76710,
         "pop_est": 16604026,
         "pride_index": {
-          "Science": 1,
-          "Politics": 6,
+          "Politics": 5,
+          "Culture": 2,
           "Media": 1
         }
       },
@@ -934,10 +927,10 @@
         "gdp_md": 100023,
         "pop_est": 11333483,
         "pride_index": {
-          "Science": 2,
-          "Politics": 4,
+          "Politics": 2,
+          "Culture": 20,
           "Activism": 2,
-          "Culture": 14
+          "Science": 1
         }
       },
       "geometry": {
@@ -1130,9 +1123,7 @@
         "gdp_md": 25095,
         "pop_est": 9746117,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Activism": 1
+          "Activism": 3
         }
       },
       "geometry": {
@@ -1386,28 +1377,32 @@
         "pop_est": 328239523,
         "synonym": [
           "United States",
+          "United State",
+          "Unites States",
           "USA",
           "US"
         ],
         "pride_index": {
-          "Science": 115,
-          "Politics": 251,
-          "Activism": 414,
-          "Culture": 1509,
-          "Media": 111,
-          "Technology": 12,
+          "Activism": 664,
+          "Culture": 2195,
+          "Politics": 433,
+          "Science": 132,
+          "Media": 125,
+          "Technology": 23,
           "Religion": 5,
-          "Business": 53,
+          "Business": 126,
           "Military": 1,
-          "Sports": 142,
-          "Literature": 29,
-          "Law": 12,
+          "Sports": 298,
+          "Literature": 33,
+          "Law": 14,
           "Crime": 1,
-          "Education": 6,
+          "Education": 15,
           "Film": 1,
           "Art": 1,
-          "Human Rights": 1,
-          "Academia": 1
+          "Human Rights": 2,
+          "Academia": 1,
+          "Government": 1,
+          "Medicine": 1
         }
       },
       "geometry": {
@@ -3258,15 +3253,18 @@
         "gdp_md": 1736425,
         "pop_est": 37589262,
         "pride_index": {
-          "Science": 10,
-          "Politics": 38,
-          "Culture": 142,
-          "Activism": 39,
-          "Media": 17,
-          "Religion": 2,
-          "Business": 5,
-          "Sports": 29,
-          "Literature": 4
+          "Culture": 291,
+          "Science": 12,
+          "Politics": 65,
+          "Activism": 87,
+          "Sports": 79,
+          "Business": 15,
+          "Human Rights": 2,
+          "Health": 1,
+          "Medicine": 1,
+          "Literature": 5,
+          "Media": 18,
+          "Religion": 2
         }
       },
       "geometry": {
@@ -6585,12 +6583,14 @@
         "gdp_md": 1268870,
         "pop_est": 127575529,
         "pride_index": {
-          "Science": 3,
-          "Politics": 5,
-          "Activism": 5,
-          "Culture": 30,
-          "Media": 2,
-          "Sports": 1
+          "Culture": 45,
+          "Activism": 10,
+          "Politics": 7,
+          "Business": 1,
+          "Education": 1,
+          "Sports": 3,
+          "Science": 2,
+          "Media": 2
         }
       },
       "geometry": {
@@ -7295,9 +7295,7 @@
         "gdp_md": 1879,
         "pop_est": 390353,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Activism": 1
+          "Activism": 2
         }
       },
       "geometry": {
@@ -7402,8 +7400,7 @@
         "gdp_md": 66800,
         "pop_est": 4246439,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Culture": 1,
           "Sports": 1
         }
       },
@@ -7637,8 +7634,7 @@
         "gdp_md": 3051,
         "pop_est": 56225,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Culture": 1
         }
       },
       "geometry": {
@@ -8190,10 +8186,7 @@
         "label_y": 26.401789,
         "gdp_md": 13578,
         "pop_est": 389482,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8311,12 +8304,14 @@
         "gdp_md": 24269,
         "pop_est": 1394973,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4,
+          "Sports": 3,
           "Culture": 2,
-          "Sports": 2,
-          "Activism": 1
-        }
+          "Politics": 1,
+          "Activism": 3
+        },
+        "synonym": [
+          "Trinidad & Tobago"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -8372,8 +8367,6 @@
         "gdp_md": 1210,
         "pop_est": 112003,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Culture": 1,
           "Activism": 1
         }
@@ -8662,8 +8655,6 @@
         "gdp_md": 5209,
         "pop_est": 287025,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Culture": 1,
           "Activism": 1
         }
@@ -8830,11 +8821,11 @@
         "gdp_md": 104988,
         "pop_est": 3193694,
         "pride_index": {
-          "Science": 3,
-          "Politics": 5,
-          "Culture": 14,
-          "Sports": 1,
-          "Activism": 4,
+          "Culture": 28,
+          "Sports": 3,
+          "Activism": 7,
+          "Science": 2,
+          "Politics": 2,
           "Media": 1
         }
       },
@@ -8896,12 +8887,10 @@
         "gdp_md": 16458,
         "pop_est": 2948279,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Media": 1,
-          "Culture": 4,
-          "Sports": 2,
-          "Activism": 2
+          "Activism": 5,
+          "Culture": 7,
+          "Sports": 3,
+          "Media": 1
         }
       },
       "geometry": {
@@ -8970,8 +8959,7 @@
         "gdp_md": 7484,
         "pop_est": 63918,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Sports": 1,
           "Culture": 1,
           "Activism": 1
         }
@@ -9344,8 +9332,7 @@
         "gdp_md": 1119190,
         "pop_est": 270625568,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Activism": 1,
           "Human Rights": 1
         }
       },
@@ -10421,8 +10408,8 @@
         "gdp_md": 364681,
         "pop_est": 31949777,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Activism": 2,
+          "Business": 1,
           "Culture": 2
         }
       },
@@ -10701,15 +10688,12 @@
         "label_y": 34.913329,
         "gdp_md": 24948,
         "pop_est": 1198575,
-              "synonym": [
-  "Northern Cyprus",
-  "N. Cyprus",
-  "Turkish Republic of Northern Cyprus"
-],
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "synonym": [
+          "Northern Cyprus",
+          "N. Cyprus",
+          "Turkish Republic of Northern Cyprus"
+        ],
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -10793,9 +10777,11 @@
         "gdp_md": 2868929,
         "pop_est": 1366417754,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 2
+          "Activism": 17,
+          "Politics": 7,
+          "Culture": 9,
+          "Media": 1,
+          "Sports": 1
         }
       },
       "geometry": {
@@ -11371,12 +11357,13 @@
           }
         ],
         "pride_index": {
-          "Politics": 9,
-          "Culture": 7,
-          "Science": 2,
+          "Culture": 13,
+          "Activism": 9,
+          "Business": 1,
+          "Politics": 7,
           "Military": 1,
           "Media": 1,
-          "Activism": 2,
+          "Science": 1,
           "Literature": 1
         }
       },
@@ -12368,12 +12355,11 @@
         "gdp_md": 394652,
         "pop_est": 9053300,
         "pride_index": {
-          "Science": 1,
-          "Politics": 8,
-          "Culture": 23,
+          "Culture": 29,
+          "Politics": 7,
+          "Activism": 13,
+          "Sports": 5,
           "Media": 4,
-          "Activism": 5,
-          "Sports": 1,
           "Law": 1,
           "Technology": 1
         }
@@ -12507,8 +12493,6 @@
           "Palestinian Territories"
         ],
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Activism": 2
         }
       },
@@ -12570,9 +12554,8 @@
         "gdp_md": 51991,
         "pop_est": 6855713,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 7
+          "Activism": 2,
+          "Culture": 8
         }
       },
       "geometry": {
@@ -12644,8 +12627,7 @@
           "Syrian Arab Republic"
         ],
         "pride_index": {
-          "Science": 1,
-          "Politics": 4
+          "Politics": 1
         }
       },
       "geometry": {
@@ -12778,9 +12760,10 @@
         "gdp_md": 1646739,
         "pop_est": 51709098,
         "pride_index": {
-          "Science": 2,
-          "Politics": 4,
-          "Culture": 6
+          "Culture": 11,
+          "Activism": 3,
+          "Science": 1,
+          "Politics": 1
         }
       },
       "geometry": {
@@ -12880,10 +12863,7 @@
         "label_y": 39.885252,
         "gdp_md": 40000,
         "pop_est": 25666161,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13104,10 +13084,7 @@
         "label_y": 27.536685,
         "gdp_md": 2530,
         "pop_est": 763092,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -13182,10 +13159,7 @@
         "label_y": 22.120427,
         "gdp_md": 76331,
         "pop_est": 4974986,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13402,10 +13376,7 @@
         "label_y": 41.693603,
         "gdp_md": 57921,
         "pop_est": 33580650,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -13645,8 +13616,6 @@
         "gdp_md": 181665,
         "pop_est": 18513930,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Activism": 1
         }
       },
@@ -14119,10 +14088,7 @@
         "label_y": 38.199835,
         "gdp_md": 8116,
         "pop_est": 9321018,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -14309,10 +14275,7 @@
         "label_y": 45.997488,
         "gdp_md": 13996,
         "pop_est": 3225167,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -14636,10 +14599,10 @@
         "gdp_md": 261921,
         "pop_est": 96462106,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4,
+          "Culture": 4,
+          "Sports": 1,
           "Media": 1,
-          "Culture": 2
+          "Politics": 1
         }
       },
       "geometry": {
@@ -14840,8 +14803,7 @@
         "gdp_md": 27089,
         "pop_est": 16486542,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Activism": 1
         }
       },
       "geometry": {
@@ -14933,10 +14895,7 @@
         "label_y": 23.466285,
         "gdp_md": 421142,
         "pop_est": 9770529,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -15048,8 +15007,6 @@
         "gdp_md": 17477,
         "pop_est": 3720382,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Business": 1,
           "Culture": 4
         }
@@ -15172,8 +15129,7 @@
         "gdp_md": 48047,
         "pop_est": 10023318,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Activism": 1,
           "Culture": 1
         }
       },
@@ -15381,10 +15337,10 @@
         "gdp_md": 761425,
         "pop_est": 83429615,
         "pride_index": {
-          "Science": 2,
-          "Politics": 3,
-          "Technology": 1,
-          "Culture": 6
+          "Activism": 4,
+          "Culture": 12,
+          "Technology": 2,
+          "Science": 1
         }
       },
       "geometry": {
@@ -15686,10 +15642,7 @@
         "label_y": 19.431821,
         "gdp_md": 18173,
         "pop_est": 7169455,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -15860,10 +15813,7 @@
         "label_y": 41.66854,
         "gdp_md": 8454,
         "pop_est": 6456900,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -16027,10 +15977,8 @@
         "gdp_md": 13672,
         "pop_est": 2957731,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 1,
-          "Activism": 1
+          "Activism": 2,
+          "Culture": 1
         }
       },
       "geometry": {
@@ -16135,8 +16083,7 @@
         "gdp_md": 234094,
         "pop_est": 39309783,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Activism": 1,
           "Culture": 1
         }
       },
@@ -16282,9 +16229,7 @@
         "gdp_md": 453996,
         "pop_est": 82913906,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Activism": 4,
+          "Activism": 5,
           "Culture": 6
         }
       },
@@ -16613,10 +16558,7 @@
         "label_y": 25.237383,
         "gdp_md": 175837,
         "pop_est": 2832067,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -16676,8 +16618,7 @@
         "gdp_md": 792966,
         "pop_est": 34268528,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4
+          "Politics": 1
         }
       },
       "geometry": {
@@ -17006,9 +16947,9 @@
         "gdp_md": 278221,
         "pop_est": 216565318,
         "pride_index": {
-          "Science": 2,
-          "Politics": 3,
-          "Culture": 3
+          "Activism": 1,
+          "Culture": 4,
+          "Science": 1
         }
       },
       "geometry": {
@@ -17297,11 +17238,10 @@
         "gdp_md": 543548,
         "pop_est": 69625582,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Culture": 3,
+          "Business": 2,
+          "Activism": 1,
           "Media": 1,
-          "Culture": 2,
-          "Business": 1,
           "Sports": 1
         }
       },
@@ -17582,10 +17522,7 @@
         "label_y": 29.413628,
         "gdp_md": 134628,
         "pop_est": 4207083,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -17644,10 +17581,7 @@
         "label_y": -8.803705,
         "gdp_md": 2017,
         "pop_est": 1293119,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -17715,8 +17649,6 @@
         "gdp_md": 13469,
         "pop_est": 433285,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Culture": 1
         }
       },
@@ -17774,8 +17706,6 @@
         "gdp_md": 76085,
         "pop_est": 54045420,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Culture": 1
         }
       },
@@ -18081,8 +18011,8 @@
         "gdp_md": 302571,
         "pop_est": 163046161,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Politics": 1,
+          "Culture": 1,
           "Activism": 1
         }
       },
@@ -18252,9 +18182,9 @@
         "gdp_md": 19291,
         "pop_est": 38041754,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4,
-          "Activism": 1
+          "Culture": 1,
+          "Activism": 1,
+          "Politics": 1
         }
       },
       "geometry": {
@@ -18554,10 +18484,7 @@
         "label_y": 39.855246,
         "gdp_md": 40761,
         "pop_est": 5942089,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -18796,10 +18723,7 @@
         "label_y": 30.805025,
         "gdp_md": 44502,
         "pop_est": 10101694,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -18899,10 +18823,9 @@
         "gdp_md": 30641,
         "pop_est": 28608710,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 1,
-          "Activism": 1
+          "Culture": 3,
+          "Politics": 1,
+          "Activism": 2
         }
       },
       "geometry": {
@@ -19019,8 +18942,7 @@
         "gdp_md": 22581,
         "pop_est": 29161922,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Activism": 1
         }
       },
       "geometry": {
@@ -19221,14 +19143,16 @@
         "gdp_md": 376795,
         "pop_est": 108116615,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Culture": 21,
+          "Politics": 1,
+          "Activism": 3,
+          "Sports": 4,
           "Media": 4,
-          "Culture": 15,
-          "Literature": 1,
-          "Sports": 2,
-          "Activism": 2
-        }
+          "Literature": 1
+        },
+        "synonym": [
+          "The Philippines"
+        ]
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19718,10 +19642,10 @@
         "gdp_md": 84008,
         "pop_est": 21803000,
         "pride_index": {
-          "Science": 3,
-          "Politics": 4,
+          "Science": 2,
           "Activism": 1,
-          "Culture": 4
+          "Culture": 4,
+          "Politics": 1
         }
       },
       "geometry": {
@@ -19786,10 +19710,9 @@
         "gdp_md": 1127000,
         "pop_est": 23568378,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 8,
-          "Activism": 1
+          "Culture": 13,
+          "Politics": 2,
+          "Activism": 3
         }
       },
       "geometry": {
@@ -19850,12 +19773,12 @@
         "gdp_md": 5081769,
         "pop_est": 126264931,
         "pride_index": {
-          "Science": 1,
+          "Culture": 27,
           "Politics": 7,
-          "Technology": 1,
-          "Activism": 4,
-          "Culture": 21,
-          "Sports": 1
+          "Activism": 8,
+          "Sports": 4,
+          "Business": 1,
+          "Technology": 1
         }
       },
       "geometry": {
@@ -20150,11 +20073,10 @@
         "gdp_md": 372062,
         "pop_est": 5703569,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4,
-          "Culture": 8,
-          "Activism": 2,
-          "Sports": 1
+          "Activism": 3,
+          "Culture": 10,
+          "Sports": 1,
+          "Politics": 1
         }
       },
       "geometry": {
@@ -20339,8 +20261,8 @@
         "gdp_md": 53859,
         "pop_est": 640445,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Politics": 3,
+          "Culture": 1
         }
       },
       "geometry": {
@@ -20739,13 +20661,13 @@
         "gdp_md": 282318,
         "pop_est": 18952038,
         "pride_index": {
-          "Science": 3,
-          "Politics": 6,
+          "Culture": 13,
+          "Sports": 7,
+          "Politics": 7,
+          "Activism": 8,
+          "Science": 2,
           "Media": 4,
-          "Activism": 2,
-          "Culture": 9,
-          "Military": 1,
-          "Sports": 2
+          "Military": 1
         }
       },
       "geometry": {
@@ -21232,10 +21154,8 @@
         "gdp_md": 40895,
         "pop_est": 11513100,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Activism": 1,
-          "Culture": 2
+          "Culture": 3,
+          "Activism": 2
         }
       },
       "geometry": {
@@ -21500,10 +21420,10 @@
         "gdp_md": 226848,
         "pop_est": 32510453,
         "pride_index": {
-          "Science": 1,
-          "Politics": 6,
+          "Activism": 3,
+          "Politics": 4,
+          "Culture": 7,
           "Media": 1,
-          "Culture": 6,
           "Sports": 1
         }
       },
@@ -21833,11 +21753,10 @@
         "gdp_md": 445445,
         "pop_est": 44938712,
         "pride_index": {
-          "Science": 1,
-          "Politics": 5,
-          "Activism": 7,
-          "Sports": 2,
-          "Culture": 18
+          "Activism": 9,
+          "Culture": 34,
+          "Politics": 6,
+          "Sports": 10
         }
       },
       "geometry": {
@@ -22352,9 +22271,7 @@
         "gdp_md": 3697,
         "pop_est": 581363,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 1
+          "Culture": 2
         }
       },
       "geometry": {
@@ -22482,10 +22399,7 @@
         "label_y": 5.124317,
         "gdp_md": 5173,
         "pop_est": 782766,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -22669,12 +22583,12 @@
         "gdp_md": 1839758,
         "pop_est": 211049527,
         "pride_index": {
-          "Science": 4,
+          "Culture": 70,
+          "Sports": 36,
+          "Activism": 23,
           "Politics": 12,
           "Media": 4,
-          "Culture": 55,
-          "Activism": 17,
-          "Sports": 14,
+          "Science": 3,
           "Business": 1,
           "Literature": 1,
           "Technology": 1
@@ -23514,12 +23428,11 @@
         "gdp_md": 56045,
         "pop_est": 3461734,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Politics": 2,
+          "Activism": 2,
           "Media": 1,
           "Business": 1,
-          "Culture": 3,
-          "Activism": 1
+          "Culture": 3
         }
       },
       "geometry": {
@@ -23628,9 +23541,8 @@
         "gdp_md": 107435,
         "pop_est": 17373662,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4,
-          "Activism": 1,
+          "Activism": 2,
+          "Politics": 2,
           "Culture": 1
         }
       },
@@ -23788,10 +23700,9 @@
         "gdp_md": 323615,
         "pop_est": 50339443,
         "pride_index": {
-          "Science": 1,
-          "Politics": 7,
-          "Culture": 7,
-          "Activism": 2
+          "Culture": 11,
+          "Politics": 8,
+          "Activism": 3
         }
       },
       "geometry": {
@@ -24216,8 +24127,7 @@
         "gdp_md": 38145,
         "pop_est": 7044636,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4
+          "Politics": 1
         }
       },
       "geometry": {
@@ -24374,12 +24284,11 @@
         "gdp_md": 482359,
         "pop_est": 28515829,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Technology": 1,
-          "Culture": 6,
-          "Activism": 1,
-          "Sports": 1
+          "Culture": 9,
+          "Activism": 5,
+          "Sports": 2,
+          "Politics": 1,
+          "Technology": 1
         }
       },
       "geometry": {
@@ -24771,10 +24680,7 @@
         "label_y": -51.608913,
         "gdp_md": 282,
         "pop_est": 3398,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -24838,8 +24744,6 @@
         "gdp_md": 95912,
         "pop_est": 112078730,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Culture": 1
         }
       },
@@ -25100,10 +25004,7 @@
         "label_y": 7.230477,
         "gdp_md": 11998,
         "pop_est": 11062113,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -25379,8 +25280,7 @@
         "gdp_md": 4719,
         "pop_est": 10192317.3,
         "pride_index": {
-          "Science": 2,
-          "Politics": 3,
+          "Science": 1,
           "Culture": 1
         }
       },
@@ -25554,9 +25454,7 @@
         "gdp_md": 95503,
         "pop_est": 52573973,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Activism": 2,
+          "Activism": 4,
           "Media": 1
         }
       },
@@ -25730,8 +25628,7 @@
         "gdp_md": 7666,
         "pop_est": 18628747,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Activism": 1
         }
       },
       "geometry": {
@@ -25868,8 +25765,7 @@
         "gdp_md": 63177,
         "pop_est": 58005463,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Activism": 1,
           "Literature": 1
         }
       },
@@ -26104,7 +26000,7 @@
         "pop_est": 5096159,
         "pride_index": {
           "Science": 1,
-          "Politics": 3
+          "Culture": 1
         }
       },
       "geometry": {
@@ -26233,9 +26129,7 @@
         "gdp_md": 119700,
         "pop_est": 36471769,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 2
+          "Culture": 4
         }
       },
       "geometry": {
@@ -26511,10 +26405,7 @@
         "label_y": 23.967592,
         "gdp_md": 907,
         "pop_est": 603253,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -26649,10 +26540,7 @@
         "label_y": 0.142331,
         "gdp_md": 12267,
         "pop_est": 5380508,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -26871,10 +26759,7 @@
         "label_y": -1.858167,
         "gdp_md": 50400,
         "pop_est": 86790567,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -27394,9 +27279,7 @@
         "gdp_md": 12366,
         "pop_est": 2494530,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Activism": 1
+          "Activism": 2
         }
       },
       "geometry": {
@@ -27597,14 +27480,13 @@
         "gdp_md": 351431,
         "pop_est": 58558270,
         "pride_index": {
-          "Science": 1,
-          "Politics": 7,
-          "Activism": 7,
+          "Activism": 20,
+          "Politics": 10,
+          "Culture": 18,
+          "Sports": 8,
           "Media": 1,
           "Business": 2,
-          "Culture": 9,
-          "Religion": 1,
-          "Sports": 3
+          "Religion": 1
         }
       },
       "geometry": {
@@ -28006,10 +27888,7 @@
         "label_y": 26.638944,
         "gdp_md": 52091,
         "pop_est": 6777452,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -28257,8 +28136,9 @@
         "gdp_md": 38796,
         "pop_est": 11694719,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4
+          "Culture": 1,
+          "Activism": 1,
+          "Politics": 1
         }
       },
       "geometry": {
@@ -28406,10 +28286,7 @@
         "label_y": -14.660804,
         "gdp_md": 23309,
         "pop_est": 17861030,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -28677,8 +28554,7 @@
         "gdp_md": 4121,
         "pop_est": 7813215,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Activism": 1
         }
       },
       "geometry": {
@@ -28790,10 +28666,7 @@
         "label_y": 10.618516,
         "gdp_md": 12296,
         "pop_est": 12771246,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -29097,8 +28970,7 @@
         "gdp_md": 3070,
         "pop_est": 4937374,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Sports": 1
         }
       },
       "geometry": {
@@ -29230,10 +29102,7 @@
         "label_y": 6.989681,
         "gdp_md": 2220,
         "pop_est": 4745185,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -29504,10 +29373,7 @@
         "label_y": 16.330746,
         "gdp_md": 30513,
         "pop_est": 42813238,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -29854,10 +29720,7 @@
         "label_y": 11.976343,
         "gdp_md": 3324,
         "pop_est": 973560,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -29940,10 +29803,7 @@
         "label_y": 15.787401,
         "gdp_md": 2065,
         "pop_est": 6081196,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -30078,10 +29938,7 @@
         "label_y": 7.49139,
         "gdp_md": 58539,
         "pop_est": 25716544,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -30288,10 +30145,7 @@
         "label_y": 18.692713,
         "gdp_md": 17279,
         "pop_est": 19658031,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -30618,10 +30472,7 @@
         "label_y": 15.138125,
         "gdp_md": 23578,
         "pop_est": 16296364,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -30821,10 +30672,8 @@
         "gdp_md": 448120,
         "pop_est": 200963599,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Activism": 3,
-          "Culture": 3
+          "Culture": 6,
+          "Activism": 5
         }
       },
       "geometry": {
@@ -31080,10 +30929,7 @@
         "label_y": 10.324775,
         "gdp_md": 14390,
         "pop_est": 11801151,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -31206,10 +31052,7 @@
         "label_y": -12.182762,
         "gdp_md": 88815,
         "pop_est": 31825295,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31538,10 +31381,7 @@
         "label_y": -22.102634,
         "gdp_md": 18340,
         "pop_est": 2303697,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -31725,8 +31565,8 @@
         "gdp_md": 21440,
         "pop_est": 14645468,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4,
+          "Business": 1,
+          "Politics": 1,
           "Culture": 3,
           "Activism": 1
         }
@@ -31900,10 +31740,7 @@
         "label_y": 15.142959,
         "gdp_md": 11314,
         "pop_est": 15946876,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -32159,9 +31996,7 @@
         "gdp_md": 171091,
         "pop_est": 43053054,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 3
+          "Culture": 4
         }
       },
       "geometry": {
@@ -32434,8 +32269,7 @@
         "gdp_md": 15291,
         "pop_est": 30366036,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Activism": 1
         }
       },
       "geometry": {
@@ -32775,10 +32609,7 @@
         "label_y": -26.533676,
         "gdp_md": 4471,
         "pop_est": 1148130,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -32845,10 +32676,7 @@
         "label_y": -3.332836,
         "gdp_md": 3012,
         "pop_est": 11530580,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -32924,8 +32752,6 @@
         "gdp_md": 10354,
         "pop_est": 12626950,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Culture": 1
         }
       },
@@ -33007,11 +32833,15 @@
         "gdp_md": 35165,
         "pop_est": 44269594,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4,
-          "Culture": 1,
-          "Activism": 3
-        }
+          "Activism": 9,
+          "Culture": 2,
+          "Sports": 1,
+          "Politics": 2
+        },
+        "synonym": [
+          "Bugunda Kingdom",
+          "Bugunda Kingdom (Uganda)"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -33146,10 +32976,7 @@
         "label_y": -29.480158,
         "gdp_md": 2376,
         "pop_est": 2125268,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -33221,9 +33048,9 @@
         "gdp_md": 39007,
         "pop_est": 25876380,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Activism": 1
+          "Activism": 4,
+          "Culture": 1,
+          "Sports": 2
         }
       },
       "geometry": {
@@ -33491,10 +33318,7 @@
         "label_y": -0.437739,
         "gdp_md": 16874,
         "pop_est": 2172579,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -33641,10 +33465,7 @@
         "label_y": 17.446195,
         "gdp_md": 12911,
         "pop_est": 23310715,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -33899,10 +33720,7 @@
         "label_y": 12.673048,
         "gdp_md": 15990,
         "pop_est": 20321378,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -34081,10 +33899,7 @@
         "label_y": 8.80722,
         "gdp_md": 5490,
         "pop_est": 8082366,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -34184,8 +33999,6 @@
         "gdp_md": 66983,
         "pop_est": 30417856,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Culture": 1
         }
       },
@@ -34310,10 +34123,7 @@
         "label_y": 12.163712,
         "gdp_md": 1339,
         "pop_est": 1920922,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -34413,11 +34223,10 @@
         "gdp_md": 303092,
         "pop_est": 100388073,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4,
+          "Activism": 2,
           "Culture": 1,
-          "Activism": 1,
-          "Technology": 1
+          "Technology": 1,
+          "Politics": 1
         }
       },
       "geometry": {
@@ -34617,10 +34426,7 @@
         "label_y": 19.587062,
         "gdp_md": 7600,
         "pop_est": 4525696,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -34799,10 +34605,7 @@
         "label_y": 2.333,
         "gdp_md": 11026,
         "pop_est": 1355986,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -34853,10 +34656,7 @@
         "label_y": 13.641721,
         "gdp_md": 1826,
         "pop_est": 2347706,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -34943,10 +34743,7 @@
         "label_y": -18.628288,
         "gdp_md": 14114,
         "pop_est": 26969307,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -35166,19 +34963,20 @@
         "gdp_md": 2715518,
         "pop_est": 67059887,
         "pride_index": {
-          "Culture": 133,
-          "Activism": 7,
-          "Sports": 12,
-          "Science": 5,
-          "Politics": 26,
+          "Culture": 217,
+          "Sports": 22,
+          "Activism": 20,
+          "Politics": 51,
+          "Business": 10,
           "Media": 10,
-          "Business": 3,
+          "Science": 4,
           "Military": 1,
           "Literature": 1
         },
         "sub_regions": [
           {
-            "Mayotte": "YT"
+            "Mayotte": "YT",
+            "Guadalupe": "GP"
           }
         ]
       },
@@ -35510,10 +35308,8 @@
         "gdp_md": 153781,
         "pop_est": 44385155,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Activism": 3,
-          "Culture": 5,
+          "Activism": 4,
+          "Culture": 6,
           "Media": 1
         }
       },
@@ -35911,8 +35707,7 @@
         "gdp_md": 63080,
         "pop_est": 9466856,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Sports": 1,
           "Media": 3
         }
       },
@@ -36118,10 +35913,9 @@
         "gdp_md": 54627,
         "pop_est": 2786844,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 1,
-          "Activism": 1
+          "Politics": 1,
+          "Activism": 2,
+          "Culture": 1
         }
       },
       "geometry": {
@@ -36222,16 +36016,17 @@
         "gdp_md": 1699876,
         "pop_est": 144373535,
         "synonym": [
-          "Russian Federation"
+          "Russian Federation",
+          "Chechnya"
         ],
         "pride_index": {
-          "Science": 4,
           "Politics": 5,
-          "Activism": 4,
-          "Culture": 43,
+          "Culture": 55,
+          "Activism": 11,
+          "Sports": 3,
+          "Science": 4,
           "Media": 2,
           "Literature": 2,
-          "Sports": 2,
           "Business": 1
         }
       },
@@ -38814,11 +38609,10 @@
           "Czech Republic"
         ],
         "pride_index": {
-          "Science": 1,
-          "Politics": 5,
-          "Culture": 15,
+          "Culture": 16,
           "Activism": 1,
-          "Sports": 3
+          "Sports": 8,
+          "Politics": 3
         }
       },
       "geometry": {
@@ -38983,17 +38777,17 @@
         "gdp_md": 3861123,
         "pop_est": 83132799,
         "pride_index": {
-          "Science": 14,
-          "Politics": 34,
+          "Culture": 150,
+          "Sports": 35,
+          "Activism": 36,
+          "Politics": 42,
+          "Human Rights": 3,
+          "Business": 3,
           "Media": 13,
-          "Activism": 23,
-          "Culture": 116,
-          "Sports": 17,
+          "Science": 13,
           "Military": 1,
           "Law": 1,
-          "Business": 1,
-          "Literature": 3,
-          "Human Rights": 1
+          "Literature": 3
         }
       },
       "geometry": {
@@ -39250,9 +39044,7 @@
         "gdp_md": 31471,
         "pop_est": 1326590,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 2,
+          "Culture": 3,
           "Media": 1
         }
       },
@@ -39354,8 +39146,7 @@
         "gdp_md": 34102,
         "pop_est": 1912789,
         "pride_index": {
-          "Science": 1,
-          "Politics": 6,
+          "Politics": 4,
           "Culture": 1
         }
       },
@@ -39469,11 +39260,11 @@
         "gdp_md": 403336,
         "pop_est": 5347896,
         "pride_index": {
-          "Culture": 16,
-          "Sports": 5,
-          "Activism": 4,
+          "Culture": 25,
+          "Politics": 15,
+          "Sports": 11,
           "Science": 4,
-          "Politics": 9,
+          "Activism": 6,
           "Media": 3,
           "Business": 2,
           "Religion": 1
@@ -39867,13 +39658,14 @@
         "gdp_md": 530883,
         "pop_est": 10285453,
         "pride_index": {
+          "Politics": 18,
+          "Activism": 11,
+          "Culture": 40,
+          "Sports": 27,
+          "Business": 2,
+          "Technology": 1,
           "Science": 3,
-          "Politics": 15,
-          "Media": 6,
-          "Culture": 28,
-          "Sports": 10,
-          "Activism": 7,
-          "Business": 1
+          "Media": 6
         }
       },
       "geometry": {
@@ -40058,11 +39850,11 @@
         "gdp_md": 269296,
         "pop_est": 5520314,
         "pride_index": {
-          "Science": 2,
+          "Activism": 7,
+          "Culture": 36,
           "Politics": 8,
-          "Culture": 24,
-          "Activism": 4,
-          "Sports": 3
+          "Sports": 4,
+          "Science": 1
         }
       },
       "geometry": {
@@ -40247,8 +40039,7 @@
         "gdp_md": 71104,
         "pop_est": 619896,
         "pride_index": {
-          "Science": 1,
-          "Politics": 5
+          "Politics": 2
         }
       },
       "geometry": {
@@ -40301,12 +40092,12 @@
         "gdp_md": 533097,
         "pop_est": 11484055,
         "pride_index": {
-          "Science": 2,
+          "Sports": 11,
           "Politics": 5,
+          "Activism": 7,
+          "Culture": 25,
+          "Science": 1,
           "Media": 2,
-          "Culture": 20,
-          "Sports": 6,
-          "Activism": 4,
           "Literature": 1,
           "Business": 1
         }
@@ -40404,10 +40195,10 @@
           "Macedonia"
         ],
         "pride_index": {
-          "Science": 1,
-          "Politics": 4,
           "Business": 1,
-          "Culture": 1
+          "Culture": 1,
+          "Politics": 1,
+          "Activism": 1
         }
       },
       "geometry": {
@@ -40504,8 +40295,7 @@
         "gdp_md": 15279,
         "pop_est": 2854191,
         "pride_index": {
-          "Science": 2,
-          "Politics": 3
+          "Science": 1
         }
       },
       "geometry": {
@@ -40626,8 +40416,6 @@
         "gdp_md": 7926,
         "pop_est": 1794248,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Activism": 1
         }
       },
@@ -40737,12 +40525,14 @@
         "gdp_md": 1393490,
         "pop_est": 47076781,
         "pride_index": {
-          "Science": 2,
-          "Politics": 14,
-          "Culture": 56,
-          "Activism": 1,
-          "Media": 2,
-          "Sports": 2
+          "Politics": 18,
+          "Activism": 8,
+          "Culture": 95,
+          "Sports": 11,
+          "Technology": 1,
+          "Business": 4,
+          "Media": 3,
+          "Science": 1
         }
       },
       "geometry": {
@@ -40971,13 +40761,13 @@
         "gdp_md": 350104,
         "pop_est": 5818553,
         "pride_index": {
+          "Culture": 30,
+          "Activism": 12,
           "Science": 4,
-          "Politics": 8,
-          "Culture": 14,
+          "Sports": 12,
+          "Politics": 12,
           "Business": 2,
-          "Activism": 6,
-          "Media": 1,
-          "Sports": 1
+          "Media": 1
         }
       },
       "geometry": {
@@ -41104,10 +40894,10 @@
         "gdp_md": 250077,
         "pop_est": 19356544,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Media": 1,
-          "Culture": 3
+          "Activism": 2,
+          "Culture": 5,
+          "Politics": 1,
+          "Media": 1
         }
       },
       "geometry": {
@@ -41308,10 +41098,10 @@
         "gdp_md": 163469,
         "pop_est": 9769949,
         "pride_index": {
+          "Culture": 14,
           "Science": 4,
-          "Politics": 5,
-          "Activism": 3,
-          "Culture": 11
+          "Politics": 4,
+          "Activism": 4
         }
       },
       "geometry": {
@@ -41464,8 +41254,9 @@
         "gdp_md": 105079,
         "pop_est": 5454073,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Sports": 1,
+          "Culture": 1,
+          "Activism": 1
         }
       },
       "geometry": {
@@ -41622,12 +41413,12 @@
         "gdp_md": 595858,
         "pop_est": 37970874,
         "pride_index": {
-          "Science": 2,
+          "Sports": 6,
           "Politics": 5,
+          "Culture": 33,
+          "Activism": 10,
           "Media": 4,
-          "Activism": 8,
-          "Culture": 29,
-          "Sports": 3,
+          "Science": 1,
           "Literature": 1
         }
       },
@@ -41833,13 +41624,13 @@
         "gdp_md": 388698,
         "pop_est": 4941444,
         "pride_index": {
+          "Culture": 53,
+          "Business": 3,
+          "Sports": 15,
+          "Activism": 16,
+          "Politics": 9,
           "Science": 2,
-          "Politics": 7,
-          "Activism": 5,
           "Media": 7,
-          "Culture": 31,
-          "Sports": 5,
-          "Business": 1,
           "Literature": 1
         }
       },
@@ -41956,7 +41747,66 @@
         "label_y": 78.0,
         "gdp_md": null,
         "pop_est": null,
-        "pride_index": {}
+        "pride_index": {
+          "Culture": 1,
+          "Sports": 3,
+          "Activism": 1
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": []
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "name": "Ivory Coast",
+        "ne_id": 1159320559,
+        "continent": "Africa",
+        "iso_a2": "CI",
+        "iso_a3": "CIV",
+        "fallback_code": null,
+        "region_un": "Africa",
+        "label_x": -5.5471,
+        "label_y": 7.5399,
+        "gdp_md": 58540,
+        "pop_est": 26378275,
+        "nationality": "Ivorian",
+        "synonym": [
+          "Côte d'Ivoire",
+          "Cote d'Ivoire"
+        ],
+        "pride_index": {
+          "Activism": 1
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": []
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "name": "Guadeloupe",
+        "ne_id": null,
+        "continent": "North America",
+        "iso_a2": "GP",
+        "iso_a3": "GLP",
+        "fallback_code": "FR",
+        "region_un": "Americas",
+        "label_x": -61.551,
+        "label_y": 16.265,
+        "gdp_md": null,
+        "pop_est": 395700,
+        "nationality": "Guadeloupean",
+        "synonym": [
+          "Guadalupe"
+        ],
+        "pride_index": {
+          "Culture": 1
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41981,26 +41831,29 @@
           "Britain",
           "England",
           "Scotland",
-          "Wales"
+          "Wales",
+          "Northern Ireland"
         ],
         "sub_regions": [
           {
             "Jersey": "JE",
-            "Guernsey": "GG"
+            "Guernsey": "GG",
+            "Northern Ireland": "GB-NIR"
           }
         ],
         "pride_index": {
-          "Science": 37,
-          "Politics": 85,
-          "Media": 71,
-          "Activism": 69,
-          "Technology": 4,
-          "Culture": 502,
-          "Business": 18,
+          "Activism": 143,
+          "Culture": 733,
+          "Politics": 168,
+          "Sports": 100,
+          "Business": 51,
+          "Media": 74,
+          "Science": 46,
+          "Education": 1,
+          "Technology": 7,
+          "Literature": 9,
+          "Law": 3,
           "Religion": 3,
-          "Sports": 33,
-          "Literature": 8,
-          "Law": 1,
           "Human Rights": 1
         }
       },
@@ -42256,12 +42109,12 @@
         "gdp_md": 209852,
         "pop_est": 10716322,
         "pride_index": {
-          "Science": 2,
-          "Politics": 7,
-          "Activism": 1,
+          "Culture": 16,
+          "Activism": 2,
+          "Politics": 4,
           "Media": 1,
-          "Culture": 13,
-          "Sports": 2
+          "Sports": 2,
+          "Science": 1
         }
       },
       "geometry": {
@@ -42508,13 +42361,13 @@
         "gdp_md": 445075,
         "pop_est": 8877067,
         "pride_index": {
-          "Science": 5,
           "Politics": 7,
-          "Culture": 17,
-          "Business": 1,
-          "Activism": 2,
-          "Literature": 1,
-          "Sports": 1
+          "Sports": 3,
+          "Literature": 2,
+          "Culture": 18,
+          "Business": 2,
+          "Activism": 3,
+          "Science": 4
         }
       },
       "geometry": {
@@ -42692,12 +42545,14 @@
           }
         ],
         "pride_index": {
-          "Activism": 8,
-          "Culture": 79,
-          "Sports": 5,
-          "Science": 2,
-          "Politics": 20,
-          "Media": 3
+          "Culture": 111,
+          "Activism": 16,
+          "Sports": 10,
+          "Literature": 1,
+          "Politics": 25,
+          "Business": 2,
+          "Media": 4,
+          "Science": 1
         }
       },
       "geometry": {
@@ -43080,12 +42935,12 @@
         "gdp_md": 703082,
         "pop_est": 8574832,
         "pride_index": {
-          "Science": 1,
-          "Politics": 5,
-          "Media": 1,
-          "Culture": 12,
-          "Activism": 4,
-          "Sports": 3
+          "Activism": 8,
+          "Culture": 18,
+          "Education": 1,
+          "Politics": 6,
+          "Sports": 8,
+          "Media": 1
         }
       },
       "geometry": {
@@ -43206,13 +43061,23 @@
         "gdp_md": 907050,
         "pop_est": 17332850,
         "pride_index": {
-          "Science": 4,
-          "Politics": 12,
+          "Sports": 38,
+          "Culture": 66,
+          "Activism": 21,
+          "Business": 1,
+          "Politics": 20,
           "Media": 6,
-          "Activism": 8,
-          "Culture": 43,
-          "Sports": 19
-        }
+          "Science": 3
+        },
+        "synonym": [
+          "The Netherlands",
+          "Dutch Antilles"
+        ],
+        "sub_regions": [
+          {
+            "Dutch Antilles": "AN"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -43296,10 +43161,9 @@
         "gdp_md": 51475,
         "pop_est": 6944975,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4,
-          "Activism": 3,
-          "Culture": 2
+          "Politics": 2,
+          "Culture": 3,
+          "Activism": 3
         }
       },
       "geometry": {
@@ -43516,8 +43380,7 @@
         "gdp_md": 60752,
         "pop_est": 4067500,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Activism": 1,
           "Culture": 2,
           "Business": 1
         }
@@ -43716,8 +43579,9 @@
         "gdp_md": 54174,
         "pop_est": 2087946,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Sports": 1,
+          "Activism": 2,
+          "Culture": 1
         }
       },
       "geometry": {
@@ -43814,10 +43678,10 @@
         "gdp_md": 68558,
         "pop_est": 6975761,
         "pride_index": {
-          "Science": 1,
-          "Politics": 4,
+          "Human Rights": 1,
           "Culture": 5,
-          "Activism": 2
+          "Activism": 2,
+          "Politics": 1
         }
       },
       "geometry": {
@@ -43954,8 +43818,8 @@
         "gdp_md": 5542,
         "pop_est": 622137,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Culture": 1,
+          "Activism": 1
         }
       },
       "geometry": {
@@ -44051,10 +43915,7 @@
         "label_y": 44.091051,
         "gdp_md": 20164,
         "pop_est": 3301000,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -44170,12 +44031,12 @@
         "gdp_md": 238785,
         "pop_est": 10269417,
         "pride_index": {
-          "Science": 1,
-          "Politics": 7,
+          "Science": 2,
+          "Culture": 15,
+          "Business": 2,
+          "Activism": 2,
           "Media": 5,
-          "Activism": 1,
-          "Culture": 9,
-          "Business": 1
+          "Politics": 4
         }
       },
       "geometry": {
@@ -44334,10 +44195,7 @@
         "synonym": [
           "Republic of Moldova"
         ],
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -44469,8 +44327,9 @@
         "gdp_md": -99,
         "pop_est": 825,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Activism": 2,
+          "Culture": 4,
+          "Sports": 1
         }
       },
       "geometry": {
@@ -44523,9 +44382,10 @@
         "gdp_md": 24188,
         "pop_est": 361313,
         "pride_index": {
-          "Science": 1,
-          "Politics": 5,
-          "Culture": 3
+          "Culture": 5,
+          "Sports": 2,
+          "Activism": 1,
+          "Politics": 3
         }
       },
       "geometry": {
@@ -44630,9 +44490,9 @@
         "gdp_md": 14989,
         "pop_est": 502653,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
-          "Culture": 1
+          "Politics": 2,
+          "Law": 1,
+          "Culture": 2
         }
       },
       "geometry": {
@@ -44882,10 +44742,7 @@
         "label_y": -5.695285,
         "gdp_md": 24829,
         "pop_est": 8776109,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -45247,13 +45104,14 @@
         "gdp_md": 1396567,
         "pop_est": 25364307,
         "pride_index": {
-          "Science": 3,
-          "Politics": 18,
+          "Culture": 100,
+          "Politics": 31,
+          "Sports": 57,
+          "Activism": 33,
+          "Science": 7,
+          "Business": 3,
+          "Law": 1,
           "Media": 9,
-          "Activism": 16,
-          "Culture": 62,
-          "Business": 2,
-          "Sports": 24,
           "Literature": 1,
           "Music": 1
         }
@@ -46250,8 +46108,6 @@
         "gdp_md": 5496,
         "pop_est": 889953,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
           "Activism": 1
         }
       },
@@ -46375,13 +46231,13 @@
         "gdp_md": 206928,
         "pop_est": 4917000,
         "pride_index": {
-          "Science": 4,
-          "Politics": 9,
+          "Sports": 21,
+          "Culture": 29,
+          "Politics": 11,
+          "Activism": 9,
           "Media": 4,
-          "Culture": 16,
-          "Sports": 9,
-          "Business": 3,
-          "Activism": 6
+          "Science": 3,
+          "Business": 3
         }
       },
       "geometry": {
@@ -46675,10 +46531,7 @@
         "label_y": -21.064697,
         "gdp_md": 10770,
         "pop_est": 287800,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -46754,8 +46607,7 @@
         "gdp_md": 512,
         "pop_est": 104494,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3,
+          "Activism": 1,
           "Sports": 1
         }
       },
@@ -47666,10 +47518,7 @@
         "label_y": -8.029548,
         "gdp_md": 1589,
         "pop_est": 669823,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47858,10 +47707,7 @@
         "label_y": -15.37153,
         "gdp_md": 934,
         "pop_est": 299882,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47938,10 +47784,7 @@
         "label_y": -79.843222,
         "gdp_md": 898,
         "pop_est": 4490,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50638,10 +50481,7 @@
         "label_y": -49.303721,
         "gdp_md": 16,
         "pop_est": 140,
-        "pride_index": {
-          "Science": 1,
-          "Politics": 3
-        }
+        "pride_index": {}
       },
       "geometry": {
         "type": "Polygon",
@@ -50701,8 +50541,12 @@
         "gdp_md": 120,
         "pop_est": 3000,
         "pride_index": {
-          "Science": 1,
-          "Politics": 3
+          "Media": 1,
+          "Culture": 18,
+          "Activism": 7,
+          "Science": 3,
+          "Politics": 1,
+          "Sports": 1
         }
       },
       "geometry": {
