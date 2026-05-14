@@ -13,7 +13,8 @@
         "label_y": 10.0651,
         "gdp_md": 61801,
         "pop_est": 5047561,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Costa Rican"
       },
       "geometry": {
         "type": "Polygon",
@@ -182,7 +183,8 @@
         "pop_est": 6545502,
         "pride_index": {
           "Culture": 1
-        }
+        },
+        "nationality": "Nicaraguan"
       },
       "geometry": {
         "type": "Polygon",
@@ -416,7 +418,8 @@
         "pride_index": {
           "Activism": 1,
           "Culture": 1
-        }
+        },
+        "nationality": "Haitian"
       },
       "geometry": {
         "type": "Polygon",
@@ -526,7 +529,8 @@
         "pride_index": {
           "Politics": 2,
           "Culture": 2
-        }
+        },
+        "nationality": "Dominican"
       },
       "geometry": {
         "type": "Polygon",
@@ -656,7 +660,8 @@
         "pride_index": {
           "Activism": 2,
           "Culture": 2
-        }
+        },
+        "nationality": "Salvadoran"
       },
       "geometry": {
         "type": "Polygon",
@@ -763,7 +768,8 @@
           "Politics": 5,
           "Culture": 2,
           "Media": 1
-        }
+        },
+        "nationality": "Guatemalan"
       },
       "geometry": {
         "type": "Polygon",
@@ -931,7 +937,8 @@
           "Culture": 20,
           "Activism": 2,
           "Science": 1
-        }
+        },
+        "nationality": "Cuban"
       },
       "geometry": {
         "type": "Polygon",
@@ -1124,7 +1131,8 @@
         "pop_est": 9746117,
         "pride_index": {
           "Activism": 3
-        }
+        },
+        "nationality": "Honduran"
       },
       "geometry": {
         "type": "Polygon",
@@ -1383,27 +1391,28 @@
           "US"
         ],
         "pride_index": {
-          "Activism": 664,
           "Culture": 2195,
-          "Politics": 433,
-          "Science": 132,
-          "Media": 125,
-          "Technology": 23,
-          "Religion": 5,
-          "Business": 126,
-          "Military": 1,
           "Sports": 298,
+          "Activism": 664,
+          "Politics": 433,
+          "Business": 126,
+          "Science": 132,
           "Literature": 33,
-          "Law": 14,
-          "Crime": 1,
+          "Media": 125,
           "Education": 15,
+          "Government": 1,
+          "Human Rights": 2,
+          "Technology": 23,
+          "Law": 14,
+          "Medicine": 1,
+          "Religion": 5,
+          "Military": 1,
+          "Crime": 1,
           "Film": 1,
           "Art": 1,
-          "Human Rights": 2,
-          "Academia": 1,
-          "Government": 1,
-          "Medicine": 1
-        }
+          "Academia": 1
+        },
+        "nationality": "American"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3253,11 +3262,11 @@
         "gdp_md": 1736425,
         "pop_est": 37589262,
         "pride_index": {
-          "Culture": 291,
+          "Culture": 292,
           "Science": 12,
           "Politics": 65,
           "Activism": 87,
-          "Sports": 79,
+          "Sports": 80,
           "Business": 15,
           "Human Rights": 2,
           "Health": 1,
@@ -3265,7 +3274,8 @@
           "Literature": 5,
           "Media": 18,
           "Religion": 2
-        }
+        },
+        "nationality": "Canadian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6584,14 +6594,15 @@
         "pop_est": 127575529,
         "pride_index": {
           "Culture": 45,
-          "Activism": 10,
+          "Activism": 11,
           "Politics": 7,
           "Business": 1,
           "Education": 1,
           "Sports": 3,
           "Science": 2,
           "Media": 2
-        }
+        },
+        "nationality": "Mexican"
       },
       "geometry": {
         "type": "Polygon",
@@ -7296,7 +7307,8 @@
         "pop_est": 390353,
         "pride_index": {
           "Activism": 2
-        }
+        },
+        "nationality": "Belizean"
       },
       "geometry": {
         "type": "Polygon",
@@ -7402,7 +7414,8 @@
         "pride_index": {
           "Culture": 1,
           "Sports": 1
-        }
+        },
+        "nationality": "Panamanian"
       },
       "geometry": {
         "type": "Polygon",
@@ -7635,7 +7648,8 @@
         "pop_est": 56225,
         "pride_index": {
           "Culture": 1
-        }
+        },
+        "nationality": "Greenlandic"
       },
       "geometry": {
         "type": "Polygon",
@@ -8186,7 +8200,8 @@
         "label_y": 26.401789,
         "gdp_md": 13578,
         "pop_est": 389482,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Bahamian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8304,14 +8319,15 @@
         "gdp_md": 24269,
         "pop_est": 1394973,
         "pride_index": {
+          "Activism": 3,
           "Sports": 3,
           "Culture": 2,
-          "Politics": 1,
-          "Activism": 3
+          "Politics": 1
         },
         "synonym": [
           "Trinidad & Tobago"
-        ]
+        ],
+        "nationality": "Trinidadian"
       },
       "geometry": {
         "type": "Polygon",
@@ -8369,7 +8385,8 @@
         "pride_index": {
           "Culture": 1,
           "Activism": 1
-        }
+        },
+        "nationality": "Grenadian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8657,7 +8674,8 @@
         "pride_index": {
           "Culture": 1,
           "Activism": 1
-        }
+        },
+        "nationality": "Barbadian"
       },
       "geometry": {
         "type": "Polygon",
@@ -8827,7 +8845,8 @@
           "Science": 2,
           "Politics": 2,
           "Media": 1
-        }
+        },
+        "nationality": "Puerto Rican"
       },
       "geometry": {
         "type": "Polygon",
@@ -8891,7 +8910,8 @@
           "Culture": 7,
           "Sports": 3,
           "Media": 1
-        }
+        },
+        "nationality": "Jamaican"
       },
       "geometry": {
         "type": "Polygon",
@@ -8962,7 +8982,8 @@
           "Sports": 1,
           "Culture": 1,
           "Activism": 1
-        }
+        },
+        "nationality": "Bermudian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9334,7 +9355,8 @@
         "pride_index": {
           "Activism": 1,
           "Human Rights": 1
-        }
+        },
+        "nationality": "Indonesian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10411,7 +10433,8 @@
           "Activism": 2,
           "Business": 1,
           "Culture": 2
-        }
+        },
+        "nationality": "Malaysian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10693,7 +10716,8 @@
           "N. Cyprus",
           "Turkish Republic of Northern Cyprus"
         ],
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Cypriot"
       },
       "geometry": {
         "type": "Polygon",
@@ -10782,7 +10806,8 @@
           "Culture": 9,
           "Media": 1,
           "Sports": 1
-        }
+        },
+        "nationality": "Indian"
       },
       "geometry": {
         "type": "Polygon",
@@ -11365,7 +11390,8 @@
           "Media": 1,
           "Science": 1,
           "Literature": 1
-        }
+        },
+        "nationality": "Chinese"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12362,7 +12388,8 @@
           "Media": 4,
           "Law": 1,
           "Technology": 1
-        }
+        },
+        "nationality": "Israeli"
       },
       "geometry": {
         "type": "Polygon",
@@ -12494,7 +12521,8 @@
         ],
         "pride_index": {
           "Activism": 2
-        }
+        },
+        "nationality": "Palestinian"
       },
       "geometry": {
         "type": "Polygon",
@@ -12556,7 +12584,8 @@
         "pride_index": {
           "Activism": 2,
           "Culture": 8
-        }
+        },
+        "nationality": "Lebanese"
       },
       "geometry": {
         "type": "Polygon",
@@ -12627,8 +12656,10 @@
           "Syrian Arab Republic"
         ],
         "pride_index": {
+          "Culture": 1,
           "Politics": 1
-        }
+        },
+        "nationality": "Syrian"
       },
       "geometry": {
         "type": "Polygon",
@@ -12764,7 +12795,8 @@
           "Activism": 3,
           "Science": 1,
           "Politics": 1
-        }
+        },
+        "nationality": "South Korean"
       },
       "geometry": {
         "type": "Polygon",
@@ -12863,7 +12895,8 @@
         "label_y": 39.885252,
         "gdp_md": 40000,
         "pop_est": 25666161,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "North Korean"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13084,7 +13117,8 @@
         "label_y": 27.536685,
         "gdp_md": 2530,
         "pop_est": 763092,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Bhutanese"
       },
       "geometry": {
         "type": "Polygon",
@@ -13159,7 +13193,8 @@
         "label_y": 22.120427,
         "gdp_md": 76331,
         "pop_est": 4974986,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Omani"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13376,7 +13411,8 @@
         "label_y": 41.693603,
         "gdp_md": 57921,
         "pop_est": 33580650,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Uzbekistani"
       },
       "geometry": {
         "type": "Polygon",
@@ -13617,7 +13653,8 @@
         "pop_est": 18513930,
         "pride_index": {
           "Activism": 1
-        }
+        },
+        "nationality": "Kazakhstani"
       },
       "geometry": {
         "type": "Polygon",
@@ -14088,7 +14125,8 @@
         "label_y": 38.199835,
         "gdp_md": 8116,
         "pop_est": 9321018,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Tadzhik"
       },
       "geometry": {
         "type": "Polygon",
@@ -14275,7 +14313,8 @@
         "label_y": 45.997488,
         "gdp_md": 13996,
         "pop_est": 3225167,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Mongolian"
       },
       "geometry": {
         "type": "Polygon",
@@ -14603,7 +14642,8 @@
           "Sports": 1,
           "Media": 1,
           "Politics": 1
-        }
+        },
+        "nationality": "Vietnamese"
       },
       "geometry": {
         "type": "Polygon",
@@ -14804,7 +14844,8 @@
         "pop_est": 16486542,
         "pride_index": {
           "Activism": 1
-        }
+        },
+        "nationality": "Cambodian"
       },
       "geometry": {
         "type": "Polygon",
@@ -14895,7 +14936,8 @@
         "label_y": 23.466285,
         "gdp_md": 421142,
         "pop_est": 9770529,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Emirati"
       },
       "geometry": {
         "type": "Polygon",
@@ -15009,7 +15051,8 @@
         "pride_index": {
           "Business": 1,
           "Culture": 4
-        }
+        },
+        "nationality": "Georgian"
       },
       "geometry": {
         "type": "Polygon",
@@ -15131,7 +15174,8 @@
         "pride_index": {
           "Activism": 1,
           "Culture": 1
-        }
+        },
+        "nationality": "Azerbaijani"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15341,7 +15385,8 @@
           "Culture": 12,
           "Technology": 2,
           "Science": 1
-        }
+        },
+        "nationality": "Turkish"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15642,7 +15687,8 @@
         "label_y": 19.431821,
         "gdp_md": 18173,
         "pop_est": 7169455,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Laotian"
       },
       "geometry": {
         "type": "Polygon",
@@ -15813,7 +15859,8 @@
         "label_y": 41.66854,
         "gdp_md": 8454,
         "pop_est": 6456900,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Kirghiz"
       },
       "geometry": {
         "type": "Polygon",
@@ -15979,7 +16026,8 @@
         "pride_index": {
           "Activism": 2,
           "Culture": 1
-        }
+        },
+        "nationality": "Armenian"
       },
       "geometry": {
         "type": "Polygon",
@@ -16085,7 +16133,8 @@
         "pride_index": {
           "Activism": 1,
           "Culture": 1
-        }
+        },
+        "nationality": "Iraqi"
       },
       "geometry": {
         "type": "Polygon",
@@ -16229,9 +16278,10 @@
         "gdp_md": 453996,
         "pop_est": 82913906,
         "pride_index": {
-          "Activism": 5,
-          "Culture": 6
-        }
+          "Activism": 6,
+          "Culture": 7
+        },
+        "nationality": "Iranian"
       },
       "geometry": {
         "type": "Polygon",
@@ -16558,7 +16608,8 @@
         "label_y": 25.237383,
         "gdp_md": 175837,
         "pop_est": 2832067,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Qatari"
       },
       "geometry": {
         "type": "Polygon",
@@ -16619,7 +16670,8 @@
         "pop_est": 34268528,
         "pride_index": {
           "Politics": 1
-        }
+        },
+        "nationality": "Saudi Arabian"
       },
       "geometry": {
         "type": "Polygon",
@@ -16950,7 +17002,8 @@
           "Activism": 1,
           "Culture": 4,
           "Science": 1
-        }
+        },
+        "nationality": "Pakistani"
       },
       "geometry": {
         "type": "Polygon",
@@ -17243,7 +17296,8 @@
           "Activism": 1,
           "Media": 1,
           "Sports": 1
-        }
+        },
+        "nationality": "Thai"
       },
       "geometry": {
         "type": "Polygon",
@@ -17522,7 +17576,8 @@
         "label_y": 29.413628,
         "gdp_md": 134628,
         "pop_est": 4207083,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Kuwaiti"
       },
       "geometry": {
         "type": "Polygon",
@@ -17581,7 +17636,8 @@
         "label_y": -8.803705,
         "gdp_md": 2017,
         "pop_est": 1293119,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "East Timorese"
       },
       "geometry": {
         "type": "Polygon",
@@ -17650,7 +17706,8 @@
         "pop_est": 433285,
         "pride_index": {
           "Culture": 1
-        }
+        },
+        "nationality": "Bruneian"
       },
       "geometry": {
         "type": "Polygon",
@@ -17707,7 +17764,8 @@
         "pop_est": 54045420,
         "pride_index": {
           "Culture": 1
-        }
+        },
+        "nationality": "Myanmar"
       },
       "geometry": {
         "type": "Polygon",
@@ -18014,7 +18072,8 @@
           "Politics": 1,
           "Culture": 1,
           "Activism": 1
-        }
+        },
+        "nationality": "Bangladeshi"
       },
       "geometry": {
         "type": "Polygon",
@@ -18185,7 +18244,8 @@
           "Culture": 1,
           "Activism": 1,
           "Politics": 1
-        }
+        },
+        "nationality": "Afghan"
       },
       "geometry": {
         "type": "Polygon",
@@ -18484,7 +18544,8 @@
         "label_y": 39.855246,
         "gdp_md": 40761,
         "pop_est": 5942089,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Turkmen"
       },
       "geometry": {
         "type": "Polygon",
@@ -18723,7 +18784,8 @@
         "label_y": 30.805025,
         "gdp_md": 44502,
         "pop_est": 10101694,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Jordanian"
       },
       "geometry": {
         "type": "Polygon",
@@ -18826,7 +18888,8 @@
           "Culture": 3,
           "Politics": 1,
           "Activism": 2
-        }
+        },
+        "nationality": "Nepalese"
       },
       "geometry": {
         "type": "Polygon",
@@ -18943,7 +19006,8 @@
         "pop_est": 29161922,
         "pride_index": {
           "Activism": 1
-        }
+        },
+        "nationality": "Yemeni"
       },
       "geometry": {
         "type": "Polygon",
@@ -19144,15 +19208,16 @@
         "pop_est": 108116615,
         "pride_index": {
           "Culture": 21,
+          "Sports": 4,
           "Politics": 1,
           "Activism": 3,
-          "Sports": 4,
           "Media": 4,
           "Literature": 1
         },
         "synonym": [
           "The Philippines"
-        ]
+        ],
+        "nationality": "Filipino"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19646,7 +19711,8 @@
           "Activism": 1,
           "Culture": 4,
           "Politics": 1
-        }
+        },
+        "nationality": "Sri Lankan"
       },
       "geometry": {
         "type": "Polygon",
@@ -19713,7 +19779,8 @@
           "Culture": 13,
           "Politics": 2,
           "Activism": 3
-        }
+        },
+        "nationality": "Taiwanese"
       },
       "geometry": {
         "type": "Polygon",
@@ -19775,11 +19842,12 @@
         "pride_index": {
           "Culture": 27,
           "Politics": 7,
-          "Activism": 8,
+          "Activism": 9,
           "Sports": 4,
           "Business": 1,
           "Technology": 1
-        }
+        },
+        "nationality": "Japanese"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20077,7 +20145,8 @@
           "Culture": 10,
           "Sports": 1,
           "Politics": 1
-        }
+        },
+        "nationality": "Singaporean"
       },
       "geometry": {
         "type": "Polygon",
@@ -20263,7 +20332,8 @@
         "pride_index": {
           "Politics": 3,
           "Culture": 1
-        }
+        },
+        "nationality": "Chinese"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20664,11 +20734,12 @@
           "Culture": 13,
           "Sports": 7,
           "Politics": 7,
-          "Activism": 8,
+          "Activism": 9,
           "Science": 2,
           "Media": 4,
           "Military": 1
-        }
+        },
+        "nationality": "Chilean"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21156,7 +21227,8 @@
         "pride_index": {
           "Culture": 3,
           "Activism": 2
-        }
+        },
+        "nationality": "Bolivian"
       },
       "geometry": {
         "type": "Polygon",
@@ -21425,7 +21497,8 @@
           "Culture": 7,
           "Media": 1,
           "Sports": 1
-        }
+        },
+        "nationality": "Peruvian"
       },
       "geometry": {
         "type": "Polygon",
@@ -21754,10 +21827,11 @@
         "pop_est": 44938712,
         "pride_index": {
           "Activism": 9,
-          "Culture": 34,
+          "Culture": 35,
           "Politics": 6,
           "Sports": 10
-        }
+        },
+        "nationality": "Argentinean"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22272,7 +22346,8 @@
         "pop_est": 581363,
         "pride_index": {
           "Culture": 2
-        }
+        },
+        "nationality": "Surinamer"
       },
       "geometry": {
         "type": "Polygon",
@@ -22399,7 +22474,8 @@
         "label_y": 5.124317,
         "gdp_md": 5173,
         "pop_est": 782766,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Guyanese"
       },
       "geometry": {
         "type": "Polygon",
@@ -22585,14 +22661,15 @@
         "pride_index": {
           "Culture": 70,
           "Sports": 36,
-          "Activism": 23,
+          "Activism": 24,
           "Politics": 12,
           "Media": 4,
           "Science": 3,
           "Business": 1,
           "Literature": 1,
           "Technology": 1
-        }
+        },
+        "nationality": "Brazilian"
       },
       "geometry": {
         "type": "Polygon",
@@ -23433,7 +23510,8 @@
           "Media": 1,
           "Business": 1,
           "Culture": 3
-        }
+        },
+        "nationality": "Uruguayan"
       },
       "geometry": {
         "type": "Polygon",
@@ -23544,7 +23622,8 @@
           "Activism": 2,
           "Politics": 2,
           "Culture": 1
-        }
+        },
+        "nationality": "Ecuadorean"
       },
       "geometry": {
         "type": "Polygon",
@@ -23703,7 +23782,8 @@
           "Culture": 11,
           "Politics": 8,
           "Activism": 3
-        }
+        },
+        "nationality": "Colombian"
       },
       "geometry": {
         "type": "Polygon",
@@ -24128,7 +24208,8 @@
         "pop_est": 7044636,
         "pride_index": {
           "Politics": 1
-        }
+        },
+        "nationality": "Paraguayan"
       },
       "geometry": {
         "type": "Polygon",
@@ -24289,7 +24370,8 @@
           "Sports": 2,
           "Politics": 1,
           "Technology": 1
-        }
+        },
+        "nationality": "Venezuelan"
       },
       "geometry": {
         "type": "Polygon",
@@ -24680,7 +24762,8 @@
         "label_y": -51.608913,
         "gdp_md": 282,
         "pop_est": 3398,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Falkland Islander"
       },
       "geometry": {
         "type": "Polygon",
@@ -24745,7 +24828,8 @@
         "pop_est": 112078730,
         "pride_index": {
           "Culture": 1
-        }
+        },
+        "nationality": "Ethiopian"
       },
       "geometry": {
         "type": "Polygon",
@@ -24994,7 +25078,7 @@
     },
     {
       "properties": {
-        "name": "S. Sudan",
+        "name": "South Sudan",
         "ne_id": 1159321235,
         "continent": "Africa",
         "iso_a2": "SS",
@@ -25004,7 +25088,8 @@
         "label_y": 7.230477,
         "gdp_md": 11998,
         "pop_est": 11062113,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "South Sudanese"
       },
       "geometry": {
         "type": "Polygon",
@@ -25280,9 +25365,10 @@
         "gdp_md": 4719,
         "pop_est": 10192317.3,
         "pride_index": {
-          "Science": 1,
-          "Culture": 1
-        }
+          "Culture": 2,
+          "Science": 1
+        },
+        "nationality": "Somali"
       },
       "geometry": {
         "type": "Polygon",
@@ -25456,7 +25542,8 @@
         "pride_index": {
           "Activism": 4,
           "Media": 1
-        }
+        },
+        "nationality": "Kenyan"
       },
       "geometry": {
         "type": "Polygon",
@@ -25629,7 +25716,8 @@
         "pop_est": 18628747,
         "pride_index": {
           "Activism": 1
-        }
+        },
+        "nationality": "Malawian"
       },
       "geometry": {
         "type": "Polygon",
@@ -25767,7 +25855,8 @@
         "pride_index": {
           "Activism": 1,
           "Literature": 1
-        }
+        },
+        "nationality": "Tanzanian"
       },
       "geometry": {
         "type": "Polygon",
@@ -25999,9 +26088,10 @@
         "gdp_md": 17836,
         "pop_est": 5096159,
         "pride_index": {
-          "Science": 1,
-          "Culture": 1
-        }
+          "Culture": 2,
+          "Science": 1
+        },
+        "nationality": "Somali"
       },
       "geometry": {
         "type": "Polygon",
@@ -26130,7 +26220,8 @@
         "pop_est": 36471769,
         "pride_index": {
           "Culture": 4
-        }
+        },
+        "nationality": "Moroccan"
       },
       "geometry": {
         "type": "Polygon",
@@ -26405,7 +26496,8 @@
         "label_y": 23.967592,
         "gdp_md": 907,
         "pop_est": 603253,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Sahrawi"
       },
       "geometry": {
         "type": "Polygon",
@@ -26540,7 +26632,8 @@
         "label_y": 0.142331,
         "gdp_md": 12267,
         "pop_est": 5380508,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Congolese"
       },
       "geometry": {
         "type": "Polygon",
@@ -26759,7 +26852,8 @@
         "label_y": -1.858167,
         "gdp_md": 50400,
         "pop_est": 86790567,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Congolese"
       },
       "geometry": {
         "type": "Polygon",
@@ -27280,7 +27374,8 @@
         "pop_est": 2494530,
         "pride_index": {
           "Activism": 2
-        }
+        },
+        "nationality": "Namibian"
       },
       "geometry": {
         "type": "Polygon",
@@ -27487,7 +27582,8 @@
           "Media": 1,
           "Business": 2,
           "Religion": 1
-        }
+        },
+        "nationality": "South African"
       },
       "geometry": {
         "type": "Polygon",
@@ -27888,7 +27984,8 @@
         "label_y": 26.638944,
         "gdp_md": 52091,
         "pop_est": 6777452,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Libyan"
       },
       "geometry": {
         "type": "Polygon",
@@ -28139,7 +28236,8 @@
           "Culture": 1,
           "Activism": 1,
           "Politics": 1
-        }
+        },
+        "nationality": "Tunisian"
       },
       "geometry": {
         "type": "Polygon",
@@ -28286,7 +28384,8 @@
         "label_y": -14.660804,
         "gdp_md": 23309,
         "pop_est": 17861030,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Zambian"
       },
       "geometry": {
         "type": "Polygon",
@@ -28555,7 +28654,8 @@
         "pop_est": 7813215,
         "pride_index": {
           "Activism": 1
-        }
+        },
+        "nationality": "Sierra Leonean"
       },
       "geometry": {
         "type": "Polygon",
@@ -28666,7 +28766,8 @@
         "label_y": 10.618516,
         "gdp_md": 12296,
         "pop_est": 12771246,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Guinean"
       },
       "geometry": {
         "type": "Polygon",
@@ -28971,7 +29072,8 @@
         "pop_est": 4937374,
         "pride_index": {
           "Sports": 1
-        }
+        },
+        "nationality": "Liberian"
       },
       "geometry": {
         "type": "Polygon",
@@ -29102,7 +29204,8 @@
         "label_y": 6.989681,
         "gdp_md": 2220,
         "pop_est": 4745185,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Central African"
       },
       "geometry": {
         "type": "Polygon",
@@ -29373,7 +29476,8 @@
         "label_y": 16.330746,
         "gdp_md": 30513,
         "pop_est": 42813238,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Sudanese"
       },
       "geometry": {
         "type": "Polygon",
@@ -29720,7 +29824,8 @@
         "label_y": 11.976343,
         "gdp_md": 3324,
         "pop_est": 973560,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Djibouti"
       },
       "geometry": {
         "type": "Polygon",
@@ -29803,7 +29908,8 @@
         "label_y": 15.787401,
         "gdp_md": 2065,
         "pop_est": 6081196,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Eritrean"
       },
       "geometry": {
         "type": "Polygon",
@@ -29938,7 +30044,10 @@
         "label_y": 7.49139,
         "gdp_md": 58539,
         "pop_est": 25716544,
-        "pride_index": {}
+        "pride_index": {
+          "Activism": 1
+        },
+        "nationality": "Ivorian"
       },
       "geometry": {
         "type": "Polygon",
@@ -30145,7 +30254,8 @@
         "label_y": 18.692713,
         "gdp_md": 17279,
         "pop_est": 19658031,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Malian"
       },
       "geometry": {
         "type": "Polygon",
@@ -30472,7 +30582,8 @@
         "label_y": 15.138125,
         "gdp_md": 23578,
         "pop_est": 16296364,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Senegalese"
       },
       "geometry": {
         "type": "Polygon",
@@ -30674,7 +30785,8 @@
         "pride_index": {
           "Culture": 6,
           "Activism": 5
-        }
+        },
+        "nationality": "Nigerian"
       },
       "geometry": {
         "type": "Polygon",
@@ -30929,7 +31041,8 @@
         "label_y": 10.324775,
         "gdp_md": 14390,
         "pop_est": 11801151,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Beninese"
       },
       "geometry": {
         "type": "Polygon",
@@ -31052,7 +31165,8 @@
         "label_y": -12.182762,
         "gdp_md": 88815,
         "pop_est": 31825295,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Angolan"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -31381,7 +31495,8 @@
         "label_y": -22.102634,
         "gdp_md": 18340,
         "pop_est": 2303697,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Motswana"
       },
       "geometry": {
         "type": "Polygon",
@@ -31569,7 +31684,8 @@
           "Politics": 1,
           "Culture": 3,
           "Activism": 1
-        }
+        },
+        "nationality": "Zimbabwean"
       },
       "geometry": {
         "type": "Polygon",
@@ -31740,7 +31856,8 @@
         "label_y": 15.142959,
         "gdp_md": 11314,
         "pop_est": 15946876,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Chadian"
       },
       "geometry": {
         "type": "Polygon",
@@ -31997,7 +32114,8 @@
         "pop_est": 43053054,
         "pride_index": {
           "Culture": 4
-        }
+        },
+        "nationality": "Algerian"
       },
       "geometry": {
         "type": "Polygon",
@@ -32270,7 +32388,8 @@
         "pop_est": 30366036,
         "pride_index": {
           "Activism": 1
-        }
+        },
+        "nationality": "Mozambican"
       },
       "geometry": {
         "type": "Polygon",
@@ -32609,7 +32728,8 @@
         "label_y": -26.533676,
         "gdp_md": 4471,
         "pop_est": 1148130,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Swazi"
       },
       "geometry": {
         "type": "Polygon",
@@ -32676,7 +32796,8 @@
         "label_y": -3.332836,
         "gdp_md": 3012,
         "pop_est": 11530580,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Burundian"
       },
       "geometry": {
         "type": "Polygon",
@@ -32753,7 +32874,8 @@
         "pop_est": 12626950,
         "pride_index": {
           "Culture": 1
-        }
+        },
+        "nationality": "Rwandan"
       },
       "geometry": {
         "type": "Polygon",
@@ -32834,14 +32956,15 @@
         "pop_est": 44269594,
         "pride_index": {
           "Activism": 9,
+          "Politics": 2,
           "Culture": 2,
-          "Sports": 1,
-          "Politics": 2
+          "Sports": 1
         },
         "synonym": [
           "Bugunda Kingdom",
           "Bugunda Kingdom (Uganda)"
-        ]
+        ],
+        "nationality": "Ugandan"
       },
       "geometry": {
         "type": "Polygon",
@@ -32976,7 +33099,8 @@
         "label_y": -29.480158,
         "gdp_md": 2376,
         "pop_est": 2125268,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Mosotho"
       },
       "geometry": {
         "type": "Polygon",
@@ -33051,7 +33175,8 @@
           "Activism": 4,
           "Culture": 1,
           "Sports": 2
-        }
+        },
+        "nationality": "Cameroonian"
       },
       "geometry": {
         "type": "Polygon",
@@ -33318,7 +33443,8 @@
         "label_y": -0.437739,
         "gdp_md": 16874,
         "pop_est": 2172579,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Gabonese"
       },
       "geometry": {
         "type": "Polygon",
@@ -33465,7 +33591,8 @@
         "label_y": 17.446195,
         "gdp_md": 12911,
         "pop_est": 23310715,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Nigerian"
       },
       "geometry": {
         "type": "Polygon",
@@ -33720,7 +33847,8 @@
         "label_y": 12.673048,
         "gdp_md": 15990,
         "pop_est": 20321378,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Burkinabe"
       },
       "geometry": {
         "type": "Polygon",
@@ -33899,7 +34027,8 @@
         "label_y": 8.80722,
         "gdp_md": 5490,
         "pop_est": 8082366,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Togolese"
       },
       "geometry": {
         "type": "Polygon",
@@ -34000,7 +34129,8 @@
         "pop_est": 30417856,
         "pride_index": {
           "Culture": 1
-        }
+        },
+        "nationality": "Ghanaian"
       },
       "geometry": {
         "type": "Polygon",
@@ -34123,7 +34253,8 @@
         "label_y": 12.163712,
         "gdp_md": 1339,
         "pop_est": 1920922,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Guinea-Bissauan"
       },
       "geometry": {
         "type": "Polygon",
@@ -34227,7 +34358,8 @@
           "Culture": 1,
           "Technology": 1,
           "Politics": 1
-        }
+        },
+        "nationality": "Egyptian"
       },
       "geometry": {
         "type": "Polygon",
@@ -34426,7 +34558,8 @@
         "label_y": 19.587062,
         "gdp_md": 7600,
         "pop_est": 4525696,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Mauritanian"
       },
       "geometry": {
         "type": "Polygon",
@@ -34605,7 +34738,8 @@
         "label_y": 2.333,
         "gdp_md": 11026,
         "pop_est": 1355986,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Equatorial Guinean"
       },
       "geometry": {
         "type": "Polygon",
@@ -34656,7 +34790,8 @@
         "label_y": 13.641721,
         "gdp_md": 1826,
         "pop_est": 2347706,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Gambian"
       },
       "geometry": {
         "type": "Polygon",
@@ -34743,7 +34878,8 @@
         "label_y": -18.628288,
         "gdp_md": 14114,
         "pop_est": 26969307,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Malagasy"
       },
       "geometry": {
         "type": "Polygon",
@@ -34963,9 +35099,9 @@
         "gdp_md": 2715518,
         "pop_est": 67059887,
         "pride_index": {
-          "Culture": 217,
+          "Culture": 218,
           "Sports": 22,
-          "Activism": 20,
+          "Activism": 21,
           "Politics": 51,
           "Business": 10,
           "Media": 10,
@@ -34978,7 +35114,8 @@
             "Mayotte": "YT",
             "Guadalupe": "GP"
           }
-        ]
+        ],
+        "nationality": "French"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -35311,7 +35448,8 @@
           "Activism": 4,
           "Culture": 6,
           "Media": 1
-        }
+        },
+        "nationality": "Ukrainian"
       },
       "geometry": {
         "type": "Polygon",
@@ -35709,7 +35847,8 @@
         "pride_index": {
           "Sports": 1,
           "Media": 3
-        }
+        },
+        "nationality": "Belarusian"
       },
       "geometry": {
         "type": "Polygon",
@@ -35916,7 +36055,8 @@
           "Politics": 1,
           "Activism": 2,
           "Culture": 1
-        }
+        },
+        "nationality": "Lithuanian"
       },
       "geometry": {
         "type": "Polygon",
@@ -36022,13 +36162,14 @@
         "pride_index": {
           "Politics": 5,
           "Culture": 55,
+          "Sports": 4,
           "Activism": 11,
-          "Sports": 3,
           "Science": 4,
           "Media": 2,
           "Literature": 2,
           "Business": 1
-        }
+        },
+        "nationality": "Russian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -38606,14 +38747,17 @@
         "gdp_md": 250680,
         "pop_est": 10669709,
         "synonym": [
-          "Czech Republic"
+          "Czech Republic",
+          "Czech"
         ],
         "pride_index": {
-          "Culture": 16,
-          "Activism": 1,
           "Sports": 8,
-          "Politics": 3
-        }
+          "Politics": 3,
+          "Business": 1,
+          "Culture": 16,
+          "Activism": 1
+        },
+        "nationality": "Czech"
       },
       "geometry": {
         "type": "Polygon",
@@ -38788,7 +38932,8 @@
           "Military": 1,
           "Law": 1,
           "Literature": 3
-        }
+        },
+        "nationality": "German"
       },
       "geometry": {
         "type": "Polygon",
@@ -39046,7 +39191,8 @@
         "pride_index": {
           "Culture": 3,
           "Media": 1
-        }
+        },
+        "nationality": "Estonian"
       },
       "geometry": {
         "type": "Polygon",
@@ -39148,7 +39294,8 @@
         "pride_index": {
           "Politics": 4,
           "Culture": 1
-        }
+        },
+        "nationality": "Latvian"
       },
       "geometry": {
         "type": "Polygon",
@@ -39260,7 +39407,7 @@
         "gdp_md": 403336,
         "pop_est": 5347896,
         "pride_index": {
-          "Culture": 25,
+          "Culture": 26,
           "Politics": 15,
           "Sports": 11,
           "Science": 4,
@@ -39268,7 +39415,8 @@
           "Media": 3,
           "Business": 2,
           "Religion": 1
-        }
+        },
+        "nationality": "Norwegian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -39666,7 +39814,8 @@
           "Technology": 1,
           "Science": 3,
           "Media": 6
-        }
+        },
+        "nationality": "Swedish"
       },
       "geometry": {
         "type": "Polygon",
@@ -39855,7 +40004,8 @@
           "Politics": 8,
           "Sports": 4,
           "Science": 1
-        }
+        },
+        "nationality": "Finnish"
       },
       "geometry": {
         "type": "Polygon",
@@ -40040,7 +40190,8 @@
         "pop_est": 619896,
         "pride_index": {
           "Politics": 2
-        }
+        },
+        "nationality": "Luxembourger"
       },
       "geometry": {
         "type": "Polygon",
@@ -40100,7 +40251,8 @@
           "Media": 2,
           "Literature": 1,
           "Business": 1
-        }
+        },
+        "nationality": "Belgian"
       },
       "geometry": {
         "type": "Polygon",
@@ -40195,11 +40347,12 @@
           "Macedonia"
         ],
         "pride_index": {
+          "Activism": 1,
           "Business": 1,
           "Culture": 1,
-          "Politics": 1,
-          "Activism": 1
-        }
+          "Politics": 1
+        },
+        "nationality": "Macedonian"
       },
       "geometry": {
         "type": "Polygon",
@@ -40296,7 +40449,8 @@
         "pop_est": 2854191,
         "pride_index": {
           "Science": 1
-        }
+        },
+        "nationality": "Albanian"
       },
       "geometry": {
         "type": "Polygon",
@@ -40417,7 +40571,8 @@
         "pop_est": 1794248,
         "pride_index": {
           "Activism": 1
-        }
+        },
+        "nationality": "Kosovo"
       },
       "geometry": {
         "type": "Polygon",
@@ -40533,7 +40688,8 @@
           "Business": 4,
           "Media": 3,
           "Science": 1
-        }
+        },
+        "nationality": "Spanish"
       },
       "geometry": {
         "type": "Polygon",
@@ -40768,7 +40924,8 @@
           "Politics": 12,
           "Business": 2,
           "Media": 1
-        }
+        },
+        "nationality": "Danish"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -40894,11 +41051,12 @@
         "gdp_md": 250077,
         "pop_est": 19356544,
         "pride_index": {
-          "Activism": 2,
+          "Activism": 3,
           "Culture": 5,
           "Politics": 1,
           "Media": 1
-        }
+        },
+        "nationality": "Romanian"
       },
       "geometry": {
         "type": "Polygon",
@@ -41098,11 +41256,12 @@
         "gdp_md": 163469,
         "pop_est": 9769949,
         "pride_index": {
-          "Culture": 14,
+          "Culture": 15,
           "Science": 4,
           "Politics": 4,
           "Activism": 4
-        }
+        },
+        "nationality": "Hungarian"
       },
       "geometry": {
         "type": "Polygon",
@@ -41257,7 +41416,8 @@
           "Sports": 1,
           "Culture": 1,
           "Activism": 1
-        }
+        },
+        "nationality": "Slovak"
       },
       "geometry": {
         "type": "Polygon",
@@ -41420,7 +41580,8 @@
           "Media": 4,
           "Science": 1,
           "Literature": 1
-        }
+        },
+        "nationality": "Polish"
       },
       "geometry": {
         "type": "Polygon",
@@ -41632,7 +41793,8 @@
           "Science": 2,
           "Media": 7,
           "Literature": 1
-        }
+        },
+        "nationality": "Irish"
       },
       "geometry": {
         "type": "Polygon",
@@ -41707,7 +41869,89 @@
         "label_y": 62.0,
         "gdp_md": null,
         "pop_est": null,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Faroese"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": []
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "name": "Dominica",
+        "ne_id": 1159320595,
+        "continent": "North America",
+        "iso_a2": "DM",
+        "iso_a3": "DMA",
+        "fallback_code": null,
+        "region_un": "Americas",
+        "label_x": -61.37,
+        "label_y": 15.41,
+        "gdp_md": 562,
+        "pop_est": 71991,
+        "nationality": "Dominican",
+        "synonym": [
+          "Commonwealth of Dominica"
+        ],
+        "pride_index": {
+          "Sports": 1
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": []
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "name": "San Marino",
+        "ne_id": 1159321231,
+        "continent": "Europe",
+        "iso_a2": "SM",
+        "iso_a3": "SMR",
+        "fallback_code": null,
+        "region_un": "Europe",
+        "label_x": 12.4578,
+        "label_y": 43.9424,
+        "gdp_md": 1674,
+        "pop_est": 33938,
+        "nationality": "Sammarinese",
+        "synonym": [
+          "Republic of San Marino"
+        ],
+        "pride_index": {
+          "Politics": 1
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": []
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "name": "Andorra",
+        "ne_id": 1159320325,
+        "continent": "Europe",
+        "iso_a2": "AD",
+        "iso_a3": "AND",
+        "fallback_code": null,
+        "region_un": "Europe",
+        "label_x": 1.56,
+        "label_y": 42.54,
+        "gdp_md": 3154,
+        "pop_est": 77265,
+        "nationality": "Andorran",
+        "synonym": [
+          "Principality of Andorra"
+        ],
+        "pride_index": {
+          "Politics": 1
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41727,7 +41971,8 @@
         "label_y": 54.2,
         "gdp_md": null,
         "pop_est": null,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Manx"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41751,7 +41996,8 @@
           "Culture": 1,
           "Sports": 3,
           "Activism": 1
-        }
+        },
+        "nationality": "Norwegian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41800,7 +42046,7 @@
         "label_y": 16.265,
         "gdp_md": null,
         "pop_est": 395700,
-        "nationality": "Guadeloupean",
+        "nationality": "Guadeloupian",
         "synonym": [
           "Guadalupe"
         ],
@@ -41832,7 +42078,8 @@
           "England",
           "Scotland",
           "Wales",
-          "Northern Ireland"
+          "Northern Ireland",
+          "Great Britain"
         ],
         "sub_regions": [
           {
@@ -41843,7 +42090,7 @@
         ],
         "pride_index": {
           "Activism": 143,
-          "Culture": 733,
+          "Culture": 734,
           "Politics": 168,
           "Sports": 100,
           "Business": 51,
@@ -41855,7 +42102,8 @@
           "Law": 3,
           "Religion": 3,
           "Human Rights": 1
-        }
+        },
+        "nationality": "Scottish"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -42115,7 +42363,8 @@
           "Media": 1,
           "Sports": 2,
           "Science": 1
-        }
+        },
+        "nationality": "Greek"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -42368,7 +42617,8 @@
           "Business": 2,
           "Activism": 3,
           "Science": 4
-        }
+        },
+        "nationality": "Austrian"
       },
       "geometry": {
         "type": "Polygon",
@@ -42553,7 +42803,8 @@
           "Business": 2,
           "Media": 4,
           "Science": 1
-        }
+        },
+        "nationality": "Italian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -42941,7 +43192,8 @@
           "Politics": 6,
           "Sports": 8,
           "Media": 1
-        }
+        },
+        "nationality": "Swiss"
       },
       "geometry": {
         "type": "Polygon",
@@ -43077,7 +43329,8 @@
           {
             "Dutch Antilles": "AN"
           }
-        ]
+        ],
+        "nationality": "Dutch"
       },
       "geometry": {
         "type": "Polygon",
@@ -43164,7 +43417,8 @@
           "Politics": 2,
           "Culture": 3,
           "Activism": 3
-        }
+        },
+        "nationality": "Serbian"
       },
       "geometry": {
         "type": "Polygon",
@@ -43380,10 +43634,11 @@
         "gdp_md": 60752,
         "pop_est": 4067500,
         "pride_index": {
+          "Culture": 3,
           "Activism": 1,
-          "Culture": 2,
           "Business": 1
-        }
+        },
+        "nationality": "Croatian"
       },
       "geometry": {
         "type": "Polygon",
@@ -43582,7 +43837,8 @@
           "Sports": 1,
           "Activism": 2,
           "Culture": 1
-        }
+        },
+        "nationality": "Slovene"
       },
       "geometry": {
         "type": "Polygon",
@@ -43682,7 +43938,8 @@
           "Culture": 5,
           "Activism": 2,
           "Politics": 1
-        }
+        },
+        "nationality": "Bulgarian"
       },
       "geometry": {
         "type": "Polygon",
@@ -43820,7 +44077,8 @@
         "pride_index": {
           "Culture": 1,
           "Activism": 1
-        }
+        },
+        "nationality": "Montenegrin"
       },
       "geometry": {
         "type": "Polygon",
@@ -43905,7 +44163,7 @@
     },
     {
       "properties": {
-        "name": "Bosnia and Herz.",
+        "name": "Bosnia and Herzegovina",
         "ne_id": 1159320417,
         "continent": "Europe",
         "iso_a2": "BA",
@@ -43915,7 +44173,11 @@
         "label_y": 44.091051,
         "gdp_md": 20164,
         "pop_est": 3301000,
-        "pride_index": {}
+        "pride_index": {},
+        "synonym": [
+          "Bosnia"
+        ],
+        "nationality": "Bosnian, Herzegovinian"
       },
       "geometry": {
         "type": "Polygon",
@@ -44037,7 +44299,8 @@
           "Activism": 2,
           "Media": 5,
           "Politics": 4
-        }
+        },
+        "nationality": "Portuguese"
       },
       "geometry": {
         "type": "Polygon",
@@ -44195,7 +44458,8 @@
         "synonym": [
           "Republic of Moldova"
         ],
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Moldovan"
       },
       "geometry": {
         "type": "Polygon",
@@ -44330,7 +44594,8 @@
           "Activism": 2,
           "Culture": 4,
           "Sports": 1
-        }
+        },
+        "nationality": "Italian"
       },
       "geometry": {
         "type": "Polygon",
@@ -44386,7 +44651,8 @@
           "Sports": 2,
           "Activism": 1,
           "Politics": 3
-        }
+        },
+        "nationality": "Icelander"
       },
       "geometry": {
         "type": "Polygon",
@@ -44493,7 +44759,8 @@
           "Politics": 2,
           "Law": 1,
           "Culture": 2
-        }
+        },
+        "nationality": "Maltese"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -44742,7 +45009,8 @@
         "label_y": -5.695285,
         "gdp_md": 24829,
         "pop_est": 8776109,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Papua New Guinean"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -45114,7 +45382,8 @@
           "Media": 9,
           "Literature": 1,
           "Music": 1
-        }
+        },
+        "nationality": "Australian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46109,7 +46378,8 @@
         "pop_est": 889953,
         "pride_index": {
           "Activism": 1
-        }
+        },
+        "nationality": "Fijian"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46238,7 +46508,8 @@
           "Media": 4,
           "Science": 3,
           "Business": 3
-        }
+        },
+        "nationality": "New Zealander"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46531,7 +46802,8 @@
         "label_y": -21.064697,
         "gdp_md": 10770,
         "pop_est": 287800,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "New Caledonian"
       },
       "geometry": {
         "type": "Polygon",
@@ -46607,9 +46879,11 @@
         "gdp_md": 512,
         "pop_est": 104494,
         "pride_index": {
+          "Politics": 1,
           "Activism": 1,
           "Sports": 1
-        }
+        },
+        "nationality": "Tongan"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47518,7 +47792,8 @@
         "label_y": -8.029548,
         "gdp_md": 1589,
         "pop_est": 669823,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Solomon Islander"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47707,7 +47982,8 @@
         "label_y": -15.37153,
         "gdp_md": 934,
         "pop_est": 299882,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "Ni-Vanuatu"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -47784,7 +48060,8 @@
         "label_y": -79.843222,
         "gdp_md": 898,
         "pop_est": 4490,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "???"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50481,7 +50758,8 @@
         "label_y": -49.303721,
         "gdp_md": 16,
         "pop_est": 140,
-        "pride_index": {}
+        "pride_index": {},
+        "nationality": "French"
       },
       "geometry": {
         "type": "Polygon",
@@ -50547,7 +50825,8 @@
           "Science": 3,
           "Politics": 1,
           "Sports": 1
-        }
+        },
+        "nationality": "Indian"
       },
       "geometry": {
         "type": "MultiPolygon",
