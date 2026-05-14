@@ -63,9 +63,9 @@ const IndividualModal = ({ individual, onClose }) => {
         {/* Profile Summary */}
         <div className="flex items-center space-x-4">
           <div className="w-16 h-16 rounded-full bg-cyan-600 flex items-center justify-center text-2xl font-semibold overflow-hidden">
-            {individual.profile_image_url ? (
+            {individual.img_url ? (
               <img
-                src={individual.profile_image_url}
+                src={individual.img_url}
                 alt={individual.name}
                 onError={(e) => {
                   e.target.onerror = null;
