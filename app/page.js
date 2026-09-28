@@ -14,11 +14,19 @@ export default function Home() {
   const handleSearchSelect = (country) => {
     const countryProps = country.properties;
 
+    // Search features come from the raw geojson import, where pride_index is
+    // already an object. (Map clicks get Mapbox-serialized properties, where
+    // it is a JSON string.)
     let prideIndex = {};
-    try {
-      prideIndex = JSON.parse(countryProps.pride_index || "{}");
-    } catch {
-      prideIndex = {};
+    const rawPrideIndex = countryProps.pride_index;
+    if (rawPrideIndex && typeof rawPrideIndex === "object") {
+      prideIndex = rawPrideIndex;
+    } else if (typeof rawPrideIndex === "string") {
+      try {
+        prideIndex = JSON.parse(rawPrideIndex || "{}");
+      } catch {
+        prideIndex = {};
+      }
     }
 
     selectCountry({

@@ -22,7 +22,7 @@ const CountrySearch = ({ countries, onSelectCountry }) => {
   };
 
   const handleSelect = (country) => {
-    setSearch(country.properties.name);
+    setSearch("");
     setSuggestions([]);
     if (onSelectCountry) {
       onSelectCountry(country);
