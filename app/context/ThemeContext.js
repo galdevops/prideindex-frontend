@@ -24,31 +24,42 @@ const readStoredTheme = () => {
 
 // The one place data-theme is written after first paint. The inline script in
 // layout.js does the same resolution before hydration to avoid a flash.
+// Returns the resolved "light" | "dark".
 const applyTheme = (theme) => {
   const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const resolved =
     theme === "system" ? (prefersDark ? "dark" : "light") : theme;
   document.documentElement.dataset.theme = resolved;
+  return resolved;
 };
 
 export const ThemeProvider = ({ children }) => {
   // "system" on the server and first client render so hydration matches;
   // the saved choice is read right after mount.
   const [theme, setThemeState] = useState("system");
+  const [hydrated, setHydrated] = useState(false);
+  // "light" | "dark" once known, null before. Consumers that need the
+  // resolved value (e.g. the map style) must ignore null.
+  const [resolvedTheme, setResolvedTheme] = useState(null);
 
   useEffect(() => {
     setThemeState(readStoredTheme());
+    setHydrated(true);
   }, []);
 
   useEffect(() => {
-    applyTheme(theme);
+    // Wait for the saved choice so "system" is not applied first and then
+    // corrected, which would briefly show the wrong theme.
+    if (!hydrated) return;
+
+    setResolvedTheme(applyTheme(theme));
     if (theme !== "system") return;
 
     const media = window.matchMedia("(prefers-color-scheme: dark)");
-    const handleChange = () => applyTheme("system");
+    const handleChange = () => setResolvedTheme(applyTheme("system"));
     media.addEventListener("change", handleChange);
     return () => media.removeEventListener("change", handleChange);
-  }, [theme]);
+  }, [theme, hydrated]);
 
   const setTheme = useCallback((next) => {
     if (!THEME_CHOICES.includes(next)) return;
@@ -60,7 +71,10 @@ export const ThemeProvider = ({ children }) => {
     }
   }, []);
 
-  const value = useMemo(() => ({ theme, setTheme }), [theme, setTheme]);
+  const value = useMemo(
+    () => ({ theme, resolvedTheme, setTheme }),
+    [theme, resolvedTheme, setTheme]
+  );
 
   return (
     <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>

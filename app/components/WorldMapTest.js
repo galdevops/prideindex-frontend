@@ -11,9 +11,27 @@ import CountryInfoPanel from "./CountryInfoPanel";
 import AspectModal from "./AspectModal";
 import IndividualModal from "./IndividualModal";
 import { useCountry } from "../context/CountryContext";
+import { useTheme } from "../context/ThemeContext";
 import { getVisibilityRank } from "../lib/visibility";
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
+
+const MAP_STYLES = {
+  light: "mapbox://styles/mapbox/light-v11",
+  dark: "mapbox://styles/mapbox/dark-v11",
+};
+
+// Country overlay violet per basemap: the lighter violet reads on dark-v11,
+// the deeper brand violet (light --brand) holds contrast on light-v11.
+const MAP_BRAND = {
+  light: "#5b3a8a",
+  dark: "#8b5cf6",
+};
+
+// The theme is on <html> before the map mounts (see the inline script in
+// layout.js), so the first style can be chosen without waiting on React state.
+const readDomTheme = () =>
+  document.documentElement.dataset.theme === "dark" ? "dark" : "light";
 
 const WorldMap = forwardRef((props, ref) => {
   const {
@@ -26,10 +44,13 @@ const WorldMap = forwardRef((props, ref) => {
     fetchCountryProfiles,
   } = useCountry();
 
-  // Brand violet, chosen for contrast against the dark-v11 Mapbox basemap.
-  const cBrand = "#8b5cf6";
+  const { resolvedTheme } = useTheme();
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
+  // Theme of the style currently on the map, and the last country outlined,
+  // so a style swap can rebuild the overlay layers to match.
+  const mapThemeRef = useRef(null);
+  const selectedIsoRef = useRef("");
 
   const [selectedAspect, setSelectedAspect] = useState(null);
   const [showAspectModal, setShowAspectModal] = useState(false);
@@ -91,7 +112,10 @@ const WorldMap = forwardRef((props, ref) => {
 
       const map = mapRef.current;
 
-      map.setFilter("country-selected", ["==", "iso_a2", countryProps.iso_a2]);
+      selectedIsoRef.current = countryProps.iso_a2;
+      if (map.getLayer("country-selected")) {
+        map.setFilter("country-selected", ["==", "iso_a2", countryProps.iso_a2]);
+      }
 
       const lat = parseFloat(countryProps.label_y);
       const lng = parseFloat(countryProps.label_x);
@@ -120,9 +144,12 @@ const WorldMap = forwardRef((props, ref) => {
   }));
 
   useEffect(() => {
+    const initialTheme = readDomTheme();
+    mapThemeRef.current = initialTheme;
+
     const map = new mapboxgl.Map({
       container: mapContainer.current,
-      style: "mapbox://styles/mapbox/dark-v11",
+      style: MAP_STYLES[initialTheme],
       center: [0, 20],
       zoom: 1.5,
       minZoom: 1,
@@ -135,11 +162,18 @@ const WorldMap = forwardRef((props, ref) => {
 
     mapRef.current = map;
 
-    map.on("load", () => {
-      map.addSource("countries", {
-        type: "geojson",
-        data: "/cc_geo.json",
-      });
+    // setStyle() drops every source and layer the app added, so the overlay
+    // is rebuilt on each style load (first load and every theme swap).
+    // Delegated listeners below are stored on the map and survive the swap.
+    map.on("style.load", () => {
+      const cBrand = MAP_BRAND[mapThemeRef.current];
+
+      if (!map.getSource("countries")) {
+        map.addSource("countries", {
+          type: "geojson",
+          data: "/cc_geo.json",
+        });
+      }
 
       const layers = map.getStyle().layers;
       layers.forEach((layer) => {
@@ -183,68 +217,63 @@ const WorldMap = forwardRef((props, ref) => {
           "line-color": cBrand,
           "line-width": 2,
         },
-        filter: ["==", "iso_a2", ""],
+        filter: ["==", "iso_a2", selectedIsoRef.current],
       });
+    });
 
-      map.on("mousemove", "country-fills", (e) => {
-        if (e.features.length > 0) {
-          const iso = e.features[0].properties.iso_a2;
-          map.setFilter("country-hover", ["==", "iso_a2", iso]);
-        } else {
-          map.setFilter("country-hover", ["==", "iso_a2", ""]);
-        }
-      });
-
-      map.on("mouseenter", "country-fills", () => {
-        map.getCanvas().style.cursor = "pointer";
-      });
-
-      map.on("mouseleave", "country-fills", () => {
-        map.getCanvas().style.cursor = "";
+    // Bound once, before the layers exist. Mapbox skips a delegated
+    // listener whose layer is missing (e.g. mid theme swap).
+    map.on("mousemove", "country-fills", (e) => {
+      if (e.features.length > 0) {
+        const iso = e.features[0].properties.iso_a2;
+        map.setFilter("country-hover", ["==", "iso_a2", iso]);
+      } else {
         map.setFilter("country-hover", ["==", "iso_a2", ""]);
+      }
+    });
+
+    map.on("mouseenter", "country-fills", () => {
+      map.getCanvas().style.cursor = "pointer";
+    });
+
+    map.on("mouseleave", "country-fills", () => {
+      map.getCanvas().style.cursor = "";
+      map.setFilter("country-hover", ["==", "iso_a2", ""]);
+    });
+
+    map.on("click", "country-fills", async (e) => {
+
+      const countryProps = e.features[0].properties;
+
+      let prideIndex = {};
+      try {
+        prideIndex = JSON.parse(countryProps.pride_index || "{}");
+      } catch {
+        prideIndex = {};
+      }
+
+      selectCountry({
+        name: countryProps.name,
+        continent: countryProps.continent,
+        region_un: countryProps.region_un,
+        country_code: countryProps.iso_a2,
+        pride_index: prideIndex,
       });
 
-      map.on("click", "country-fills", async (e) => {
+      const iso = countryProps.iso_a2;
+      selectedIsoRef.current = iso;
+      map.setFilter("country-selected", ["==", "iso_a2", iso]);
 
-        const countryProps = e.features[0].properties;
+      const lat = parseFloat(countryProps.label_y);
+      const lng = parseFloat(countryProps.label_x);
+      const isMobile = window.matchMedia("(max-width: 767px)").matches;
+      let offsetY = 0;
 
-        let prideIndex = {};
-        try {
-          prideIndex = JSON.parse(countryProps.pride_index || "{}");
-        } catch {
-          prideIndex = {};
-        }
+      if (isMobile) {
+        setTimeout(() => {
+          const panel = document.getElementById("country-info-panel");
+          offsetY = panel ? panel.offsetHeight / 2 : 0;
 
-        selectCountry({
-          name: countryProps.name,
-          continent: countryProps.continent,
-          region_un: countryProps.region_un,
-          country_code: countryProps.iso_a2,
-          pride_index: prideIndex,
-        });
-
-        const iso = countryProps.iso_a2;
-        map.setFilter("country-selected", ["==", "iso_a2", iso]);
-
-        const lat = parseFloat(countryProps.label_y);
-        const lng = parseFloat(countryProps.label_x);
-        const isMobile = window.matchMedia("(max-width: 767px)").matches;
-        let offsetY = 0;
-
-        if (isMobile) {
-          setTimeout(() => {
-            const panel = document.getElementById("country-info-panel");
-            offsetY = panel ? panel.offsetHeight / 2 : 0;
-
-            map.flyTo({
-              center: [lng, lat],
-              zoom: 4,
-              essential: true,
-              speed: 0.8,
-              offset: [0, -offsetY],
-            });
-          }, 150);
-        } else {
           map.flyTo({
             center: [lng, lat],
             zoom: 4,
@@ -252,19 +281,36 @@ const WorldMap = forwardRef((props, ref) => {
             speed: 0.8,
             offset: [0, -offsetY],
           });
-        }
+        }, 150);
+      } else {
+        map.flyTo({
+          center: [lng, lat],
+          zoom: 4,
+          essential: true,
+          speed: 0.8,
+          offset: [0, -offsetY],
+        });
+      }
 
-        await fetchCountryProfiles(countryProps.iso_a2, prideIndex);
-      });
+      await fetchCountryProfiles(countryProps.iso_a2, prideIndex);
     });
 
     return () => map.remove();
   }, []);
 
+  // Follow the app theme: swap the basemap when the resolved theme changes.
+  // resolvedTheme is null until the provider has read the saved choice.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !resolvedTheme || mapThemeRef.current === resolvedTheme) return;
+
+    mapThemeRef.current = resolvedTheme;
+    map.setStyle(MAP_STYLES[resolvedTheme]);
+  }, [resolvedTheme]);
+
   return (
     <div className="relative w-full h-screen z-40 overflow-hidden">
       <div ref={mapContainer} className="relative w-full h-screen md:h-full" />
-      <div className="pointer-events-none absolute inset-0 bg-gradient-radial from-transparent via-transparent to-black/60" />
 
       {selectedCountry && (
         <CountryInfoPanel
