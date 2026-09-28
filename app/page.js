@@ -42,7 +42,7 @@ export default function Home() {
 
   return (
     <div className="">
-      <h1 className="sr-only">Worldwide Pride Index</h1>
+      <h1 className="sr-only">PrideAtlas</h1>
       <Topbar
         countries={countriesData.features}
         onSelectCountry={handleSearchSelect}

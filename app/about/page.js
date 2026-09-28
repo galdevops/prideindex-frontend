@@ -1,4 +1,9 @@
 import Topbar from "../components/Topbar";
+
+export const metadata = {
+  title: "About | PrideAtlas",
+};
+
 export default function AboutPage() {
 
 
@@ -11,7 +16,7 @@ export default function AboutPage() {
         <h1 className="text-3xl font-bold tracking-tight">About PrideAtlas.io</h1>
         <p className="mt-4 max-w-3xl text-base leading-7 text-foreground-secondary">
           PrideAtlas.io is a personal project focused on collecting and organizing
-          information about LGBT+ individuals who have made meaningful
+          information about LGBTQ+ individuals who have made meaningful
           contributions across culture, science, technology, politics, and the
           arts. Its goal is to turn scattered public information into a
           structured, easy-to-explore dataset.
@@ -24,7 +29,7 @@ export default function AboutPage() {
           <p>At its core, PrideAtlas.io combines three parts:</p>
 
           <ul className="list-disc space-y-2 pl-6">
-            <li>A curated dataset of LGBT+ figures</li>
+            <li>A curated dataset of LGBTQ+ figures</li>
             <li>A simple API for accessing structured data</li>
             <li>An interactive map for exploring by country and domain</li>
           </ul>
@@ -41,7 +46,7 @@ export default function AboutPage() {
         <h2 className="text-2xl font-semibold">Why I built it</h2>
         <div className="mt-4 space-y-4 text-foreground-secondary leading-7">
           <p>
-            Information about LGBT+ figures exists in many places, but it is
+            Information about LGBTQ+ figures exists in many places, but it is
             often unstructured or not easily accessible.
           </p>
           <p>
