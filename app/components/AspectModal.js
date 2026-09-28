@@ -24,31 +24,33 @@ const AspectModal = ({ aspectName, individuals, onClose, onSelectIndividual }) =
       {individuals.length > 0 ? (
         <ul className="divide-y divide-border">
           {individuals.map((person) => (
-            <li
-              key={person.uid}
-              className="flex items-center justify-between py-3 cursor-pointer hover:bg-surface-muted rounded-md px-2 transition-colors"
-              onClick={() => onSelectIndividual && onSelectIndividual(person)}
-            >
-              <div className="flex items-center space-x-3">
-                <Avatar
-                  src={person.img_url}
-                  alt={person.name}
-                  initials={person.name_initials}
-                  size={10}
-                />
+            <li key={person.uid}>
+              <button
+                type="button"
+                className="flex w-full items-center justify-between py-3 px-2 text-left hover:bg-surface-muted rounded-md transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand"
+                onClick={() => onSelectIndividual && onSelectIndividual(person)}
+              >
+                <div className="flex items-center space-x-3">
+                  <Avatar
+                    src={person.img_url}
+                    alt={person.name}
+                    initials={person.name_initials}
+                    size={10}
+                  />
 
-                {/* Name and role */}
-                <div>
-                  <p className="font-medium">{person.name}</p>
-                  <p className="text-xs text-foreground-muted">
-                    {person.role_type?.join(", ")}
-                  </p>
+                  {/* Name and role */}
+                  <div>
+                    <p className="font-medium">{person.name}</p>
+                    <p className="text-xs text-foreground-muted">
+                      {person.role_type?.join(", ")}
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="ml-3 shrink-0">
-                <VisibilityBadge visibility={person.visibility} />
-              </div>
+                <div className="ml-3 shrink-0">
+                  <VisibilityBadge visibility={person.visibility} />
+                </div>
+              </button>
             </li>
           ))}
         </ul>

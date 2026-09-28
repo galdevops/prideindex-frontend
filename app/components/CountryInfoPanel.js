@@ -19,7 +19,7 @@ const CountryInfoPanel = ({ onAspectSelect }) => {
   return (
     <div
       id="country-info-panel"
-      className="fixed bottom-0 left-0 right-0 md:absolute md:top-0 md:right-0 md:w-80 bg-surface-elevated text-foreground border-t md:border-t-0 md:border-l border-border p-6 shadow-2xl rounded-t-2xl md:rounded-none z-40 max-h-[80vh] overflow-y-auto"
+      className="fixed bottom-0 left-0 right-0 md:absolute md:top-0 md:right-0 md:w-80 bg-surface-elevated text-foreground border-t md:border-t-0 md:border-l border-border p-6 shadow-2xl rounded-t-lg md:rounded-none z-40 max-h-[80vh] overflow-y-auto"
     >
       <IconButton
         icon={FiX}
@@ -76,13 +76,15 @@ const CountryInfoPanel = ({ onAspectSelect }) => {
         {country.pride_index && Object.keys(country.pride_index).length > 0 ? (
           <ul className="space-y-2 text-sm">
             {Object.entries(country.pride_index).map(([aspect, score], idx) => (
-              <li
-                key={idx}
-                className="flex justify-between items-center border-b border-border pb-2 cursor-pointer hover:text-brand transition-colors"
-                onClick={() => onAspectSelect(aspect)}
-              >
-                <span className="capitalize">{aspect}</span>
-                <span className="font-semibold">{score}</span>
+              <li key={idx} className="border-b border-border">
+                <button
+                  type="button"
+                  className="flex w-full justify-between items-center py-2 text-left hover:text-brand transition-colors rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-brand"
+                  onClick={() => onAspectSelect(aspect)}
+                >
+                  <span className="capitalize">{aspect}</span>
+                  <span className="font-semibold">{score}</span>
+                </button>
               </li>
             ))}
           </ul>

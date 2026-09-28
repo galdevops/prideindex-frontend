@@ -50,7 +50,7 @@ const Modal = ({ children, onClose, backdropOpacity = 50, className = "", ariaLa
       <div
         ref={containerRef}
         tabIndex={-1}
-        className={`w-full md:w-[500px] bg-surface-elevated text-foreground border border-border rounded-t-2xl md:rounded-xl shadow-2xl p-6 max-h-[80vh] overflow-y-auto focus:outline-none ${className}`}
+        className={`w-full md:w-[500px] bg-surface-elevated text-foreground border border-border rounded-t-lg md:rounded-lg shadow-2xl p-6 max-h-[80vh] overflow-y-auto focus:outline-none ${className}`}
       >
         {children}
       </div>
