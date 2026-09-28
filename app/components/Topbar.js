@@ -1,27 +1,49 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CountrySearch from "./CountrySearch";
 import { FiMenu, FiSearch, FiX } from "react-icons/fi";
 import countriesData from "../../public/cc_geo.json";
 import Link from "next/link";
 import PrideAtlasLogo from "./PrideLogo";
+import IconButton from "./ui/IconButton";
+import ThemeToggle from "./ThemeToggle";
 
-const Topbar = ({ onSelectCountry }) => {
+const Topbar = ({ countries, onSelectCountry }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
+  const hasSearch = Boolean(countries && onSelectCountry);
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") setMenuOpen(false);
+    };
+
+    if (menuOpen) {
+      document.body.style.overflow = "hidden";
+      window.addEventListener("keydown", handleKeyDown);
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [menuOpen]);
 
   return (
     <>
-      <div className="fixed top-0 left-0 w-full bg-white shadow-md z-50 h-16 topbarbox">
+      <div className="fixed top-0 left-0 w-full bg-surface border-b border-border shadow-md z-50 h-16 topbarbox">
         <div className="grid grid-cols-[48px_1fr_48px] md:grid-cols-3 items-center h-full px-4">
           {/* Left */}
           <div className="flex items-center justify-start">
-            <button
+            <IconButton
+              icon={FiMenu}
+              label="Open menu"
+              aria-expanded={menuOpen}
+              className="p-2"
               onClick={() => setMenuOpen(true)}
-              className="p-2 text-gray-700 hover:text-cyan-500 focus:outline-none"
-            >
-              <FiMenu size={24} />
-            </button>
+            />
           </div>
 
           {/* Center */}
@@ -31,71 +53,102 @@ const Topbar = ({ onSelectCountry }) => {
 
           {/* Right */}
           <div className="flex items-center justify-end">
-            <div className="hidden md:block w-64">
-              <CountrySearch
-                countries={countriesData.features}
-                onSelectCountry={onSelectCountry}
-              />
-            </div>
+            {hasSearch ? (
+              <>
+                <div className="hidden md:block w-64">
+                  <CountrySearch
+                    countries={countries}
+                    onSelectCountry={onSelectCountry}
+                  />
+                </div>
 
-            <div className="md:hidden flex items-center">
-              <button
-                onClick={() => setMobileSearchOpen(!mobileSearchOpen)}
-                className="p-2 text-gray-700 hover:text-cyan-500 focus:outline-none"
-              >
-                {mobileSearchOpen ? <FiX size={24} /> : <FiSearch size={24} />}
-              </button>
-            </div>
+                <div className="md:hidden flex items-center">
+                  <IconButton
+                    icon={mobileSearchOpen ? FiX : FiSearch}
+                    label={mobileSearchOpen ? "Close search" : "Open search"}
+                    className="p-2"
+                    onClick={() => setMobileSearchOpen(!mobileSearchOpen)}
+                  />
+                </div>
+              </>
+            ) : (
+              <div className="w-10" />
+            )}
           </div>
         </div>
       </div>
 
-      {mobileSearchOpen && (
-        <div className="fixed top-0 left-0 w-full h-16 bg-white z-[60] flex items-center px-4 shadow-md">
+      {hasSearch && mobileSearchOpen && (
+        <div className="fixed top-0 left-0 w-full h-16 bg-surface z-[60] flex items-center px-4 shadow-md">
           <div className="flex-1">
             <CountrySearch
-              countries={countriesData.features}
+              countries={countries}
               onSelectCountry={(country) => {
                 onSelectCountry(country);
                 setMobileSearchOpen(false);
               }}
             />
           </div>
-          <button
+          <IconButton
+            icon={FiX}
+            label="Close search"
+            className="ml-2 p-2"
             onClick={() => setMobileSearchOpen(false)}
-            className="ml-2 p-2 text-gray-700 hover:text-cyan-500 focus:outline-none"
-          >
-            <FiX size={24} />
-          </button>
+          />
         </div>
       )}
 
+      {/* Backdrop */}
+      {menuOpen && (
+        <button
+          aria-label="Close menu"
+          className="fixed inset-0 bg-black/30 z-50"
+          onClick={() => setMenuOpen(false)}
+        />
+      )}
+
+      {/* Slide-out Menu */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-white shadow-xl z-50 transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-surface-elevated border-r border-border shadow-xl z-[60] flex flex-col transform transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex items-center justify-between px-4 h-16 border-b">
-          <span className="font-bold text-lg text-gray-700">Menu</span>
-          <button
+        <div className="flex items-center justify-between px-4 h-16 border-b border-border">
+          <span className="font-bold text-lg text-foreground">Menu</span>
+          <IconButton
+            icon={FiX}
+            label="Close menu"
+            className="p-2"
             onClick={() => setMenuOpen(false)}
-            className="p-2 text-gray-700 hover:text-cyan-500 focus:outline-none"
-          >
-            <FiX size={24} />
-          </button>
+          />
         </div>
         <ul className="mt-4 flex flex-col">
-          <li className="hover:bg-cyan-100">
-            <Link href="/" className="block p-4 text-gray-700">
+          <li className="hover:bg-brand/10">
+            <Link
+              href="/"
+              className="block p-4 text-foreground"
+              onClick={() => setMenuOpen(false)}
+            >
               Home
             </Link>
           </li>
-          <li className="hover:bg-cyan-100">
-            <Link href="/about" className="block p-4 text-gray-700">
+          <li className="hover:bg-brand/10">
+            <Link
+              href="/about"
+              className="block p-4 text-foreground"
+              onClick={() => setMenuOpen(false)}
+            >
               About
             </Link>
           </li>
         </ul>
+
+        <div className="mt-auto border-t border-border p-4">
+          <p className="mb-2 text-xs font-medium text-foreground-muted">
+            Theme
+          </p>
+          <ThemeToggle />
+        </div>
       </div>
     </>
   );

@@ -1,22 +1,150 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Base surfaces */
+  --background: #faf9f6;
+  --surface: #ffffff;
+  --surface-muted: #f2f0ec;
+  --surface-elevated: #ffffff;
+
+  /* Text */
+  --foreground: #1c1b1f;
+  --foreground-secondary: #4b4750;
+  --foreground-muted: #6b6672;
+  --foreground-inverse: #ffffff;
+
+  /* Borders */
+  --border: #e4e1db;
+  --border-subtle: #ede9e6;
+  --border-strong: #c7c2b8;
+
+  /* Brand (deep violet/indigo, per refactor_v1.md section 4) */
+  --brand: #5b3a8a;
+  --brand-secondary: #4338ca;
+  --brand-accent: #c026d3;
+
+  /* Category / data-viz spectrum: maps, charts, taxonomy chips. Not for brand-primary use. */
+  --spectrum-violet: #7c3aed;
+  --spectrum-magenta: #db2777;
+  --spectrum-coral: #f97359;
+  --spectrum-amber: #d97706;
+  --spectrum-cyan: #0891b2;
+  --spectrum-teal: #0d9488;
+
+  /* Semantic states (text-safe on light surfaces, >= 4.5:1) */
+  --success: #15803d;
+  --warning: #b45309;
+  --danger: #dc2626;
+  --info: #0e7490;
+
+  /* Interactive */
+  --interactive: var(--brand);
+  --interactive-hover: #5b21b6;
+  --interactive-active: #4c1d95;
+  --interactive-focus: var(--brand);
+
+  /* Visibility taxonomy (Local -> Global), single source of truth for color */
+  --visibility-local: #ef4444;
+  --visibility-national: #f59e0b;
+  --visibility-regional: #06b6d4;
+  --visibility-global: #22c55e;
+  --visibility-unknown: #9ca3af;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-surface-elevated: var(--surface-elevated);
+
   --color-foreground: var(--foreground);
+  --color-foreground-secondary: var(--foreground-secondary);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-foreground-inverse: var(--foreground-inverse);
+
+  --color-border: var(--border);
+  --color-border-subtle: var(--border-subtle);
+  --color-border-strong: var(--border-strong);
+
+  --color-brand: var(--brand);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-accent: var(--brand-accent);
+
+  --color-spectrum-violet: var(--spectrum-violet);
+  --color-spectrum-magenta: var(--spectrum-magenta);
+  --color-spectrum-coral: var(--spectrum-coral);
+  --color-spectrum-amber: var(--spectrum-amber);
+  --color-spectrum-cyan: var(--spectrum-cyan);
+  --color-spectrum-teal: var(--spectrum-teal);
+
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-info: var(--info);
+
+  --color-interactive: var(--interactive);
+  --color-interactive-hover: var(--interactive-hover);
+  --color-interactive-active: var(--interactive-active);
+  --color-interactive-focus: var(--interactive-focus);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Type scale (refactor_v1.md section 5) */
+  --text-display: 3rem;
+  --text-h1: 2.25rem;
+  --text-h2: 1.875rem;
+  --text-h3: 1.5rem;
+  --text-h4: 1.25rem;
+  --text-body-lg: 1.125rem;
+  --text-body: 1rem;
+  --text-body-sm: 0.875rem;
+  --text-label: 0.8125rem;
+  --text-caption: 0.75rem;
+  --text-metric: 2rem;
+
+  /* Radius scale (refactor_v1.md section 17) */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Theme is applied by the inline script in layout.js and ThemeContext, which
+   set data-theme="light" | "dark" on <html>. "System" is resolved there, so
+   this is the only dark block. */
+:root {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --background: #121016;
+  --surface: #1c1922;
+  --surface-muted: #26222e;
+  --surface-elevated: #2b2635;
+
+  --foreground: #f4f2f6;
+  --foreground-secondary: #c9c4cf;
+  --foreground-muted: #a19bad;
+  --foreground-inverse: #1c1b1f;
+
+  --border: #3d3647;
+  --border-subtle: #2f2a38;
+  --border-strong: #574e64;
+
+  --brand: #a78bfa;
+  --brand-secondary: #6366f1;
+  --brand-accent: #e879f9;
+
+  --success: #22c55e;
+  --warning: #d97706;
+  --danger: #f87171;
+  --info: #22d3ee;
+
+  --interactive-hover: #c4b5fd;
+  --interactive-active: #ddd6fe;
 }
 
 body {
@@ -30,5 +158,5 @@ body {
 }
 
 .topbarbox {
-  box-shadow: 0px 0px 10px 0px rgba(0, 255, 255, 0.5);
+  box-shadow: 0px 0px 10px 0px color-mix(in srgb, var(--brand) 20%, transparent);
 }

@@ -1,6 +1,12 @@
 "use client";
 
-import React, { createContext, useContext, useMemo, useState } from "react";
+import React, {
+  createContext,
+  useContext,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 
 const CountryContext = createContext(null);
 
@@ -10,29 +16,52 @@ export const CountryProvider = ({ children }) => {
   const [isProfilesLoading, setIsProfilesLoading] = useState(false);
   const [isProfilesLoaded, setIsProfilesLoaded] = useState(false);
   const [profilesError, setProfilesError] = useState(null);
+  const [profilesNotice, setProfilesNotice] = useState(null);
+
+  // Incremented on every select/clear/fetch so a slower, older profiles
+  // response can't overwrite the country the user has since moved to.
+  const latestRequestRef = useRef(0);
 
   const selectCountry = (country) => {
+    latestRequestRef.current += 1;
     setSelectedCountry(country);
     setCountryProfilesData(null);
     setIsProfilesLoading(false);
     setIsProfilesLoaded(false);
     setProfilesError(null);
+    setProfilesNotice(null);
   };
 
   const clearCountry = () => {
+    latestRequestRef.current += 1;
     setSelectedCountry(null);
     setCountryProfilesData(null);
     setIsProfilesLoading(false);
     setIsProfilesLoaded(false);
     setProfilesError(null);
+    setProfilesNotice(null);
   };
 
-  const fetchCountryProfiles = async (countryCode) => {
+  const fetchCountryProfiles = async (countryCode, prideIndex) => {
     if (!countryCode) return null;
+
+    latestRequestRef.current += 1;
+    const requestId = latestRequestRef.current;
+    const isStale = () => requestId !== latestRequestRef.current;
+
+    if (!prideIndex || Object.keys(prideIndex).length === 0) {
+      setCountryProfilesData(null);
+      setIsProfilesLoading(false);
+      setIsProfilesLoaded(false);
+      setProfilesError(null);
+      setProfilesNotice("No profiles were found.");
+      return null;
+    }
 
     setIsProfilesLoading(true);
     setIsProfilesLoaded(false);
     setProfilesError(null);
+    setProfilesNotice(null);
     try {
       const response = await fetch(
         `https://pridedc.vercel.app/api/p/${encodeURIComponent(countryCode)}`
@@ -43,12 +72,16 @@ export const CountryProvider = ({ children }) => {
 
       const countryData = await response.json();
 
+      if (isStale()) return null;
+
       setCountryProfilesData(countryData);
       setIsProfilesLoading(false);
       setIsProfilesLoaded(true);
 
       return countryData;
     } catch (error) {
+      if (isStale()) return null;
+
       console.error("Error fetching country data:", error);
       setCountryProfilesData(null);
       setIsProfilesLoading(false);
@@ -65,6 +98,7 @@ export const CountryProvider = ({ children }) => {
       isProfilesLoading,
       isProfilesLoaded,
       profilesError,
+      profilesNotice,
       selectCountry,
       clearCountry,
       fetchCountryProfiles,
@@ -75,6 +109,7 @@ export const CountryProvider = ({ children }) => {
       isProfilesLoading,
       isProfilesLoaded,
       profilesError,
+      profilesNotice,
     ]
   );
 

@@ -1,18 +1,9 @@
 "use client";
 import React from "react";
+import { getVisibility } from "../lib/visibility";
 
-const visibilityConfig = {
-  Local: { color: "#f87171", tooltip: "Local" },
-  National: { color: "#facc15", tooltip: "National" },
-  Regional: { color: "#22d3ee", tooltip: "Regional" },
-  Global: { color: "#4ade80", tooltip: "Global" },
-  International: { color: "#4ade80", tooltip: "Global" },
-};
 const VisibilityBadge = ({ visibility }) => {
-  const config = visibilityConfig[visibility] || {
-    color: "#9ca3af",
-    tooltip: "Visibility unknown",
-  };
+  const config = getVisibility(visibility);
 
   return (
     <div className="group relative flex items-center justify-center">

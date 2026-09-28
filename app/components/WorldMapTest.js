@@ -11,6 +11,7 @@ import CountryInfoPanel from "./CountryInfoPanel";
 import AspectModal from "./AspectModal";
 import IndividualModal from "./IndividualModal";
 import { useCountry } from "../context/CountryContext";
+import { getVisibilityRank } from "../lib/visibility";
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
@@ -25,7 +26,8 @@ const WorldMap = forwardRef((props, ref) => {
     fetchCountryProfiles,
   } = useCountry();
 
-  const cCyan = "#0ff";
+  // Brand violet, chosen for contrast against the dark-v11 Mapbox basemap.
+  const cBrand = "#8b5cf6";
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
 
@@ -33,6 +35,16 @@ const WorldMap = forwardRef((props, ref) => {
   const [showAspectModal, setShowAspectModal] = useState(false);
   const [selectedIndividual, setSelectedIndividual] = useState(null);
   const [showIndividualModal, setShowIndividualModal] = useState(false);
+
+  // A different country (from map click or search) invalidates any open
+  // aspect/profile modal, which belong to the previous country.
+  const countryCode = selectedCountry?.country_code;
+  useEffect(() => {
+    setShowAspectModal(false);
+    setSelectedAspect(null);
+    setShowIndividualModal(false);
+    setSelectedIndividual(null);
+  }, [countryCode]);
 
   const handleSelectAspect = (aspectName) => {
     setSelectedAspect(aspectName);
@@ -54,22 +66,13 @@ const WorldMap = forwardRef((props, ref) => {
     setSelectedIndividual(null);
   };
 
-  const visibilityRank = {
-    Global: 4,
-    Regional: 3,
-    National: 2,
-    Local: 1,
-  };
-
   const getIndividualsForAspect = (country, aspectName) => {
     const aspects = country?.aspects || {};
     const individuals = aspects[aspectName] || [];
-    
-    return [...individuals].sort((a, b) => {
-      const aRank = visibilityRank[a?.visibility] || 0;
-      const bRank = visibilityRank[b?.visibility] || 0;
-      return bRank - aRank;
-    });
+
+    return [...individuals].sort(
+      (a, b) => getVisibilityRank(b?.visibility) - getVisibilityRank(a?.visibility)
+    );
   };
 
   useImperativeHandle(ref, () => ({
@@ -93,22 +96,26 @@ const WorldMap = forwardRef((props, ref) => {
       const lat = parseFloat(countryProps.label_y);
       const lng = parseFloat(countryProps.label_x);
       const isMobile = window.matchMedia("(max-width: 767px)").matches;
-      let offsetY = [0, 0];
+
+      const flyToCountry = (offset) =>
+        map.flyTo({
+          center: [lng, lat],
+          zoom: 4,
+          essential: true,
+          speed: 0.8,
+          offset,
+        });
 
       if (isMobile) {
-        const panel = document.getElementById("country-info-panel");
-        if (panel) {
-          offsetY = [0, -panel.offsetHeight / 2];
-        }
+        // Wait for the info panel to render so its height is measurable,
+        // same as the map-click path.
+        setTimeout(() => {
+          const panel = document.getElementById("country-info-panel");
+          flyToCountry([0, panel ? -panel.offsetHeight / 2 : 0]);
+        }, 150);
+      } else {
+        flyToCountry([0, 0]);
       }
-
-      map.flyTo({
-        center: [lng, lat],
-        zoom: 4,
-        essential: true,
-        speed: 0.8,
-        offset: offsetY,
-      });
     },
   }));
 
@@ -151,9 +158,9 @@ const WorldMap = forwardRef((props, ref) => {
         type: "fill",
         source: "countries",
         paint: {
-          "fill-color": cCyan,
+          "fill-color": cBrand,
           "fill-opacity": 0.3,
-          "fill-outline-color": cCyan,
+          "fill-outline-color": cBrand,
         },
       });
 
@@ -162,7 +169,7 @@ const WorldMap = forwardRef((props, ref) => {
         type: "fill",
         source: "countries",
         paint: {
-          "fill-color": cCyan,
+          "fill-color": cBrand,
           "fill-opacity": 0.4,
         },
         filter: ["==", "iso_a2", ""],
@@ -173,7 +180,7 @@ const WorldMap = forwardRef((props, ref) => {
         type: "line",
         source: "countries",
         paint: {
-          "line-color": cCyan,
+          "line-color": cBrand,
           "line-width": 2,
         },
         filter: ["==", "iso_a2", ""],
@@ -247,7 +254,7 @@ const WorldMap = forwardRef((props, ref) => {
           });
         }
 
-        await fetchCountryProfiles(countryProps.iso_a2);
+        await fetchCountryProfiles(countryProps.iso_a2, prideIndex);
       });
     });
 
