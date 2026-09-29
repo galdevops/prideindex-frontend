@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import CountrySearch from "./CountrySearch";
 import { FiMenu, FiSearch, FiX } from "react-icons/fi";
-import countriesData from "../../public/cc_geo.json";
 import Link from "next/link";
 import PrideAtlasLogo from "./PrideLogo";
 import IconButton from "./ui/IconButton";

@@ -340,8 +340,6 @@ const WorldMap = forwardRef((props, ref) => {
           onClose={handleCloseIndividualModal}
         />
       )}
-
-      <div id="modal-root" className="z-50" />
     </div>
   );
 });
