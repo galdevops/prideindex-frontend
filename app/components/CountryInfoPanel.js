@@ -19,7 +19,7 @@ const CountryInfoPanel = ({ onAspectSelect }) => {
   return (
     <div
       id="country-info-panel"
-      className="fixed bottom-0 left-0 right-0 md:absolute md:top-0 md:right-0 md:w-80 bg-surface-elevated text-foreground border-t md:border-t-0 md:border-l border-border p-6 shadow-2xl rounded-t-lg md:rounded-none z-40 max-h-[80vh] overflow-y-auto"
+      className="fixed bottom-0 left-0 right-0 md:absolute md:top-0 md:bottom-0 md:right-auto md:w-80 md:h-full bg-surface-elevated text-foreground border-t md:border-t-0 md:border-l-0 md:border-r border-border p-6 shadow-2xl rounded-t-lg md:rounded-none z-40 max-h-[80vh] md:max-h-none overflow-y-auto"
     >
       <IconButton
         icon={FiX}
@@ -29,7 +29,7 @@ const CountryInfoPanel = ({ onAspectSelect }) => {
         onClick={clearCountry}
       />
 
-      <h2 className="text-2xl font-bold mb-4">{country.name}</h2>
+      <h2 className="text-h3 font-bold mb-4">{country.name}</h2>
       <p className="text-sm text-foreground-muted mb-1">
         Continent: {country.continent || "Unknown"}
       </p>
@@ -71,7 +71,7 @@ const CountryInfoPanel = ({ onAspectSelect }) => {
       )}
 
       <div>
-        <h3 className="text-lg font-semibold mb-3">Pride Index</h3>
+        <h3 className="text-body-lg font-semibold mb-3">Pride Index</h3>
 
         {country.pride_index && Object.keys(country.pride_index).length > 0 ? (
           <ul className="space-y-2 text-sm">

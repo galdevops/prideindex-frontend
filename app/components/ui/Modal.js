@@ -24,9 +24,31 @@ const Modal = ({ children, onClose, backdropOpacity = 50, className = "", ariaLa
     previouslyFocusedRef.current = document.activeElement;
     containerRef.current?.focus();
 
+    const FOCUSABLE_SELECTOR =
+      'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
     const handleKeyDown = (e) => {
-      if (e.key === "Escape" && openModals[openModals.length - 1] === token) {
+      if (openModals[openModals.length - 1] !== token) return;
+
+      if (e.key === "Escape") {
         onCloseRef.current?.();
+        return;
+      }
+
+      if (e.key === "Tab") {
+        const focusable = containerRef.current?.querySelectorAll(FOCUSABLE_SELECTOR);
+        if (!focusable || focusable.length === 0) return;
+
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
       }
     };
     window.addEventListener("keydown", handleKeyDown);

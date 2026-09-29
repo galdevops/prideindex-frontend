@@ -8,7 +8,8 @@ const VisibilityBadge = ({ visibility }) => {
   return (
     <div className="group relative flex items-center justify-center">
       <span
-    className="group relative inline-flex items-center"
+    tabIndex={0}
+    className="group relative inline-flex items-center rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-brand"
     title={config.tooltip}
     aria-label={config.tooltip}
   >
@@ -27,7 +28,7 @@ const VisibilityBadge = ({ visibility }) => {
       }}
     />
 
-    <span className="pointer-events-none absolute right-7 top-1/2 z-10 hidden -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-2 py-1 text-xs text-white shadow-lg group-hover:block">
+    <span className="pointer-events-none absolute right-7 top-1/2 z-10 hidden -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-2 py-1 text-xs text-white shadow-lg group-hover:block group-focus:block">
       {config.tooltip}
     </span>
   </span>

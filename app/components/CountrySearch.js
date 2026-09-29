@@ -4,10 +4,12 @@ import React, { useState } from "react";
 const CountrySearch = ({ countries, onSelectCountry }) => {
   const [search, setSearch] = useState("");
   const [suggestions, setSuggestions] = useState([]);
+  const [notFound, setNotFound] = useState(false);
 
   const handleChange = (e) => {
     const value = e.target.value;
     setSearch(value);
+    setNotFound(false);
 
     if (value.length > 0) {
       const matches = countries
@@ -24,6 +26,7 @@ const CountrySearch = ({ countries, onSelectCountry }) => {
   const handleSelect = (country) => {
     setSearch("");
     setSuggestions([]);
+    setNotFound(false);
     if (onSelectCountry) {
       onSelectCountry(country);
     }
@@ -34,7 +37,7 @@ const CountrySearch = ({ countries, onSelectCountry }) => {
     if (suggestions.length > 0) {
       handleSelect(suggestions[0]);
     } else {
-      alert("Country not found");
+      setNotFound(true);
     }
   };
 
@@ -68,6 +71,9 @@ const CountrySearch = ({ countries, onSelectCountry }) => {
           </ul>
         )}
       </form>
+      {notFound && (
+        <p className="mt-1 text-sm text-warning">Country not found.</p>
+      )}
     </div>
   );
 };

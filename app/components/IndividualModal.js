@@ -27,12 +27,12 @@ const IndividualModal = ({ individual, onClose }) => {
     <Modal
       onClose={onClose}
       backdropOpacity={50}
-      className="space-y-5 animate-[fadeInUp_0.3s_ease]"
+      className="space-y-5"
       ariaLabel={individual.name || "Profile"}
     >
       {/* Header */}
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl font-bold underline">
+        <h2 className="text-h3 font-bold underline">
           {individual.name || "Not found"}
         </h2>
         <IconButton
@@ -118,7 +118,7 @@ const IndividualModal = ({ individual, onClose }) => {
 
       {/* Bio */}
       <div>
-        <h3 className="text-md font-semibold mb-2">Profile</h3>
+        <h3 className="text-h4 font-semibold mb-2">Profile</h3>
         <p className="text-sm text-foreground-secondary leading-relaxed">
           {individual.bio || "Not found"}
         </p>
@@ -127,7 +127,7 @@ const IndividualModal = ({ individual, onClose }) => {
       {/* Notable Works */}
       {individual.notable_contributions?.length > 0 && (
         <div>
-          <h3 className="text-md font-semibold mb-2">
+          <h3 className="text-h4 font-semibold mb-2">
             Notable Contributions
           </h3>
           <ul className="space-y-1">
@@ -145,9 +145,11 @@ const IndividualModal = ({ individual, onClose }) => {
 
       {/* Sources */}
       {individual.sources?.length > 0 && (
-        <div>
-          <h3 className="text-md font-semibold mb-2">Sources</h3>
-          <ul className="space-y-1">
+        <details className="text-sm">
+          <summary className="cursor-pointer select-none text-h4 font-semibold">
+            Sources
+          </summary>
+          <ul className="mt-2 space-y-1">
             {individual.sources.map((source, idx) => (
               <li key={idx}>
                 <a
@@ -161,7 +163,7 @@ const IndividualModal = ({ individual, onClose }) => {
               </li>
             ))}
           </ul>
-        </div>
+        </details>
       )}
 
       <details className="text-sm text-foreground-muted">

@@ -13,7 +13,7 @@ export default function AboutPage() {
       <div className="pt-16"></div>
       <main className="mx-auto max-w-4xl px-6 py-10 text-foreground">
       <header className="mb-10">
-        <h1 className="text-3xl font-bold tracking-tight">About PrideAtlas.io</h1>
+        <h1 className="text-h2 font-bold tracking-tight">About PrideAtlas.io</h1>
         <p className="mt-4 max-w-3xl text-base leading-7 text-foreground-secondary">
           PrideAtlas.io is a personal project focused on collecting and organizing
           information about LGBTQ+ individuals who have made meaningful
@@ -24,7 +24,7 @@ export default function AboutPage() {
       </header>
 
       <section className="mb-10">
-        <h2 className="text-2xl font-semibold">What is PrideAtlas.io</h2>
+        <h2 className="text-h3 font-semibold">What is PrideAtlas.io</h2>
         <div className="mt-4 space-y-4 text-foreground-secondary leading-7">
           <p>At its core, PrideAtlas.io combines three parts:</p>
 
@@ -43,7 +43,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-2xl font-semibold">Why I built it</h2>
+        <h2 className="text-h3 font-semibold">Why I built it</h2>
         <div className="mt-4 space-y-4 text-foreground-secondary leading-7">
           <p>
             Information about LGBTQ+ figures exists in many places, but it is
@@ -60,7 +60,7 @@ export default function AboutPage() {
         </div>
       </section>
       <section className="mb-10">
-        <h2 className="text-2xl font-semibold">Note , requests, bugs?</h2>
+        <h2 className="text-h3 font-semibold">Note , requests, bugs?</h2>
         <div className="mt-4 space-y-4 text-foreground-secondary leading-7">
           <p>
             PrideAtlas.io is a project in progress, and I'm always looking for ways to improve it. If you have any feedback, suggestions, or want to contribute, please email me at <a href="mailto:galdevops@gmail.com" className="text-brand underline">galdevops@gmail.com</a>
@@ -70,7 +70,7 @@ export default function AboutPage() {
 
 
       <section className="border-t border-border pt-8">
-        <h2 className="text-2xl font-semibold">Disclaimer</h2>
+        <h2 className="text-h3 font-semibold">Disclaimer</h2>
         <p className="mt-4 text-sm leading-7 text-foreground-muted">
           This project relies on publicly available web sources. While care was
           taken to use reputable references and structure the information

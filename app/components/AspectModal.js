@@ -11,7 +11,7 @@ const AspectModal = ({ aspectName, individuals, onClose, onSelectIndividual }) =
     <Modal onClose={onClose} backdropOpacity={30} ariaLabel={aspectName}>
       {/* Header */}
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-bold capitalize">{aspectName}</h2>
+        <h2 className="text-h4 font-bold capitalize">{aspectName}</h2>
         <button
           onClick={onClose}
           className="text-foreground-muted hover:text-foreground text-sm"
