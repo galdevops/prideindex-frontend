@@ -309,8 +309,8 @@ const WorldMap = forwardRef((props, ref) => {
   }, [resolvedTheme]);
 
   return (
-    <div className="relative w-full h-screen z-40 overflow-hidden">
-      <div ref={mapContainer} className="relative w-full h-screen md:h-full" />
+    <div className="relative w-full h-[calc(100dvh-4rem)] z-40 overflow-hidden">
+      <div ref={mapContainer} className="relative w-full h-full" />
 
       {selectedCountry && (
         <CountryInfoPanel
