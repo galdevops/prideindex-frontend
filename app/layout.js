@@ -18,6 +18,16 @@ export const metadata = {
   title: "PrideAtlas | LGBTQ+ Changemakers Around the World",
   description:
     "Discover LGBTQ+ contributors across countries and fields. Explore their roles, work, and impact.",
+  manifest: "/icons/favicon_io/site.webmanifest",
+  icons: {
+    icon: [
+      { url: "/icons/favicon_io/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/icons/favicon_io/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/icons/favicon_io/apple-touch-icon.png", sizes: "180x180" },
+    ],
+  },
 };
 
 // Runs before first paint so the saved (or system) theme is on <html> before
