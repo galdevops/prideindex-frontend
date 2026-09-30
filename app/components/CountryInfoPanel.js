@@ -20,7 +20,7 @@ const CountryInfoPanel = ({ onAspectSelect }) => {
   return (
     <div
       id="country-info-panel"
-      className="fixed bottom-0 left-0 right-0 md:absolute md:top-0 md:bottom-0 md:right-auto md:w-80 md:h-full bg-surface-elevated text-foreground border-t md:border-t-0 md:border-l-0 md:border-r border-border p-6 shadow-2xl rounded-t-lg md:rounded-none z-40 max-h-[80vh] md:max-h-none overflow-y-auto"
+      className="fixed bottom-0 left-0 right-0 md:absolute md:top-0 md:bottom-0 md:right-auto md:w-80 md:h-full bg-surface-elevated text-foreground border-t md:border-t-0 md:border-l-0 md:border-r border-border p-6 shadow-2xl rounded-t-lg md:rounded-none z-40 max-h-[45dvh] md:max-h-none overflow-y-auto"
     >
       <IconButton
         icon={FiX}
