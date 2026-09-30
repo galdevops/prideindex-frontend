@@ -33,7 +33,7 @@ const MAP_BRAND = {
 const readDomTheme = () =>
   document.documentElement.dataset.theme === "dark" ? "dark" : "light";
 
-const WorldMap = forwardRef((props, ref) => {
+const WorldMap = forwardRef(({ countriesData }, ref) => {
   const {
     selectedCountry,
     countryProfilesData,
@@ -171,7 +171,7 @@ const WorldMap = forwardRef((props, ref) => {
       if (!map.getSource("countries")) {
         map.addSource("countries", {
           type: "geojson",
-          data: "/cc_geo.json",
+          data: countriesData,
         });
       }
 

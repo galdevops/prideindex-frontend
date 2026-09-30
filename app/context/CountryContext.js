@@ -7,6 +7,7 @@ import React, {
   useRef,
   useState,
 } from "react";
+import { profilesUrl } from "../lib/api";
 
 const CountryContext = createContext(null);
 
@@ -63,9 +64,7 @@ export const CountryProvider = ({ children }) => {
     setProfilesError(null);
     setProfilesNotice(null);
     try {
-      const response = await fetch(
-        `https://pridedc.vercel.app/api/p/${encodeURIComponent(countryCode)}`
-      );
+      const response = await fetch(profilesUrl(countryCode));
       if (!response.ok) {
         throw new Error("Failed to fetch country data");
       }

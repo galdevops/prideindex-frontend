@@ -1,20 +1,22 @@
 "use client";
 import { useRef } from "react";
 import WorldMap from "./components/WorldMapTest";
-import countriesData from "../public/cc_geo.json";
+import Skeleton from "./components/ui/Skeleton";
+import useCountriesData from "./lib/useCountriesData";
 import Topbar from "./components/Topbar";
 import { useCountry } from "./context/CountryContext";
 
 export default function Home() {
   const worldMapRef = useRef(null);
   const { selectCountry, fetchCountryProfiles } = useCountry();
+  const { status, data: countriesData, retry } = useCountriesData();
 
   // Same path as a map click: update context, load profiles, then let the map
   // highlight and fly to the country.
   const handleSearchSelect = (country) => {
     const countryProps = country.properties;
 
-    // Search features come from the raw geojson import, where pride_index is
+    // Search features come from the API dataset, where pride_index is
     // already an object. (Map clicks get Mapbox-serialized properties, where
     // it is a JSON string.)
     let prideIndex = {};
@@ -44,11 +46,44 @@ export default function Home() {
     <div className="">
       <h1 className="sr-only">PrideAtlas</h1>
       <Topbar
-        countries={countriesData.features}
+        countries={countriesData?.features}
         onSelectCountry={handleSearchSelect}
       />
       <div className="pt-16"></div>
-      <WorldMap ref={worldMapRef} />
+
+      {status === "ready" && (
+        <WorldMap ref={worldMapRef} countriesData={countriesData} />
+      )}
+
+      {status === "loading" && (
+        <div
+          role="status"
+          aria-label="Loading the map"
+          className="h-[calc(100dvh-4rem)] w-full"
+        >
+          <Skeleton className="h-full w-full" />
+        </div>
+      )}
+
+      {status === "error" && (
+        <div
+          role="alert"
+          className="flex h-[calc(100dvh-4rem)] w-full flex-col items-center justify-center gap-4 px-6 text-center"
+        >
+          <h2 className="text-h3 font-bold text-foreground">Oops...</h2>
+          <p className="max-w-sm text-foreground-secondary">
+            We couldn&apos;t load the map right now. Please check your
+            connection and try again in a moment.
+          </p>
+          <button
+            type="button"
+            onClick={retry}
+            className="min-h-11 rounded-md border border-brand px-5 text-brand hover:bg-brand/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand"
+          >
+            Try again
+          </button>
+        </div>
+      )}
     </div>
   );
 }
