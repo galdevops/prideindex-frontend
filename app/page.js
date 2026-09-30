@@ -57,10 +57,15 @@ export default function Home() {
       {status === "loading" && (
         <div
           role="status"
-          className="flex h-[calc(100dvh-4rem)] w-full items-center justify-center text-foreground-secondary"
+          className="relative flex h-[calc(100dvh-4rem)] w-full items-center justify-center text-foreground"
         >
-          Loading map
-          <span aria-hidden="true" className="loading-dots">
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 bg-border-strong/60 animate-pulse motion-reduce:animate-none"
+          />
+          <span className="relative">Loading Map</span>
+          {" "}
+          <span aria-hidden="true" className="loading-dots relative">
             <span>.</span>
             <span>.</span>
             <span>.</span>
