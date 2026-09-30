@@ -3,7 +3,6 @@ import React from "react";
 import { FiX, FiCheck, FiAlertCircle } from "react-icons/fi";
 import { useCountry } from "../context/CountryContext";
 import IconButton from "./ui/IconButton";
-import Skeleton from "./ui/Skeleton";
 
 const CountryInfoPanel = ({ onAspectSelect }) => {
   const {
@@ -42,9 +41,11 @@ const CountryInfoPanel = ({ onAspectSelect }) => {
         <span className="text-sm text-foreground-secondary">Profiles loaded</span>
 
         {isProfilesLoading ? (
-          <span role="status" aria-label="Loading profiles">
-            <Skeleton className="h-5 w-5 rounded-full" />
-          </span>
+          <span
+            role="status"
+            aria-label="Loading profiles"
+            className="h-5 w-5 rounded-full border-2 border-border-strong border-t-brand animate-spin motion-reduce:animate-none"
+          />
         ) : profilesError ? (
           <FiAlertCircle
             size={20}
