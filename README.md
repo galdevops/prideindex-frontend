@@ -31,7 +31,6 @@ Other scripts: `npm run build` (production build), `npm start` (serve the build)
 
 - **Country dataset:** fetched once on load from `GET https://pridedc.vercel.app/api/pride_index`, a GeoJSON `FeatureCollection` with each country's geometry, `iso_a2`, name, continent, UN region, and `pride_index` (aspect name to score). There is no local copy: if the request fails the app shows an error state with a retry button.
 - **Profiles:** fetched on country selection from the PrideAtlas API, `GET https://pridedc.vercel.app/api/p/{iso_a2}`. The API only allows `localhost:3000` and `prideatlas.io` as origins, so test on `localhost`, not a LAN address.
-- `app/data/example.json` is a sample of the profile payload shape.
 
 ## Project structure
 
