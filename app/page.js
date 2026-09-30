@@ -1,7 +1,6 @@
 "use client";
 import { useRef } from "react";
 import WorldMap from "./components/WorldMapTest";
-import Skeleton from "./components/ui/Skeleton";
 import useCountriesData from "./lib/useCountriesData";
 import Topbar from "./components/Topbar";
 import { useCountry } from "./context/CountryContext";
@@ -58,10 +57,14 @@ export default function Home() {
       {status === "loading" && (
         <div
           role="status"
-          aria-label="Loading the map"
-          className="h-[calc(100dvh-4rem)] w-full"
+          className="flex h-[calc(100dvh-4rem)] w-full items-center justify-center text-foreground-secondary"
         >
-          <Skeleton className="h-full w-full" />
+          Loading map
+          <span aria-hidden="true" className="loading-dots">
+            <span>.</span>
+            <span>.</span>
+            <span>.</span>
+          </span>
         </div>
       )}
 
