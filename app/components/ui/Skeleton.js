@@ -6,7 +6,7 @@ import React from "react";
 const Skeleton = ({ className = "" }) => (
   <div
     aria-hidden="true"
-    className={`bg-surface-muted animate-pulse motion-reduce:animate-none ${className}`}
+    className={`bg-border animate-pulse motion-reduce:animate-none ${className}`}
   />
 );
 
