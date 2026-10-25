@@ -7,10 +7,15 @@ import PrideAtlasLogo from "./PrideLogo";
 import IconButton from "./ui/IconButton";
 import ThemeToggle from "./ThemeToggle";
 
-const Topbar = ({ countries, onSelectCountry }) => {
+const Topbar = ({
+  countries,
+  onSelectCountry,
+  hideSearch = false,
+  onHomeClick,
+}) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
-  const hasSearch = Boolean(countries && onSelectCountry);
+  const hasSearch = Boolean(countries && onSelectCountry) && !hideSearch;
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -47,7 +52,7 @@ const Topbar = ({ countries, onSelectCountry }) => {
 
           {/* Center */}
           <div className="flex items-center justify-center">
-            <PrideAtlasLogo />
+            <PrideAtlasLogo onClick={onHomeClick} />
           </div>
 
           {/* Right */}
@@ -126,7 +131,10 @@ const Topbar = ({ countries, onSelectCountry }) => {
             <Link
               href="/"
               className="block p-4 text-foreground"
-              onClick={() => setMenuOpen(false)}
+              onClick={() => {
+                setMenuOpen(false);
+                onHomeClick?.();
+              }}
             >
               Home
             </Link>

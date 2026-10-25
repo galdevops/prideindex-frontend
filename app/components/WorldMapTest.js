@@ -33,7 +33,7 @@ const MAP_BRAND = {
 const readDomTheme = () =>
   document.documentElement.dataset.theme === "dark" ? "dark" : "light";
 
-const WorldMap = forwardRef(({ countriesData }, ref) => {
+const WorldMap = forwardRef(({ countriesData, onCountryClick }, ref) => {
   const {
     selectedCountry,
     countryProfilesData,
@@ -51,6 +51,9 @@ const WorldMap = forwardRef(({ countriesData }, ref) => {
   // so a style swap can rebuild the overlay layers to match.
   const mapThemeRef = useRef(null);
   const selectedIsoRef = useRef("");
+  // The click handler is bound once, so it reads the latest callback here.
+  const onCountryClickRef = useRef(onCountryClick);
+  onCountryClickRef.current = onCountryClick;
 
   const [selectedAspect, setSelectedAspect] = useState(null);
   const [showAspectModal, setShowAspectModal] = useState(false);
@@ -242,6 +245,7 @@ const WorldMap = forwardRef(({ countriesData }, ref) => {
     });
 
     map.on("click", "country-fills", async (e) => {
+      onCountryClickRef.current?.();
 
       const countryProps = e.features[0].properties;
 

@@ -8,7 +8,7 @@ const LOGO_SRC = {
   dark: "/logo/dark_prideatlas_logo.png",
 };
 
-const PrideAtlasLogo = ({ className = "" }) => {
+const PrideAtlasLogo = ({ className = "", onClick }) => {
   // resolvedTheme is null until ThemeProvider reads the saved choice; default
   // to light for that first render, same fallback ThemeProvider itself uses.
   const { resolvedTheme } = useTheme();
@@ -18,6 +18,7 @@ const PrideAtlasLogo = ({ className = "" }) => {
     <Link
       href="/"
       aria-label="PrideAtlas home"
+      onClick={onClick}
       className={`inline-flex items-center ${className}`}
     >
       <Image

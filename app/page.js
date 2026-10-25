@@ -1,13 +1,17 @@
 "use client";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import WorldMap from "./components/WorldMapTest";
 import useCountriesData from "./lib/useCountriesData";
 import Topbar from "./components/Topbar";
+import HomeCountrySearch from "./components/HomeCountrySearch";
 import { useCountry } from "./context/CountryContext";
 
 export default function Home() {
   const worldMapRef = useRef(null);
-  const { selectCountry, fetchCountryProfiles } = useCountry();
+  const { selectCountry, clearCountry, fetchCountryProfiles } = useCountry();
+  // Centered intro search: on at arrival, off after a pick, a map click or
+  // "world map instead". Home/logo brings it back.
+  const [introVisible, setIntroVisible] = useState(true);
   const { status, data: countriesData, retry } = useCountriesData();
 
   // Same path as a map click: update context, load profiles, then let the map
@@ -39,7 +43,15 @@ export default function Home() {
     });
     worldMapRef.current?.selectCountry(countryProps);
     fetchCountryProfiles(countryProps.iso_a2, prideIndex);
+    setIntroVisible(false);
   };
+
+  const handleHomeClick = () => {
+    clearCountry();
+    setIntroVisible(true);
+  };
+
+  const showIntro = status === "ready" && introVisible;
 
   return (
     <div className="">
@@ -47,11 +59,25 @@ export default function Home() {
       <Topbar
         countries={countriesData?.features}
         onSelectCountry={handleSearchSelect}
+        hideSearch={showIntro}
+        onHomeClick={handleHomeClick}
       />
       <div className="pt-16"></div>
 
       {status === "ready" && (
-        <WorldMap ref={worldMapRef} countriesData={countriesData} />
+        <WorldMap
+          ref={worldMapRef}
+          countriesData={countriesData}
+          onCountryClick={() => setIntroVisible(false)}
+        />
+      )}
+
+      {showIntro && (
+        <HomeCountrySearch
+          countries={countriesData.features}
+          onSelectCountry={handleSearchSelect}
+          onExplore={() => setIntroVisible(false)}
+        />
       )}
 
       {status === "loading" && (
